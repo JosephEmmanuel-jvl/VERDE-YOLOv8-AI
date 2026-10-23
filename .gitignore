@@ -6,4 +6,5 @@ __pycache__/
 .idea/
 .vscode/
 wandb/
+dataset_sources/*.zip
 

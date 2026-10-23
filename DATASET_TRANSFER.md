@@ -1,32 +1,60 @@
-# Dataset transfer
+# Dataset retrieval
 
-The repository does not contain the VERDE images. On the original computer,
-the required source folders are under:
+The private repository contains the required source folders as split Git LFS
+ZIP archive parts under `dataset_sources/`:
 
-`C:\Users\josephemmanuel\Desktop\VERDE AI\D_training\`
+1. `verde_v2.zip.part001` and `part002` - five-class YOLO source split,
+   labels, and metadata.
+2. `verde_v2_anylabeling.zip.part001` and `part002` - decoded JPEG
+   counterparts used when a source image is HEIC.
 
-Transfer these folders to the new device using an external drive or another
-private large-file transfer method:
+The archives are split because GitHub Free limits each Git LFS object to
+2 GB. Do not rename or edit the parts.
 
-1. `verde_v2` - five-class YOLO source split, labels, and metadata.
-2. `verde_v2_anylabeling` - decoded JPEG counterparts used when a source image
-   is HEIC.
+## Retrieve and restore
 
-Recorded source-package checks:
+Install Git LFS before cloning. After cloning, retrieve the full LFS objects:
+
+```powershell
+git lfs install
+git lfs pull
+```
+
+Verify, join, and extract both archives:
+
+```powershell
+python src\restore_dataset_archives.py --dest "D:\VERDE_AI_DATA"
+```
+
+This produces:
+
+```text
+D:\VERDE_AI_DATA\
+|-- _archives\
+|-- verde_v2\
+`-- verde_v2_anylabeling\
+```
+
+Use `--remove-archives` if disk space is limited and the reconstructed ZIP
+files should be deleted after successful extraction. The LFS parts remain in
+the cloned repository.
+
+## Recorded source checks
 
 | Folder | Files | Bytes |
 | --- | ---: | ---: |
 | `verde_v2` | 3,175 | 2,308,825,646 |
 | `verde_v2_anylabeling` | 3,153 | 2,675,903,637 |
 
-After copying, confirm the file counts and byte totals on the new device before
-running `src/prepare_dataset.py`. These totals validate transfer completeness;
+The restore script checks every part and reconstructed archive against
+`dataset_sources/SHA256SUMS.txt`. These checks validate transfer completeness;
 they do not prove annotation quality or independent plant identities.
 
-The preparation script reads the source folders and creates an isolated
-three-class dataset. It excludes any image containing Harvest-Ready or Pest
-Detected labels instead of guessing those objects into Healthy. The expected
-prepared counts are:
+## Prepared three-class dataset
+
+`src/prepare_dataset.py` creates an isolated three-class dataset. It excludes
+images containing Harvest-Ready or Pest Detected labels instead of guessing
+those objects into Healthy. Expected image counts:
 
 | Split | Images |
 | --- | ---: |
@@ -34,7 +62,4 @@ prepared counts are:
 | Validation | 207 |
 | Test | 200 |
 
-Keep the generated `dataset/` folder local. It is ignored by Git and must not be
-committed unless image ownership, licensing, privacy, and Git hosting limits
-have been reviewed separately.
-
+Keep the generated `dataset/` folder local. It is ignored by Git.

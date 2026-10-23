@@ -35,9 +35,10 @@ Classes:
 - `src/verify_setup.py` - verifies model hashes, class names, CUDA, and dataset
   structure before training.
 
-The image dataset is intentionally excluded from GitHub because it is several
-gigabytes and includes source/provenance constraints. Follow
-[`DATASET_TRANSFER.md`](DATASET_TRANSFER.md) to move it separately.
+The required source dataset is stored as split Git LFS archive parts under
+`dataset_sources/`. Start with [`HANDOFF.md`](HANDOFF.md), then follow
+[`DATASET_TRANSFER.md`](DATASET_TRANSFER.md) to verify, join, and extract the
+dataset before preparing the isolated three-class dataset.
 
 ## New-device setup
 
@@ -53,7 +54,13 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-Copy the two source data folders as described in `DATASET_TRANSFER.md`, then:
+Install Git LFS before cloning, then restore the two dataset folders:
+
+```powershell
+python src\restore_dataset_archives.py --dest "D:\VERDE_AI_DATA"
+```
+
+After extraction, run:
 
 ```powershell
 python src\prepare_dataset.py `
