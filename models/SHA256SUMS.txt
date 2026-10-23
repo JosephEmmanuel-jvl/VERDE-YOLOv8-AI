@@ -1,0 +1,3 @@
+54e4d45bde7eeb960d7458e28c8d535ce68745178cad668c47ba5086101fe987  verde_condition3_best_validation.pt
+d98118878dfb3b6fdd0bb5b71237f8bbdbbeb812c4acfc6b338e1a31cb049bf5  verde_condition3_final_gpu_resume.pt
+

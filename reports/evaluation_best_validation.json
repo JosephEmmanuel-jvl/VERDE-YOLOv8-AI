@@ -1,0 +1,106 @@
+{
+  "model_path": "C:\\Users\\josephemmanuel\\Documents\\Codex\\2026-10-22\\verde-ai-integration-and-validation\\condition-experiment-v1\\runs\\three_class_yolov8s_v1\\weights\\best.pt",
+  "model_sha256": "54e4d45bde7eeb960d7458e28c8d535ce68745178cad668c47ba5086101fe987",
+  "class_names": {
+    "0": "Healthy",
+    "1": "Yellowing",
+    "2": "Wilting"
+  },
+  "test_set_note": "Pre-existing V2 test split; source-group leakage not fully excluded",
+  "test_metrics": {
+    "metrics/precision(B)": 0.9457637457434064,
+    "metrics/recall(B)": 0.9725387780943336,
+    "metrics/mAP50(B)": 0.9499839014795723,
+    "metrics/mAP50-95(B)": 0.7000158586752485,
+    "fitness": 0.7000158586752485
+  },
+  "test_ap50_95_by_class": {
+    "Healthy": 0.6504988948602014,
+    "Yellowing": 0.9749701771727377,
+    "Wilting": 0.4745785039928063
+  },
+  "external_challenge_note": "Development-only user labels, not expert-reviewed or untouched holdout",
+  "external_challenge": [
+    {
+      "image": "Botrytis-Crown-Rot-of-Lettuce-close-up.webp",
+      "user_assigned_label": "Wilting",
+      "whole_growing_plant": "AMBIGUOUS",
+      "inference_wall_seconds": 0.24565570000049775,
+      "detections": [
+        {
+          "class": "Healthy",
+          "confidence": 0.5189152359962463,
+          "xyxy": [
+            1.572723388671875,
+            0.0,
+            1600.0,
+            900.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "intro-1698758600.jpg",
+      "user_assigned_label": "Wilting",
+      "whole_growing_plant": "NO",
+      "inference_wall_seconds": 0.03242899999895599,
+      "detections": [
+        {
+          "class": "Healthy",
+          "confidence": 0.49759724736213684,
+          "xyxy": [
+            0.0,
+            0.0,
+            742.25537109375,
+            438.0
+          ]
+        },
+        {
+          "class": "Wilting",
+          "confidence": 0.32705745100975037,
+          "xyxy": [
+            7.06248664855957,
+            0.0,
+            780.0,
+            438.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "OIP.webp",
+      "user_assigned_label": "Yellowing",
+      "whole_growing_plant": "NO",
+      "inference_wall_seconds": 0.06683609999890905,
+      "detections": []
+    },
+    {
+      "image": "Lettuce-Leaves-Turning-Yellow.jpeg",
+      "user_assigned_label": "Yellowing",
+      "whole_growing_plant": "YES",
+      "inference_wall_seconds": 0.06437240000013844,
+      "detections": [
+        {
+          "class": "Healthy",
+          "confidence": 0.5762354135513306,
+          "xyxy": [
+            0.0,
+            37.16370391845703,
+            1200.0,
+            896.0
+          ]
+        },
+        {
+          "class": "Healthy",
+          "confidence": 0.40450459718704224,
+          "xyxy": [
+            0.0,
+            45.2363166809082,
+            1200.0,
+            896.0
+          ]
+        }
+      ]
+    }
+  ]
+}

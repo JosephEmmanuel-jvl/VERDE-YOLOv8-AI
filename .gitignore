@@ -1,0 +1,9 @@
+dataset/
+runs/
+.venv/
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+wandb/
+
