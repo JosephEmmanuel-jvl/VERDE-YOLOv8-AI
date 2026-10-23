@@ -1,0 +1,40 @@
+{
+  "version": "2.4.4",
+  "flags": {
+    "candidate_annotation": true,
+    "canonical": false
+  },
+  "shapes": [
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1920.0,
+          2261.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    }
+  ],
+  "imagePath": "COLL-HEALTHY-0030.jpg",
+  "imageData": null,
+  "imageHeight": 2560,
+  "imageWidth": 1920,
+  "verde_candidate_metadata": {
+    "canonical_sha256": "64a76fdff52c5e23227d22d57030034407579b5033bd98e7716ced2bdb9ccae1",
+    "confidence": "MEDIUM_CONFIDENCE_REVIEW",
+    "qa_decision": "QA_ADJUST",
+    "not_canonical": true
+  }
+}

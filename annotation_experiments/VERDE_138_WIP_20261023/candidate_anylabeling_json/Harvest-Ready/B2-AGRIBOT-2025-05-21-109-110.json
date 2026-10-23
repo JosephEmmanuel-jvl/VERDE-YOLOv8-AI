@@ -1,0 +1,229 @@
+{
+  "version": "2.4.4",
+  "flags": {
+    "candidate_annotation": true,
+    "canonical": false
+  },
+  "shapes": [
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          61.0,
+          198.0
+        ],
+        [
+          121.0,
+          265.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          189.0,
+          0.0
+        ],
+        [
+          567.0,
+          183.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          480.0,
+          0
+        ],
+        [
+          800.0,
+          338.4
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          740.0,
+          0.0
+        ],
+        [
+          1099.0,
+          133.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          1017.6,
+          0
+        ],
+        [
+          1280,
+          338.4
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          61.0,
+          261.0
+        ],
+        [
+          322.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          140.0,
+          258.0
+        ],
+        [
+          521.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          551.0,
+          263.0
+        ],
+        [
+          872.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          677.0,
+          257.0
+        ],
+        [
+          1015.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          1084.0,
+          260.34
+        ],
+        [
+          1280.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    }
+  ],
+  "imagePath": "B2-AGRIBOT-2025-05-21-109-110.png",
+  "imageData": null,
+  "imageHeight": 720,
+  "imageWidth": 1280,
+  "verde_candidate_metadata": {
+    "canonical_sha256": "239b5076f807139244d2eae8285909d58e4d34fd445af5ec4d87e789e3a35912",
+    "confidence": "HIGH_CONFIDENCE_HUMAN_STYLE_MATCH",
+    "qa_decision": "QA_PASS",
+    "not_canonical": true
+  }
+}

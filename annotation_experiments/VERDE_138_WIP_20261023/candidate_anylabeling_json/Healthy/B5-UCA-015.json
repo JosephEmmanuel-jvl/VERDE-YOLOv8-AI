@@ -1,0 +1,397 @@
+{
+  "version": "2.4.4",
+  "flags": {
+    "candidate_annotation": true,
+    "canonical": false
+  },
+  "shapes": [
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          0.0,
+          27.0
+        ],
+        [
+          248.0,
+          347.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          159.0,
+          27.0
+        ],
+        [
+          468.0,
+          347.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          377.0,
+          27.0
+        ],
+        [
+          685.0,
+          347.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          595.0,
+          27.0
+        ],
+        [
+          903.0,
+          347.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          812.0,
+          27.0
+        ],
+        [
+          1120.0,
+          347.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          1031.0,
+          27.0
+        ],
+        [
+          1280.0,
+          347.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          0.0,
+          279.0
+        ],
+        [
+          248.0,
+          599.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          159.0,
+          279.0
+        ],
+        [
+          468.0,
+          599.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          377.0,
+          279.0
+        ],
+        [
+          685.0,
+          599.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          595.0,
+          279.0
+        ],
+        [
+          903.0,
+          599.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          812.0,
+          279.0
+        ],
+        [
+          1120.0,
+          599.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          1032.0,
+          279.0
+        ],
+        [
+          1280.0,
+          599.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          0.0,
+          544.0
+        ],
+        [
+          248.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          159.0,
+          544.0
+        ],
+        [
+          468.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          377.0,
+          544.0
+        ],
+        [
+          686.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          594.0,
+          544.0
+        ],
+        [
+          903.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          812.0,
+          544.0
+        ],
+        [
+          1121.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          1031.0,
+          544.0
+        ],
+        [
+          1280.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    }
+  ],
+  "imagePath": "B5-UCA-015.png",
+  "imageData": null,
+  "imageHeight": 720,
+  "imageWidth": 1280,
+  "verde_candidate_metadata": {
+    "canonical_sha256": "0fa36726328c5c9e12efee20bcb27f6034a49b16bb52a72494d52b1b416051d5",
+    "confidence": "HIGH_CONFIDENCE_HUMAN_STYLE_MATCH",
+    "qa_decision": "QA_PASS",
+    "not_canonical": true
+  }
+}

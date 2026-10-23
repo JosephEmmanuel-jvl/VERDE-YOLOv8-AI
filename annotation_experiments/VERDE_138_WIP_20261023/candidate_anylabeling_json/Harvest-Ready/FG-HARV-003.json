@@ -1,0 +1,40 @@
+{
+  "version": "2.4.4",
+  "flags": {
+    "candidate_annotation": true,
+    "canonical": false
+  },
+  "shapes": [
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          0.0,
+          68.0
+        ],
+        [
+          1800.0,
+          1754.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    }
+  ],
+  "imagePath": "FG-HARV-003.jpg",
+  "imageData": null,
+  "imageHeight": 2703,
+  "imageWidth": 1800,
+  "verde_candidate_metadata": {
+    "canonical_sha256": "9c6696733b8fc5fd4be1e28dd6205640cac0cb7fbed70b54d503f033858f195b",
+    "confidence": "LOW_CONFIDENCE_REVIEW",
+    "qa_decision": "QA_UNRELIABLE",
+    "not_canonical": true
+  }
+}

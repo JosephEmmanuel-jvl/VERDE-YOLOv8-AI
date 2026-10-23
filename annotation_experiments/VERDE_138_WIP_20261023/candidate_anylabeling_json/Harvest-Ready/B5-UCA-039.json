@@ -1,0 +1,397 @@
+{
+  "version": "2.4.4",
+  "flags": {
+    "candidate_annotation": true,
+    "canonical": false
+  },
+  "shapes": [
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          266.0,
+          232.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          137.0,
+          0.0
+        ],
+        [
+          490.0,
+          233.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          355.0,
+          0.0
+        ],
+        [
+          707.0,
+          232.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          572.0,
+          0.0
+        ],
+        [
+          924.0,
+          233.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          790.0,
+          0.0
+        ],
+        [
+          1143.0,
+          231.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          1013.0,
+          0.0
+        ],
+        [
+          1280.0,
+          233.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          0.0,
+          186.0
+        ],
+        [
+          267.0,
+          459.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          137.0,
+          193.0
+        ],
+        [
+          489.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          355.0,
+          205.0
+        ],
+        [
+          704.0,
+          536.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          573.0,
+          189.0
+        ],
+        [
+          923.0,
+          521.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          793.0,
+          184.0
+        ],
+        [
+          1142.0,
+          537.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          1015.0,
+          185.0
+        ],
+        [
+          1280.0,
+          537.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          0.0,
+          487.0
+        ],
+        [
+          265.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          139.0,
+          490.0
+        ],
+        [
+          475.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          356.0,
+          486.0
+        ],
+        [
+          653.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          594.0,
+          489.0
+        ],
+        [
+          926.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          796.0,
+          488.0
+        ],
+        [
+          1142.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          1015.0,
+          487.0
+        ],
+        [
+          1280.0,
+          720.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    }
+  ],
+  "imagePath": "B5-UCA-039.png",
+  "imageData": null,
+  "imageHeight": 720,
+  "imageWidth": 1280,
+  "verde_candidate_metadata": {
+    "canonical_sha256": "d12c8a5686144084520d8898408df48147256bddfc8b8b1c6029b36491898a6b",
+    "confidence": "HIGH_CONFIDENCE_HUMAN_STYLE_MATCH",
+    "qa_decision": "QA_PASS",
+    "not_canonical": true
+  }
+}

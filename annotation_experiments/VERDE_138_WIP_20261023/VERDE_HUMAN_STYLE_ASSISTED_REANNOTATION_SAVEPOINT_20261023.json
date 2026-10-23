@@ -1,0 +1,38 @@
+{
+  "savepoint": "VERDE_HUMAN_STYLE_ASSISTED_REANNOTATION_20261023",
+  "images_attempted": 138,
+  "images_successfully_annotated": 125,
+  "total_plant_instance_boxes": 800,
+  "images_by_class": {
+    "Harvest-Ready": 101,
+    "Healthy": 36,
+    "Yellowing": 1
+  },
+  "boxes_by_class": {
+    "Harvest-Ready": 615,
+    "Healthy": 185,
+    "Yellowing": 0
+  },
+  "confidence": {
+    "LOW_CONFIDENCE_REVIEW": 35,
+    "MEDIUM_CONFIDENCE_REVIEW": 46,
+    "HIGH_CONFIDENCE_HUMAN_STYLE_MATCH": 45,
+    "HOLD": 12
+  },
+  "qa": {
+    "QA_UNRELIABLE": 35,
+    "QA_ADJUST": 46,
+    "QA_PASS": 45,
+    "QA_CLASS_CONFLICT": 12
+  },
+  "grid_or_full_frame_failures": 41,
+  "multi_plant_merged_box_failures": 35,
+  "potentially_missed_instances": 67,
+  "recommended_for_supervisor_approval": 45,
+  "still_requiring_human_correction": 93,
+  "contact_sheet_pages": 24,
+  "canonical_workspace_modified": false,
+  "source_human_annotations_modified": false,
+  "previous_assisted_workspace_modified": false,
+  "training_started": false
+}

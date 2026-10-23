@@ -1,0 +1,61 @@
+{
+  "version": "2.4.4",
+  "flags": {
+    "candidate_annotation": true,
+    "canonical": false
+  },
+  "shapes": [
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          293.0,
+          88.0
+        ],
+        [
+          737.0,
+          498.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    },
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          540.0,
+          89.0
+        ],
+        [
+          1087.0,
+          498.24
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    }
+  ],
+  "imagePath": "B2-AGRIBOT-2025-05-13-126.png",
+  "imageData": null,
+  "imageHeight": 720,
+  "imageWidth": 1280,
+  "verde_candidate_metadata": {
+    "canonical_sha256": "a851342fc88c82d82dc584ae458b9c8131a960b84a611ec2a0a05f0ff9a53cf7",
+    "confidence": "MEDIUM_CONFIDENCE_REVIEW",
+    "qa_decision": "QA_ADJUST",
+    "not_canonical": true
+  }
+}

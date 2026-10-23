@@ -1,0 +1,18 @@
+{
+  "version": "2.4.4",
+  "flags": {
+    "candidate_annotation": true,
+    "canonical": false
+  },
+  "shapes": [],
+  "imagePath": "B3-WM-0048.jpg",
+  "imageData": null,
+  "imageHeight": 2560,
+  "imageWidth": 1920,
+  "verde_candidate_metadata": {
+    "canonical_sha256": "5487fdbd63d09b821ea1364f075611384f00eca5d50e54783d36e113f93c9bc4",
+    "confidence": "HOLD",
+    "qa_decision": "QA_CLASS_CONFLICT",
+    "not_canonical": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "2.4.4",
+  "flags": {
+    "candidate_annotation": true,
+    "canonical": false
+  },
+  "shapes": [
+    {
+      "label": "Healthy",
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1920.0,
+          2560.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    }
+  ],
+  "imagePath": "B4-WM-0148.jpg",
+  "imageData": null,
+  "imageHeight": 2560,
+  "imageWidth": 1920,
+  "verde_candidate_metadata": {
+    "canonical_sha256": "91296d5ee9d465c2a1d0ad8ec7210f640f298226992ba3c14f87c5a286cac6f9",
+    "confidence": "LOW_CONFIDENCE_REVIEW",
+    "qa_decision": "QA_UNRELIABLE",
+    "not_canonical": true
+  }
+}

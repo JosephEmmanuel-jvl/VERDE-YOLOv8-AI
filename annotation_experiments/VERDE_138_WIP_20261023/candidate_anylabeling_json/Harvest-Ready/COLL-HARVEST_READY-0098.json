@@ -1,0 +1,40 @@
+{
+  "version": "2.4.4",
+  "flags": {
+    "candidate_annotation": true,
+    "canonical": false
+  },
+  "shapes": [
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          1920,
+          2560
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    }
+  ],
+  "imagePath": "COLL-HARVEST_READY-0098.jpg",
+  "imageData": null,
+  "imageHeight": 2560,
+  "imageWidth": 1920,
+  "verde_candidate_metadata": {
+    "canonical_sha256": "efb97e1fe90826d7c5cc64b6ee82ffc16b61491c0052b9b26f3433bee9e54097",
+    "confidence": "LOW_CONFIDENCE_REVIEW",
+    "qa_decision": "QA_UNRELIABLE",
+    "not_canonical": true
+  }
+}

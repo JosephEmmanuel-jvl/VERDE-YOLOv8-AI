@@ -1,0 +1,18 @@
+{
+  "version": "2.4.4",
+  "flags": {
+    "candidate_annotation": true,
+    "canonical": false
+  },
+  "shapes": [],
+  "imagePath": "COLL-HEALTHY-0036.jpg",
+  "imageData": null,
+  "imageHeight": 2560,
+  "imageWidth": 1920,
+  "verde_candidate_metadata": {
+    "canonical_sha256": "8539df632bb1848828d83a9b368c14feffefc58835b7be170a44228a282f1ae5",
+    "confidence": "HOLD",
+    "qa_decision": "QA_CLASS_CONFLICT",
+    "not_canonical": true
+  }
+}

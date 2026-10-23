@@ -1,0 +1,10 @@
+﻿reference_json,reference_class,reference_box_count,style_basis
+D:\VERDE_AI_DATA\verde_v2_anylabeling\train\B2-AGRIBOT-2025-04-15-103.json,Healthy,3,VERIFIED_RESTORED_HUMAN_ANNOTATION
+D:\VERDE_AI_DATA\verde_v2_anylabeling\train\B2-AGRIBOT-2025-04-15-104.json,Healthy,2,VERIFIED_RESTORED_HUMAN_ANNOTATION
+D:\VERDE_AI_DATA\verde_v2_anylabeling\train\D1-rathor__N_8_.jpg.json,Yellowing,1,VERIFIED_RESTORED_HUMAN_ANNOTATION
+D:\VERDE_AI_DATA\verde_v2_anylabeling\train\RAW-YELLOWING-0381.json,Yellowing,1,VERIFIED_RESTORED_HUMAN_ANNOTATION
+D:\VERDE_AI_DATA\verde_v2_anylabeling\train\D1-rathor__W_13_.jpg.json,Wilting,1,VERIFIED_RESTORED_HUMAN_ANNOTATION
+D:\VERDE_AI_DATA\verde_v2_anylabeling\train\D1-rathor__W_15_.jpg.json,Wilting,1,VERIFIED_RESTORED_HUMAN_ANNOTATION
+D:\VERDE_AI_DATA\verde_v2_anylabeling\train\COLL-HARVEST_READY-0072.json,Harvest-Ready,1,VERIFIED_RESTORED_HUMAN_ANNOTATION
+D:\VERDE_AI_DATA\verde_v2_anylabeling\train\COLL-HARVEST_READY-0073.json,Harvest-Ready,1,VERIFIED_RESTORED_HUMAN_ANNOTATION
+D:\VERDE_AI_DATA\verde_v2_anylabeling\val\COLL-HARVEST_READY-0063.json,Harvest-Ready,3,VERIFIED_RESTORED_HUMAN_ANNOTATION

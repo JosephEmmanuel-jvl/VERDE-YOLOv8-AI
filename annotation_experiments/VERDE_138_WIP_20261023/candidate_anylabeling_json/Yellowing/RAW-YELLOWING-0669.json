@@ -1,0 +1,18 @@
+{
+  "version": "2.4.4",
+  "flags": {
+    "candidate_annotation": true,
+    "canonical": false
+  },
+  "shapes": [],
+  "imagePath": "RAW-YELLOWING-0669.png",
+  "imageData": null,
+  "imageHeight": 4032,
+  "imageWidth": 3024,
+  "verde_candidate_metadata": {
+    "canonical_sha256": "bd6ee613b9293a89ebece4284b7f9c2400bb2b9081d5528465719e51e446796d",
+    "confidence": "HOLD",
+    "qa_decision": "QA_CLASS_CONFLICT",
+    "not_canonical": true
+  }
+}

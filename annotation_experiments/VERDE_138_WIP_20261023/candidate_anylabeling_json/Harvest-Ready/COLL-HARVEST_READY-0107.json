@@ -1,0 +1,18 @@
+{
+  "version": "2.4.4",
+  "flags": {
+    "candidate_annotation": true,
+    "canonical": false
+  },
+  "shapes": [],
+  "imagePath": "COLL-HARVEST_READY-0107.jpg",
+  "imageData": null,
+  "imageHeight": 1328,
+  "imageWidth": 1920,
+  "verde_candidate_metadata": {
+    "canonical_sha256": "86a209179588a10b8ec59a869f3ad7144ddb0d2cfaa1fed81367b949eff3c592",
+    "confidence": "HOLD",
+    "qa_decision": "QA_CLASS_CONFLICT",
+    "not_canonical": true
+  }
+}

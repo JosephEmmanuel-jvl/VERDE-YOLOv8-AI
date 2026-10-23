@@ -1,0 +1,40 @@
+{
+  "version": "2.4.4",
+  "flags": {
+    "candidate_annotation": true,
+    "canonical": false
+  },
+  "shapes": [
+    {
+      "label": "Harvest-Ready",
+      "points": [
+        [
+          907.0,
+          733.0
+        ],
+        [
+          1092.0,
+          1008.0
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {
+        "source": "CODEX_HUMAN_STYLE_ASSISTED_REANNOTATION"
+      }
+    }
+  ],
+  "imagePath": "B4-WM-0056.jpg",
+  "imageData": null,
+  "imageHeight": 1277,
+  "imageWidth": 1920,
+  "verde_candidate_metadata": {
+    "canonical_sha256": "8a6cad4a73cdde1e5bd1f67e67743b5dd36bd742d321e58b41ae8f9f1c7c3a00",
+    "confidence": "MEDIUM_CONFIDENCE_REVIEW",
+    "qa_decision": "QA_ADJUST",
+    "not_canonical": true
+  }
+}
