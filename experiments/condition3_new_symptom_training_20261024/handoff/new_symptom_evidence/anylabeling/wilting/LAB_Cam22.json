@@ -1,0 +1,158 @@
+{
+  "version": "0.4.0",
+  "flags": {
+    "annotation_candidate": false,
+    "human_box_approved": true,
+    "human_class_approved": true
+  },
+  "shapes": [
+    {
+      "label": "Wilting",
+      "points": [
+        [
+          368,
+          173
+        ],
+        [
+          1276,
+          921
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {
+        "FRAME_CLIPPED_PLANT": false,
+        "HUMAN_BOX_APPROVED": true
+      },
+      "description": "LAB_Cam22_B1"
+    },
+    {
+      "label": "Wilting",
+      "points": [
+        [
+          1380,
+          345
+        ],
+        [
+          2268,
+          1088
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {
+        "FRAME_CLIPPED_PLANT": false,
+        "HUMAN_BOX_APPROVED": true
+      },
+      "description": "LAB_Cam22_B2"
+    },
+    {
+      "label": "Wilting",
+      "points": [
+        [
+          842,
+          750
+        ],
+        [
+          1845,
+          1868
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {
+        "FRAME_CLIPPED_PLANT": false,
+        "HUMAN_BOX_APPROVED": true
+      },
+      "description": "LAB_Cam22_B3"
+    },
+    {
+      "label": "Wilting",
+      "points": [
+        [
+          785,
+          0
+        ],
+        [
+          1705,
+          433
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {
+        "FRAME_CLIPPED_PLANT": true,
+        "HUMAN_BOX_APPROVED": true
+      },
+      "description": "LAB_Cam22_B4"
+    },
+    {
+      "label": "Wilting",
+      "points": [
+        [
+          2020,
+          0
+        ],
+        [
+          2560,
+          475
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {
+        "FRAME_CLIPPED_PLANT": true,
+        "HUMAN_BOX_APPROVED": true
+      },
+      "description": "LAB_Cam22_B5"
+    },
+    {
+      "label": "Wilting",
+      "points": [
+        [
+          1930,
+          900
+        ],
+        [
+          2560,
+          1889
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {
+        "FRAME_CLIPPED_PLANT": true,
+        "HUMAN_BOX_APPROVED": true
+      },
+      "description": "LAB_Cam22_B6"
+    }
+  ],
+  "imagePath": "../../originals/wilting/LAB_Cam22.jpg",
+  "imageData": null,
+  "imageHeight": 1920,
+  "imageWidth": 2560,
+  "source_sha256": "f3237316b440c6b6d677ecb08a8fa3b1ac94cb9859ed9867e787c02071abc81d",
+  "LEAKAGE_GROUP_ID": "LAB_SHARED_EXPERIMENT_20251125_20251210",
+  "annotation_status": "HUMAN_BOX_APPROVED",
+  "prior_codex_flags": {
+    "annotation_candidate": true,
+    "human_box_approved": false
+  },
+  "human_class_status": "HUMAN_CLASS_APPROVED",
+  "annotation_creator": "CODEX",
+  "annotation_reviewer": "USER",
+  "approval_receipt_id": "VERDE_USER_HUMAN_BOX_APPROVAL_20261024",
+  "training_authorized": false,
+  "intentionally_unboxed_ambiguity_metadata": [
+    {
+      "location_xy": [
+        2510,
+        845
+      ],
+      "reason": "Isolated right-edge leaf fragment has no reliably visible crown connection. Do not infer another plant or box from the planting pattern.",
+      "status": "PLANT_INSTANCE_REVIEW_REQUIRED",
+      "bbox_xyxy": null,
+      "boxed": false
+    }
+  ]
+}

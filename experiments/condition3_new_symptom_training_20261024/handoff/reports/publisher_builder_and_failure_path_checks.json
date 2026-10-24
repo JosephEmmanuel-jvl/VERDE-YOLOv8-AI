@@ -1,0 +1,110 @@
+{
+  "result": "PASS",
+  "tests": [
+    {
+      "test": "path traversal",
+      "result": "PASS_EXPECTED_REFUSAL",
+      "message": "Unsafe path: ../escape.txt"
+    },
+    {
+      "test": "absolute path",
+      "result": "PASS_EXPECTED_REFUSAL",
+      "message": "Unsafe path: C:/escape.txt"
+    },
+    {
+      "test": "malformed YOLO 3 .5 .5 .3 .3",
+      "result": "PASS_EXPECTED_REFUSAL",
+      "message": "Malformed/class ID: C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\experimental_handoff_build\\negative_checks_cv4t8uij\\bad.txt"
+    },
+    {
+      "test": "malformed YOLO 1 nan .5 .3 .3",
+      "result": "PASS_EXPECTED_REFUSAL",
+      "message": "Nonfinite box: C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\experimental_handoff_build\\negative_checks_cv4t8uij\\bad.txt"
+    },
+    {
+      "test": "malformed YOLO 1 .5 .5 0 .3",
+      "result": "PASS_EXPECTED_REFUSAL",
+      "message": "Invalid box: C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\experimental_handoff_build\\negative_checks_cv4t8uij\\bad.txt"
+    },
+    {
+      "test": "malformed YOLO 1 0 .5 .5 .3",
+      "result": "PASS_EXPECTED_REFUSAL",
+      "message": "Box leaves image: C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\experimental_handoff_build\\negative_checks_cv4t8uij\\bad.txt"
+    },
+    {
+      "test": "malformed YOLO 1 .5 .5 .3",
+      "result": "PASS_EXPECTED_REFUSAL",
+      "message": "Malformed/class ID: C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\experimental_handoff_build\\negative_checks_cv4t8uij\\bad.txt"
+    },
+    {
+      "test": "wrong ZIP SHA",
+      "result": "PASS_EXPECTED_REFUSAL",
+      "message": "TRANSFER ZIP SHA-256 MISMATCH"
+    },
+    {
+      "test": "changed payload internal SHA",
+      "result": "PASS_EXPECTED_REFUSAL",
+      "message": "INTERNAL SHA-256 MISMATCH: one.txt"
+    },
+    {
+      "test": "unlisted payload inventory",
+      "result": "PASS_EXPECTED_REFUSAL",
+      "message": "Package inventory mismatch: missing=set(), extra={'extra.txt'}"
+    },
+    {
+      "test": "existing build destination",
+      "result": "PASS_EXPECTED_REFUSAL",
+      "message": "Destination must be NEW; existing directories are never overwritten"
+    },
+    {
+      "test": "build inside immutable package",
+      "result": "PASS_EXPECTED_REFUSAL",
+      "message": "Destination must be outside package"
+    },
+    {
+      "test": "unacknowledged LAB ambiguity",
+      "result": "PASS_EXPECTED_REFUSAL",
+      "message": "LAB has 3 intentionally unboxed ambiguous edge regions. Explicit --acknowledge-partial-scene-risk is required for the proposed full-scene experiment; this does not create an ignore mask or certify fully labeled scenes."
+    },
+    {
+      "test": "both proposed builds and plan-only no writes",
+      "result": "PASS",
+      "control": {
+        "variant": "historical-control",
+        "images": 1167,
+        "train": 760,
+        "val": 207,
+        "test": 200,
+        "new_records": 0,
+        "training_runs": 0,
+        "partial_scene_risk_acknowledged": false
+      },
+      "candidate": {
+        "variant": "plus-new",
+        "images": 1179,
+        "train": 772,
+        "val": 207,
+        "test": 200,
+        "new_records": 12,
+        "training_runs": 0,
+        "partial_scene_risk_acknowledged": false
+      }
+    },
+    {
+      "test": "full isolated builder copies and rehashes every image and label",
+      "result": "PASS",
+      "build": {
+        "variant": "plus-new",
+        "images": 1179,
+        "train": 772,
+        "val": 207,
+        "test": 200,
+        "new_records": 12,
+        "training_runs": 0,
+        "partial_scene_risk_acknowledged": true
+      }
+    }
+  ],
+  "training_runs": 0,
+  "build_test_path": "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\experimental_handoff_build\\isolated_build_test"
+}

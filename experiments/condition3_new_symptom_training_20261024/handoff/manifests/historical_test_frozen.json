@@ -1,0 +1,3002 @@
+[
+  {
+    "record_id": "B2-AGRIBOT-2025-04-15-107",
+    "split": "test",
+    "image_relative_path": "images/test/B2-AGRIBOT-2025-04-15-107.png",
+    "label_relative_path": "labels/test/B2-AGRIBOT-2025-04-15-107.txt",
+    "image_sha256": "b13e5ac2291bc738e946a384bdb0fc3eb43fb3513ee95ad2ff5942daecc3e5be",
+    "label_sha256": "39cf33fde91dd7fc4e6faba9cb5e3d0650e60235586da50f3a542cab2d3b2790",
+    "width": 1280,
+    "height": 720,
+    "classes": [
+      0
+    ],
+    "boxes": 3,
+    "bytes": 2021587
+  },
+  {
+    "record_id": "B2-AGRIBOT-2025-04-15-108",
+    "split": "test",
+    "image_relative_path": "images/test/B2-AGRIBOT-2025-04-15-108.png",
+    "label_relative_path": "labels/test/B2-AGRIBOT-2025-04-15-108.txt",
+    "image_sha256": "1030d51dda36d73a6fd6cf80174675c48694ae8de7ccf6197f9651ea581d659f",
+    "label_sha256": "6c2bfaaec4e22c467ff6688999244ec5317b049c70da993b5ab7b00e3ff25a31",
+    "width": 1280,
+    "height": 720,
+    "classes": [
+      0
+    ],
+    "boxes": 2,
+    "bytes": 2036435
+  },
+  {
+    "record_id": "B2-AGRIBOT-2025-04-15-111",
+    "split": "test",
+    "image_relative_path": "images/test/B2-AGRIBOT-2025-04-15-111.png",
+    "label_relative_path": "labels/test/B2-AGRIBOT-2025-04-15-111.txt",
+    "image_sha256": "22a0c36dac9fa1c5f00e3c429b4543c93a3e0a3abca21103ad2e1e554711857d",
+    "label_sha256": "59017f9136940b1c7fb45c99f4ca0eef72235e63c9fc72de04c1e737c0db3328",
+    "width": 1280,
+    "height": 720,
+    "classes": [
+      0
+    ],
+    "boxes": 2,
+    "bytes": 2098953
+  },
+  {
+    "record_id": "B2-AGRIBOT-2025-04-15-112",
+    "split": "test",
+    "image_relative_path": "images/test/B2-AGRIBOT-2025-04-15-112.png",
+    "label_relative_path": "labels/test/B2-AGRIBOT-2025-04-15-112.txt",
+    "image_sha256": "27fa0899301e546e32c03c3825d482ff3050f2ca5c21b2bdcf53e5f8ba582470",
+    "label_sha256": "13911ed38a1ec9a4c899ab0a58432665be7213de3c02d0f1b10650f0f71b8164",
+    "width": 1280,
+    "height": 720,
+    "classes": [
+      0
+    ],
+    "boxes": 2,
+    "bytes": 2100255
+  },
+  {
+    "record_id": "B2-AGRIBOT-2025-04-15-125",
+    "split": "test",
+    "image_relative_path": "images/test/B2-AGRIBOT-2025-04-15-125.png",
+    "label_relative_path": "labels/test/B2-AGRIBOT-2025-04-15-125.txt",
+    "image_sha256": "868e5c92c809a7198f7d116e2d747db73e7eee7b0e756a0a5c8dc494964385ba",
+    "label_sha256": "4888f3a0c2915eea9ff7cb48fc5ba1e464b346e564e2800649dff4bec435ad93",
+    "width": 1280,
+    "height": 720,
+    "classes": [
+      0
+    ],
+    "boxes": 2,
+    "bytes": 2107536
+  },
+  {
+    "record_id": "B2-AGRIBOT-2025-04-15-126",
+    "split": "test",
+    "image_relative_path": "images/test/B2-AGRIBOT-2025-04-15-126.png",
+    "label_relative_path": "labels/test/B2-AGRIBOT-2025-04-15-126.txt",
+    "image_sha256": "0f76d4aabe5899b6d5e24401c0b9be285a76be0d1241a5eaf42800087b9f4f27",
+    "label_sha256": "4052037531180b14daf7fa0ad24d9766fc4af36fd12cb0f22c26824d6b7170dd",
+    "width": 1280,
+    "height": 720,
+    "classes": [
+      0
+    ],
+    "boxes": 2,
+    "bytes": 2095899
+  },
+  {
+    "record_id": "B2-AGRIBOT-2025-04-30-107",
+    "split": "test",
+    "image_relative_path": "images/test/B2-AGRIBOT-2025-04-30-107.png",
+    "label_relative_path": "labels/test/B2-AGRIBOT-2025-04-30-107.txt",
+    "image_sha256": "c88fce06ef9a57cb0409a39fec9592681a4b659cba7a3cdb22c6af4a93dcce83",
+    "label_sha256": "77fc80b7229f3df0c60265524d028b65f2cf3137f7bbc426b81cfaccde16980c",
+    "width": 1280,
+    "height": 720,
+    "classes": [
+      0
+    ],
+    "boxes": 2,
+    "bytes": 2163267
+  },
+  {
+    "record_id": "B2-AGRIBOT-2025-04-30-108",
+    "split": "test",
+    "image_relative_path": "images/test/B2-AGRIBOT-2025-04-30-108.png",
+    "label_relative_path": "labels/test/B2-AGRIBOT-2025-04-30-108.txt",
+    "image_sha256": "207ac7f52b013342d9d8628cf725486e5654319fa6e5ecf9f6d3639fb543dd89",
+    "label_sha256": "9429f32398d3381b60a337553f423c5e81b21edda1abc6a3bd637b4b5eaca5be",
+    "width": 1280,
+    "height": 720,
+    "classes": [
+      0
+    ],
+    "boxes": 2,
+    "bytes": 2186785
+  },
+  {
+    "record_id": "B2-AGRIBOT-2025-04-30-111",
+    "split": "test",
+    "image_relative_path": "images/test/B2-AGRIBOT-2025-04-30-111.png",
+    "label_relative_path": "labels/test/B2-AGRIBOT-2025-04-30-111.txt",
+    "image_sha256": "03d3753e7f70e66da3472c2821cc2a8a3656dbbfb63858d1be8384ecd3782092",
+    "label_sha256": "4795330c25e0c5211c0d5670826ca83eebaad8dd7dd6f40078775b68e9f4cce3",
+    "width": 1280,
+    "height": 720,
+    "classes": [
+      0
+    ],
+    "boxes": 3,
+    "bytes": 2122428
+  },
+  {
+    "record_id": "B2-AGRIBOT-2025-04-30-112",
+    "split": "test",
+    "image_relative_path": "images/test/B2-AGRIBOT-2025-04-30-112.png",
+    "label_relative_path": "labels/test/B2-AGRIBOT-2025-04-30-112.txt",
+    "image_sha256": "e76b0f7ccbaddeecef21dc727e417ac8ad69bb0eae8ad55f80b5bef2f2e5a6ba",
+    "label_sha256": "ab54e0a06fe3acdd38df64f561fa8bab5755a936da5b346deda8c44754719669",
+    "width": 1280,
+    "height": 720,
+    "classes": [
+      0
+    ],
+    "boxes": 3,
+    "bytes": 2134750
+  },
+  {
+    "record_id": "B2-AGRIBOT-2025-04-30-125",
+    "split": "test",
+    "image_relative_path": "images/test/B2-AGRIBOT-2025-04-30-125.png",
+    "label_relative_path": "labels/test/B2-AGRIBOT-2025-04-30-125.txt",
+    "image_sha256": "309b1a7a52415e10fc8ca5969be1bc0bf221ef444a2ea34062fc43589603bd2d",
+    "label_sha256": "9a2ac6c6336491f091cbb2089ce137f8b938818e2508e0af093d1c398481e77d",
+    "width": 1280,
+    "height": 720,
+    "classes": [
+      0
+    ],
+    "boxes": 2,
+    "bytes": 2128970
+  },
+  {
+    "record_id": "B2-AGRIBOT-2025-04-30-126",
+    "split": "test",
+    "image_relative_path": "images/test/B2-AGRIBOT-2025-04-30-126.png",
+    "label_relative_path": "labels/test/B2-AGRIBOT-2025-04-30-126.txt",
+    "image_sha256": "4872018c174d6f79e4c03a3bbaba33ef72bc98dfef02e64850ef15a340e4d4f4",
+    "label_sha256": "d21f22f2a3ab242294deca6f936e60ea1b60feb4bf256b960594b1c7401cd658",
+    "width": 1280,
+    "height": 720,
+    "classes": [
+      0
+    ],
+    "boxes": 3,
+    "bytes": 2117714
+  },
+  {
+    "record_id": "B3-WM-0165",
+    "split": "test",
+    "image_relative_path": "images/test/B3-WM-0165.jpg",
+    "label_relative_path": "labels/test/B3-WM-0165.txt",
+    "image_sha256": "339bcd2720f83268e9b2dca5155271054d49d3c43506dc7be3a4e03394088355",
+    "label_sha256": "b8d5caf4a52ff106b7d35d1acc9471618edf617110409e0dd58200c6858509fc",
+    "width": 1920,
+    "height": 1440,
+    "classes": [
+      0
+    ],
+    "boxes": 2,
+    "bytes": 757012
+  },
+  {
+    "record_id": "B4-WM-0129",
+    "split": "test",
+    "image_relative_path": "images/test/B4-WM-0129.jpg",
+    "label_relative_path": "labels/test/B4-WM-0129.txt",
+    "image_sha256": "0fc6a826e883be82440b202df163328fa91f90c0165ed11640ff9b0210d04e51",
+    "label_sha256": "aad9d5bb8a266b4b7d4c33d38f285249c15364b3c812ea1f57f79514138094af",
+    "width": 1920,
+    "height": 2560,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 650846
+  },
+  {
+    "record_id": "COLL-HEALTHY-0008",
+    "split": "test",
+    "image_relative_path": "images/test/COLL-HEALTHY-0008.jpg",
+    "label_relative_path": "labels/test/COLL-HEALTHY-0008.txt",
+    "image_sha256": "1705454d0604f3478e6ca459b12c5def10f8e0f50d7d7c29a2f63e3003a8662e",
+    "label_sha256": "fa7bc3773b651eaa605b84ee52c31d5428c1af7c1dc8b72267fde5ccd26ba81b",
+    "width": 1920,
+    "height": 1920,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 1014017
+  },
+  {
+    "record_id": "COLL-HEALTHY-0024",
+    "split": "test",
+    "image_relative_path": "images/test/COLL-HEALTHY-0024.jpg",
+    "label_relative_path": "labels/test/COLL-HEALTHY-0024.txt",
+    "image_sha256": "62e7525a5142a05a599a8275deda4c6b3dbcf362339716d7662f719b5250bc47",
+    "label_sha256": "f1402ff98278fd62651039c97a2ce89a214280bb83e00f80ac28c280d4ab101c",
+    "width": 1920,
+    "height": 2265,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 725191
+  },
+  {
+    "record_id": "COLL-HEALTHY-0033",
+    "split": "test",
+    "image_relative_path": "images/test/COLL-HEALTHY-0033.jpg",
+    "label_relative_path": "labels/test/COLL-HEALTHY-0033.txt",
+    "image_sha256": "aad6dd3eacc28872f9aaa31d36149aa4e65ac924d14bb5c20f12e93ef6e1b7ca",
+    "label_sha256": "7cf09c9c7c8ca426533c0f162db010270d27440e484067e3a201f68e87097944",
+    "width": 1920,
+    "height": 1440,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 981966
+  },
+  {
+    "record_id": "COLL-HEALTHY-0035",
+    "split": "test",
+    "image_relative_path": "images/test/COLL-HEALTHY-0035.jpg",
+    "label_relative_path": "labels/test/COLL-HEALTHY-0035.txt",
+    "image_sha256": "3048bf07325d44bb0d2de0da7a859d9d1369be4fe8d4c701c810a108489a58e7",
+    "label_sha256": "453ecada33c21fab7929ffc2a72522cbb17fee0a9f1504b935937b5daf8c2314",
+    "width": 1920,
+    "height": 2560,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 1548949
+  },
+  {
+    "record_id": "COLL-HEALTHY-0037",
+    "split": "test",
+    "image_relative_path": "images/test/COLL-HEALTHY-0037.jpg",
+    "label_relative_path": "labels/test/COLL-HEALTHY-0037.txt",
+    "image_sha256": "119b09b46050e1d379777d7ded9b9a9c8ed277886f63f1f2c392cd911af58fb9",
+    "label_sha256": "b959db219ba8230c76f3d0440137f582c684112652070ce6eef1e290d202a21a",
+    "width": 1920,
+    "height": 2560,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 928196
+  },
+  {
+    "record_id": "COLL-HEALTHY-0041",
+    "split": "test",
+    "image_relative_path": "images/test/COLL-HEALTHY-0041.jpg",
+    "label_relative_path": "labels/test/COLL-HEALTHY-0041.txt",
+    "image_sha256": "b4c3c993d3d7688a2f514822352a336c4a9f285c268dacd90d22589796908d73",
+    "label_sha256": "6e80cef6fa550d2a475e2787383da973741a5ec6cac9e0d466bdf43afe3c5197",
+    "width": 1712,
+    "height": 2288,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 1493684
+  },
+  {
+    "record_id": "COLL-HEALTHY-0047",
+    "split": "test",
+    "image_relative_path": "images/test/COLL-HEALTHY-0047.jpg",
+    "label_relative_path": "labels/test/COLL-HEALTHY-0047.txt",
+    "image_sha256": "6c6e581d44b6d69c5640004d814d5d06e9ab30b90715e5233c35303b690a2cde",
+    "label_sha256": "4bf5c5fc91d6fb7738c756b50dfec6b2410aeddc46fa95b2e847f559c2f45e84",
+    "width": 1920,
+    "height": 2661,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 1376014
+  },
+  {
+    "record_id": "D1-compiled__20230622105013.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-compiled__20230622105013.jpg.jpg",
+    "label_relative_path": "labels/test/D1-compiled__20230622105013.jpg.txt",
+    "image_sha256": "83ba999f12100c5d30f564f688cf1fb847410279264c54e16a3d7fae1a449353",
+    "label_sha256": "7d5d96e89cd8d8f829d305a0419f56d82c19a0aaba29d9eb4a7fd57441a96800",
+    "width": 432,
+    "height": 494,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 34514
+  },
+  {
+    "record_id": "D1-compiled__20230623161059.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-compiled__20230623161059.jpg.jpg",
+    "label_relative_path": "labels/test/D1-compiled__20230623161059.jpg.txt",
+    "image_sha256": "fa1f62bd96a78b40038eae340e502d02620a3b304f2b74bb9c6b6a2595fbe0d6",
+    "label_sha256": "dae359964f4f5d9242edaa55a2defd35b04a2bb5791d139ea367904b0e8fd48a",
+    "width": 355,
+    "height": 360,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 21510
+  },
+  {
+    "record_id": "D1-compiled__20230702152322.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-compiled__20230702152322.jpg.jpg",
+    "label_relative_path": "labels/test/D1-compiled__20230702152322.jpg.txt",
+    "image_sha256": "e5fcb4e1aba9892fa0ef477147f0f47957c37b481fb73eb8d62101286caec941",
+    "label_sha256": "0afd76c41d46c40cbf448428865e8b23ea5ed08381ed252f46df2dc900c0168c",
+    "width": 421,
+    "height": 403,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 26042
+  },
+  {
+    "record_id": "D1-compiled__h45.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-compiled__h45.jpg.jpg",
+    "label_relative_path": "labels/test/D1-compiled__h45.jpg.txt",
+    "image_sha256": "a63fa7dec09b6f8be92eaf41baaa7191a1d2c303ff06fdc130b4f68c43e6dc4e",
+    "label_sha256": "85a0f51378c90a97787f660c06ea9825220fa1ca5ac72723c71ade9fcbc44187",
+    "width": 1500,
+    "height": 1000,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 128630
+  },
+  {
+    "record_id": "D1-rathor__H_51_.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-rathor__H_51_.jpg.jpg",
+    "label_relative_path": "labels/test/D1-rathor__H_51_.jpg.txt",
+    "image_sha256": "b8e58a8c0d2798d3b04026661321d9f6b51f753ec50b0191bf1c539d7fa2b6ee",
+    "label_sha256": "2bfe9b41ffe26040ab9e2c1afec695f75c83adc53d9ebfab584f98eb9ffba76e",
+    "width": 1617,
+    "height": 1727,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 431005
+  },
+  {
+    "record_id": "D1-rathor__H_5_.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-rathor__H_5_.jpg.jpg",
+    "label_relative_path": "labels/test/D1-rathor__H_5_.jpg.txt",
+    "image_sha256": "6e69838e9f5099c91cb91f5ffb2442d3658fc139ec1735d4a00699214661e159",
+    "label_sha256": "2bfe9b41ffe26040ab9e2c1afec695f75c83adc53d9ebfab584f98eb9ffba76e",
+    "width": 1727,
+    "height": 1617,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 1862789
+  },
+  {
+    "record_id": "D1-rathor__HHH.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-rathor__HHH.jpg.jpg",
+    "label_relative_path": "labels/test/D1-rathor__HHH.jpg.txt",
+    "image_sha256": "692f07caa686a2b846207e2446d8125d30a2c1d2a2db102f02dc56ebf8d70094",
+    "label_sha256": "2bfe9b41ffe26040ab9e2c1afec695f75c83adc53d9ebfab584f98eb9ffba76e",
+    "width": 1600,
+    "height": 1263,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 144380
+  },
+  {
+    "record_id": "D1-rathor__HHL12.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-rathor__HHL12.jpg.jpg",
+    "label_relative_path": "labels/test/D1-rathor__HHL12.jpg.txt",
+    "image_sha256": "0358eaeeae112ed09195188044698eac64e38866d5779ee721e4a7aaff5af009",
+    "label_sha256": "2bfe9b41ffe26040ab9e2c1afec695f75c83adc53d9ebfab584f98eb9ffba76e",
+    "width": 1600,
+    "height": 1200,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 145558
+  },
+  {
+    "record_id": "D1-rathor__HT6.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-rathor__HT6.jpg.jpg",
+    "label_relative_path": "labels/test/D1-rathor__HT6.jpg.txt",
+    "image_sha256": "5d2f5c38aac2d846345a413178bb6d5f76829311c7e7fad931917685452f42a0",
+    "label_sha256": "2bfe9b41ffe26040ab9e2c1afec695f75c83adc53d9ebfab584f98eb9ffba76e",
+    "width": 1597,
+    "height": 1600,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 178000
+  },
+  {
+    "record_id": "D1-rathor__HT9.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-rathor__HT9.jpg.jpg",
+    "label_relative_path": "labels/test/D1-rathor__HT9.jpg.txt",
+    "image_sha256": "0c4c5952a66312d28d86ffb6159b85f705e60f9a3865511b9a5364ca2bac50a9",
+    "label_sha256": "2bfe9b41ffe26040ab9e2c1afec695f75c83adc53d9ebfab584f98eb9ffba76e",
+    "width": 1600,
+    "height": 1248,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 152530
+  },
+  {
+    "record_id": "D1-rathor__N-2.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-rathor__N-2.jpg.jpg",
+    "label_relative_path": "labels/test/D1-rathor__N-2.jpg.txt",
+    "image_sha256": "1b07225c7e2d1a8421961242dcac1689c1aa9dd0d9a36ccc91dab86602d6b589",
+    "label_sha256": "b4c7cb9213f22fd2b167a52060ce2322b7028f3602ca201c7a5f82864959192b",
+    "width": 1126,
+    "height": 1280,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 109378
+  },
+  {
+    "record_id": "D1-rathor__N_1020_.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-rathor__N_1020_.jpg.jpg",
+    "label_relative_path": "labels/test/D1-rathor__N_1020_.jpg.txt",
+    "image_sha256": "83b45cf7361fcb1640ab2379c1858f480d81261a7711a6ce21c16bb39c832070",
+    "label_sha256": "b4c7cb9213f22fd2b167a52060ce2322b7028f3602ca201c7a5f82864959192b",
+    "width": 1832,
+    "height": 1871,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 1183025
+  },
+  {
+    "record_id": "D1-V006_77_0_00_05_03_12_0_b04_20201204_0250_S01_1.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-V006_77_0_00_05_03_12_0_b04_20201204_0250_S01_1.jpg.jpg",
+    "label_relative_path": "labels/test/D1-V006_77_0_00_05_03_12_0_b04_20201204_0250_S01_1.jpg.txt",
+    "image_sha256": "dfd0ae158ac5272e04f52c8bfeac8069583638bb68105ece847e881533df9e46",
+    "label_sha256": "8c12bf949cdb9cb62b8ae9f2445d22fb01d44414400a35c2d7c8eb5cb8c899b7",
+    "width": 320,
+    "height": 320,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 22308
+  },
+  {
+    "record_id": "D1-V006_77_0_00_05_03_12_0_b05_20201112_0133_S01_1.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-V006_77_0_00_05_03_12_0_b05_20201112_0133_S01_1.jpg.jpg",
+    "label_relative_path": "labels/test/D1-V006_77_0_00_05_03_12_0_b05_20201112_0133_S01_1.jpg.txt",
+    "image_sha256": "1b144be285a5bad7a2c129f19db752c73971c6b59ea33c6e8e924fe3d6c29569",
+    "label_sha256": "2650cda62ba0e5b13f70907f02545660bc66e757f70a5164c32ecf9b2592cd9b",
+    "width": 320,
+    "height": 320,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 22408
+  },
+  {
+    "record_id": "D1-V006_77_0_00_05_03_12_0_b05_20201204_0079_S01_1.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-V006_77_0_00_05_03_12_0_b05_20201204_0079_S01_1.jpg.jpg",
+    "label_relative_path": "labels/test/D1-V006_77_0_00_05_03_12_0_b05_20201204_0079_S01_1.jpg.txt",
+    "image_sha256": "142e8d7edb01c3d59721551770f1caf80938bf4f50f896332e5a4f80de84856d",
+    "label_sha256": "3ee10e46c667300d5f93691fffd2cc9a8d02d2fb9c3beabbd530a8092e5aa07e",
+    "width": 320,
+    "height": 320,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 26949
+  },
+  {
+    "record_id": "D1-V006_77_0_00_05_03_12_0_c29_20201126_1134_S01_1.jpg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-V006_77_0_00_05_03_12_0_c29_20201126_1134_S01_1.jpg.jpg",
+    "label_relative_path": "labels/test/D1-V006_77_0_00_05_03_12_0_c29_20201126_1134_S01_1.jpg.txt",
+    "image_sha256": "1861d72b9dea901353020cc71383720530d752d46856aa53efd0ce4dc87cbc90",
+    "label_sha256": "d647a5aa602003fa257c9d3dfd8694cdfa83a5f3a7881195bac01d82c710bf3f",
+    "width": 320,
+    "height": 320,
+    "classes": [
+      0
+    ],
+    "boxes": 1,
+    "bytes": 19561
+  },
+  {
+    "record_id": "D1-V006_77_1_10_05_03_12_1_2761e_20201209_47.jpeg",
+    "split": "test",
+    "image_relative_path": "images/test/D1-V006_77_1_10_05_03_12_1_2761e_20201209_47.jpeg.jpeg",
+    "label_relative_path": "labels/test/D1-V006_77_1_10_05_03_12_1_2761e_20201209_47.jpeg.txt",
+    "image_sha256": "0e4605a94081e5581000e6dd954e2b35b6e40b622b4f55717e079cdeea7418fc",
+    "label_sha256": "b4c7cb9213f22fd2b167a52060ce2322b7028f3602ca201c7a5f82864959192b",
+    "width": 320,
+    "height": 320,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 22596
+  },
+  {
+    "record_id": "RAW-WILTING-0297",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0297.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0297.txt",
+    "image_sha256": "0a92e2be16ef4dee54487a433d26897099f2642464c72173bf5068587d357924",
+    "label_sha256": "1e096ecd81e81ccaf5e1fa4fddc9d4100c306bcde833890585b73443fa064160",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1891448
+  },
+  {
+    "record_id": "RAW-WILTING-0298",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0298.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0298.txt",
+    "image_sha256": "090d00618fd7770e90f13b6e51f14cf7e5f8449e233f1790f05f39a730d40737",
+    "label_sha256": "16b3aa70dc4b56812aeb182a48336680185bc164171fd17ddcc43463350e7f8c",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1888181
+  },
+  {
+    "record_id": "RAW-WILTING-0299",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0299.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0299.txt",
+    "image_sha256": "27fa192bc4bd73938093038a8bd98126d135b03816fb07a91bf8d467fa247fb3",
+    "label_sha256": "f92866b1bc1a6169eb027a50e84fc2827e78907428aea66fab7eb752e26c4f73",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1833487
+  },
+  {
+    "record_id": "RAW-WILTING-0300",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0300.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0300.txt",
+    "image_sha256": "d873eecb51f7717af4d4a95d1b90bc4de7c96e0cd78cfac0cbd4f095fb429cc0",
+    "label_sha256": "a39d602610d8be6317b63d19148f140c1e76a4ba4004c552991a4fdef674a706",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1838194
+  },
+  {
+    "record_id": "RAW-WILTING-0301",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0301.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0301.txt",
+    "image_sha256": "b8e02cb03a3e8b4fc4d6c762fdf9bb567d05cb0c3774815a54b0c5a4b43a56a4",
+    "label_sha256": "3229f6c51c38c8a2b4817f60516a318db8187454edd463f5b66e0a46760313c9",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1788989
+  },
+  {
+    "record_id": "RAW-WILTING-0302",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0302.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0302.txt",
+    "image_sha256": "f8a837f949563c8df354cc3aa7ad6f5f61c9ebee1965255af0f3dd5090905589",
+    "label_sha256": "bdccce2120c76a9dbd56d18bc4647ddc3a9ef322faba1a7789b8c8dee314d560",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1797273
+  },
+  {
+    "record_id": "RAW-WILTING-0303",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0303.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0303.txt",
+    "image_sha256": "16c70b089c11afa7a42cfa5bf7dd96d4e64e74894f039c5330feca25faefedd6",
+    "label_sha256": "6fd4af13bd413873c402bbe043ce54a408a0873c467b3c90b85348758679b52c",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1790264
+  },
+  {
+    "record_id": "RAW-WILTING-0304",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0304.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0304.txt",
+    "image_sha256": "6e0aa16e0d477063a54868953a4a34b292567217119e32e5e633ab1677b24292",
+    "label_sha256": "3325da997e8b6148fb211a1add647568efae1d39ef0a2a0a52778b81e73e9135",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1808569
+  },
+  {
+    "record_id": "RAW-WILTING-0305",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0305.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0305.txt",
+    "image_sha256": "881ad40eab700f63e8831c1f5aeb61c738258a69e7d1b49e47a0729b243169eb",
+    "label_sha256": "ca8fd79dac962a7806d1f8f64c32e84b6d576a5547591ffb2501ca7f1a00b031",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1842447
+  },
+  {
+    "record_id": "RAW-WILTING-0306",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0306.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0306.txt",
+    "image_sha256": "4755d190efad474a56b9f33cf4234b9b8fa64271a23b74fc5672f8a8562cf434",
+    "label_sha256": "03550b1fcec1c245e2eea5c2471e4f8cc7ba2a9861c70ed889c49454787d3301",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1875867
+  },
+  {
+    "record_id": "RAW-WILTING-0307",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0307.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0307.txt",
+    "image_sha256": "96a4800b306d3b8859657ed04df62ecfd72db7af57e2c73fcadedc2080c713f2",
+    "label_sha256": "e241e23de7e6e80f92cee9b4d0e69456567e8585ebb41cc3673e4a216425649c",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1807952
+  },
+  {
+    "record_id": "RAW-WILTING-0308",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0308.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0308.txt",
+    "image_sha256": "199e8b504e50a92fd18b995431f67564c8f6fba46bc4bfc72903aeaaadec4434",
+    "label_sha256": "a4290349798c677a820e6292f6d19e678e85d2d7c6fbcd36492937d4df26f865",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1822243
+  },
+  {
+    "record_id": "RAW-WILTING-0309",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0309.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0309.txt",
+    "image_sha256": "78195e82122b4520abcaaa0386e773a66d654c5c35dfd38653da28fd72b6229f",
+    "label_sha256": "0f17d324c91e669409fe15faca240c6cd2a9af1e472121ffac458838eb7fe0f2",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1827995
+  },
+  {
+    "record_id": "RAW-WILTING-0310",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0310.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0310.txt",
+    "image_sha256": "d3d01ce8c326898634d919a7d60d2e393a543c912960aaf156e8759553b9f1ef",
+    "label_sha256": "62616862fbc0670996b5a78606c40548544340757129890eafb82a25036cb3f7",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1829990
+  },
+  {
+    "record_id": "RAW-WILTING-0311",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0311.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0311.txt",
+    "image_sha256": "3b221a6d5d7097ab52d927d254c7c7eec6fb43eff074507e6cb17b7872eae7af",
+    "label_sha256": "9605552778e94b49294bd74856d669ba09d5f12b489b184d23aeb249baa8b1da",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1822979
+  },
+  {
+    "record_id": "RAW-WILTING-0312",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0312.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0312.txt",
+    "image_sha256": "9a892b5b5570bd10c5d597b18d36f255cfd6e641c78fba7c1ade9b9534462178",
+    "label_sha256": "02d1d8677f7b7eba49d44e3d9e6588bda40476736c7d5ba394b76e3e9bb26434",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1799075
+  },
+  {
+    "record_id": "RAW-WILTING-0313",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0313.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0313.txt",
+    "image_sha256": "d54b124e8e643492b5b546b1a792ac66af0a2c95516031e7a924342bf67dae14",
+    "label_sha256": "8967bb6e265e8509fd86c56194632a881f539d62d8e18e9069986c38969e0be0",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1794822
+  },
+  {
+    "record_id": "RAW-WILTING-0314",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0314.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0314.txt",
+    "image_sha256": "cb9634fcb3c02ed440ca436efc95749eec88cf0e368e613cc0c50a8c4acbf33c",
+    "label_sha256": "3d0e2389bb23d4fe6eb7a2e4de8ac2a86549018eee9ae0562222297b7d40dad5",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1790139
+  },
+  {
+    "record_id": "RAW-WILTING-0315",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0315.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0315.txt",
+    "image_sha256": "6111d48cc2052b21e4f486e4e2b81fa00be4496f31e39a2516263f1b6b16dbeb",
+    "label_sha256": "8dd44ece78ac5e99b60d92c3e7199ce771b20e43acf2f7ec7920bdd441f41a71",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1782271
+  },
+  {
+    "record_id": "RAW-WILTING-0316",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0316.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0316.txt",
+    "image_sha256": "ba4c311ea3072115207e9d260956db6b31b7c42e3efef0f9d4f6e100067bbb79",
+    "label_sha256": "fdbbac4beae22e2667380d52555953a66c7e10d7885ecb111a52f5e5e05a56ce",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1756382
+  },
+  {
+    "record_id": "RAW-WILTING-0317",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0317.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0317.txt",
+    "image_sha256": "bfbe72521d60530f1dd6cc3ffa93a7f716c7be33ea29f66f441e6f5ebb8e7e9a",
+    "label_sha256": "2990bc3a801546136e94297f502faf89564f9998b3dfb3eac5f1171d14870ff9",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1762280
+  },
+  {
+    "record_id": "RAW-WILTING-0318",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0318.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0318.txt",
+    "image_sha256": "ea5b0511a3b3f18c28bb697e2a69348cac14c640da094a9b4aa649d9cf4e6be9",
+    "label_sha256": "7bc62e053d1ea7feb9bce30a46a6f42179077e5c526a8a9858216e908c6c5491",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1755664
+  },
+  {
+    "record_id": "RAW-WILTING-0319",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0319.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0319.txt",
+    "image_sha256": "367c3a3c6e3188004590bf0946ae5500950b6dedbbe05d81474f0f20fb5fd889",
+    "label_sha256": "27df1f54c4f6e52fa24880364c1d537a7be4b61560ebc57f9d5266ae29dc67a4",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1751297
+  },
+  {
+    "record_id": "RAW-WILTING-0320",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0320.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0320.txt",
+    "image_sha256": "52492365f0a8f5fbae9ccfee21000337de9ad4e0760a447a13b67f50a14aef68",
+    "label_sha256": "479435d8a487ebfab7e827e96ceb0744658fe6a08b39a915a1337bdadd6a2e93",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1742496
+  },
+  {
+    "record_id": "RAW-WILTING-0321",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0321.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0321.txt",
+    "image_sha256": "f8c432be3599791eea1fe2a18d456647b5890761410d1388139b1cf70b8a6eab",
+    "label_sha256": "36273cf7a636b6171ed4ac8341102a672d73df7b2ac21ae6a43f183344915d45",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1733007
+  },
+  {
+    "record_id": "RAW-WILTING-0322",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0322.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0322.txt",
+    "image_sha256": "3344fb338e29efeffa7acf40fea0b6047a1d808e84496604d9d04c1223b7a0d4",
+    "label_sha256": "7fc6b3ff679d636755d5aaf725653d474fb76b68932626e05987fa6a5f1bc224",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1734772
+  },
+  {
+    "record_id": "RAW-WILTING-0323",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0323.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0323.txt",
+    "image_sha256": "21eab07e25ddcee39680c3ff0053ae546e89847762ab6e6baffe3cd1a6e101f2",
+    "label_sha256": "34eb4070486b6f5b968d67e136c37adbaa2259ce55ad31c6d74ee0b077fcdb25",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1746882
+  },
+  {
+    "record_id": "RAW-WILTING-0324",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0324.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0324.txt",
+    "image_sha256": "df426f0e9c9d75a33547ea0a6c37ecfbb5744b9cd68ff7d54695592966819f39",
+    "label_sha256": "0fd1b3eb5781f764541a4594ff50b41dd9731c782da62ee58ab0282430b7f4d4",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1747727
+  },
+  {
+    "record_id": "RAW-WILTING-0325",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0325.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0325.txt",
+    "image_sha256": "edd3b1aa1196b2edd3210300fc0f2cc65d3daf330efe323fb7550af3c0817c7b",
+    "label_sha256": "d0be134c3f21809fd83593ab3098a08131264cb68ffcd3e5784a04150a07ee67",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1740392
+  },
+  {
+    "record_id": "RAW-WILTING-0326",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0326.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0326.txt",
+    "image_sha256": "61304a3755f6b665fdd36be6b3dc2aa4b83078d278fdedd2c6c5c495d8064fd8",
+    "label_sha256": "242f26cefb28f1bc0dce4200ee3e30d9365b800ad4a990337c3f153fee5aff69",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1758946
+  },
+  {
+    "record_id": "RAW-WILTING-0327",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0327.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0327.txt",
+    "image_sha256": "55fd8d2de9f444823719996f425a80c0584df3c3e1b2712e629ec71cd297cc29",
+    "label_sha256": "dd703311176bc4f96df42d50839ba886187504097282496ec27ad364481e4a16",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1773692
+  },
+  {
+    "record_id": "RAW-WILTING-0328",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0328.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0328.txt",
+    "image_sha256": "0a3d6c58b5f5f49d064d3b01ba5e999d18b19686ff46f18aa3880a3d20501c50",
+    "label_sha256": "61eb5cabbf597f1ba7363c82cf5e212460134e7bc99ad675fb3d120f76a24017",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1792250
+  },
+  {
+    "record_id": "RAW-WILTING-0329",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0329.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0329.txt",
+    "image_sha256": "7b6344900213ef0605f2d07b6f3b37ec63445395fcdbad8773e5c2f85dcd53bd",
+    "label_sha256": "408246d8b4db4f34134c5d97e016ebf5994a3de58a9fea9e9cbee66678dac923",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1790377
+  },
+  {
+    "record_id": "RAW-WILTING-0330",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0330.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0330.txt",
+    "image_sha256": "adb562e8a925966547a5bb9ce02e71c856cb1ad1af869220326887cdb7c0c70f",
+    "label_sha256": "cfdc009139779693199a4d979eac8f705db614897863d44359e0d3f6d75c4037",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1821271
+  },
+  {
+    "record_id": "RAW-WILTING-0331",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0331.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0331.txt",
+    "image_sha256": "fb6bc933d8b4a7ca38037da01e7bae20024d1318aeb7aada7fb7eb7feb0351e1",
+    "label_sha256": "75752b83615007cafbba5a585aff4b18c988ef9c0ececc02df7f4624fdbb2a95",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1856796
+  },
+  {
+    "record_id": "RAW-WILTING-0332",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0332.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0332.txt",
+    "image_sha256": "1f4f1dd91c7cafcaabde6fb223efda32b10c40503a5ecb54033eb21881d158d6",
+    "label_sha256": "2313d8a06b21f312b162c640d34ef1537fd886571546540ae7020d6c34733dbd",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1884934
+  },
+  {
+    "record_id": "RAW-WILTING-0333",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0333.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0333.txt",
+    "image_sha256": "57a02a57753991f9a27915d960f33871494d719d95218692209e21fc69b6b10e",
+    "label_sha256": "067abe735859640df5e16ebb7c93c926a67756c04999ba6bb0647b2976c51d3c",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1906977
+  },
+  {
+    "record_id": "RAW-WILTING-0334",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0334.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0334.txt",
+    "image_sha256": "29abf5dfd43da563336cbc2d945e949b2b1478af3fbd20c61ef49198cc142215",
+    "label_sha256": "506d144672393910835e213684c1ed2f27587c202ddd0c5929508ca7127ae7ea",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1952222
+  },
+  {
+    "record_id": "RAW-WILTING-0335",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0335.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0335.txt",
+    "image_sha256": "4fee9e88ec7f7cf1550e37d601f01a0be77690f9fb3fca3ad3d160ab5fb206ba",
+    "label_sha256": "bdec22513b0e0b1ee47d45167eaafad3045f7be208dcbcce9e05dc6b78e84ab7",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1988534
+  },
+  {
+    "record_id": "RAW-WILTING-0336",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0336.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0336.txt",
+    "image_sha256": "9a186b4636cfd3fd4c7632548c71ca5a1bcfeed5348a7fb2a5afa916d3bcb606",
+    "label_sha256": "368c7e0903c6ebfa8b153911b15471fa2657653fe047108a4433347521a5639b",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 2009097
+  },
+  {
+    "record_id": "RAW-WILTING-0337",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0337.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0337.txt",
+    "image_sha256": "34d6b2143f60b69a58d171656f4af9a833252a6a3456c3760c3b8b5993936b1c",
+    "label_sha256": "3d7646d7a3be824d1d29f2302581ad6144487a20af85623655dc8492a523f5d4",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 2022644
+  },
+  {
+    "record_id": "RAW-WILTING-0338",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0338.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0338.txt",
+    "image_sha256": "1c26f5f555ed5ecae5e4a61f1b9937358ae72429e1ffc193f3a6b14d0c16e681",
+    "label_sha256": "9c998e2d3b08f5c45987ada8029f4f214aa1d70790982f85466808300c48c27a",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 2075407
+  },
+  {
+    "record_id": "RAW-WILTING-0339",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0339.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0339.txt",
+    "image_sha256": "6201b177311cfab77f4428291ef68b2c3abae13c05fb54781b9e6f01e8853085",
+    "label_sha256": "bfb9db67c7f63661ff561a42a870382728e01e85a6997b5ff408d3cd24d8b59b",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 2091602
+  },
+  {
+    "record_id": "RAW-WILTING-0340",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0340.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0340.txt",
+    "image_sha256": "72a5494b4697774fa530a7b1e9afa0cb7b79a438bbc4b6c831b2af7bd313c5e7",
+    "label_sha256": "22eb3403f94846dda9566799f9d9a6d0bb0916be4b1bf532591e3d4e7c1356df",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 2084818
+  },
+  {
+    "record_id": "RAW-WILTING-0341",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0341.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0341.txt",
+    "image_sha256": "e5f27d25b277cdf210e11aac04a7d036b11ecfb5f4d29b1fd50c9e2008e87eae",
+    "label_sha256": "3002440a6153904845ebb134903009c3f1fe28478d380aeb839147b1d2d73d19",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 2081519
+  },
+  {
+    "record_id": "RAW-WILTING-0342",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0342.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0342.txt",
+    "image_sha256": "c677a7bdc0b1acaec72f901d5d3c4f04820aa2005a1d4e4b09946ba4ce9af9dc",
+    "label_sha256": "07f94513c245910757b21eec118354240d08bfd39cac1583407d02b9a6b239dc",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1993458
+  },
+  {
+    "record_id": "RAW-WILTING-0343",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0343.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0343.txt",
+    "image_sha256": "cb733a88c29e66ab5612e91fd6368ff1a191d2549d5cba372b54bb0ee21962f9",
+    "label_sha256": "b5af3c047ead8944c724d4d0f52fc1827f6dca9b7e6411bec31dbfda6ccb14fb",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 2013522
+  },
+  {
+    "record_id": "RAW-WILTING-0344",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0344.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0344.txt",
+    "image_sha256": "8f16ba15959f8aec115c9f476f5c8d16cbe7fd8907b363f638cba692cc0501dd",
+    "label_sha256": "ecad5a8245e1f3d3bc15439471d16aaad5993ff8b039c494ff9a9ecbce3e99a9",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 2017836
+  },
+  {
+    "record_id": "RAW-WILTING-0345",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0345.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0345.txt",
+    "image_sha256": "237b82f82b7529077bd0183ad437098225f67957b59d7b557489414e9f3c2136",
+    "label_sha256": "75e2652103fcb23849a1a604851786140b2b342941e51cae442a4d221525bc6c",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1976402
+  },
+  {
+    "record_id": "RAW-WILTING-0346",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0346.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0346.txt",
+    "image_sha256": "99fc7f885010e315533e7594d042674a9a342594782d8a2a6d67a2290c7f7958",
+    "label_sha256": "d5bf78e90ca660d3b2b4f0fbe64d359a29e8d7d7985a2523c0f04b81ad739656",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1936510
+  },
+  {
+    "record_id": "RAW-WILTING-0347",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0347.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0347.txt",
+    "image_sha256": "dbd1ec110f0924afc88ff29b363517c635f8f7f39695a052aea118a8b6be46ba",
+    "label_sha256": "35ab958ce11fed0fe416bf40fecbd4544744ce914a7a36928a255bd4d533b197",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1892344
+  },
+  {
+    "record_id": "RAW-WILTING-0348",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0348.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0348.txt",
+    "image_sha256": "90edbce9b9fdc17044ac57464ea7a5f3ad137550635a6ed742cafb3d4adf1e0d",
+    "label_sha256": "39500944988c8c17671b40af21c2c55f6b8ab2d17c1ed4a6609dc4ad1c2c9ff1",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1856667
+  },
+  {
+    "record_id": "RAW-WILTING-0349",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0349.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0349.txt",
+    "image_sha256": "0ff23d2d9ec566e503a24a881e79483836fd332c1625b615c700aeca75f3d773",
+    "label_sha256": "9a819cd21a86f2d6810289b058ef2af5ce7c2711d2fc275a47b96348188d950e",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1821934
+  },
+  {
+    "record_id": "RAW-WILTING-0350",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0350.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0350.txt",
+    "image_sha256": "efb2a53924fdafd6c611df92c37ac8fff5647272d39ac6e09bcda106a87df231",
+    "label_sha256": "0a58a78382ab1e22ef503a3a479ae519689974ea29afba03b434b92dbafe879f",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1798768
+  },
+  {
+    "record_id": "RAW-WILTING-0351",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0351.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0351.txt",
+    "image_sha256": "ab07f8a295b158726c5b6d025751f5e45176dbb8f7a4e5b6d8bf58e47988525f",
+    "label_sha256": "187736ed60da866cdb1dde74c31a4517361d30eb49fe5851535df83db0079e87",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1810249
+  },
+  {
+    "record_id": "RAW-WILTING-0352",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0352.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0352.txt",
+    "image_sha256": "0bbe0e62209695508c3870a4b9c4e2fe4b66677cd502e9fde4516aaaf5328137",
+    "label_sha256": "b90d344ba8f4fbfcbfea4d61e8e7871f66938e1e09c678f145533fbcfcf6c1d2",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1804485
+  },
+  {
+    "record_id": "RAW-WILTING-0353",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0353.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0353.txt",
+    "image_sha256": "c6fd3110892874802a009e79c5b32509bf56303d558bac87ebb3d6a02b8430e0",
+    "label_sha256": "a2887e3ebab0c9374e5606158f026d1c365a668299681e4060e6b6f824465d78",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1811823
+  },
+  {
+    "record_id": "RAW-WILTING-0354",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0354.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0354.txt",
+    "image_sha256": "cd974e75158da12c4cbe4ba1cd318b402f1727db440acbfe7a789d1512c1d1c7",
+    "label_sha256": "10ab6c8b5b1ecead85f2665e4e784f922a181f646fc9acd118d4261e927a627d",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1789652
+  },
+  {
+    "record_id": "RAW-WILTING-0355",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0355.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0355.txt",
+    "image_sha256": "58b51cc4a4914542f9ff65a6534dfb2906646a29a6c964a1490e67d8eb4cedb8",
+    "label_sha256": "10ab6c8b5b1ecead85f2665e4e784f922a181f646fc9acd118d4261e927a627d",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1789604
+  },
+  {
+    "record_id": "RAW-WILTING-0356",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0356.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0356.txt",
+    "image_sha256": "aa129d0e77e093aaaacc877f78133fa74611a53fd658e3229104c58fc51ec640",
+    "label_sha256": "bbeef459677f2da4027ac5b6f9413e7a60e437289323b184bb1953f8eae116da",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1783691
+  },
+  {
+    "record_id": "RAW-WILTING-0357",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0357.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0357.txt",
+    "image_sha256": "ef59e9d4586bda429f8a4decc419e1e8a8b695ddfb3397a5db6df0628046124c",
+    "label_sha256": "a4051912d2034ecf3793e22395e0d655a8e19f84dace143cfb1c5be59a51db84",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1784128
+  },
+  {
+    "record_id": "RAW-WILTING-0358",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0358.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0358.txt",
+    "image_sha256": "116a19341434601282f1a8d25c3e862cfd05f125ebccab88d8b5ac47c2212c48",
+    "label_sha256": "3ebae7ecf84833ea543c785468cd6dc9e2dc99ed9a67983972b66bc78b764b38",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1787856
+  },
+  {
+    "record_id": "RAW-WILTING-0359",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0359.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0359.txt",
+    "image_sha256": "f917ee7c4928557e61fc4a1a8e8cf7c5997499678b9d9342482bececc7da5105",
+    "label_sha256": "e5ca630b18d1a71b883cb8c7e7e4f4bf74bf82de9195494f0aad9a2cf1001c01",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1803683
+  },
+  {
+    "record_id": "RAW-WILTING-0360",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0360.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0360.txt",
+    "image_sha256": "2e3f7ed0e4f1cc90278ba0d8bfcb97389d237d51f9721542a263922166e1fac9",
+    "label_sha256": "cfcbbc708f4065680454a7e4cabdfb01b34394a695cb3f78c975519c89cd6595",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1839569
+  },
+  {
+    "record_id": "RAW-WILTING-0361",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0361.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0361.txt",
+    "image_sha256": "b9e57f59b52f892c1c444fa6732609e3297cde15def871c20738cf7a72a65c90",
+    "label_sha256": "738c7f56a2c06ca6fcb535d02346cd4acd8843001c6ac949a4cfb646c47dec90",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1842798
+  },
+  {
+    "record_id": "RAW-WILTING-0362",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0362.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0362.txt",
+    "image_sha256": "235b7f718bc136c0cedda9ee502ccefb861d86c4f0327f6910037271a94ee301",
+    "label_sha256": "ad74c3663315aa4ab7c597cd2f9a319bcf68d6b956b8bf32bb6972980d9b05ca",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1869328
+  },
+  {
+    "record_id": "RAW-WILTING-0363",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0363.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0363.txt",
+    "image_sha256": "a3ae134b75fadf599229e86ba7fe3ff82682323eef46a233e16a85b450bb014f",
+    "label_sha256": "e11edeefdf0d202b9417cc562dce10f3badf2c21270642404f0799d2d9890148",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1940411
+  },
+  {
+    "record_id": "RAW-WILTING-0364",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0364.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0364.txt",
+    "image_sha256": "42e5d4b56278c305eee4f8f74b1723e08d06a46d6b0574b6f29abb3c756dcb92",
+    "label_sha256": "25462de9c1d24d0d1f7888ca103e370447f05277290497278f95fc9ccbacc645",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 2005776
+  },
+  {
+    "record_id": "RAW-WILTING-0365",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0365.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0365.txt",
+    "image_sha256": "a7a4876e28b9504280868f659b3607d92e4895e671fa6954e6dbf61e9afd34b6",
+    "label_sha256": "277ec774c2a13918a6a7d6c78099a6987c0905ae557ab09eff775645d2a6f261",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 2042972
+  },
+  {
+    "record_id": "RAW-WILTING-0366",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0366.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0366.txt",
+    "image_sha256": "73317c9f8c167e0ebb597fae9adabc0d9dc0a4148d1d55f0b7e8083d35f64056",
+    "label_sha256": "9d56b6fb919e3cdb206a4259b0a4a1ce103125f4a97a0b9bd6425f373b61777a",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1985410
+  },
+  {
+    "record_id": "RAW-WILTING-0367",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0367.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0367.txt",
+    "image_sha256": "8ef3a5914b478855caa36af8d4eb25fc71fbdb7aea17de45259ad01823c277c6",
+    "label_sha256": "c5a943ff8ad0c02e7e788289934df9db02981f8adf29b367a54bbecb5cefeb46",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1964486
+  },
+  {
+    "record_id": "RAW-WILTING-0368",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0368.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0368.txt",
+    "image_sha256": "21724a573770f6e4f96aa484d51e86224dfc130952f5f526beef0194adda93e1",
+    "label_sha256": "1701b791ba795a8ee612b612065cd73182ef174deca1a415ce153fcbb76c2575",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1959900
+  },
+  {
+    "record_id": "RAW-WILTING-0369",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0369.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0369.txt",
+    "image_sha256": "967641ad8d62561b1b76e2fe396d7540bc33eaff61f8ce5bb52aed5f8c847ec3",
+    "label_sha256": "8d237d234aff8932d64a82c5ea2334596a4fff69047a6feaf1acd4151329f908",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1897740
+  },
+  {
+    "record_id": "RAW-WILTING-0370",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0370.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0370.txt",
+    "image_sha256": "a365c512a678dd0bcc83317451f8654e785bd0a515c198b8020c296f8f9d0bc9",
+    "label_sha256": "72a6c81c21b5cf05e5aa7fac51acb3260dd1bc3e89af66054189e80271922621",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1910534
+  },
+  {
+    "record_id": "RAW-WILTING-0371",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0371.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0371.txt",
+    "image_sha256": "b9fc2f13175b010ecb41a16d4fa9c43bd1f8274358409f5315744ee68abafed4",
+    "label_sha256": "0aaae27dfd5a10b23496cf709810239958edd4906231df075d98a52153da981c",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1867633
+  },
+  {
+    "record_id": "RAW-WILTING-0372",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0372.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0372.txt",
+    "image_sha256": "2b36906508e2b359bbbf9e5d687fdf123c7ccd39669f1cd8b675d233dc5d9a89",
+    "label_sha256": "ebfea2231998632fc1609086196aaac60f36aad525f2a55a0cd496ba918477f7",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1842308
+  },
+  {
+    "record_id": "RAW-WILTING-0373",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0373.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0373.txt",
+    "image_sha256": "c175142c1081f1990751d8586b9a29770cdd260990c9ebacde5e49a478695f19",
+    "label_sha256": "86c3e4abb37e7a0ffd49998c07b5c651000f2f204a868a8bfeaee5fa93ef7685",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1851914
+  },
+  {
+    "record_id": "RAW-WILTING-0374",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0374.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0374.txt",
+    "image_sha256": "3458098a1f02ed09cb2bae21b8136d5de482af37f8cd4a9bcf203bb730b56e3c",
+    "label_sha256": "fbf0bfd21808d91de21225f820268165453a188820f85dbe2574b6f41e0f4614",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1872063
+  },
+  {
+    "record_id": "RAW-WILTING-0375",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0375.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0375.txt",
+    "image_sha256": "2bb37ea413459feb2994ee51a3914b935699c5f1e29f7099c445bc2c41d23621",
+    "label_sha256": "3c6190c1d3da8706aad4ed76c58ab440f9f3bd01f43589fe40b9c7ce8350eeea",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1883356
+  },
+  {
+    "record_id": "RAW-WILTING-0376",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0376.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0376.txt",
+    "image_sha256": "a3d30cf47ac03a865c5460e2da915579daf75b665942027eb4c213e5f7a93c92",
+    "label_sha256": "cd1270007d0c9c3faf1968e069b84fa644a6c269abe1a57418c7a1d8e591d7c6",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1952273
+  },
+  {
+    "record_id": "RAW-WILTING-0377",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0377.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0377.txt",
+    "image_sha256": "1a83b54bb6abbac2d69bed75488e76b43336c596fae171a9c32dc0c35fb6f90e",
+    "label_sha256": "b4b301642e616f999a21051565cd4f847ae51f5cb7a3ac8a22ad1cfe928e749d",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1894931
+  },
+  {
+    "record_id": "RAW-WILTING-0378",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0378.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0378.txt",
+    "image_sha256": "1fa6ca845bd5bf87be173472cef7d29364910335905347397c86b6c83f3c6ff5",
+    "label_sha256": "f538953fdf1fb39aaca18c575d3880f47bbd3961ca7fa9c40d95b2bd350b2473",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1895254
+  },
+  {
+    "record_id": "RAW-WILTING-0379",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0379.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0379.txt",
+    "image_sha256": "a10b7501e70161967d08218fc3dad5537d329494279cc4f1f02b84ac189c1847",
+    "label_sha256": "d7bdbed91b5c9e9936facf179cf2d0775f16675ea8e6fb39cebddd33b1ff8e8d",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1929861
+  },
+  {
+    "record_id": "RAW-WILTING-0380",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-WILTING-0380.jpg",
+    "label_relative_path": "labels/test/RAW-WILTING-0380.txt",
+    "image_sha256": "fea3ef463edfc112b7760291ac4ed730663aa9f40febbd96bda4fd55c5fbbb44",
+    "label_sha256": "9f319143a1194c73a44d948332cdc3f1320f316a51e19b132eb61959cc8f8fad",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      2
+    ],
+    "boxes": 1,
+    "bytes": 1833674
+  },
+  {
+    "record_id": "RAW-YELLOWING-0426",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0426.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0426.txt",
+    "image_sha256": "ff2db4254fb7e728eb9dfaa5284a9c0b9cca32508e7a37069235a462cb17b65e",
+    "label_sha256": "43d14337538119418230cc2bffc53b393dcfbf4e4d689796daf1c1819fe28304",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2150441
+  },
+  {
+    "record_id": "RAW-YELLOWING-0427",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0427.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0427.txt",
+    "image_sha256": "5120ec4d18f8c082da56a01617577d8673dfff2cc8bf5bd19033c03c44e164c9",
+    "label_sha256": "43e3444f504dcd7e7f7911d576a6887e656fa4f0e5e86fc59b382a11840c3a4d",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2151541
+  },
+  {
+    "record_id": "RAW-YELLOWING-0428",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0428.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0428.txt",
+    "image_sha256": "4568f6f45744aef015b77ea3ed1854ea60858edd36d061b4b0461017c8471878",
+    "label_sha256": "65a51fdf6675f7ec4a9a850eeb1aac888b3c10b69f239f1e47a0225b017df6ac",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2157014
+  },
+  {
+    "record_id": "RAW-YELLOWING-0429",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0429.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0429.txt",
+    "image_sha256": "03020a9cdfef15385df8883898a97f065ec6dc05a1566aef64242a16919881da",
+    "label_sha256": "e04d1e6b8783afee7066fad25733968a16c6b302e2134eeb97f14e4be480c6a0",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2238173
+  },
+  {
+    "record_id": "RAW-YELLOWING-0430",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0430.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0430.txt",
+    "image_sha256": "5971cd2a00ec9bd71f3d076e50cb0b5219fc2f1ff3690d4e4320b979ae93edcb",
+    "label_sha256": "9cfb0f082a2d05e3e32f5e864d6fa5e5419cd78c719c2e63f1e5c34ecb2859f7",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2239664
+  },
+  {
+    "record_id": "RAW-YELLOWING-0503",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0503.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0503.txt",
+    "image_sha256": "eb19ab5e9ec0396e191f05397d031fe3709a304c67759decb66681bc2e8d26c6",
+    "label_sha256": "eccc6c61bd62b0fdffbbfbc7a83341b6448188c4a59bdc5641aa92faf1834d01",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2146435
+  },
+  {
+    "record_id": "RAW-YELLOWING-0504",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0504.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0504.txt",
+    "image_sha256": "153cf06e58c3906b7e3f6c7c4d836f76920134b6c56fe8c3cf4c5a0f2d056ad7",
+    "label_sha256": "2e9956df7ee8e34270f0ca69d8ab4740bc7b97c2f01ff96a7201967b5a83695b",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2176157
+  },
+  {
+    "record_id": "RAW-YELLOWING-0505",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0505.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0505.txt",
+    "image_sha256": "a1c839502c56888a9ccb30625f34fb39eda51b8d63ce2d4181c7c98a4f9584bf",
+    "label_sha256": "e82b8b39799fda5051b0b2515f1c547e79ebbace4a20300bd53c3899ebcbf047",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2215824
+  },
+  {
+    "record_id": "RAW-YELLOWING-0506",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0506.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0506.txt",
+    "image_sha256": "006a6f96b2a05c0c50dcd8c3208d286a124a17cc3ce132c65910eea08e3c46d3",
+    "label_sha256": "33c69a10893b93973bd9e53d55ae8d886c9aa998fc64ec37f0e03afd4885ca63",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2227164
+  },
+  {
+    "record_id": "RAW-YELLOWING-0507",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0507.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0507.txt",
+    "image_sha256": "e95f93fe2318624b11449d6d17fda4dddc986eb89addb73428b173d261406857",
+    "label_sha256": "b4c7cb9213f22fd2b167a52060ce2322b7028f3602ca201c7a5f82864959192b",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2455920
+  },
+  {
+    "record_id": "RAW-YELLOWING-0509",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0509.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0509.txt",
+    "image_sha256": "f7c19a0d47f69cfa3399e61ce0ac1f795adf789bc3258f412168e1d1331d0e2f",
+    "label_sha256": "0a86ee5890d04252a71446aba0366757127455b493234b7f5fbe3e1659e5fadf",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2457426
+  },
+  {
+    "record_id": "RAW-YELLOWING-0510",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0510.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0510.txt",
+    "image_sha256": "a17b2c02c63aeed290a33e5d4ae55718c5d7c8f9c46b58d8930754c0efa4de10",
+    "label_sha256": "0a86ee5890d04252a71446aba0366757127455b493234b7f5fbe3e1659e5fadf",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2452648
+  },
+  {
+    "record_id": "RAW-YELLOWING-0511",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0511.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0511.txt",
+    "image_sha256": "898e39393bc954375c4a19903a113858c90020b7a60933bace3179d8ab3496b0",
+    "label_sha256": "d5dc70d44ebceac5a358011bc97504ccc02a334946c0c2a71c8816ef323d91c5",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2464539
+  },
+  {
+    "record_id": "RAW-YELLOWING-0512",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0512.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0512.txt",
+    "image_sha256": "f0cbe8def5cab5145528b3f03e07a44eb9bc5f112f9a421cb02e68e8f979a905",
+    "label_sha256": "d499a2886f9e011e764c1d879f36a967baf456f49abe260b5e2747c15c21c164",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2505871
+  },
+  {
+    "record_id": "RAW-YELLOWING-0513",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0513.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0513.txt",
+    "image_sha256": "2902ca0eda267619b2f6813a8e8c61e5ab8d1685b640c394115466e7baa3cd3d",
+    "label_sha256": "6dfa19415aa042e4e3831d30c7c7a4bb1ee41867a9077908a96f47e013973c70",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2517550
+  },
+  {
+    "record_id": "RAW-YELLOWING-0514",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0514.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0514.txt",
+    "image_sha256": "1353b4e0f677c67e8ffc13e0e094cc35c2acec01568259543e875bdb32586847",
+    "label_sha256": "343f134b36b0e441ed2ba029fb44003942497788723b1d5c748da98f64334d89",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2513402
+  },
+  {
+    "record_id": "RAW-YELLOWING-0515",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0515.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0515.txt",
+    "image_sha256": "9fa8244d22019b9b49b76e0ed49f849c66b2155884792ae21d3665f8377429c5",
+    "label_sha256": "e61667261d63afe3ef4e878d6cee440f02cf5dec3eff09a05a064932b448edcf",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2496194
+  },
+  {
+    "record_id": "RAW-YELLOWING-0516",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0516.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0516.txt",
+    "image_sha256": "274b95599c5e60e544f0ed22b2811075bea0258a17080d8bf9b198b5f9f2615d",
+    "label_sha256": "c7a359a3b368fe8492823e60ad34e10a84b1df11a41bfb38553c19e5608ff385",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2522696
+  },
+  {
+    "record_id": "RAW-YELLOWING-0517",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0517.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0517.txt",
+    "image_sha256": "9dcebcf45fc69d912eda80d8ee38d5bb82673602c95b87f9efeebd2f478c7704",
+    "label_sha256": "aa8e89d18970a102b131f2dc7dbc5a1308ee709c4f78e1f883b2bbdbbdadff1f",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2526061
+  },
+  {
+    "record_id": "RAW-YELLOWING-0518",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0518.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0518.txt",
+    "image_sha256": "832ea435b13329149a0afaf2ee1c5ad417943ae308e69e8c4e3806b65f55e58f",
+    "label_sha256": "ddecd5b330201dc1e3208e9d342902d054ebf5948a64e1c19c06d2ed4aed8a6c",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2514974
+  },
+  {
+    "record_id": "RAW-YELLOWING-0519",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0519.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0519.txt",
+    "image_sha256": "7cc3fa8aa2e527fe1170712ad79ab9e571511939968cd9bafe5337d2420cf02b",
+    "label_sha256": "e486a4ddb9e4e85ae707c0e96dff4e649b78c1dc15b0aad36b302667cc8542d3",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2524101
+  },
+  {
+    "record_id": "RAW-YELLOWING-0520",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0520.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0520.txt",
+    "image_sha256": "59042c6ed6ff39f92aa009f60d4b13a365eb12e7d455833c1ceff7e45d3f36ee",
+    "label_sha256": "ec42c092e51578a563bd0425871b9e12c978689f9d17e91dd8f994f44f98e212",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2480242
+  },
+  {
+    "record_id": "RAW-YELLOWING-0521",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0521.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0521.txt",
+    "image_sha256": "8848b7e7b8c0a11be988b7af17e546d8d5cb5b4b7404697e7f47813534673386",
+    "label_sha256": "55af100359241a4f8141faea657f80bdcfb316ab95692d1dcab51813fc2582a7",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2500903
+  },
+  {
+    "record_id": "RAW-YELLOWING-0522",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0522.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0522.txt",
+    "image_sha256": "7e723079c13c4e2ee2893ce43868e98370bd1c2ce6c7b432c92fd2a082f7cc3c",
+    "label_sha256": "bed5dfb1d8824bd36cdf049af2f25879e437a364b15b35616bc2ccdd2f472d6b",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2520972
+  },
+  {
+    "record_id": "RAW-YELLOWING-0523",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0523.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0523.txt",
+    "image_sha256": "1b552a41e089b905493b65b513fda07a6a477366671527bebf393ee632de907d",
+    "label_sha256": "2e9956df7ee8e34270f0ca69d8ab4740bc7b97c2f01ff96a7201967b5a83695b",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2558122
+  },
+  {
+    "record_id": "RAW-YELLOWING-0524",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0524.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0524.txt",
+    "image_sha256": "308096247816c93fb63f35e3018f3b08f334ee6b30bd7cc3ccec56c74557b18b",
+    "label_sha256": "85920a0d9e9d4c03f4d70a12188cd5b6b271cdb16947a05aefc74dd415016531",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2555904
+  },
+  {
+    "record_id": "RAW-YELLOWING-0525",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0525.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0525.txt",
+    "image_sha256": "446aa9f1d88b83b452128631be2d2ed9cc6e695ed02c959ca880d5a81303393a",
+    "label_sha256": "fc289d80993bd625eaeb5bffaecbaf5804fe44feb959e7b8da7cfc1714942d57",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2548873
+  },
+  {
+    "record_id": "RAW-YELLOWING-0526",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0526.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0526.txt",
+    "image_sha256": "1642ed78d0138a2315f2daa44d7758a224063297b72d538329642205d87ff10b",
+    "label_sha256": "d33ecdab319a014c34fb19c88f0869d20d3f981459fdae07460288b02562d126",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2558920
+  },
+  {
+    "record_id": "RAW-YELLOWING-0527",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0527.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0527.txt",
+    "image_sha256": "db5a42d647a7feac77e893dae48145fdfc43b3b5d67b5d85df535e9411fc5026",
+    "label_sha256": "bed5dfb1d8824bd36cdf049af2f25879e437a364b15b35616bc2ccdd2f472d6b",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2534268
+  },
+  {
+    "record_id": "RAW-YELLOWING-0528",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0528.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0528.txt",
+    "image_sha256": "f481c4f940fe5051d6e2aa7d57e5477d7246b1120dedbb09558ac95f0349c1af",
+    "label_sha256": "1ca0d7c7291493da2042cbb11ca8ba5315ee21c7f00609c50175bf423327fdcd",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2561333
+  },
+  {
+    "record_id": "RAW-YELLOWING-0529",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0529.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0529.txt",
+    "image_sha256": "0528586d17df00056e91e6da39f332b6f47ed88fe14cf0c24efeb06dbaef1657",
+    "label_sha256": "6aa7c8527bfd860a0a01d7d3e7543b1a20f77db8e95f3969acab83a6209d609d",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2564544
+  },
+  {
+    "record_id": "RAW-YELLOWING-0530",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0530.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0530.txt",
+    "image_sha256": "8c08612ca7dcb80dddc7f6631ee03270384836438e6bb61ddf46b05c6b7e8aa4",
+    "label_sha256": "1fc020ac07c876a6d30bad800af125c115a6a5608351e431f591b658ade0ad80",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2538457
+  },
+  {
+    "record_id": "RAW-YELLOWING-0531",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0531.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0531.txt",
+    "image_sha256": "5c3d4092a80331d01256ad00108495c29ee11ce7997dbedea74a174d7bec6219",
+    "label_sha256": "0a77cd90447e13342600605e7bd7bfb9b13ea77e6a9ef65e13f7610cf5a9c1c9",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2532593
+  },
+  {
+    "record_id": "RAW-YELLOWING-0532",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0532.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0532.txt",
+    "image_sha256": "c7a9ab29a93ab5a6783fb3dd1d9a5c24b66932e4a81097535f247dce36945944",
+    "label_sha256": "33c69a10893b93973bd9e53d55ae8d886c9aa998fc64ec37f0e03afd4885ca63",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2504976
+  },
+  {
+    "record_id": "RAW-YELLOWING-0533",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0533.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0533.txt",
+    "image_sha256": "65ecd432b6eb83b1370d0d4222e0f74987f22fca1fa69174417b063032e8270a",
+    "label_sha256": "df9a3311672435901c96e50073f8e18fa1a5e0b1958c7897e51c64f49da339af",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2511739
+  },
+  {
+    "record_id": "RAW-YELLOWING-0534",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0534.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0534.txt",
+    "image_sha256": "b93ba3dae8a35f46f19988a22774b4793efbf135c3582ebc61de5661b50c670e",
+    "label_sha256": "e82b8b39799fda5051b0b2515f1c547e79ebbace4a20300bd53c3899ebcbf047",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2527211
+  },
+  {
+    "record_id": "RAW-YELLOWING-0535",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0535.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0535.txt",
+    "image_sha256": "48f2c6515a59ae92ff7ec3aef881aa5948d9e0cb202ee1f0657b14c3a1975530",
+    "label_sha256": "95d20988207cf929607f42f084a4c167b3d62b73a8b7ffaab588222357a6f3c2",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2543300
+  },
+  {
+    "record_id": "RAW-YELLOWING-0536",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0536.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0536.txt",
+    "image_sha256": "37cb5f9774a0a595a68f164d393d8c4690a6447bc0e5fc61fc2007afbdce00d2",
+    "label_sha256": "bed5dfb1d8824bd36cdf049af2f25879e437a364b15b35616bc2ccdd2f472d6b",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2553907
+  },
+  {
+    "record_id": "RAW-YELLOWING-0537",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0537.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0537.txt",
+    "image_sha256": "e7c723d2849338af9769c133b5d530c9ff7330750fb1d8a52066ab29bebe5638",
+    "label_sha256": "1b51cac6da3fa491dfe07c6bc4bce0111d280a2e0d1ef1106abdde9b988f283c",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2551773
+  },
+  {
+    "record_id": "RAW-YELLOWING-0538",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0538.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0538.txt",
+    "image_sha256": "4367401edcad9f66a7e3564a8ca57c13cd992a8cead33ff7793cfa70e9115dbf",
+    "label_sha256": "5acb7c4f1eb93f0f1faa1ffabf5b89ecec2071716dff2081a2fa810beb22441b",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2536026
+  },
+  {
+    "record_id": "RAW-YELLOWING-0539",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0539.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0539.txt",
+    "image_sha256": "cbddce25bec811e9abc9af0895b6fccebc059d8d3b53eff8208be89fc96e8cef",
+    "label_sha256": "df9a3311672435901c96e50073f8e18fa1a5e0b1958c7897e51c64f49da339af",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2502893
+  },
+  {
+    "record_id": "RAW-YELLOWING-0540",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0540.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0540.txt",
+    "image_sha256": "c481d0d367e7b6a5c851fcdc2f7793ca05508a04e6167327a5d874e28218cb13",
+    "label_sha256": "b05924a965c9e1cf3b316cada791ffed5a21df372cdb393ad23907da2f34914f",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2524907
+  },
+  {
+    "record_id": "RAW-YELLOWING-0541",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0541.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0541.txt",
+    "image_sha256": "026c147e1e93ff5531f13538211921d1d751f0bd0a6ff1c2dfa0166343ace0d5",
+    "label_sha256": "e463645bc1aef1f3d2e65f862f4ea10f576711704b14a0c14fa221f275b7aa4a",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2520117
+  },
+  {
+    "record_id": "RAW-YELLOWING-0542",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0542.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0542.txt",
+    "image_sha256": "ebaddf810b234d99a887c414f6e9262701aa3c6ca3b7a556cb3c64045389bd1b",
+    "label_sha256": "07e273d32f760d46d0530990b8bcd4f1d759626fd7fa63ae268e199833d6fbfd",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2511921
+  },
+  {
+    "record_id": "RAW-YELLOWING-0543",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0543.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0543.txt",
+    "image_sha256": "33aca07712a6cf4604332a289795ab4a877410b3cc32213380fe71ce927afeda",
+    "label_sha256": "0a06c3e6282a7183b82b4c66aba3225e1ee60908bd1566547e3c0d671af398f1",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2524533
+  },
+  {
+    "record_id": "RAW-YELLOWING-0544",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0544.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0544.txt",
+    "image_sha256": "7588debea51a97ab87149f5830ea030fdb2818f6d09e0f820132599b328c8228",
+    "label_sha256": "6890e8fe3f8eae97df5980a66fa2ac2f3e0e379f5967b54c663bb03f882059ec",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2553324
+  },
+  {
+    "record_id": "RAW-YELLOWING-0545",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0545.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0545.txt",
+    "image_sha256": "acad1807dc6ada353efc3ed6ac200de8cb5576d007c32b5a9a8e2be7ec142dba",
+    "label_sha256": "88da217858ba69a89cc7b8c2964e01d36ccadf9b2ba250a7635ac35053792e69",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2559529
+  },
+  {
+    "record_id": "RAW-YELLOWING-0546",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0546.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0546.txt",
+    "image_sha256": "0f983c2f8e233d34efa574c77ad0ef2076a6f90ec53c2f669d27679fa6d18ae7",
+    "label_sha256": "5481f968ffdccc179881a0cf941f2addf72160377f4889441827a6d9014bc0e3",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2564584
+  },
+  {
+    "record_id": "RAW-YELLOWING-0547",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0547.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0547.txt",
+    "image_sha256": "0a600573db123d2b651ea817291ecc70a9be184c49a5101adfb6815d353112a7",
+    "label_sha256": "810fb811f365942e9b87b633fe6e4aac11c38dc6433a9c91ef57917ac6ec23f0",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2576999
+  },
+  {
+    "record_id": "RAW-YELLOWING-0548",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0548.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0548.txt",
+    "image_sha256": "76f3839886cb723c999aca86f2ef17e0139bad961a8bb06ed99a26f2f89ca70e",
+    "label_sha256": "c22e43798cc75388268eaeadf0cb29e6a7be86b29ecdfa99dcd1ef79a46c5b26",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2580657
+  },
+  {
+    "record_id": "RAW-YELLOWING-0549",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0549.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0549.txt",
+    "image_sha256": "325b8964c4c40d2490521be996d7089d36683d175f7615185227b6227edf1ae5",
+    "label_sha256": "8749ecc7fd318584f72200154dc39455333a37aa0bccc5c58fb4f6d541b0ae89",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2594722
+  },
+  {
+    "record_id": "RAW-YELLOWING-0550",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0550.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0550.txt",
+    "image_sha256": "e40704d251915f7f4213927187e5736b1568f0182a6ec25a14e121ca0cc3534a",
+    "label_sha256": "98b6bbf99e0ea947325f4fe0ed789bd66749d63d1ad186e066b8d8c956c95711",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2597322
+  },
+  {
+    "record_id": "RAW-YELLOWING-0551",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0551.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0551.txt",
+    "image_sha256": "7e05a3739f524b388d799aa63b611892a840db6ac9000292fd500a2456bddaab",
+    "label_sha256": "ada7df2d49590b7e72599c6bfc5e119b17fe3ca9e69b61a9f5faf7bd1c52adae",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2596364
+  },
+  {
+    "record_id": "RAW-YELLOWING-0552",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0552.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0552.txt",
+    "image_sha256": "23c30d257a3086eef8804530f31f18f00f583f5f0a673f9fed5a2b0f1c0f0517",
+    "label_sha256": "69f31b4f31abe7c13d620f2f7e9674547b41c6b73068f4eeab5533cba79c09e2",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2592313
+  },
+  {
+    "record_id": "RAW-YELLOWING-0553",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0553.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0553.txt",
+    "image_sha256": "94166f90abaf3e131cd50522ea17b7b7c9d5bd6c5b27b5d0eab77b72dd24c99a",
+    "label_sha256": "b92e268b47f23d51c5314453be9adbafacb144e38d445bb1c2750da2cc5dca66",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2585685
+  },
+  {
+    "record_id": "RAW-YELLOWING-0554",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0554.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0554.txt",
+    "image_sha256": "68b57cd99a279b26d4f715f2d37973acb5c44ef1e74edf9f6c1ef1bbb600515a",
+    "label_sha256": "e6cb54a39f860449ab126e94ccad678368cdf212643e27cb355b9eb5db156060",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2594476
+  },
+  {
+    "record_id": "RAW-YELLOWING-0555",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0555.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0555.txt",
+    "image_sha256": "4d641ac79c52ea30039255eb255e6f529d53e40d05638b4244ec20d0a4366df5",
+    "label_sha256": "35c4b72ff3fd36818b685baf28ad01016e122f1f0695fd21c478fbe9abd251e9",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2579390
+  },
+  {
+    "record_id": "RAW-YELLOWING-0556",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0556.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0556.txt",
+    "image_sha256": "977737d1158949be79e4d0caeba6769280a6b020420c912512e73c6b8133451f",
+    "label_sha256": "d755e1f5838c5312e5364fd2f1d6878281b3d722dfc2e991797fa6e9bcb72471",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2569110
+  },
+  {
+    "record_id": "RAW-YELLOWING-0557",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0557.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0557.txt",
+    "image_sha256": "f9f53336f1fe1252716c93da554814ba3af3a1fd639249b15d49c99b709a5ec4",
+    "label_sha256": "ea99fe06a0353f4cff143b1f43ffbab2b57b502e4af670489daba05311fda6b6",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2559832
+  },
+  {
+    "record_id": "RAW-YELLOWING-0558",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0558.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0558.txt",
+    "image_sha256": "9883a50040e0142e83d276a76d79be87ab0bafa4269da91fbbcfe6ee1d495d0a",
+    "label_sha256": "49d94f94e5520d305cf049ea51f3d5fbf22231b0af5b84793fcdbabddb4ef071",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2559812
+  },
+  {
+    "record_id": "RAW-YELLOWING-0559",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0559.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0559.txt",
+    "image_sha256": "85293d1b430f18311d43fc6f9fb5bedc973f6045d31547a4a85726d518a9b72d",
+    "label_sha256": "3c4fa048143cecd9f5ba353c8d3249022d4f2525284585e99da294af88ab6d19",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2549882
+  },
+  {
+    "record_id": "RAW-YELLOWING-0560",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0560.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0560.txt",
+    "image_sha256": "49aea7c6633417000ca74025ecceadeb44288c98df8333abcaf4cbde4d9d8a8a",
+    "label_sha256": "b4cdceddc083ff6dcb36ac405b504a3ef4d23441e15c513cab03998ed2515693",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2528296
+  },
+  {
+    "record_id": "RAW-YELLOWING-0561",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0561.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0561.txt",
+    "image_sha256": "638700cb7382759d4d7abf272192feb0d12ccb060084be5bb2b0872be6329006",
+    "label_sha256": "b7d2a8b20d5dda71a586e8cd1b150438008ff2a72540fd46aef4f9d38ac72531",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2530855
+  },
+  {
+    "record_id": "RAW-YELLOWING-0562",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0562.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0562.txt",
+    "image_sha256": "9b8b7a49e2d0ffef62e7afd163f203b6c8f3188b08980f6157914ae4e79598bd",
+    "label_sha256": "fcb7e1c53a278c6e20a311c7fc4ed1b6ff093864424e1317b032f6c93b55a296",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2527559
+  },
+  {
+    "record_id": "RAW-YELLOWING-0563",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0563.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0563.txt",
+    "image_sha256": "e58bbea882da932a9ab2c13eb4c28045778943677ae05bfa050a5e5213e2461b",
+    "label_sha256": "76d83a88d38c45e92e75913dc5ef751f6af8602a8cdaba2b2790ff794ff67f72",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2540352
+  },
+  {
+    "record_id": "RAW-YELLOWING-0564",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0564.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0564.txt",
+    "image_sha256": "227d2d9146316cfa48d6c70f7e9713eaff5dffe9527cb6f92db38253a52ead33",
+    "label_sha256": "c50cb539c5e5233be1f85b105b19c407869feb0c3b24edf2a488c5b4d54d0f41",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2555455
+  },
+  {
+    "record_id": "RAW-YELLOWING-0565",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0565.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0565.txt",
+    "image_sha256": "472844dfc2492d07cf40ad496fac3a86804c85139bd248d0188b031a3f69b512",
+    "label_sha256": "28877f11786c2c757764d8b6c33c6b6c2b379897b4dc0ae749250e9439495c26",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2545515
+  },
+  {
+    "record_id": "RAW-YELLOWING-0566",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0566.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0566.txt",
+    "image_sha256": "715f9cd82104e48f9b59d250d8972200d43c13f8d700751567de81bbc12fe850",
+    "label_sha256": "4ab37c20829b9911b2b634812662a639d98fedab17e77029e52e138f660676a4",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2549380
+  },
+  {
+    "record_id": "RAW-YELLOWING-0567",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0567.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0567.txt",
+    "image_sha256": "043238d14ac39f0c6a57d52ff0d77e807ed82bdf3380f4eef05fa262b2ec67ca",
+    "label_sha256": "175a4c4ddbedcd06dfa1291be5c13244d03896c950233538b0b420035ecb4e12",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2548912
+  },
+  {
+    "record_id": "RAW-YELLOWING-0568",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0568.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0568.txt",
+    "image_sha256": "a4e689f0571d97fddcf2ffe2683bfa54c147cdd50dc7e150517e61038ec85d68",
+    "label_sha256": "5bd745f23c8a0bb138f68b246d8c40a54424ca055bd0600e099de759a53751f7",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2540628
+  },
+  {
+    "record_id": "RAW-YELLOWING-0569",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0569.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0569.txt",
+    "image_sha256": "2216b460fb536fe5ab126cb75f049611e906666f42300535189f44c41b652e94",
+    "label_sha256": "4dfcb74db9b7aa316a207a7bd5d506fff32c641de1a9eadb7728cdb9f5688682",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2535330
+  },
+  {
+    "record_id": "RAW-YELLOWING-0570",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0570.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0570.txt",
+    "image_sha256": "55ef6994faae7b26b3e69e3a6693c8e9a98936e4d34843df1f0caa4d98e87555",
+    "label_sha256": "8eb001cbddb9348e4338a960540d528c0081d3bffb3b2d814d8fc09033a4d28f",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2535934
+  },
+  {
+    "record_id": "RAW-YELLOWING-0571",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0571.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0571.txt",
+    "image_sha256": "94493f6188aa3f6e67f3b1e785b3134d398620849ddae73a474c557123cbb17c",
+    "label_sha256": "8706b7c239ceaf32bda3bf245fb568bb270cd2db349bace971b705e8e8f6fabc",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2287335
+  },
+  {
+    "record_id": "RAW-YELLOWING-0572",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0572.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0572.txt",
+    "image_sha256": "df0219b2ae8e5ad3ad46bb75b9b24adbed390bb910d8ba4cd2055bd13cf74c2f",
+    "label_sha256": "d128352aef1d2e22350510dc86ad3f8f6261ffeffe75fff299bb9919e9902f07",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2291379
+  },
+  {
+    "record_id": "RAW-YELLOWING-0573",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0573.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0573.txt",
+    "image_sha256": "bd927094dfc4f7c60a8d88146f0478be48392b800c3b1c252d030c374ac79947",
+    "label_sha256": "e0cfcbc0248cec78893edf58909cb85210f88fbf0bfa1d2bc89c2dca9db82820",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2291865
+  },
+  {
+    "record_id": "RAW-YELLOWING-0574",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0574.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0574.txt",
+    "image_sha256": "f17599f9b4f29caacb8c366693cecf6279ba88c77d280ab846452cc635c30725",
+    "label_sha256": "2e5738b498fc02195f0edf2281ffc454eac1319ad8c85c75b0dce360efe8c375",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2291057
+  },
+  {
+    "record_id": "RAW-YELLOWING-0575",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0575.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0575.txt",
+    "image_sha256": "2f1b8e2a13dcc466d388966468a4dfdaa605355815854edf3a49f94a283a7234",
+    "label_sha256": "ab9fa68609bdd0ae24cca43853fdd22521138e3e5149dabfb5cacc6a6b0d1e7a",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2295120
+  },
+  {
+    "record_id": "RAW-YELLOWING-0576",
+    "split": "test",
+    "image_relative_path": "images/test/RAW-YELLOWING-0576.jpg",
+    "label_relative_path": "labels/test/RAW-YELLOWING-0576.txt",
+    "image_sha256": "cfc25bf098aff9ec53ed3115ac9195a1a036f6b1cf6e88e3a392a8a8acdd26cd",
+    "label_sha256": "45cd133d6afe121e279ee19b79d11b08df5b1b4f0a6180f2cbebac0f30bcf8c0",
+    "width": 4032,
+    "height": 3024,
+    "classes": [
+      1
+    ],
+    "boxes": 1,
+    "bytes": 2238148
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "leakage_group": "LAB_SHARED_EXPERIMENT_20251125_20251210",
+    "record_ids": [
+      "LAB_Cam1",
+      "LAB_Cam13",
+      "LAB_Cam17",
+      "LAB_Cam21",
+      "LAB_Cam22",
+      "LAB_Cam5"
+    ],
+    "image_count": 6,
+    "approved_boxes": 36,
+    "role": "EXPERIMENTAL_TRAIN_CANDIDATE",
+    "split": "train",
+    "conservative_groups": 1,
+    "unique_physical_plants": null,
+    "independent_acceptance_groups": 0
+  },
+  {
+    "leakage_group": "LETTUCEDEF_GREENHOUSE_COHORT_20250410_20250605",
+    "record_ids": [
+      "LETTUCEDEF_001",
+      "LETTUCEDEF_004",
+      "LETTUCEDEF_005",
+      "LETTUCEDEF_006",
+      "LETTUCEDEF_010",
+      "LETTUCEDEF_016"
+    ],
+    "image_count": 6,
+    "approved_boxes": 6,
+    "role": "EXPERIMENTAL_TRAIN_CANDIDATE",
+    "split": "train",
+    "conservative_groups": 1,
+    "unique_physical_plants": null,
+    "independent_acceptance_groups": 0
+  }
+]

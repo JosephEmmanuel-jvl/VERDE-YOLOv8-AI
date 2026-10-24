@@ -1,0 +1,38 @@
+{
+  "source_url": "https://data.mendeley.com/datasets/b82wmb5yj6/1",
+  "saved_primary_html_sha256": "d7ecdb2618b2889a6dbdb1167be26ed419331247a5a03f2ca62245caa15bb260",
+  "dataset_json_ld": {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "name": "LAB-Lettuce: A Multi-Camera RGB Time-Lapse Dataset for Lettuce Growth Monitoring",
+    "description": "LAB-Lettuce is a multi-camera RGB time-lapse dataset collected in an indoor lettuce cultivation facility from November 25 to December 10, 2025. It contains 8,519 full-resolution (2560 × 1920) images acquired by 24 fixed cameras and 30,881 corresponding fixed-window (500 × 500) crops, totaling 39,400 images across 87 camera-position trajectories.\n\nThe dataset provides longitudinal observations of lettuce development under controlled cultivation conditions, including an irrigation interruption beginning on December 8, 2025. Images are organized by camera, observation timestamp, and crop location. Accompanying metadata documents the camera layout, crop coordinates, and correspondence between full images and individual crop sequences.\n\nLAB-Lettuce supports research on longitudinal plant phenotyping, visual representation learning, developmental trajectory analysis, and cross-view consistency in plant growth monitoring.",
+    "url": "http://doi.org/10.17632/b82wmb5yj6.1",
+    "sameAs": "https://data.mendeley.com/datasets/b82wmb5yj6/1",
+    "version": "1",
+    "keywords": "Plant Growth, Lettuce",
+    "publisher": null,
+    "datePublished": "2026-10-13T18:02:36.398Z",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://data.mendeley.com/datasets/b82wmb5yj6/1"
+    },
+    "includedInDataCatalog": "https://data.mendeley.com",
+    "license": {
+      "@type": "CreativeWork",
+      "url": "http://creativecommons.org/licenses/by/4.0",
+      "text": "CC BY 4.0"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Haonan Zhao"
+    },
+    "citation": {
+      "@type": "CreativeWork",
+      "text": "Zhao, Haonan; Xiong, Xin; Zhao, Zixuan; Deng, Junjie; Zha, Lingyan; Niu, Qingliang; Zhang, Jingjin (2026), 'LAB-Lettuce: A Multi-Camera RGB Time-Lapse Dataset for Lettuce Growth Monitoring', Mendeley Data, v1, http://doi.org/10.17632/b82wmb5yj6.1",
+      "headline": "LAB-Lettuce: A Multi-Camera RGB Time-Lapse Dataset for Lettuce Growth Monitoring",
+      "datePublished": "2026-10-13T18:02:36.398Z",
+      "url": "https://data.mendeley.com/datasets/b82wmb5yj6/1"
+    }
+  },
+  "extraction": "Unmodified Dataset JSON-LD from saved public publisher HTML; telemetry HTML not republished"
+}

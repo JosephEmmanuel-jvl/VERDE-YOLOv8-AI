@@ -1,0 +1,24 @@
+[
+  {
+    "LEAKAGE_GROUP_ID": "LETTUCEDEF_GREENHOUSE_COHORT_20250410_20250605",
+    "condition": "Yellowing",
+    "images": 6,
+    "approved_boxes": 6,
+    "role": "TRAIN_CANDIDATE",
+    "independent_groups": 1,
+    "unique_physical_plants": null,
+    "independent_acceptance_evidence": false,
+    "training_authorized": false
+  },
+  {
+    "LEAKAGE_GROUP_ID": "LAB_SHARED_EXPERIMENT_20251125_20251210",
+    "condition": "Wilting",
+    "images": 6,
+    "approved_boxes": 36,
+    "role": "TRAIN_CANDIDATE",
+    "independent_groups": 1,
+    "unique_physical_plants": null,
+    "independent_acceptance_evidence": false,
+    "training_authorized": false
+  }
+]

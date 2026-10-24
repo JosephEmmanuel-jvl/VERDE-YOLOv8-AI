@@ -1,0 +1,4 @@
+ultralytics==8.4.174
+pillow-heif==1.1.1
+PyYAML>=6.0
+

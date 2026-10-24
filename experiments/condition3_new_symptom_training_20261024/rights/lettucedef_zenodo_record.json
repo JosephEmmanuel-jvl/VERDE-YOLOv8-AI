@@ -1,0 +1,283 @@
+{
+  "created": "2026-08-12T17:25:24.105438+00:00",
+  "modified": "2026-08-12T17:25:24.657095+00:00",
+  "id": 21907611,
+  "conceptrecid": "21898482",
+  "doi": "10.5281/zenodo.21907611",
+  "conceptdoi": "10.5281/zenodo.21898482",
+  "doi_url": "https://doi.org/10.5281/zenodo.21907611",
+  "metadata": {
+    "title": "LettuceDeF: RGB images and temporal split manifests for lettuce nutrient-restriction classification",
+    "doi": "10.5281/zenodo.21907611",
+    "publication_date": "2026-08-12",
+    "description": "<p>LettuceDeF contains 7,297 RGB JPEG images of hydroponic lettuce acquired during one greenhouse crop cycle from 10 April to 5 June 2025. The dataset spans four commercial cultivars (Blanes RZ, Grazion RZ, Patrona RZ, and Toscana RZ) and four assigned nutritional treatments: full nutrition (FN), nitrogen restriction, phosphorus restriction, and potassium restriction.</p><p>The record provides the image archive, per-image acquisition metadata, SHA-256 checksums, and two frozen 70/10/20 split manifests over the same image pool: a class-stratified random protocol and a class-wise chronological protocol. It supports reproducible four-class image classification and forward-in-time benchmarking within the recorded greenhouse cohort. Labels identify assigned treatments rather than per-image chemical diagnoses.</p><p>If you use LettuceDeF, please cite both this dataset record and the companion paper. Until the journal version of record is available, the linked SSRN preprint can be cited using DOI 10.2139/ssrn.6876395. The record will be updated with the journal DOI after publication.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Hern\u00e1ndez-Sandoval, Misael",
+        "affiliation": "Centro de Investigaciones en \u00d3ptica A.C., 37150, Le\u00f3n, Guanajuato, M\u00e9xico",
+        "orcid": "0000-0001-6229-5295"
+      },
+      {
+        "name": "Salazar-Colores, Sebasti\u00e1n",
+        "affiliation": "Centro de Investigaciones en \u00d3ptica A.C., 37150, Le\u00f3n, Guanajuato, M\u00e9xico"
+      },
+      {
+        "name": "Ram\u00edrez-Pedraza, Alfonso",
+        "affiliation": "Centro de Investigaci\u00f3n en Ciencia Aplicada y Tecnolog\u00eda Avanzada, Instituto Polit\u00e9cnico Nacional, 76090, Quer\u00e9taro, M\u00e9xico",
+        "orcid": "0000-0003-0366-6249"
+      },
+      {
+        "name": "Mart\u00ednez-Ponce, Geminiano",
+        "affiliation": "Centro de Investigaciones en \u00d3ptica A.C., 37150, Le\u00f3n, Guanajuato, M\u00e9xico",
+        "orcid": "0000-0002-2097-4756"
+      },
+      {
+        "name": "Rodr\u00edguez-Res\u00e9ndiz, Juvenal",
+        "affiliation": "Facultad de Ingenier\u00eda, Universidad Aut\u00f3noma de Quer\u00e9taro, 76010 Quer\u00e9taro, M\u00e9xico",
+        "orcid": "0000-0001-8598-5600"
+      },
+      {
+        "name": "Valent\u00edn-Coronado, Luis",
+        "affiliation": "Centro de Investigaciones en \u00d3ptica A.C., 37150, Le\u00f3n, Guanajuato, M\u00e9xico",
+        "orcid": "0000-0002-9874-4088"
+      }
+    ],
+    "keywords": [
+      "LettuceDeF",
+      "Lactuca sativa",
+      "lettuce nutrient restriction",
+      "hydroponics",
+      "RGB images",
+      "chronological split",
+      "temporal robustness",
+      "computer vision",
+      "image classification",
+      "NPK"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.2139/ssrn.6876395",
+        "relation": "isDocumentedBy",
+        "resource_type": "publication-preprint",
+        "scheme": "doi"
+      }
+    ],
+    "dates": [
+      {
+        "type": "collected",
+        "description": "RGB image-acquisition interval for the single greenhouse crop cycle.",
+        "start": "2025-04-10",
+        "end": "2025-06-05"
+      }
+    ],
+    "version": "1.0.1",
+    "references": [
+      "Hern\u00e1ndez-Sandoval, M.; Salazar-Colores, S.; Ram\u00edrez-Pedraza, A.; Mart\u00ednez-Ponce, G.; Rodr\u00edguez-Res\u00e9ndiz, J.; Valent\u00edn-Coronado, L. (2026). Beyond random splits: Temporal robustness of vision foundation models for lettuce nutritional diagnosis. SSRN. https://doi.org/10.2139/ssrn.6876395"
+    ],
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "21898482"
+          }
+        }
+      ]
+    },
+    "notes": "Preferred citation: cite both this Zenodo dataset record and the companion paper. Upon journal publication, the related-identifier metadata and preferred paper citation will be updated to the version of record."
+  },
+  "title": "LettuceDeF: RGB images and temporal split manifests for lettuce nutrient-restriction classification",
+  "links": {
+    "self": "https://zenodo.org/api/records/21907611",
+    "self_html": "https://zenodo.org/records/21907611",
+    "preview_html": "https://zenodo.org/records/21907611?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.21907611",
+    "self_doi": "https://doi.org/10.5281/zenodo.21907611",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21907611",
+    "reserve_doi": "https://zenodo.org/api/records/21907611/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/21898482",
+    "parent_html": "https://zenodo.org/records/21898482",
+    "parent_doi": "https://doi.org/10.5281/zenodo.21898482",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21898482",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21907611/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21907611/sequence/default",
+    "files": "https://zenodo.org/api/records/21907611/files",
+    "media_files": "https://zenodo.org/api/records/21907611/media-files",
+    "latest": "https://zenodo.org/api/records/21907611/versions/latest",
+    "latest_html": "https://zenodo.org/records/21907611/latest",
+    "versions": "https://zenodo.org/api/records/21907611/versions",
+    "draft": "https://zenodo.org/api/records/21907611/draft",
+    "access_links": "https://zenodo.org/api/records/21907611/access/links",
+    "access_grants": "https://zenodo.org/api/records/21907611/access/grants",
+    "access_users": "https://zenodo.org/api/records/21907611/access/users",
+    "access_request": "https://zenodo.org/api/records/21907611/access/request",
+    "access": "https://zenodo.org/api/records/21907611/access",
+    "communities": "https://zenodo.org/api/records/21907611/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/21907611/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/21907611/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/21907611/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/21907611/quota-increase",
+    "requests": "https://zenodo.org/api/records/21907611/requests"
+  },
+  "updated": "2026-08-12T17:25:24.657095+00:00",
+  "recid": "21907611",
+  "revision": 3,
+  "files": [
+    {
+      "id": "86ba804f-65b5-4777-9522-1ce623919f37",
+      "key": "README.md",
+      "size": 3589,
+      "checksum": "md5:30b4ab89ae3de98bc3564db635767607",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/README.md/content"
+      }
+    },
+    {
+      "id": "86c32d8b-11b1-43f0-9579-679ac59c55fb",
+      "key": "LettuceDeF_images_v1.0.0.zip",
+      "size": 1162057475,
+      "checksum": "md5:1138b626e67581e90378a70fffbd9c49",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/LettuceDeF_images_v1.0.0.zip/content"
+      }
+    },
+    {
+      "id": "7baf77bf-f6fd-4576-a0d6-828a5a1b637a",
+      "key": "checksums_images.sha256",
+      "size": 820538,
+      "checksum": "md5:f4d2f159f0c6a2a565e140a3e86f05dc",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/checksums_images.sha256/content"
+      }
+    },
+    {
+      "id": "f0aa61e5-0ab0-42c5-9831-29b9ececbdc2",
+      "key": "counts_by_cultivar_treatment.csv",
+      "size": 380,
+      "checksum": "md5:327c34ffa360248e0ccdfb13190ec915",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/counts_by_cultivar_treatment.csv/content"
+      }
+    },
+    {
+      "id": "36a66fc9-4063-4fea-a76e-ad72b13b7166",
+      "key": "LICENSE_DATA.txt",
+      "size": 963,
+      "checksum": "md5:4d720f0cd3c794c791be9a6c9b34c9d2",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/LICENSE_DATA.txt/content"
+      }
+    },
+    {
+      "id": "586bb035-5264-42f9-b44b-4c4534ffd33b",
+      "key": "CITATION.cff",
+      "size": 1655,
+      "checksum": "md5:2ba066286f6b21a67a802c249e789387",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/CITATION.cff/content"
+      }
+    },
+    {
+      "id": "1d971a0f-b86a-4205-b5d1-c9a49cad61e2",
+      "key": "manifest_protocol_A.csv",
+      "size": 1056717,
+      "checksum": "md5:b22435d760e17be87b13153316493a53",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/manifest_protocol_A.csv/content"
+      }
+    },
+    {
+      "id": "4a664882-6ca8-449a-9ba0-858e82c6e2cc",
+      "key": "counts_by_cultivar_treatment_week.csv",
+      "size": 2920,
+      "checksum": "md5:4e51b6e8ffd1328bde8494236344d4e2",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/counts_by_cultivar_treatment_week.csv/content"
+      }
+    },
+    {
+      "id": "c5dc2327-5cb1-4159-b655-f69b7e0b2aea",
+      "key": "dataset_summary.json",
+      "size": 1559,
+      "checksum": "md5:672eaa643f280a82cb32c47a34561177",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/dataset_summary.json/content"
+      }
+    },
+    {
+      "id": "97832085-10a9-4b23-9fdc-5bd7eaae4db9",
+      "key": "manifest_protocol_B.csv",
+      "size": 1056717,
+      "checksum": "md5:efdd512baa2e1511bf3790a1d20b70d4",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/manifest_protocol_B.csv/content"
+      }
+    },
+    {
+      "id": "63aedc90-d749-4915-ac4e-e5d8d1d5d5ec",
+      "key": "treatment_level_tissue_analysis.csv",
+      "size": 291,
+      "checksum": "md5:f31f73611b83c3f5d14a42b0b65b2416",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/treatment_level_tissue_analysis.csv/content"
+      }
+    },
+    {
+      "id": "dc887a92-e212-4478-9a58-3e04f29d2482",
+      "key": "DATA_DICTIONARY.md",
+      "size": 2572,
+      "checksum": "md5:046a7391b1d240cbd429e9baa89f60ab",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/DATA_DICTIONARY.md/content"
+      }
+    },
+    {
+      "id": "ebc283d4-c8e7-4941-89ef-b0758b7e6e88",
+      "key": "CITATION.bib",
+      "size": 972,
+      "checksum": "md5:13acb0b83d5274821d8c2d699781ca16",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/CITATION.bib/content"
+      }
+    },
+    {
+      "id": "791a260d-778c-47b9-9807-3736f185128d",
+      "key": "SHA256SUMS",
+      "size": 1159,
+      "checksum": "md5:a08cd4a0683af93f7df0681bffb5f8ea",
+      "links": {
+        "self": "https://zenodo.org/api/records/21907611/files/SHA256SUMS/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "372393"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 65,
+    "unique_downloads": 51,
+    "views": 29,
+    "unique_views": 21,
+    "version_downloads": 48,
+    "version_unique_downloads": 34,
+    "version_unique_views": 13,
+    "version_views": 20
+  },
+  "state": "done",
+  "submitted": true
+}

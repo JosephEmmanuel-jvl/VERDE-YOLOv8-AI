@@ -1,0 +1,147 @@
+{
+  "version": "0.4.0",
+  "flags": {
+    "annotation_candidate": false,
+    "human_box_approved": true,
+    "human_class_approved": true
+  },
+  "shapes": [
+    {
+      "label": "Wilting",
+      "points": [
+        [
+          1240,
+          682
+        ],
+        [
+          2270,
+          1700
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {
+        "FRAME_CLIPPED_PLANT": false,
+        "HUMAN_BOX_APPROVED": true
+      },
+      "description": "LAB_Cam13_B1"
+    },
+    {
+      "label": "Wilting",
+      "points": [
+        [
+          310,
+          770
+        ],
+        [
+          1033,
+          1835
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {
+        "FRAME_CLIPPED_PLANT": false,
+        "HUMAN_BOX_APPROVED": true
+      },
+      "description": "LAB_Cam13_B2"
+    },
+    {
+      "label": "Wilting",
+      "points": [
+        [
+          691,
+          64
+        ],
+        [
+          1566,
+          1050
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {
+        "FRAME_CLIPPED_PLANT": false,
+        "HUMAN_BOX_APPROVED": true
+      },
+      "description": "LAB_Cam13_B3"
+    },
+    {
+      "label": "Wilting",
+      "points": [
+        [
+          347,
+          0
+        ],
+        [
+          1237,
+          340
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {
+        "FRAME_CLIPPED_PLANT": true,
+        "HUMAN_BOX_APPROVED": true
+      },
+      "description": "LAB_Cam13_B4"
+    },
+    {
+      "label": "Wilting",
+      "points": [
+        [
+          1590,
+          0
+        ],
+        [
+          2160,
+          372
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {
+        "FRAME_CLIPPED_PLANT": true,
+        "HUMAN_BOX_APPROVED": true
+      },
+      "description": "LAB_Cam13_B5"
+    },
+    {
+      "label": "Wilting",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          575,
+          1240
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {
+        "FRAME_CLIPPED_PLANT": true,
+        "HUMAN_BOX_APPROVED": true
+      },
+      "description": "LAB_Cam13_B6"
+    }
+  ],
+  "imagePath": "../../originals/wilting/LAB_Cam13.jpg",
+  "imageData": null,
+  "imageHeight": 1920,
+  "imageWidth": 2560,
+  "source_sha256": "68b9a03f8b7c57cb339949a125b2d275a50b56a0e79e1f54bca1b6178fedbd76",
+  "LEAKAGE_GROUP_ID": "LAB_SHARED_EXPERIMENT_20251125_20251210",
+  "annotation_status": "HUMAN_BOX_APPROVED",
+  "prior_codex_flags": {
+    "annotation_candidate": true,
+    "human_box_approved": false
+  },
+  "human_class_status": "HUMAN_CLASS_APPROVED",
+  "annotation_creator": "CODEX",
+  "annotation_reviewer": "USER",
+  "approval_receipt_id": "VERDE_USER_HUMAN_BOX_APPROVAL_20261024",
+  "training_authorized": false,
+  "intentionally_unboxed_ambiguity_metadata": []
+}

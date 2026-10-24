@@ -1,0 +1,33 @@
+{
+  "result": "PASS",
+  "source_manifest_sha256": "70192091facf26b5b4eb4986ac2fedbc0dc562757af181af5dbd4cb0d7ac2335",
+  "source_data_yaml_sha256": "ec2d4627c6145d7294b5559147086ef08a945b1c2587db164709b356f58ad1f2",
+  "checkpoint_sha256": "54e4d45bde7eeb960d7458e28c8d535ce68745178cad668c47ba5086101fe987",
+  "public_package_manifest_sha256": "5306229a3074d1a47226bf3a1d52b8df41134703005ceb8cd4e87c52d08c6c98",
+  "public_historical_exact_overlaps": [],
+  "historical_train_exact_test_duplicates": [],
+  "historical_val_exact_test_duplicates": [],
+  "source_image_bytes": 2498979166,
+  "public_records": 12,
+  "counts": {
+    "train": 760,
+    "val": 207,
+    "test": 200
+  },
+  "class_counts": {
+    "0": 233,
+    "1": 549,
+    "2": 385
+  },
+  "historical_box_count": 1282,
+  "training_runs": 0,
+  "repository_head": "9c410c435d2ed5e883da3e64b92167fd74ee7593",
+  "origin_main": "9c410c435d2ed5e883da3e64b92167fd74ee7593",
+  "branch": "main",
+  "source_tree_clean": true,
+  "historical_source_path_ARCHIVAL_ONLY": "C:\\Users\\ben\\Documents\\Codex\\VERDE-YOLOv8-AI\\dataset\\three_class",
+  "public_source_package_ARCHIVAL_ONLY": "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\outputs\\VERDE_HUMAN_APPROVED_SYMPTOM_ANNOTATIONS_20261024_FINAL",
+  "source_package_checksums_verified": 58,
+  "historical_source_group_identity": "UNKNOWN_NOT_PROVEN_PLANT_SOURCE_DATE_INDEPENDENT",
+  "no_old_pc_dependency": true
+}

@@ -1,0 +1,45 @@
+{
+  "status": "HANDOFF_ZIP_VALIDATED_STOPPED",
+  "package_id": "VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1",
+  "workspace": "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\outputs\\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1",
+  "zip": "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\outputs\\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1.zip",
+  "zip_bytes": 2526993056,
+  "zip_sha256": "f13c14179ee732714641e0b4b8715aebac1a8a6247ebd96662819f49f8aa1a38",
+  "checksum_manifest": "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\outputs\\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1\\SHA256SUMS.txt",
+  "checksum_manifest_sha256": "ef410f09e00a898982fda11788b6eb8c870c9dafa3ce7f93689132072d11bfdd",
+  "validation_receipt": "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\outputs\\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1_VALIDATION.json",
+  "validation_receipt_sha256": "4045aecb8ceab468d0465bedd881f5bee57877922a72b148741c6f154511e8b0",
+  "final_report": "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\outputs\\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1_FINAL_REPORT.txt",
+  "bootstrap": "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\outputs\\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1_START_HERE.ps1",
+  "first_command": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1_START_HERE.ps1 -Python python",
+  "historical_images": 1167,
+  "historical_splits": {
+    "train": 760,
+    "val": 207,
+    "test": 200
+  },
+  "new_images": 12,
+  "new_boxes": 42,
+  "new_groups": 2,
+  "historical_test_byte_preserved": true,
+  "proposed_splits": {
+    "train": 772,
+    "val": 207,
+    "test": 200
+  },
+  "training_runs": 0,
+  "model_status": "EXPERIMENTAL_CONDITION3_CANDIDATE",
+  "deployment_ready": false,
+  "data_gate": "DATA_GATE_NOT_READY",
+  "acceptance_gate": "INDEPENDENT_ACCEPTANCE_NOT_READY",
+  "independent_acceptance_groups": 0,
+  "project_owned_photographs": 0,
+  "remaining_limits": [
+    "receiving laptop verification pending",
+    "LAB unboxed partial-scene risk requires explicit decision before full-cohort build",
+    "no independent acceptance evidence",
+    "no substantive training authorized or run here"
+  ],
+  "next_action": "Transfer ZIP and sibling bootstrap/sidecar/receipts, run first_command on second GPU laptop, stop after verification.",
+  "bootstrap_sha256": "af658099ecb8a30fb2d50cd7852fff7bcbaeafae9464c8ba67497326f4a5f07f"
+}

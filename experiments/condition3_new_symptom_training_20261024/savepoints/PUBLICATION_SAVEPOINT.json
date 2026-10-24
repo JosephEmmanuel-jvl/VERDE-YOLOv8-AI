@@ -1,0 +1,19 @@
+{
+  "status": "PREPARED_FOR_REVIEW_COMMIT_PUSH",
+  "base_commit": "9c410c435d2ed5e883da3e64b92167fd74ee7593",
+  "target_branch": "experiment/condition3-new-symptom-training-20261024",
+  "experiment_path": "experiments/condition3_new_symptom_training_20261024",
+  "handoff_zip_sha256": "f13c14179ee732714641e0b4b8715aebac1a8a6247ebd96662819f49f8aa1a38",
+  "handoff_zip_offline": true,
+  "historical_images": 1167,
+  "new_yellowing_images": 6,
+  "new_wilting_scenes": 6,
+  "new_boxes": 42,
+  "new_groups": 2,
+  "independent_acceptance_groups": 0,
+  "training_runs": 0,
+  "data_gate": "DATA_GATE_NOT_READY",
+  "acceptance_gate": "INDEPENDENT_ACCEPTANCE_NOT_READY",
+  "next_action": "Validate repository subset, stage only this experiment, audit, commit and push the specified branch; never merge to main or train.",
+  "final_remote_commit_receipt": "Reported externally after push to avoid a commit containing its own SHA."
+}

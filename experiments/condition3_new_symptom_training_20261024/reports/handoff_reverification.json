@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "zip_sha256": "f13c14179ee732714641e0b4b8715aebac1a8a6247ebd96662819f49f8aa1a38",
+  "payload_checksums": 2404,
+  "zip_crc_sha_members": 2405,
+  "annotation_counts": "12 records / 42 boxes / 2 groups",
+  "training_runs": 0,
+  "reverification_mode": "package-only on publication task; publisher GPU pass retained in original transfer receipt; receiving GPU must verify separately"
+}

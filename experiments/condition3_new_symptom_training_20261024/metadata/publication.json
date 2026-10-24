@@ -1,0 +1,29 @@
+{
+  "representation": "SPARSE_REPOSITORY_DOCUMENTATION_NOT_FULL_TRANSFER_WORKSPACE",
+  "status": [
+    "EXPERIMENTAL",
+    "NOT CANONICAL",
+    "NOT DEPLOYMENT READY",
+    "DO_NOT_DEPLOY"
+  ],
+  "data_gate": "DATA_GATE_NOT_READY",
+  "acceptance_gate": "INDEPENDENT_ACCEPTANCE_NOT_READY",
+  "model_status": "EXPERIMENTAL_CONDITION3_CANDIDATE",
+  "base_commit": "9c410c435d2ed5e883da3e64b92167fd74ee7593",
+  "branch": "experiment/condition3-new-symptom-training-20261024",
+  "handoff_package_id": "VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1",
+  "handoff_manifest_sha256": "ef410f09e00a898982fda11788b6eb8c870c9dafa3ce7f93689132072d11bfdd",
+  "handoff_zip": "VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1.zip",
+  "handoff_zip_bytes": 2526993056,
+  "handoff_zip_sha256": "f13c14179ee732714641e0b4b8715aebac1a8a6247ebd96662819f49f8aa1a38",
+  "zip_uploaded": false,
+  "zip_omission_reason": "Offline convenience ZIP duplicates historical data already available in existing repository/LFS archives",
+  "ordinary_git_new_original_images": 12,
+  "new_lfs_objects": 0,
+  "historical_file_copies_omitted": 2334,
+  "checkpoint_copies_omitted": 1,
+  "training_runs": 0,
+  "independent_acceptance_groups": 0,
+  "date_of_evidence": "2026-10-24",
+  "published_preparation_utc": "2026-10-24T16:04:14.927058+00:00"
+}

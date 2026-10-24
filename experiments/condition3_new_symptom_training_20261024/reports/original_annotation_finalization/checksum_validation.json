@@ -1,0 +1,293 @@
+{
+  "result": "PASS",
+  "payload_files_reread": 57,
+  "coverage": "Every payload file; this receipt is subsequently sealed by manifest. Only SHA256SUMS.txt excludes itself.",
+  "checked_at_utc": "2026-10-24T12:58:39.232014+00:00",
+  "files": [
+    {
+      "path": "README.txt",
+      "sha256": "fbe76f8bb63008d8d9f024b2860c886e4df93bd7b1a632ac4cdc8972c3c9e3be",
+      "bytes": 5882
+    },
+    {
+      "path": "anylabeling/wilting/LAB_Cam1.json",
+      "sha256": "ac16b4be43a4c8d32767679e176a6d06b21c45b4131ca192906a666964ea53d4",
+      "bytes": 3120
+    },
+    {
+      "path": "anylabeling/wilting/LAB_Cam13.json",
+      "sha256": "b38d5c42ceffa34d47246289277812662743d4c0cf2057138058f415e483d457",
+      "bytes": 3127
+    },
+    {
+      "path": "anylabeling/wilting/LAB_Cam17.json",
+      "sha256": "99f6ed3b34742674c8ba59cadd6e63c648599f6229af5d5056a2354c589b2ca9",
+      "bytes": 3456
+    },
+    {
+      "path": "anylabeling/wilting/LAB_Cam21.json",
+      "sha256": "44983600e22a9b9bfaf744a49650d332e83a5d2457b356fb7226b00eadb94b9f",
+      "bytes": 3129
+    },
+    {
+      "path": "anylabeling/wilting/LAB_Cam22.json",
+      "sha256": "6c300a6cbc7989e449e6b984f023e33697fed8bcc4ba45be47768bf6b58a609f",
+      "bytes": 3469
+    },
+    {
+      "path": "anylabeling/wilting/LAB_Cam5.json",
+      "sha256": "73a9ecc8ef8023c4928e37db97bb36a39b913516f0a2369bacc11b521eea3299",
+      "bytes": 3476
+    },
+    {
+      "path": "anylabeling/yellowing/LETTUCEDEF_001.json",
+      "sha256": "47ef1aad791fff9157687accc0b74858b52edb93e1e73a2daedcb1a7fc37ffac",
+      "bytes": 1262
+    },
+    {
+      "path": "anylabeling/yellowing/LETTUCEDEF_004.json",
+      "sha256": "7b294feecae3aaff0ce9fd4aef5dd503368fbd018dfac7d5ae34a9f31df9b249",
+      "bytes": 1264
+    },
+    {
+      "path": "anylabeling/yellowing/LETTUCEDEF_005.json",
+      "sha256": "3b7b29c785a89f38e4897a6021a900a6890ed284c8b4078daae52a92980bc1e6",
+      "bytes": 1263
+    },
+    {
+      "path": "anylabeling/yellowing/LETTUCEDEF_006.json",
+      "sha256": "2ff00288c114889ac2c16b6836a8b973fb7487fc28e77a07f51d1090c025e71a",
+      "bytes": 1264
+    },
+    {
+      "path": "anylabeling/yellowing/LETTUCEDEF_010.json",
+      "sha256": "f8d09804d1a01147c278cd70ee77e9311a613d5acbea36352076231d95461ae8",
+      "bytes": 1262
+    },
+    {
+      "path": "anylabeling/yellowing/LETTUCEDEF_016.json",
+      "sha256": "e2064e449c98772242575e50531122587b063f0fc5ee8c631977494267556a93",
+      "bytes": 1263
+    },
+    {
+      "path": "metadata/HUMAN_APPROVAL_RECEIPT.json",
+      "sha256": "adebd2c3fe0079260a961fc2e447cef93c9bb814a0a79aad8d4a43822dfb26c9",
+      "bytes": 2059
+    },
+    {
+      "path": "metadata/HUMAN_DECISION.txt",
+      "sha256": "8f276a73a47cf4b4d4a25d283b628c8fb850b143574353b9e570759ba60f00e5",
+      "bytes": 2319
+    },
+    {
+      "path": "metadata/class_names.json",
+      "sha256": "0cc48c6b9f74893a2faf49ba4a6c8e5c597ce9f901814ca20f9ca29d94885651",
+      "bytes": 64
+    },
+    {
+      "path": "metadata/leakage_groups.json",
+      "sha256": "1418d9543a9f694f1b544e0a43fd4fe244618d3c5ee2b147eed0530e1a60c1ce",
+      "bytes": 679
+    },
+    {
+      "path": "metadata/provenance_annotation_ledger.json",
+      "sha256": "e48d305da9b8c6e245b0f5f58800d3312bd537715092e474d640bc3728967cd8",
+      "bytes": 91103
+    },
+    {
+      "path": "metadata/scripts/finalize.py",
+      "sha256": "9b5ae4092f8afa9fca154d58994b2866173fbd3f81deae092053d852e02bcc95",
+      "bytes": 10047
+    },
+    {
+      "path": "metadata/scripts/verify_package.py",
+      "sha256": "44fbe6077578eadec44810989dcac67dace33632e460d37891e33fcccb3c6a9c",
+      "bytes": 8620
+    },
+    {
+      "path": "originals/wilting/LAB_Cam1.jpg",
+      "sha256": "2ed8a62247791e1483b43c38e8fdc837291a33daebd2170a502228ef54a8200d",
+      "bytes": 911775
+    },
+    {
+      "path": "originals/wilting/LAB_Cam13.jpg",
+      "sha256": "68b9a03f8b7c57cb339949a125b2d275a50b56a0e79e1f54bca1b6178fedbd76",
+      "bytes": 893381
+    },
+    {
+      "path": "originals/wilting/LAB_Cam17.jpg",
+      "sha256": "ba8c97bfd9f9499bae72fd8c880c4aad7108f5835fcc36e19aa7d336b14197a6",
+      "bytes": 1003033
+    },
+    {
+      "path": "originals/wilting/LAB_Cam21.jpg",
+      "sha256": "a1b661322addc1c3ddfd7b723ec56778fbabdf2ca6c1280f817baf391396a0c5",
+      "bytes": 777921
+    },
+    {
+      "path": "originals/wilting/LAB_Cam22.jpg",
+      "sha256": "f3237316b440c6b6d677ecb08a8fa3b1ac94cb9859ed9867e787c02071abc81d",
+      "bytes": 1019213
+    },
+    {
+      "path": "originals/wilting/LAB_Cam5.jpg",
+      "sha256": "4c83eeaa9697fc0cfbf1225595975e7ebc4ebde775679d01b1772722dcd3ccc3",
+      "bytes": 877284
+    },
+    {
+      "path": "originals/yellowing/LETTUCEDEF_001.jpg",
+      "sha256": "03f5c326e0ae03b20d9aef2d7eea113e2b2a425b1a84c1f4914416c412bf803b",
+      "bytes": 108199
+    },
+    {
+      "path": "originals/yellowing/LETTUCEDEF_004.jpg",
+      "sha256": "9b8ee9a58f42951361943d1265dee79659926d3bc0a1189e7c6e803866e9b3b4",
+      "bytes": 134198
+    },
+    {
+      "path": "originals/yellowing/LETTUCEDEF_005.jpg",
+      "sha256": "0e9109698fc4006c0acf14411360a543b90484025a2cc279a598135a39e0419a",
+      "bytes": 128927
+    },
+    {
+      "path": "originals/yellowing/LETTUCEDEF_006.jpg",
+      "sha256": "9fd451af960728ecbba58f541d5fcd8d7c52487b11aaf77ccea6d809285aeae8",
+      "bytes": 106185
+    },
+    {
+      "path": "originals/yellowing/LETTUCEDEF_010.jpg",
+      "sha256": "d1774fb567e9b4d7a5f2f24b87b0fd678843be8e07e03bdb77307aa0bbb6cbb9",
+      "bytes": 130001
+    },
+    {
+      "path": "originals/yellowing/LETTUCEDEF_016.jpg",
+      "sha256": "4c96520bd84cb8e02f4145de7ab374ebc687007521be315cae91004f10f9e52c",
+      "bytes": 104374
+    },
+    {
+      "path": "provenance/HUMAN_PHENOTYPE_DECISIONS.txt",
+      "sha256": "f71a5d762d0fd1f0de2044cc0c6a6e34d53bba4b3832710d94eb048edbd477be",
+      "bytes": 1707
+    },
+    {
+      "path": "provenance/prior_SECOND_VISUAL_PASS.json",
+      "sha256": "8d1d7eab8f4319be41a3246c9ba0b55474ea439da62251388b1ee8950131a691",
+      "bytes": 11942
+    },
+    {
+      "path": "provenance/prior_candidate_ledger.json",
+      "sha256": "440580c4c25603d7814d6f80a5f1d3236f5123df80915408d3b65e4b32736c11",
+      "bytes": 60687
+    },
+    {
+      "path": "provenance/source_SHA256SUMS.txt",
+      "sha256": "21f37d95b3e3daada04e700f2050cacf13fa300ad3ba2df0c09967ceb2d21db1",
+      "bytes": 9254
+    },
+    {
+      "path": "provenance/wilting_source_provenance.json",
+      "sha256": "4db4d5a3640e18aca2679f621516f66ed34fae8a181696a9dd94fc55da7897f1",
+      "bytes": 18571
+    },
+    {
+      "path": "provenance/yellowing_source_provenance.json",
+      "sha256": "7a6ec917ab606a38a42a88e82d0799d2475ce6f3542cabf2d8e558084afd84de",
+      "bytes": 36745
+    },
+    {
+      "path": "reports/FINAL_REPORT.txt",
+      "sha256": "f55e125e3b3c510984247d32f7c774f6b48d6adbd46e7e1a22dd7ba62ffba1ba",
+      "bytes": 4672
+    },
+    {
+      "path": "reports/annotation_validation.json",
+      "sha256": "c9a19f6eae8c9f462f1e629dbdd2d3217f28ecab54414f3dc6b2f28489cc4ba0",
+      "bytes": 5205
+    },
+    {
+      "path": "reports/protection_validation.json",
+      "sha256": "e005f76a639b3d1ca6a8c574d030a5a87510f264ed0704a69a99101b75fdbb92",
+      "bytes": 2384
+    },
+    {
+      "path": "reports/source_package_validation.json",
+      "sha256": "54bada086131d0174186043391a69ee3f7a7df937aec176455dd7d334ecacb2a",
+      "bytes": 168
+    },
+    {
+      "path": "review_evidence/WILTING_FINAL_BOX_REVIEW.jpg",
+      "sha256": "eab03916d9441ba54966a8d62b5738c3fd9e9f46c1c5ddd26f25f2d255db4460",
+      "bytes": 9421729
+    },
+    {
+      "path": "review_evidence/YELLOWING_FINAL_BOX_REVIEW.jpg",
+      "sha256": "f0123e4ee2ac9b21c355c1c4843480918b967a845af22e24df77d8541f915cd3",
+      "bytes": 2909428
+    },
+    {
+      "path": "savepoints/RESUME_SAVEPOINT.txt",
+      "sha256": "a66bb0a55bc335549edc0d4e5d63da24d0ad4fb19c25a43148f523015b1a8a95",
+      "bytes": 4026
+    },
+    {
+      "path": "yolo/wilting/LAB_Cam1.txt",
+      "sha256": "3678476eb5ab9cfb9883f0a56199c54aed2b36ebbeebe8c42eec4c5c9d970508",
+      "bytes": 330
+    },
+    {
+      "path": "yolo/wilting/LAB_Cam13.txt",
+      "sha256": "82e17d459f78b081c29908539d72714627c646301c5f6a26029e0004819398ba",
+      "bytes": 330
+    },
+    {
+      "path": "yolo/wilting/LAB_Cam17.txt",
+      "sha256": "8d345d26bf58cb4f2833260d7bc56ebd25536f16ce2273b31e11fe1779353fb9",
+      "bytes": 330
+    },
+    {
+      "path": "yolo/wilting/LAB_Cam21.txt",
+      "sha256": "c036ce14640ba7c4687059871cbfedf383c7fceb4c5e8868e4e11101be788775",
+      "bytes": 330
+    },
+    {
+      "path": "yolo/wilting/LAB_Cam22.txt",
+      "sha256": "73368f40d1ec6afa1a12ec6c6605c942f506c2b5344eea67286dab1d812b597f",
+      "bytes": 330
+    },
+    {
+      "path": "yolo/wilting/LAB_Cam5.txt",
+      "sha256": "7dd399325285ae4c27a938324375a2df3bd3d514d8c4cda0f366cb923ed6b95f",
+      "bytes": 330
+    },
+    {
+      "path": "yolo/yellowing/LETTUCEDEF_001.txt",
+      "sha256": "9aed443daec43a178a493653aa87413aa6ac99a0775ce57f3bafc75fa83cea41",
+      "bytes": 55
+    },
+    {
+      "path": "yolo/yellowing/LETTUCEDEF_004.txt",
+      "sha256": "a736cec670d906ca543603eef26df7704b567c2598afc22117563a78b13ea7cc",
+      "bytes": 55
+    },
+    {
+      "path": "yolo/yellowing/LETTUCEDEF_005.txt",
+      "sha256": "0ffa19dfcd106e80c2d44c91ccfa8f51f3ba135d662365d6a2d5b7297e6c27ab",
+      "bytes": 55
+    },
+    {
+      "path": "yolo/yellowing/LETTUCEDEF_006.txt",
+      "sha256": "f1fa373efc51c1b0f7ce1290f42c9fa079c77e296d6e5b3c63cd17bd5da221fc",
+      "bytes": 55
+    },
+    {
+      "path": "yolo/yellowing/LETTUCEDEF_010.txt",
+      "sha256": "0b9a2a7d2a2435a4815fc5ab9099580806e01c1fae6b238b3bc7baf6be07a6c4",
+      "bytes": 55
+    },
+    {
+      "path": "yolo/yellowing/LETTUCEDEF_016.txt",
+      "sha256": "8014fb4c81871e36d81eb4af512344b44526ba19eb2f3b6f2f919c899dc31f5a",
+      "bytes": 55
+    }
+  ]
+}

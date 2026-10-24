@@ -1,0 +1,24 @@
+# INACTIVE TEMPLATE. No training is authorized or executed by this package.
+# Use IDENTICAL resolved settings for the historical-control and plus-new arms.
+# Replace paths only for a later explicitly authorized experiment. Never overwrite baseline.
+task: detect
+mode: train
+model: REPLACE_WITH_ABSOLUTE_PACKAGE_BASELINE_CHECKPOINT_PATH
+data: REPLACE_WITH_ABSOLUTE_NEW_EXPERIMENT_DATA_YAML_PATH
+project: REPLACE_WITH_NEW_EXPERIMENT_RUNS_DIRECTORY
+name: EXPERIMENTAL_CONDITION3_CANDIDATE_REPLACE_WITH_ARM_AND_RUN_ID
+exist_ok: false
+epochs: 50
+patience: 10
+imgsz: 640
+batch: 4
+device: 0
+workers: 0
+cache: false
+amp: true
+seed: 20261023
+deterministic: true
+save: true
+save_period: 5
+plots: true
+resume: false

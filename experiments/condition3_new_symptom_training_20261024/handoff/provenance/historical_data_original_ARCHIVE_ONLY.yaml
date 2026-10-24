@@ -1,0 +1,8 @@
+path: C:/Users/ben/Documents/Codex/VERDE-YOLOv8-AI/dataset/three_class
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: Healthy
+  1: Yellowing
+  2: Wilting

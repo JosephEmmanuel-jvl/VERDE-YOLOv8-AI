@@ -1,0 +1,2 @@
+# Preserve authoritative checksum bytes on every platform; these are ordinary Git files.
+* -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof

@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "exact_payload_reconstruction": 2404,
+  "full_transfer_verifier": "PASS_INCLUDING_PUBLISHER_GPU",
+  "existing_destination_refusal": "PASS",
+  "receiving_gpu_verification_still_required": true,
+  "training_runs": 0,
+  "test_parent": "C:\\Users\\ben\\Documents\\Codex\\VERDE_GIT_RECON_CHECK_20261024",
+  "experiment_manifest_sha256": "7f6919f64b08b2c28f2be85aee80e7f7928c8bb20ce7511e3a38d5c0968f6cef"
+}

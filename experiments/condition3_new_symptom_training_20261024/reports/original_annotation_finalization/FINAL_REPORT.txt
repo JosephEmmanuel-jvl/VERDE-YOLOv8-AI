@@ -1,0 +1,70 @@
+VERDE HUMAN-APPROVED SYMPTOM ANNOTATION FINALIZATION - 2026-10-24
+
+A. Yellowing human-approved images6 /boxes6 /conservative groups1.
+   IDs001,004,005,006,010,016. Class1Yellowing.011excluded.
+B. Wilting human-approved scenes6 /boxes36 /conservative groups1.
+   LAB Cam1,5,13,17,21,22. Class2Wilting. Six appearances/sceneno independent
+   physical identity claim. EntireLAB experiment remainsONE conservativegroup.
+C. Total human-approved new symptom boxes42,across12 approvedrecords.
+D. Frame-clipped boxed appearances retained20 (Yellowing2,Wilting18).
+E. Intentionally unboxed ambiguous observations3:Cam5upper-left,Cam17upper-left,
+   Cam22rightedge. Unique physical countunknown. Metadata unchanged.
+F. Malformed annotations0 after schema/numeric/hash/linkage validation.
+   No geometry correction,reclassification,inference or another Codex pass.
+
+FINAL DELIVERY ROOT
+C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_HUMAN_APPROVED_SYMPTOM_ANNOTATIONS_20261024_FINAL
+
+G. Finalized YOLO labels:
+C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_HUMAN_APPROVED_SYMPTOM_ANNOTATIONS_20261024_FINAL\yolo
+   Subdirectories yellowing/ and wilting/,six files each. Source-label bytes
+   unchanged. Approval is recorded in the bound ledger, not encoded in YOLOtext.
+H. Finalized AnyLabeling annotations:
+C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_HUMAN_APPROVED_SYMPTOM_ANNOTATIONS_20261024_FINAL\anylabeling
+   Subdirectories yellowing/ and wilting/,six JSONs each. Geometry/labels/dimensions
+   unchanged. Approval flags updated,image linkage adjusted for isolatedlayout.
+I. Finalized provenance/annotation ledger:
+C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_HUMAN_APPROVED_SYMPTOM_ANNOTATIONS_20261024_FINAL\metadata\provenance_annotation_ledger.json
+   Explicit HUMAN_CLASS_APPROVED,HUMAN_BOX_APPROVED,clipping,ambiguity,group,
+   trainingeligibility,creatorCODEX/reviewerUSER and approvalreceipt.
+J. Checksum manifest:
+C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_HUMAN_APPROVED_SYMPTOM_ANNOTATIONS_20261024_FINAL\SHA256SUMS.txt
+   Every payload file SHA256 reread/exactinventory PASS. Receipt at
+   reports/checksum_validation.json. Manifest excludes onlyitself; verifier
+   reports its hash/count. Working and delivered copies verified separately.
+K. Persistent savepoint:
+C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_HUMAN_APPROVED_SYMPTOM_ANNOTATIONS_20261024_FINAL\savepoints\RESUME_SAVEPOINT.txt
+
+L. Exact status of12recordsforfuturetraining:
+   HUMAN_APPROVED_ANNOTATION_EVIDENCE_HELD_DATA_GATES.
+   Human class+retainedbox approval complete,42approvedboxes.
+   Prior Codex workflowstatussuperseded;NOTawaiting another boxapproval pass.
+   Bothcohorts remain TRAIN_CANDIDATE,not merged/notcurrentlytrainingeligible.
+   eligible_for_training_now=false;training_authorized=false;
+   dataset_merge_authorized=false;independent_acceptance_evidence=false.
+   Preserve unboxedambiguity separately. Anyfutureauthorized ingestion needs
+   explicittrainer-compatibleignore/mask/exclusionhandling forunboxedfoliage,
+   without implying currenthumanapproval isinvalid. No suchchange madehere.
+   DATA_GATE_NOT_READY
+   INDEPENDENT_ACCEPTANCE_NOT_READY
+   Independent acceptancegroups0. Twoapprovedcohorts are not acceptanceevidence.
+M. Exact next action:
+   Preserve thisfinalized evidence. Next project work is independent-cohort
+   planning/collection:identify realdevelopment and genuinelyseparateacceptance
+   growers/sites,permission,and physicalplant registration usingthe existing
+   30-plant protocol. Unresolvedsites stay SITE_PENDING. Resume thatwork only
+   under separateuserdirection. DoNOTtrain,merge,re-correctoracquirepublicframes.
+
+DECISION EVIDENCE
+metadata/HUMAN_DECISION.txt and metadata/HUMAN_APPROVAL_RECEIPT.json.
+The currentmessageapproves36LABboxes and explicitlyreaffirms6Yellowingapprovals.
+Sourceledger stillhadpendingflags;noindependentlylocatedearlierYellowingbox
+approvalreceipt or dateisfabricated. Currenthumaninstructionisauthoritative.
+The reviewed sheets are archived byte-for-byte; their old visual candidate/QA
+labels are historical, superseded by the humanapprovalreceipt andcurrentledger.
+
+PROTECTION
+Original acquisition/reviewpackages,12sourceJPEGhashes,classes/geometry/groups,
+historical1167,canonicalV2 andcheckpointsunchanged. Repo mainclean.
+No Pi access,training,merge,deployment,commit,push or publicacquisition.
+See reports/protection_validation.json. STOPafterfinalization/verification.

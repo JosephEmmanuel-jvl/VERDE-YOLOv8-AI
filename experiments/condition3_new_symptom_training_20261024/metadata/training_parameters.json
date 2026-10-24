@@ -1,0 +1,18 @@
+{
+  "validated_template_sha256": "fe7a8f9a093e119b4c58542bec6263b23790a805bcb20505ff59dd3dd05ae502",
+  "model": "existing models/verde_condition3_best_validation.pt (rollback baseline)",
+  "epochs": 50,
+  "patience": 10,
+  "imgsz": 640,
+  "batch": 4,
+  "batch_strategy": "FIXED_NOT_AUTO",
+  "optimizer": "NOT_EXPLICIT_IN_VALIDATED_TEMPLATE; resolve and record actual Ultralytics default on receiving laptop before any future authorized run",
+  "amp": true,
+  "device": 0,
+  "workers": 0,
+  "seed": 20261023,
+  "deterministic": true,
+  "template_parameters_changed": false,
+  "data_model_output_paths": "UNRESOLVED_TEMPLATE_PLACEHOLDERS",
+  "training_authorized_by_publication": false
+}

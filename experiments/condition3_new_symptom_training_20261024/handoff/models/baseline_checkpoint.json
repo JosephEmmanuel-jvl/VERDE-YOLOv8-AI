@@ -1,0 +1,8 @@
+{
+  "path": "models/verde_condition3_best_validation.pt",
+  "sha256": "54e4d45bde7eeb960d7458e28c8d535ce68745178cad668c47ba5086101fe987",
+  "bytes": 22478371,
+  "role": "BASELINE_ROLLBACK_IMMUTABLE",
+  "source_commit": "9c410c435d2ed5e883da3e64b92167fd74ee7593",
+  "overwrite_allowed": false
+}

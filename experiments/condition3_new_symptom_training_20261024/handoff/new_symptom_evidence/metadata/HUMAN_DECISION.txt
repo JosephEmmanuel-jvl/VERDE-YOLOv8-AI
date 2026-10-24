@@ -1,0 +1,44 @@
+HUMAN ANNOTATION APPROVAL RECEIPT - 2026-10-24
+
+Authority: the current direct message from the human user in this chat.
+Reviewer identity recorded as USER. No signature or earlier review time invented.
+
+CURRENT WILTING DECISION
+"I have reviewed WILTING_FINAL_BOX_REVIEW.jpg and approve the current Wilting
+plant-level bounding boxes for the six LAB scenes."
+"Set all retained LAB Wilting candidate boxes to: HUMAN_BOX_APPROVED"
+This supersedes previous Codex BOX_QA_HUMAN_REVIEW workflow status for Cam5,
+Cam17,Cam21,Cam22. No new Codex correction pass is authorized or performed.
+
+YELLOWING REAFFIRMATION
+"Also preserve the previously recorded human approval of the six LettuceDeF
+Yellowing boxes: 6 Yellowing images; 6 boxes; HUMAN_BOX_APPROVED;
+1 conservative leakage group."
+The source ledger still held pending flags. No separate earlier box-approval
+receipt was located in the scoped saved files. The current explicit human
+reaffirmation is recorded as authority. Earlier approval timestamp is UNKNOWN,
+not inferred. This is not a claim that the old pending ledger already recorded
+the approval. Prior ledger remains unchanged as provenance.
+
+SCOPE
+LETTUCEDEF_001,004,005,006,010,016:6 existing Yellowing boxes,class1.
+LAB_Cam1,5,13,17,21,22:36 existing Wilting boxes,class2.
+LETTUCEDEF_011 excluded, still class-review in the source package.
+All42 retained boxes HUMAN_BOX_APPROVED; existing class decisions remain human
+approved separately. Original geometry, SHA256, groups and provenance unchanged.
+
+CAVEATS PRESERVED
+20 frame-clipped boxed appearances (2Y,18W), genuine FRAME_CLIPPED_PLANT flags.
+Three intentionally unboxed ambiguous edge observations: Cam5 upper-left,
+Cam17 upper-left, Cam22 right edge. They remain unboxed, unknown physical count.
+Prior ownership/QA concerns are audit history, not active pending-box approval
+requirements. No claim of newly identified ambiguous instances or invisible
+foliage. Approval applies to retained boxes only.
+
+GROUPS / AUTHORITY LIMIT
+Yellowing ONE LETTUCEDEF_GREENHOUSE_COHORT_20250410_20250605.
+Wilting ONE LAB_SHARED_EXPERIMENT_20251125_20251210.
+36 Wilting plant appearances are NOT36 independent samples or proven plants.
+No independent acceptance evidence. No historical/canonical merge. No training.
+DATA_GATE_NOT_READY
+INDEPENDENT_ACCEPTANCE_NOT_READY

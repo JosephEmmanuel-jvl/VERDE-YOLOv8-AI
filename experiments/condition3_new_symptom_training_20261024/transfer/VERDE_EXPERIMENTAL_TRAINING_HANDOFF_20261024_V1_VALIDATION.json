@@ -1,0 +1,223 @@
+{
+  "result": "PASS",
+  "validated_at_utc": "2026-10-24T15:51:04.094011+00:00",
+  "package_id": "VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1",
+  "workspace": "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\outputs\\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1",
+  "zip_path": "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\outputs\\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1.zip",
+  "zip_bytes": 2526993056,
+  "zip_sha256": "f13c14179ee732714641e0b4b8715aebac1a8a6247ebd96662819f49f8aa1a38",
+  "zip_crc": "PASS_EVERY_MEMBER_READ_TO_EOF_AND_FRESH_EXTRACTION",
+  "zip_file_count": 2405,
+  "internal_manifest_sha256": "ef410f09e00a898982fda11788b6eb8c870c9dafa3ce7f93689132072d11bfdd",
+  "validation": {
+    "result": "PASS",
+    "internal_checksum_files": 2404,
+    "historical_images": 1167,
+    "historical_boxes": 1282,
+    "new_records": 12,
+    "new_boxes": 42,
+    "new_groups": 2,
+    "frame_clipped_boxes": 20,
+    "unboxed_ambiguities": 3,
+    "independent_acceptance_groups": 0,
+    "test_images_preserved": 200,
+    "training_runs": 0,
+    "zip_sha_crc": "PASS",
+    "environment": {
+      "torch": "2.9.0+cu128",
+      "cuda": "12.8",
+      "ultralytics": "8.4.185",
+      "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+      "vram_bytes": 6438780928,
+      "checkpoint_loading": "PASS",
+      "cuda_smoke": "PASS"
+    }
+  },
+  "focused_checks": {
+    "result": "PASS",
+    "tests": [
+      {
+        "test": "path traversal",
+        "result": "PASS_EXPECTED_REFUSAL",
+        "message": "Unsafe path: ../escape.txt"
+      },
+      {
+        "test": "absolute path",
+        "result": "PASS_EXPECTED_REFUSAL",
+        "message": "Unsafe path: C:/escape.txt"
+      },
+      {
+        "test": "malformed YOLO 3 .5 .5 .3 .3",
+        "result": "PASS_EXPECTED_REFUSAL",
+        "message": "Malformed/class ID: C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\experimental_handoff_build\\negative_checks_cv4t8uij\\bad.txt"
+      },
+      {
+        "test": "malformed YOLO 1 nan .5 .3 .3",
+        "result": "PASS_EXPECTED_REFUSAL",
+        "message": "Nonfinite box: C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\experimental_handoff_build\\negative_checks_cv4t8uij\\bad.txt"
+      },
+      {
+        "test": "malformed YOLO 1 .5 .5 0 .3",
+        "result": "PASS_EXPECTED_REFUSAL",
+        "message": "Invalid box: C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\experimental_handoff_build\\negative_checks_cv4t8uij\\bad.txt"
+      },
+      {
+        "test": "malformed YOLO 1 0 .5 .5 .3",
+        "result": "PASS_EXPECTED_REFUSAL",
+        "message": "Box leaves image: C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\experimental_handoff_build\\negative_checks_cv4t8uij\\bad.txt"
+      },
+      {
+        "test": "malformed YOLO 1 .5 .5 .3",
+        "result": "PASS_EXPECTED_REFUSAL",
+        "message": "Malformed/class ID: C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\experimental_handoff_build\\negative_checks_cv4t8uij\\bad.txt"
+      },
+      {
+        "test": "wrong ZIP SHA",
+        "result": "PASS_EXPECTED_REFUSAL",
+        "message": "TRANSFER ZIP SHA-256 MISMATCH"
+      },
+      {
+        "test": "changed payload internal SHA",
+        "result": "PASS_EXPECTED_REFUSAL",
+        "message": "INTERNAL SHA-256 MISMATCH: one.txt"
+      },
+      {
+        "test": "unlisted payload inventory",
+        "result": "PASS_EXPECTED_REFUSAL",
+        "message": "Package inventory mismatch: missing=set(), extra={'extra.txt'}"
+      },
+      {
+        "test": "existing build destination",
+        "result": "PASS_EXPECTED_REFUSAL",
+        "message": "Destination must be NEW; existing directories are never overwritten"
+      },
+      {
+        "test": "build inside immutable package",
+        "result": "PASS_EXPECTED_REFUSAL",
+        "message": "Destination must be outside package"
+      },
+      {
+        "test": "unacknowledged LAB ambiguity",
+        "result": "PASS_EXPECTED_REFUSAL",
+        "message": "LAB has 3 intentionally unboxed ambiguous edge regions. Explicit --acknowledge-partial-scene-risk is required for the proposed full-scene experiment; this does not create an ignore mask or certify fully labeled scenes."
+      },
+      {
+        "test": "both proposed builds and plan-only no writes",
+        "result": "PASS",
+        "control": {
+          "variant": "historical-control",
+          "images": 1167,
+          "train": 760,
+          "val": 207,
+          "test": 200,
+          "new_records": 0,
+          "training_runs": 0,
+          "partial_scene_risk_acknowledged": false
+        },
+        "candidate": {
+          "variant": "plus-new",
+          "images": 1179,
+          "train": 772,
+          "val": 207,
+          "test": 200,
+          "new_records": 12,
+          "training_runs": 0,
+          "partial_scene_risk_acknowledged": false
+        }
+      },
+      {
+        "test": "full isolated builder copies and rehashes every image and label",
+        "result": "PASS",
+        "build": {
+          "variant": "plus-new",
+          "images": 1179,
+          "train": 772,
+          "val": 207,
+          "test": 200,
+          "new_records": 12,
+          "training_runs": 0,
+          "partial_scene_risk_acknowledged": true
+        }
+      }
+    ],
+    "training_runs": 0,
+    "build_test_path": "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\experimental_handoff_build\\isolated_build_test"
+  },
+  "protected_sources": {
+    "result": "PASS",
+    "checked_at": "2026-10-24T15:50:54.739009+00:00",
+    "branch": "main",
+    "head": "9c410c435d2ed5e883da3e64b92167fd74ee7593",
+    "origin_main": "9c410c435d2ed5e883da3e64b92167fd74ee7593",
+    "repository_clean": true,
+    "checkpoint_sha256": {
+      "verde_condition3_best_validation.pt": "54e4d45bde7eeb960d7458e28c8d535ce68745178cad668c47ba5086101fe987",
+      "verde_condition3_final_gpu_resume.pt": "d98118878dfb3b6fdd0bb5b71237f8bbdbbeb812c4acfc6b338e1a31cb049bf5"
+    },
+    "image_reference_hash_matches": {
+      "historical_1167": 1167,
+      "canonical_v2": 1576,
+      "canonical_v2_anylabeling": 1576
+    },
+    "historical_class_counts": {
+      "Healthy": 233,
+      "Yellowing": 549,
+      "Wilting": 385
+    },
+    "historical_splits": {
+      "train": 760,
+      "val": 207,
+      "test": 200
+    },
+    "historical_label_matches_canonical": 1167,
+    "prior_packages": [
+      {
+        "root": "C:\\Users\\ben\\Documents\\Codex\\VERDE_SYMPTOM_COHORT_EXPANSION_20261024",
+        "result": "PASS",
+        "files_checked": 144,
+        "manifest_sha256": "03e7371cd5b260046bb287e9b6e3a97dae613076f26379bee597846c673dcb41",
+        "coverage": "Every file except manifest itself; exact inventory"
+      },
+      {
+        "root": "C:\\Users\\ben\\Documents\\Codex\\VERDE_PUBLIC_SYMPTOM_ACQUISITION_20261024",
+        "result": "PASS",
+        "files_checked": 275,
+        "manifest_sha256": "a84272a0d538e9b24061b0a7879bfca1abb7267012550526527ebddb85632343",
+        "coverage": "Every file except manifest itself; exact inventory"
+      },
+      {
+        "root": "C:\\Users\\ben\\Documents\\Codex\\VERDE_YELLOWING_FIRST_ACQUISITION_20261024",
+        "result": "PASS",
+        "files_checked": 154,
+        "manifest_sha256": "eb960b32824f932cb7613495d3bdbc49f70a9e345b3f584f59263115015ea0de",
+        "coverage": "Every file except manifest itself; exact inventory"
+      }
+    ],
+    "canonical_annotation_edits": 0,
+    "checkpoint_edits": 0,
+    "Pi_weights_accessed": false,
+    "acquisition_runs": 0,
+    "web_searches": 0,
+    "training_runs": 0,
+    "inference_runs": 0,
+    "commits": 0,
+    "pushes": 0
+  },
+  "relocated_extraction_verified": true,
+  "bootstrap_powershell_syntax": "PASS",
+  "bootstrap_sha256": "af658099ecb8a30fb2d50cd7852fff7bcbaeafae9464c8ba67497326f4a5f07f",
+  "no_original_pc_required": true,
+  "second_laptop_gpu_status": "MUST_RUN_VERIFIER_ON_RECEIVING_GPU_LAPTOP; publisher GPU PASS is not receiving GPU PASS",
+  "source_changes": 0,
+  "canonical_changes": 0,
+  "historical_changes": 0,
+  "checkpoint_changes": 0,
+  "training_runs": 0,
+  "deployments": 0,
+  "commits": 0,
+  "pushes": 0,
+  "bootstrap_wrong_zip_sha_refusal": "PASS_BEFORE_EXTRACTION",
+  "bootstrap_sha256_implementation": ".NET System.Security.Cryptography.SHA256; no Get-FileHash dependency",
+  "bootstrap_actual_zip_sha": "PASS",
+  "bootstrap_existing_destination_refusal": "PASS"
+}

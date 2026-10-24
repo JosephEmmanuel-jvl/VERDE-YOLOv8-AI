@@ -1,0 +1,42 @@
+{
+  "receipt_id": "VERDE_USER_HUMAN_BOX_APPROVAL_20261024",
+  "recorded_at_utc": "2026-10-24T12:57:51.824562+00:00",
+  "decision_origin": "DIRECT_CURRENT_USER_MESSAGE",
+  "reviewer": "USER",
+  "source_package": "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\outputs\\VERDE_NEW_SYMPTOM_FINAL_ANNOTATION_REVIEW_20261024_FINAL",
+  "source_package_manifest_sha256": "21f37d95b3e3daada04e700f2050cacf13fa300ad3ba2df0c09967ceb2d21db1",
+  "approved_image_ids": [
+    "LAB_Cam1",
+    "LAB_Cam13",
+    "LAB_Cam17",
+    "LAB_Cam21",
+    "LAB_Cam22",
+    "LAB_Cam5",
+    "LETTUCEDEF_001",
+    "LETTUCEDEF_004",
+    "LETTUCEDEF_005",
+    "LETTUCEDEF_006",
+    "LETTUCEDEF_010",
+    "LETTUCEDEF_016"
+  ],
+  "approved_box_count": 42,
+  "wilting_decision": "User reviewed WILTING_FINAL_BOX_REVIEW.jpg and approves all 36 current retained boxes across six LAB scenes.",
+  "yellowing_decision": "Current user instruction explicitly reaffirms previously supplied approval of the six retained LettuceDeF boxes.",
+  "earlier_yellowing_approval_timestamp": null,
+  "audit_note": "Source candidate ledger still had pending flags. No distinct earlier Yellowing box-approval receipt was located in the scoped saved files. This current explicit human reaffirmation is the authority; do not fabricate an earlier date.",
+  "superseded_codex_image_workflow_holds": [
+    "LAB_Cam5",
+    "LAB_Cam17",
+    "LAB_Cam21",
+    "LAB_Cam22"
+  ],
+  "review_artifact_sha256": {
+    "YELLOWING_FINAL_BOX_REVIEW.jpg": "f0123e4ee2ac9b21c355c1c4843480918b967a845af22e24df77d8541f915cd3",
+    "WILTING_FINAL_BOX_REVIEW.jpg": "eab03916d9441ba54966a8d62b5738c3fd9e9f46c1c5ddd26f25f2d255db4460"
+  },
+  "geometry_changes_authorized": false,
+  "unboxed_ambiguity_scope": "Approval applies to retained boxes only. Intentionally unboxed ambiguous edge observations and their unknown physical identity remain preserved.",
+  "training_authorized": false,
+  "dataset_merge_authorized": false,
+  "independent_acceptance_evidence": false
+}

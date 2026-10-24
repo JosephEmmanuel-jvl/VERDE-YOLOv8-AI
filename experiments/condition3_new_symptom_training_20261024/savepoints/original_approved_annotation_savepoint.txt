@@ -1,0 +1,73 @@
+VERDE HUMAN-APPROVED NEW SYMPTOM EVIDENCE SAVEPOINT - 2026-10-24
+
+COMPLETED - STOP. NO TRAINING OR MERGE AUTHORIZED.
+DATA_GATE_NOT_READY
+INDEPENDENT_ACCEPTANCE_NOT_READY
+PUBLIC_DATA_ROUTE_EXHAUSTED_FOR_NOW
+V2_1_TRANSFER_DEFERRED
+
+DELIVERY
+C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_HUMAN_APPROVED_SYMPTOM_ANNOTATIONS_20261024_FINAL
+WORKING SNAPSHOT
+C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\work\VERDE_HUMAN_APPROVED_SYMPTOM_ANNOTATIONS_20261024
+UNCHANGED APPROVAL SOURCE
+C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_NEW_SYMPTOM_FINAL_ANNOTATION_REVIEW_20261024_FINAL
+Source manifestSHA25621f37d95b3e3daada04e700f2050cacf13fa300ad3ba2df0c09967ceb2d21db1.
+
+READ FIRST
+README.txt;reports/FINAL_REPORT.txt;metadata/HUMAN_DECISION.txt;
+metadata/HUMAN_APPROVAL_RECEIPT.json;metadata/provenance_annotation_ledger.json;
+metadata/leakage_groups.json;reports/annotation_validation.json;
+reports/protection_validation.json;reports/checksum_validation.json;
+SHA256SUMS.txt. Currentledger/receipt supersede oldcandidateworkflowstatus.
+
+HUMAN DECISION
+Currentuserexplicitly approves36retainedLABWiltingboxesafterreviewofsheet.
+Previous BOX_QA_HUMAN_REVIEW forCam5,17,21,22issuperseded.
+Currentuseralsoexplicitlyreaffirms6LettuceDeFYellowingboxapprovals.
+The sourcependingledgerdidnotrecordearlierYellowingapproval;doNOTinventanearlier
+timestamp. Currenthumanreaffirmationistherecordedauthority. ReviewerUSER.
+CODEXremainsgeometrycreator. No newCodexcorrectionpass wasperformed.
+
+FINAL STATE
+12humanclass-approvedrecords,42HUMAN_BOX_APPROVEDboxes.
+Yellowing001,004,005,006,010,016:6images/6boxes/class1/ONEgroup
+LETTUCEDEF_GREENHOUSE_COHORT_20250410_20250605.011excluded/stillclass-review.
+LABCam1,5,13,17,21,22:6scenes/36boxes/class2/ONEgroup
+LAB_SHARED_EXPERIMENT_20251125_20251210.
+Counts are appearances,NOT36independentplants/samples. Cross-imagephysicalplant
+identityunknown. No additionalgroupsoracceptanceevidence. Independentaccept0.
+Frameclipped20boxedappearances(2Y18W)retainedwithFRAME_CLIPPED_PLANTflags.
+ThreeintentionallyunboxeduncertainedgeobservationsCam5upper-left,Cam17upper-left,
+Cam22rightedgepreserved. Unknownphysicalplantcount. No invisiblefoliageinvented.
+PriorCodexownershipfindingsarehistorical,notactivependinghumanboxreview.
+
+ANNOTATION / TRAINING ELIGIBILITY ARE SEPARATE
+HUMAN_CLASS_APPROVED and HUMAN_BOX_APPROVED true.
+HUMAN_APPROVED_ANNOTATION_EVIDENCE_HELD_DATA_GATES.
+TRAIN_CANDIDATEonly. eligible_for_training_now=false,training_authorized=false,
+dataset_merge_authorized=false,independent_acceptance_evidence=false.
+No historical1167/canonicalV2merge. Futureauthorizedtrainingintegration must
+explicitlyhandlepreservedunboxedambiguity instead ofsilentlyusingnegative
+background. This caveatdoesnotrevokehumanapproval. No integrationperformed.
+
+VERIFY WITHOUT MUTATION
+ExistingPython:
+C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\work\VERDE_GPU_LAPTOP_SETUP_20261024\venv\Scripts\python.exe
+Fromeitherpackage:python -B metadata/scripts/verify_package.py
+Optional--root<absolutepackagepath>. Read-onlyhash/exactinventory,geometry,
+formats,sourceSHA256,classes,grouping,approvalflagsandgateschecks.
+No originalPC,GPU,web,trainingorGUIrequired. DoNOTrerunfinalize.pyonfrozenpackage.
+AnyactualfuturegeometrychangeneedsaconcreteerrorandNEWversion,notsilentcorrection.
+
+EXACT NEXT ACTION
+Stop. Preserveapprovedevidence. Underseparateuserdirection,resumeproject-owned
+independent-cohortplanning/registrationusingexisting30-plantprotocol. Identify
+realdevelopmentandgenuinelyseparateacceptancegrowers/sitesandpermission.
+SITE_PENDINGuntilknown. No automaticpublicsearch,collection,mergeortraining.
+
+PROTECTION
+main HEAD=origin/main9c410c435d2ed5e883da3e64b92167fd74ee7593,clean.
+HistoricalH233/Y549/W385,total1167,split760/207/200andcanonicalV2unchanged.
+Protectedcheckpoint/sourcepackagehashchecksPASS. No Piaccess,deploy,commit,push,
+inference,trainingorcollection. STOP.

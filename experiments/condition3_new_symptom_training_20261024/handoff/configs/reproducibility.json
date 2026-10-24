@@ -1,0 +1,16 @@
+{
+  "seed": 20261023,
+  "deterministic": true,
+  "initial_checkpoint_sha256": "54e4d45bde7eeb960d7458e28c8d535ce68745178cad668c47ba5086101fe987",
+  "future_model_status": "EXPERIMENTAL_CONDITION3_CANDIDATE",
+  "comparison": "matched historical-control versus plus-new; identical initial checkpoint, seed and resolved settings",
+  "test_policy": "one predeclared comparison after validation-based selection; no iterative test tuning",
+  "publisher_tested": {
+    "python": "3.12.10",
+    "torch": "2.9.0+cu128",
+    "cuda_runtime": "12.8",
+    "ultralytics": "8.4.185"
+  },
+  "runtime_installation_performed": false,
+  "training_runs": 0
+}

@@ -1,0 +1,68 @@
+{
+  "result": "PASS",
+  "checked_at": "2026-10-24T12:58:37.833267+00:00",
+  "branch": "main",
+  "head": "9c410c435d2ed5e883da3e64b92167fd74ee7593",
+  "origin_main": "9c410c435d2ed5e883da3e64b92167fd74ee7593",
+  "repository_clean": true,
+  "checkpoint_sha256": {
+    "verde_condition3_best_validation.pt": "54e4d45bde7eeb960d7458e28c8d535ce68745178cad668c47ba5086101fe987",
+    "verde_condition3_final_gpu_resume.pt": "d98118878dfb3b6fdd0bb5b71237f8bbdbbeb812c4acfc6b338e1a31cb049bf5"
+  },
+  "image_reference_hash_matches": {
+    "historical_1167": 1167,
+    "canonical_v2": 1576,
+    "canonical_v2_anylabeling": 1576
+  },
+  "historical_class_counts": {
+    "Healthy": 233,
+    "Yellowing": 549,
+    "Wilting": 385
+  },
+  "historical_splits": {
+    "train": 760,
+    "val": 207,
+    "test": 200
+  },
+  "historical_label_matches_canonical": 1167,
+  "prior_packages": [
+    {
+      "root": "C:\\Users\\ben\\Documents\\Codex\\VERDE_SYMPTOM_COHORT_EXPANSION_20261024",
+      "result": "PASS",
+      "files_checked": 144,
+      "manifest_sha256": "03e7371cd5b260046bb287e9b6e3a97dae613076f26379bee597846c673dcb41",
+      "coverage": "Every file except manifest itself; exact inventory"
+    },
+    {
+      "root": "C:\\Users\\ben\\Documents\\Codex\\VERDE_PUBLIC_SYMPTOM_ACQUISITION_20261024",
+      "result": "PASS",
+      "files_checked": 275,
+      "manifest_sha256": "a84272a0d538e9b24061b0a7879bfca1abb7267012550526527ebddb85632343",
+      "coverage": "Every file except manifest itself; exact inventory"
+    },
+    {
+      "root": "C:\\Users\\ben\\Documents\\Codex\\VERDE_YELLOWING_FIRST_ACQUISITION_20261024",
+      "result": "PASS",
+      "files_checked": 154,
+      "manifest_sha256": "eb960b32824f932cb7613495d3bdbc49f70a9e345b3f584f59263115015ea0de",
+      "coverage": "Every file except manifest itself; exact inventory"
+    }
+  ],
+  "canonical_annotation_edits": 0,
+  "checkpoint_edits": 0,
+  "Pi_weights_accessed": false,
+  "acquisition_runs": 0,
+  "web_searches": 0,
+  "training_runs": 0,
+  "inference_runs": 0,
+  "commits": 0,
+  "pushes": 0,
+  "approval_source_package_after": {
+    "result": "PASS",
+    "files_checked": 86,
+    "exact_inventory": true,
+    "manifest_sha256": "21f37d95b3e3daada04e700f2050cacf13fa300ad3ba2df0c09967ceb2d21db1"
+  },
+  "geometry_changes": 0,
+  "codex_correction_passes": 0
+}

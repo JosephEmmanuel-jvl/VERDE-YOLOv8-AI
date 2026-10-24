@@ -1,0 +1,35 @@
+{
+  "package_id": "VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1",
+  "status": "PACKAGED_NOT_TRAINED",
+  "historical_images": 1167,
+  "historical_boxes": 1282,
+  "historical_test_images": 200,
+  "new_yellowing": {
+    "images": 6,
+    "boxes": 6,
+    "groups": 1
+  },
+  "new_wilting": {
+    "scenes": 6,
+    "boxes": 36,
+    "groups": 1
+  },
+  "new_role": "EXPERIMENTAL_TRAIN_CANDIDATE",
+  "data_gate": "DATA_GATE_NOT_READY",
+  "acceptance_gate": "INDEPENDENT_ACCEPTANCE_NOT_READY",
+  "independent_acceptance_groups": 0,
+  "frame_clipped_appearances": 20,
+  "intentionally_unboxed_ambiguities": 3,
+  "source_files_unchanged": true,
+  "training_runs": 0,
+  "future_model_status": "EXPERIMENTAL_CONDITION3_CANDIDATE",
+  "next_action": "Copy ZIP and sibling bootstrap, verify SHA before extraction, run full verification on second GPU laptop; do not train automatically.",
+  "final_zip_sha256_location": "Sibling .zip.sha256 and external validation receipt (avoids circular self-hash)",
+  "validation_receipt_location": "Sibling _VALIDATION.json, produced only after ZIP CRC/SHA/extracted checks",
+  "remaining_limits": [
+    "no independently proven acceptance set",
+    "no project-owned photographs",
+    "LAB ambiguous edge fragments unboxed; explicit experimental risk decision required before a full-scene build",
+    "future controlled training and evaluation not performed"
+  ]
+}

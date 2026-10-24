@@ -1,0 +1,39 @@
+HUMAN PHENOTYPE DECISIONS - current user message, 2026-10-24
+Reviewer identity: user in this conversation; personal name not separately supplied.
+Decision timestamp: receipt date recorded, not a fabricated historical review date.
+
+The user explicitly provided top-to-bottom decisions on LETTUCEDEF_HUMAN_REVIEW.jpg:
+1 HUMAN_CLASS_APPROVED_YELLOWING
+2 HUMAN_CLASS_APPROVED_YELLOWING
+3 HUMAN_CLASS_APPROVED_YELLOWING
+4 HUMAN_CLASS_APPROVED_YELLOWING
+5 HUMAN_CLASS_APPROVED_YELLOWING
+6 HUMAN_CLASS_REVIEW_YELLOWING
+7 HUMAN_CLASS_APPROVED_YELLOWING
+
+Verified sheet order -> exact immutable image ID:
+1 LETTUCEDEF_001
+2 LETTUCEDEF_004
+3 LETTUCEDEF_005
+4 LETTUCEDEF_006
+5 LETTUCEDEF_010
+6 LETTUCEDEF_011
+7 LETTUCEDEF_016
+
+User rationale: approved examples visibly show abnormal chlorosis/yellowing,
+particularly outer/lower foliage contrasted with greener central growth.
+Candidate six is weaker, largely green, with less convincing paling. Keep it out
+of the approved pool unless separately resolved.
+
+Class approval is NOT box approval. All corrected boxes remain
+CODEX_CORRECTED_ANNOTATION_CANDIDATE pending separate human annotation approval.
+
+The current user also explicitly reaffirms the previous LAB decision:
+all six LAB Wilting scenes are human CLASS approved; boxes are not human approved.
+This records that reaffirmation. It does not invent the earlier review's date,
+name, or unseen wording, and does not imply every visible neighboring plant was
+individually human-verified as Wilting.
+
+Grouping remains the same conservative LettuceDeF cohort and LAB experiment.
+No independent acceptance set. DATA_GATE_NOT_READY.
+INDEPENDENT_ACCEPTANCE_NOT_READY. No training/acquisition in this correction pass.

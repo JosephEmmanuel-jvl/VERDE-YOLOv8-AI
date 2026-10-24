@@ -1,0 +1,69 @@
+VERDE EXPERIMENTAL TRAINING HANDOFF — FINAL VERIFIED REPORT
+Package: VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1
+Validated UTC: 2026-10-24T15:51:04.094011+00:00
+
+A. Historical images physically packaged (not merely referenced): 1,167.
+   Healthy 233; Yellowing 549; Wilting 385. Original train 760 / val 207 / test 200.
+   Historical boxes: 1,282. All image and YOLO bytes unchanged.
+B. New Yellowing: 6 human-class-approved images / 6 human-box-approved boxes / 1 conservative group.
+C. New Wilting: 6 human-class-approved scenes / 36 human-box-approved boxes / 1 conservative group.
+D. Total new: 12 records / 42 approved boxes / 2 conservative leakage groups.
+   These are not 42 independent plants. Independent acceptance groups: 0.
+E. Actual baseline checkpoint included, loaded successfully and hash PASS:
+   54e4d45bde7eeb960d7458e28c8d535ce68745178cad668c47ba5086101fe987
+   Baseline source and rollback bytes unchanged; other source checkpoint also protected and verified.
+F. Historical test: 200 image/label pairs preserved byte-for-byte. Zero exact train/test
+   or val/test duplicates; zero exact new/historical image overlaps. Historical test is
+   NOT an independently proven final acceptance set. Perceptual/plant independence is unproven.
+G. Leakage PASS: LETTUCEDEF_GREENHOUSE_COHORT_20250410_20250605 and
+   LAB_SHARED_EXPERIMENT_20251125_20251210 retained exactly; whole groups assigned only
+   EXPERIMENTAL_TRAIN_CANDIDATE / train, never split into validation/test/acceptance.
+   Historical unknown group identities remain unknown.
+H. Proposed augmented build: NEW isolated copies, train 772 / val 207 / test 200,
+   total 1,179 images / 1,324 boxes. Matched historical-control: 760/207/200.
+   Optional builder fully exercised in work-only destination; 1,179 image/label pairs
+   copied and individually rehashed. No training. All 20 frame-clipped appearances and
+   3 intentionally unboxed ambiguous LAB edge regions preserved. Full-scene plus-new
+   build requires explicit partial-scene risk acknowledgment; no ignore masks invented.
+   Build plan: C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1\manifests\proposed_experiment_build.json
+   Builder: C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1\scripts\build_experiment.py
+I. Inactive training configuration template: C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1\configs\training_template.yaml
+   Seed 20261023; deterministic true; intended matched-arm settings, placeholders require
+   resolution only for a later authorized run. Future model EXPERIMENTAL_CONDITION3_CANDIDATE.
+J. Portable verification script: C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1\scripts\verify_transfer.py
+   Full internal inventory/SHA, ZIP SHA/CRC, image readability/hash, YOLO/AnyLabeling
+   parity/class/geometry, approvals/groups, test/baseline and GPU checks PASS from a
+   fresh relocated extraction. Bad SHA, unlisted files, malformed classes/boxes,
+   unsafe paths, existing build destinations and unacknowledged ambiguity fail as intended.
+K. Versioned transfer workspace: C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1
+L. ZIP: C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1.zip
+M. ZIP size: 2,526,993,056 bytes (2.3534 GiB; 2.5270 decimal GB).
+N. ZIP SHA-256: f13c14179ee732714641e0b4b8715aebac1a8a6247ebd96662819f49f8aa1a38
+O. Internal checksums: PASS, 2404 payload files plus SHA256SUMS.txt;
+   2405 ZIP members passed CRC and per-member SHA; fresh extraction verified.
+   Manifest: C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1\SHA256SUMS.txt
+   Manifest SHA-256: ef410f09e00a898982fda11788b6eb8c870c9dafa3ce7f93689132072d11bfdd
+   Validation receipt: C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1_VALIDATION.json
+   Repository remains clean main at 9c410c435d2ed5e883da3e64b92167fd74ee7593.
+   Protected canonical/historical image hashes, labels, source public packages and
+   both checkpoints unchanged. No Pi access, training, deployment, commit or push.
+P. EXACT FIRST ACTION ON SECOND GPU LAPTOP:
+   Copy the ZIP and sibling START_HERE.ps1 (also copy .zip.sha256/report/receipts).
+   Open PowerShell IN THAT TRANSFER FOLDER and run:
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1_START_HERE.ps1 -Python python
+   Substitute -Python with the existing GPU environment python.exe path if needed.
+   This checks ZIP SHA BEFORE extraction, refuses an existing extraction destination,
+   then runs full verification with GPU availability. No install or training is run.
+   Publisher GPU PASS: NVIDIA GeForce RTX 4050 Laptop GPU; torch 2.9.0+cu128;
+   CUDA 12.8; Ultralytics 8.4.185.
+   The receiving laptop still must pass its own environment verification.
+Q. Future candidate remains EXPERIMENTAL_CONDITION3_CANDIDATE, NOT DEPLOYMENT-READY.
+   DATA_GATE_NOT_READY. INDEPENDENT_ACCEPTANCE_NOT_READY.
+   No independent acceptance evidence and no project-owned photographs were added.
+
+Persistent savepoint: C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1_SAVEPOINT.json
+Package-internal resumable savepoint: C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\outputs\VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1\SAVEPOINT.json
+Excluded image/annotation evidence: LETTUCEDEF_011; NPK DEVELOPMENT_ONLY; Concepcion HOLD;
+138-image WIP; planned plants and VERDE-TR-H-001 (no photographs).
+No further acquisition, screening, annotation corrections or training was performed.
+STOPPED after handoff packaging and validation.

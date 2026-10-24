@@ -1,0 +1,148 @@
+{
+  "result": "PASS",
+  "malformed_annotation_count": 0,
+  "images": 12,
+  "human_approved_boxes": 42,
+  "counts": {
+    "yellowing_records": 6,
+    "yellowing_boxes": 6,
+    "yellowing_frame_clipped": 2,
+    "intentionally_unboxed_ambiguous_observations": 3,
+    "wilting_records": 6,
+    "wilting_boxes": 36,
+    "wilting_frame_clipped": 18
+  },
+  "geometry_changes": 0,
+  "class_changes": 0,
+  "group_changes": 0,
+  "original_sha256_changes": 0,
+  "yellowing_leakage_groups": 1,
+  "wilting_leakage_groups": 1,
+  "independent_acceptance_groups": 0,
+  "DATA_GATE": "DATA_GATE_NOT_READY",
+  "INDEPENDENT_ACCEPTANCE_GATE": "INDEPENDENT_ACCEPTANCE_NOT_READY",
+  "training_authorized": false,
+  "per_image": [
+    {
+      "image_id": "LETTUCEDEF_001",
+      "result": "PASS",
+      "human_class_status": "HUMAN_CLASS_APPROVED",
+      "human_box_status": "HUMAN_BOX_APPROVED",
+      "unchanged_geometry": true,
+      "yolo_byte_preserved": true,
+      "source_sha256": "03f5c326e0ae03b20d9aef2d7eea113e2b2a425b1a84c1f4914416c412bf803b",
+      "box_count": 1
+    },
+    {
+      "image_id": "LETTUCEDEF_004",
+      "result": "PASS",
+      "human_class_status": "HUMAN_CLASS_APPROVED",
+      "human_box_status": "HUMAN_BOX_APPROVED",
+      "unchanged_geometry": true,
+      "yolo_byte_preserved": true,
+      "source_sha256": "9b8ee9a58f42951361943d1265dee79659926d3bc0a1189e7c6e803866e9b3b4",
+      "box_count": 1
+    },
+    {
+      "image_id": "LETTUCEDEF_005",
+      "result": "PASS",
+      "human_class_status": "HUMAN_CLASS_APPROVED",
+      "human_box_status": "HUMAN_BOX_APPROVED",
+      "unchanged_geometry": true,
+      "yolo_byte_preserved": true,
+      "source_sha256": "0e9109698fc4006c0acf14411360a543b90484025a2cc279a598135a39e0419a",
+      "box_count": 1
+    },
+    {
+      "image_id": "LETTUCEDEF_006",
+      "result": "PASS",
+      "human_class_status": "HUMAN_CLASS_APPROVED",
+      "human_box_status": "HUMAN_BOX_APPROVED",
+      "unchanged_geometry": true,
+      "yolo_byte_preserved": true,
+      "source_sha256": "9fd451af960728ecbba58f541d5fcd8d7c52487b11aaf77ccea6d809285aeae8",
+      "box_count": 1
+    },
+    {
+      "image_id": "LETTUCEDEF_010",
+      "result": "PASS",
+      "human_class_status": "HUMAN_CLASS_APPROVED",
+      "human_box_status": "HUMAN_BOX_APPROVED",
+      "unchanged_geometry": true,
+      "yolo_byte_preserved": true,
+      "source_sha256": "d1774fb567e9b4d7a5f2f24b87b0fd678843be8e07e03bdb77307aa0bbb6cbb9",
+      "box_count": 1
+    },
+    {
+      "image_id": "LETTUCEDEF_016",
+      "result": "PASS",
+      "human_class_status": "HUMAN_CLASS_APPROVED",
+      "human_box_status": "HUMAN_BOX_APPROVED",
+      "unchanged_geometry": true,
+      "yolo_byte_preserved": true,
+      "source_sha256": "4c96520bd84cb8e02f4145de7ab374ebc687007521be315cae91004f10f9e52c",
+      "box_count": 1
+    },
+    {
+      "image_id": "LAB_Cam1",
+      "result": "PASS",
+      "human_class_status": "HUMAN_CLASS_APPROVED",
+      "human_box_status": "HUMAN_BOX_APPROVED",
+      "unchanged_geometry": true,
+      "yolo_byte_preserved": true,
+      "source_sha256": "2ed8a62247791e1483b43c38e8fdc837291a33daebd2170a502228ef54a8200d",
+      "box_count": 6
+    },
+    {
+      "image_id": "LAB_Cam13",
+      "result": "PASS",
+      "human_class_status": "HUMAN_CLASS_APPROVED",
+      "human_box_status": "HUMAN_BOX_APPROVED",
+      "unchanged_geometry": true,
+      "yolo_byte_preserved": true,
+      "source_sha256": "68b9a03f8b7c57cb339949a125b2d275a50b56a0e79e1f54bca1b6178fedbd76",
+      "box_count": 6
+    },
+    {
+      "image_id": "LAB_Cam17",
+      "result": "PASS",
+      "human_class_status": "HUMAN_CLASS_APPROVED",
+      "human_box_status": "HUMAN_BOX_APPROVED",
+      "unchanged_geometry": true,
+      "yolo_byte_preserved": true,
+      "source_sha256": "ba8c97bfd9f9499bae72fd8c880c4aad7108f5835fcc36e19aa7d336b14197a6",
+      "box_count": 6
+    },
+    {
+      "image_id": "LAB_Cam21",
+      "result": "PASS",
+      "human_class_status": "HUMAN_CLASS_APPROVED",
+      "human_box_status": "HUMAN_BOX_APPROVED",
+      "unchanged_geometry": true,
+      "yolo_byte_preserved": true,
+      "source_sha256": "a1b661322addc1c3ddfd7b723ec56778fbabdf2ca6c1280f817baf391396a0c5",
+      "box_count": 6
+    },
+    {
+      "image_id": "LAB_Cam22",
+      "result": "PASS",
+      "human_class_status": "HUMAN_CLASS_APPROVED",
+      "human_box_status": "HUMAN_BOX_APPROVED",
+      "unchanged_geometry": true,
+      "yolo_byte_preserved": true,
+      "source_sha256": "f3237316b440c6b6d677ecb08a8fa3b1ac94cb9859ed9867e787c02071abc81d",
+      "box_count": 6
+    },
+    {
+      "image_id": "LAB_Cam5",
+      "result": "PASS",
+      "human_class_status": "HUMAN_CLASS_APPROVED",
+      "human_box_status": "HUMAN_BOX_APPROVED",
+      "unchanged_geometry": true,
+      "yolo_byte_preserved": true,
+      "source_sha256": "4c83eeaa9697fc0cfbf1225595975e7ebc4ebde775679d01b1772722dcd3ccc3",
+      "box_count": 6
+    }
+  ],
+  "AnyLabeling_validation": "Local rectangle schema, linkage, dimensions, flags and YOLO round-trip verified; GUI not launched"
+}

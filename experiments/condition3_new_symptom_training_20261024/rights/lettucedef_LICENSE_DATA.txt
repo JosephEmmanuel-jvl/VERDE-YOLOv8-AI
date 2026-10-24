@@ -1,0 +1,21 @@
+LettuceDeF dataset license
+
+Copyright (c) 2026 Misael Hernández-Sandoval, Sebastián Salazar-Colores,
+Alfonso Ramírez-Pedraza, Geminiano Martínez-Ponce, Juvenal Rodríguez-Reséndiz,
+and Luis Valentín-Coronado.
+
+The LettuceDeF images, manifests, aggregate metadata, and accompanying dataset
+documentation in this Zenodo record are licensed under the Creative Commons
+Attribution 4.0 International license (CC BY 4.0).
+
+You are free to share and adapt this material for any purpose, including
+commercial use, provided that you give appropriate credit, provide a link to the
+license, and indicate whether changes were made. No additional restrictions may
+be applied.
+
+License text and terms:
+https://creativecommons.org/licenses/by/4.0/
+
+Preferred academic attribution: cite both the Zenodo dataset record and the
+companion paper identified in README.md and CITATION.cff. The preferred citation
+does not replace the legal attribution requirements of CC BY 4.0.

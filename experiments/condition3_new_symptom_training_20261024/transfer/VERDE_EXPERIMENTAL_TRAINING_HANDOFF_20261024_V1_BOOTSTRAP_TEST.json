@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "bootstrap_wrong_zip_sha_refused": true,
+  "extraction_attempted": false,
+  "bootstrap_actual_zip_sha_pass": true,
+  "existing_destination_refused": true,
+  "receiving_gpu_verification_still_required": true,
+  "training_runs": 0
+}

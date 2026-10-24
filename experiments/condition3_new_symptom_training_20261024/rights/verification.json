@@ -1,0 +1,13 @@
+{
+  "redistribution": "PERMITTED_CC_BY_4_0_WITH_ATTRIBUTION",
+  "verified_records": 12,
+  "basis": "Authoritative approval ledger + saved primary LettuceDeF data-specific LICENSE_DATA and Zenodo metadata + saved LAB public record JSON-LD; live LAB record and CC BY deed also checked",
+  "zenodo_live_recheck": "Web reader could not access record; explicit saved data/image license and versioned record used, not software MIT license",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "lettucedef_license_sha256": "439669eef8919abc95a7d7cf60957fc4ac130576f46282d7b7c87b063ee6a577",
+  "lettucedef_record_sha256": "d8e7e74339ec9de9eab40fc2eec4ad7155353de2062ed15a0f680b7331bf8c27",
+  "lab_saved_primary_html_sha256": "d7ecdb2618b2889a6dbdb1167be26ed419331247a5a03f2ca62245caa15bb260",
+  "image_bytes_modified": false,
+  "annotation_change_notice": "New VERDE plant-level boxes created by Codex and approved by the human user; no source-author endorsement claimed",
+  "additional_restrictions_imposed": false
+}

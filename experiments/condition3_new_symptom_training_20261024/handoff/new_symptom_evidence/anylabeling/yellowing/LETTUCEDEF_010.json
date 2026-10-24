@@ -1,0 +1,47 @@
+{
+  "version": "0.4.0",
+  "flags": {
+    "annotation_candidate": false,
+    "human_box_approved": true,
+    "human_class_approved": true
+  },
+  "shapes": [
+    {
+      "label": "Yellowing",
+      "points": [
+        [
+          61,
+          8
+        ],
+        [
+          1889,
+          1080
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {
+        "FRAME_CLIPPED_PLANT": true,
+        "HUMAN_BOX_APPROVED": true
+      },
+      "description": "LETTUCEDEF_010_B1"
+    }
+  ],
+  "imagePath": "../../originals/yellowing/LETTUCEDEF_010.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920,
+  "source_sha256": "d1774fb567e9b4d7a5f2f24b87b0fd678843be8e07e03bdb77307aa0bbb6cbb9",
+  "LEAKAGE_GROUP_ID": "LETTUCEDEF_GREENHOUSE_COHORT_20250410_20250605",
+  "annotation_status": "HUMAN_BOX_APPROVED",
+  "prior_codex_flags": {
+    "annotation_candidate": true,
+    "human_box_approved": false
+  },
+  "human_class_status": "HUMAN_CLASS_APPROVED",
+  "annotation_creator": "CODEX",
+  "annotation_reviewer": "USER",
+  "approval_receipt_id": "VERDE_USER_HUMAN_BOX_APPROVAL_20261024",
+  "training_authorized": false,
+  "intentionally_unboxed_ambiguity_metadata": []
+}
