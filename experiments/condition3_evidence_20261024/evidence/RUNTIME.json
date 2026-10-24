@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "torch": "2.14.1+cpu",
+  "torchvision": "0.29.1",
+  "ultralytics": "8.4.184",
+  "torch_cuda_build": null,
+  "cuda_available": false,
+  "cuda_device_count": 0,
+  "device": "cpu",
+  "threads": 4,
+  "pinned_repository_ultralytics": "8.4.174",
+  "runtime_version_difference": "8.4.184 installed; report separately from published metrics",
+  "seed_override": null,
+  "augmentation": false,
+  "cpu": "Intel Core i3-9100 @ 3.60GHz, four cores",
+  "gpu": "Intel UHD Graphics 630; no NVIDIA/CUDA device",
+  "ram_bytes": 17049088000,
+  "faster_coco_eval": "1.8.0",
+  "dependency_note": "Ultralytics auto-installed faster-coco-eval 1.8.0 for supplemental COCO evaluation. Primary reported metrics remain Ultralytics results."
+}

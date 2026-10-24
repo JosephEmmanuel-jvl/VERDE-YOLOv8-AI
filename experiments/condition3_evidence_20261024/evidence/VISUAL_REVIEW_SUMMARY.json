@@ -1,0 +1,11 @@
+{
+  "pilot_originals": 26,
+  "embedded_rgb": 26,
+  "plant_groups": 2,
+  "training_approved": 0,
+  "quarantine_holds": 26,
+  "historical_visual_review_sample": 18,
+  "potential_filename_sequence_cross_split_families": 1,
+  "independent_qualified_acceptance_images": 0,
+  "human_supervisor_review_performed": false
+}

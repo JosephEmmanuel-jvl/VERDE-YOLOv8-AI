@@ -1,0 +1,2 @@
+# Preserve exact evidence bytes across platforms so CHECKSUMS.sha256 stays valid.
+* -text whitespace=cr-at-eol

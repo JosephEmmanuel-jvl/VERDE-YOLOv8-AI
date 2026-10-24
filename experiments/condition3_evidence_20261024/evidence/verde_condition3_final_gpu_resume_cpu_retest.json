@@ -1,0 +1,323 @@
+{
+  "checkpoint": "D:\\Documents\\Codex\\VERDE_CONDITION3_EVIDENCE_20261024\\models\\verde_condition3_final_gpu_resume.pt",
+  "sha256": "d98118878dfb3b6fdd0bb5b71237f8bbdbbeb812c4acfc6b338e1a31cb049bf5",
+  "class_names": {
+    "0": "Healthy",
+    "1": "Yellowing",
+    "2": "Wilting"
+  },
+  "parameters": 11136761,
+  "model_yaml": {
+    "nc": 3,
+    "depth_multiple": 0.33,
+    "width_multiple": 0.5,
+    "backbone": [
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          64,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          128,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        3,
+        "C2f",
+        [
+          128,
+          true
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          256,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        6,
+        "C2f",
+        [
+          256,
+          true
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          512,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        6,
+        "C2f",
+        [
+          512,
+          true
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          1024,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        3,
+        "C2f",
+        [
+          1024,
+          true
+        ]
+      ],
+      [
+        -1,
+        1,
+        "SPPF",
+        [
+          1024,
+          5
+        ]
+      ]
+    ],
+    "head": [
+      [
+        -1,
+        1,
+        "nn.Upsample",
+        [
+          "None",
+          2,
+          "nearest"
+        ]
+      ],
+      [
+        [
+          -1,
+          6
+        ],
+        1,
+        "Concat",
+        [
+          1
+        ]
+      ],
+      [
+        -1,
+        3,
+        "C2f",
+        [
+          512
+        ]
+      ],
+      [
+        -1,
+        1,
+        "nn.Upsample",
+        [
+          "None",
+          2,
+          "nearest"
+        ]
+      ],
+      [
+        [
+          -1,
+          4
+        ],
+        1,
+        "Concat",
+        [
+          1
+        ]
+      ],
+      [
+        -1,
+        3,
+        "C2f",
+        [
+          256
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          256,
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          -1,
+          12
+        ],
+        1,
+        "Concat",
+        [
+          1
+        ]
+      ],
+      [
+        -1,
+        3,
+        "C2f",
+        [
+          512
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          512,
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          -1,
+          9
+        ],
+        1,
+        "Concat",
+        [
+          1
+        ]
+      ],
+      [
+        -1,
+        3,
+        "C2f",
+        [
+          1024
+        ]
+      ],
+      [
+        [
+          15,
+          18,
+          21
+        ],
+        1,
+        "Detect",
+        [
+          "nc"
+        ]
+      ]
+    ],
+    "ch": 3,
+    "channels": 3
+  },
+  "dataset_yaml": "D:\\Documents\\Codex\\VERDE_CONDITION3_EVIDENCE_20261024\\dataset\\condition3_evidence_20261024\\data.yaml",
+  "split": "test",
+  "images": 200,
+  "imgsz": 416,
+  "batch": 4,
+  "device": "cpu",
+  "confidence_for_ap": 0.001,
+  "nms_iou": 0.7,
+  "max_det": 300,
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1",
+    "ultralytics": "8.4.184",
+    "torch_cuda_build": null,
+    "cuda_available": false,
+    "cuda_device_count": 0,
+    "device": "cpu",
+    "threads": 4,
+    "pinned_repository_ultralytics": "8.4.174",
+    "runtime_version_difference": "8.4.184 installed; report separately from published metrics",
+    "seed_override": null,
+    "augmentation": false,
+    "cpu": "Intel Core i3-9100 @ 3.60GHz, four cores",
+    "gpu": "Intel UHD Graphics 630; no NVIDIA/CUDA device",
+    "ram_bytes": 17049088000,
+    "faster_coco_eval": "1.8.0",
+    "dependency_note": "Ultralytics auto-installed faster-coco-eval 1.8.0 for supplemental COCO evaluation. Primary reported metrics remain Ultralytics results."
+  },
+  "metrics": {
+    "metrics/precision(B)": 0.9649906340319649,
+    "metrics/recall(B)": 0.9593166858452528,
+    "metrics/mAP50(B)": 0.96209542570915,
+    "metrics/mAP50-95(B)": 0.7127919897346432,
+    "fitness": 0.7127919897346432
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "class": "Healthy",
+      "precision": 0.9214703586025778,
+      "recall": 0.9026414155604494,
+      "f1": 0.9119587085255979,
+      "ap50": 0.9192965073064784,
+      "ap50_95": 0.69569745046329,
+      "note": "P/R/F1 use Ultralytics best mean-F1 point on the evaluated test curve; descriptive, not a locked deployment threshold. See separate conf=0.25 report."
+    },
+    {
+      "class_id": 1,
+      "class": "Yellowing",
+      "precision": 0.9852743561495821,
+      "recall": 0.9753086419753086,
+      "f1": 0.9802661710199453,
+      "ap50": 0.983695652173913,
+      "ap50_95": 0.9694913807274954,
+      "note": "P/R/F1 use Ultralytics best mean-F1 point on the evaluated test curve; descriptive, not a locked deployment threshold. See separate conf=0.25 report."
+    },
+    {
+      "class_id": 2,
+      "class": "Wilting",
+      "precision": 0.9882271873437348,
+      "recall": 1.0,
+      "f1": 0.99407873872201,
+      "ap50": 0.9832941176470589,
+      "ap50_95": 0.47318713801314366,
+      "note": "P/R/F1 use Ultralytics best mean-F1 point on the evaluated test curve; descriptive, not a locked deployment threshold. See separate conf=0.25 report."
+    }
+  ],
+  "speed_ms_per_image": {
+    "preprocess": 0.6363939994480461,
+    "inference": 56.04328999965219,
+    "loss": 0.00023399974452331662,
+    "postprocess": 0.42222200077958405
+  },
+  "wall_seconds": 29.256501899973955,
+  "save_dir": "D:\\Documents\\Codex\\VERDE_CONDITION3_EVIDENCE_20261024\\runs\\evidence_20261024\\verde_condition3_final_gpu_resume",
+  "independent_acceptance": false,
+  "decision": "EXPERIMENTAL_BASELINE_ONLY"
+}

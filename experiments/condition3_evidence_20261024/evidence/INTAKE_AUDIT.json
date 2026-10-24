@@ -1,0 +1,27 @@
+{
+  "records": 1167,
+  "boxes": 1282,
+  "split_counts": {
+    "train": 760,
+    "test": 200,
+    "val": 207
+  },
+  "class_counts": {
+    "Healthy": 233,
+    "Yellowing": 549,
+    "Wilting": 385
+  },
+  "groups": 98,
+  "declared_group_cross_split": 0,
+  "exact_binary_cross_split": 0,
+  "source_families_cross_split": 6,
+  "source_independence": "NOT_ESTABLISHED",
+  "historical_vs_canonical_binary_differences": 5,
+  "independent_acceptance_images": 0,
+  "training_started": false,
+  "dataset_yaml": "D:\\Documents\\Codex\\VERDE_CONDITION3_EVIDENCE_20261024\\dataset\\condition3_evidence_20261024\\data.yaml",
+  "protected_files": 11228,
+  "errors": [],
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

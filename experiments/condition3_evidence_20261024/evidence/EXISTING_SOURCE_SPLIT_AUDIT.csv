@@ -1,0 +1,10 @@
+source_dataset,splits,images,cross_split
+VERDE_RAW_COLLECTION,test;train;val,1030,True
+Lettuce Plant Leaf Disease Dataset,test;train;val,28,True
+AgRibotLeafyVeg,test;train;val,64,True
+,test;train;val,16,True
+Wikimedia Commons,test,2,False
+lettuce,test;train,7,True
+Healthy vs. Stressed Lettuce Image Dataset,test;train;val,9,True
+Lettuce NPK dataset,train,8,False
+Lettuce Diseases,val,3,False

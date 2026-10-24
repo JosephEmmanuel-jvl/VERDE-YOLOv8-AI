@@ -1,0 +1,2 @@
+inferred_filename_family,splits,images,candidate_ids,status,basis,action
+D1-V006_77_0_00_05_03_12_0_b05_20201204,test;train,3,D1-V006_77_0_00_05_03_12_0_b05_20201204_0079_S01_1.jpg;D1-V006_77_0_00_05_03_12_0_b05_20201204_0012_S01_1.jpg;D1-V006_77_0_00_05_03_12_0_b05_20201204_0379_S01_1.jpg,POTENTIAL_SHARED_CAPTURE_SEQUENCE_NOT_CONFIRMED,"Same encoded source/date prefix, different frame numbers; source identity needs verification",No historical split or label changed

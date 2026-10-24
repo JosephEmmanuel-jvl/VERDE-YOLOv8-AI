@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-24T02:14:31.531664+00:00",
+  "phase": "EVIDENCE_AUDIT_AND_INTERNAL_RETEST_COMPLETE",
+  "branch": "experiment/condition3-evidence-20261024",
+  "starting_commit": "9c410c435d2ed5e883da3e64b92167fd74ee7593",
+  "workspace": "D:\\Documents\\Codex\\VERDE_CONDITION3_EVIDENCE_20261024",
+  "training_started": false,
+  "new_training_approvals": 0,
+  "new_source_originals": 26,
+  "new_source_embedded_rgb": 26,
+  "new_source_groups": 2,
+  "new_source_holds": 26,
+  "qualified_independent_acceptance_images": 0,
+  "deployment_decision": "DO_NOT_DEPLOY",
+  "rollback_model": "D:\\Documents\\Codex\\VERDE_CONDITION3_EVIDENCE_20261024\\models\\verde_condition3_best_validation.pt",
+  "rollback_sha256": "54e4d45bde7eeb960d7458e28c8d535ce68745178cad668c47ba5086101fe987",
+  "protected_files_unchanged": 11228,
+  "canonical_or_production_modified": false,
+  "next_action": "Obtain and independently review whole growing-plant symptom images; freeze disjoint acceptance groups; use GPU for justified isolated candidate",
+  "final_report": "D:\\Documents\\Codex\\VERDE_CONDITION3_EVIDENCE_20261024\\experiments\\condition3_evidence_20261024\\evidence\\FINAL_STATUS.md"
+}

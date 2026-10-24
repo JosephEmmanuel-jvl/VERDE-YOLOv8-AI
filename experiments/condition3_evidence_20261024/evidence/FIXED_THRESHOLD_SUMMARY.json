@@ -1,0 +1,84 @@
+{
+  "verde_condition3_best_validation": [
+    {
+      "checkpoint": "verde_condition3_best_validation",
+      "class": "Healthy",
+      "conf": 0.25,
+      "iou_match": 0.5,
+      "ground_truth_boxes": 52,
+      "true_positive": 49,
+      "false_positive": 13,
+      "false_negative": 3,
+      "precision": 0.7903225806451613,
+      "recall": 0.9423076923076923,
+      "f1": 0.8596491228070176
+    },
+    {
+      "checkpoint": "verde_condition3_best_validation",
+      "class": "Yellowing",
+      "conf": 0.25,
+      "iou_match": 0.5,
+      "ground_truth_boxes": 81,
+      "true_positive": 79,
+      "false_positive": 1,
+      "false_negative": 2,
+      "precision": 0.9875,
+      "recall": 0.9753086419753086,
+      "f1": 0.9813664596273292
+    },
+    {
+      "checkpoint": "verde_condition3_best_validation",
+      "class": "Wilting",
+      "conf": 0.25,
+      "iou_match": 0.5,
+      "ground_truth_boxes": 84,
+      "true_positive": 84,
+      "false_positive": 2,
+      "false_negative": 0,
+      "precision": 0.9767441860465116,
+      "recall": 1.0,
+      "f1": 0.988235294117647
+    }
+  ],
+  "verde_condition3_final_gpu_resume": [
+    {
+      "checkpoint": "verde_condition3_final_gpu_resume",
+      "class": "Healthy",
+      "conf": 0.25,
+      "iou_match": 0.5,
+      "ground_truth_boxes": 52,
+      "true_positive": 48,
+      "false_positive": 22,
+      "false_negative": 4,
+      "precision": 0.6857142857142857,
+      "recall": 0.9230769230769231,
+      "f1": 0.7868852459016394
+    },
+    {
+      "checkpoint": "verde_condition3_final_gpu_resume",
+      "class": "Yellowing",
+      "conf": 0.25,
+      "iou_match": 0.5,
+      "ground_truth_boxes": 81,
+      "true_positive": 79,
+      "false_positive": 1,
+      "false_negative": 2,
+      "precision": 0.9875,
+      "recall": 0.9753086419753086,
+      "f1": 0.9813664596273292
+    },
+    {
+      "checkpoint": "verde_condition3_final_gpu_resume",
+      "class": "Wilting",
+      "conf": 0.25,
+      "iou_match": 0.5,
+      "ground_truth_boxes": 84,
+      "true_positive": 84,
+      "false_positive": 2,
+      "false_negative": 0,
+      "precision": 0.9767441860465116,
+      "recall": 1.0,
+      "f1": 0.988235294117647
+    }
+  ]
+}
