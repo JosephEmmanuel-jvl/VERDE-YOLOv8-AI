@@ -1,0 +1,702 @@
+{
+  "summary": {
+    "mounted_v1": {
+      "Healthy": {
+        "correct_top": 16,
+        "correct_at_0_5": 16,
+        "total": 16
+      },
+      "Wilting": {
+        "correct_top": 31,
+        "correct_at_0_5": 21,
+        "total": 32
+      }
+    },
+    "all_reviewed_middle_six_v2": {
+      "Healthy": {
+        "correct_top": 16,
+        "correct_at_0_5": 16,
+        "total": 16
+      },
+      "Wilting": {
+        "correct_top": 32,
+        "correct_at_0_5": 28,
+        "total": 32
+      }
+    }
+  },
+  "cases": [
+    {
+      "set": 9,
+      "photo": "pi-camera-20261027-141519-578870.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.5905
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.5977
+      }
+    },
+    {
+      "set": 9,
+      "photo": "pi-camera-20261027-141519-578870.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.9386
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.932
+      }
+    },
+    {
+      "set": 9,
+      "photo": "pi-camera-20261027-141519-578870.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.94
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.962
+      }
+    },
+    {
+      "set": 9,
+      "photo": "pi-camera-20261027-141522-560626.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.4526
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.5309
+      }
+    },
+    {
+      "set": 9,
+      "photo": "pi-camera-20261027-141522-560626.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.9417
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.935
+      }
+    },
+    {
+      "set": 9,
+      "photo": "pi-camera-20261027-141522-560626.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.939
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.9631
+      }
+    },
+    {
+      "set": 9,
+      "photo": "pi-camera-20261027-141525-656915.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.5958
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.6574
+      }
+    },
+    {
+      "set": 9,
+      "photo": "pi-camera-20261027-141525-656915.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.942
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.9348
+      }
+    },
+    {
+      "set": 9,
+      "photo": "pi-camera-20261027-141525-656915.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.9418
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.9638
+      }
+    },
+    {
+      "set": 9,
+      "photo": "pi-camera-20261027-141528-672116.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.4657
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.4979
+      }
+    },
+    {
+      "set": 9,
+      "photo": "pi-camera-20261027-141528-672116.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.9406
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.9333
+      }
+    },
+    {
+      "set": 9,
+      "photo": "pi-camera-20261027-141528-672116.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.9387
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.962
+      }
+    },
+    {
+      "set": 10,
+      "photo": "pi-camera-20261027-141542-850712.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.544
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.636
+      }
+    },
+    {
+      "set": 10,
+      "photo": "pi-camera-20261027-141542-850712.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.9416
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.935
+      }
+    },
+    {
+      "set": 10,
+      "photo": "pi-camera-20261027-141542-850712.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.9405
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.9628
+      }
+    },
+    {
+      "set": 10,
+      "photo": "pi-camera-20261027-141545-868372.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.4715
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.5126
+      }
+    },
+    {
+      "set": 10,
+      "photo": "pi-camera-20261027-141545-868372.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.9421
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.9361
+      }
+    },
+    {
+      "set": 10,
+      "photo": "pi-camera-20261027-141545-868372.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.9412
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.9632
+      }
+    },
+    {
+      "set": 10,
+      "photo": "pi-camera-20261027-141548-860936.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.5851
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.6396
+      }
+    },
+    {
+      "set": 10,
+      "photo": "pi-camera-20261027-141548-860936.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.9429
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.9347
+      }
+    },
+    {
+      "set": 10,
+      "photo": "pi-camera-20261027-141548-860936.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.9402
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.9626
+      }
+    },
+    {
+      "set": 10,
+      "photo": "pi-camera-20261027-141551-859855.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.6029
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.6642
+      }
+    },
+    {
+      "set": 10,
+      "photo": "pi-camera-20261027-141551-859855.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.9427
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.9353
+      }
+    },
+    {
+      "set": 10,
+      "photo": "pi-camera-20261027-141551-859855.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.942
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.9636
+      }
+    },
+    {
+      "set": 11,
+      "photo": "pi-camera-20261027-141636-897290.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.3663
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.4988
+      }
+    },
+    {
+      "set": 11,
+      "photo": "pi-camera-20261027-141636-897290.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.9131
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.9059
+      }
+    },
+    {
+      "set": 11,
+      "photo": "pi-camera-20261027-141636-897290.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.9267
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.948
+      }
+    },
+    {
+      "set": 11,
+      "photo": "pi-camera-20261027-141639-881918.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.4712
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.5797
+      }
+    },
+    {
+      "set": 11,
+      "photo": "pi-camera-20261027-141639-881918.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.9166
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.9097
+      }
+    },
+    {
+      "set": 11,
+      "photo": "pi-camera-20261027-141639-881918.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.9274
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.9495
+      }
+    },
+    {
+      "set": 11,
+      "photo": "pi-camera-20261027-141642-914498.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.3455
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.4956
+      }
+    },
+    {
+      "set": 11,
+      "photo": "pi-camera-20261027-141642-914498.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.9132
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.9052
+      }
+    },
+    {
+      "set": 11,
+      "photo": "pi-camera-20261027-141642-914498.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.9262
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.9483
+      }
+    },
+    {
+      "set": 11,
+      "photo": "pi-camera-20261027-141645-882784.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.4114
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.4974
+      }
+    },
+    {
+      "set": 11,
+      "photo": "pi-camera-20261027-141645-882784.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.9175
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.9096
+      }
+    },
+    {
+      "set": 11,
+      "photo": "pi-camera-20261027-141645-882784.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.9258
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.9476
+      }
+    },
+    {
+      "set": 12,
+      "photo": "pi-camera-20261027-141730-271898.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.41
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.519
+      }
+    },
+    {
+      "set": 12,
+      "photo": "pi-camera-20261027-141730-271898.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.8373
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.8145
+      }
+    },
+    {
+      "set": 12,
+      "photo": "pi-camera-20261027-141730-271898.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.9395
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.9623
+      }
+    },
+    {
+      "set": 12,
+      "photo": "pi-camera-20261027-141733-253732.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.435
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.584
+      }
+    },
+    {
+      "set": 12,
+      "photo": "pi-camera-20261027-141733-253732.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.8508
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.8252
+      }
+    },
+    {
+      "set": 12,
+      "photo": "pi-camera-20261027-141733-253732.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.94
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.9627
+      }
+    },
+    {
+      "set": 12,
+      "photo": "pi-camera-20261027-141736-250375.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.4534
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.5683
+      }
+    },
+    {
+      "set": 12,
+      "photo": "pi-camera-20261027-141736-250375.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.8402
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.8303
+      }
+    },
+    {
+      "set": 12,
+      "photo": "pi-camera-20261027-141736-250375.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.9381
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.9628
+      }
+    },
+    {
+      "set": 12,
+      "photo": "pi-camera-20261027-141739-257459.jpg",
+      "plant": "severe_top",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.4633
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.5219
+      }
+    },
+    {
+      "set": 12,
+      "photo": "pi-camera-20261027-141739-257459.jpg",
+      "plant": "wilt_lower",
+      "reviewed_label": "Wilting",
+      "mounted_v1": {
+        "class": "Wilting",
+        "confidence": 0.8499
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Wilting",
+        "confidence": 0.8218
+      }
+    },
+    {
+      "set": 12,
+      "photo": "pi-camera-20261027-141739-257459.jpg",
+      "plant": "healthy_top",
+      "reviewed_label": "Healthy",
+      "mounted_v1": {
+        "class": "Healthy",
+        "confidence": 0.9412
+      },
+      "all_reviewed_middle_six_v2": {
+        "class": "Healthy",
+        "confidence": 0.9637
+      }
+    }
+  ]
+}

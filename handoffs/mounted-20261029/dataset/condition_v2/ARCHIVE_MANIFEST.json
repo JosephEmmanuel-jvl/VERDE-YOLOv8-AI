@@ -1,0 +1,23 @@
+{
+  "source_name": "all_reviewed_middle_six_dataset_20261028_v2",
+  "source_files": 3090,
+  "archive_bytes": 2149584321,
+  "archive_sha256": "bff365f0ddf0ea8c164bb4ecdf67251ea7e849bbeeac8e2590c12d770445de8f",
+  "parts": [
+    {
+      "name": "all_reviewed_middle_six_dataset_20261028_v2.zip.part001",
+      "bytes": 838860800,
+      "sha256": "48f33af98ee9c106ab42f5514df7efca80cd18481fbdf4dba5fb33b04e7d1af4"
+    },
+    {
+      "name": "all_reviewed_middle_six_dataset_20261028_v2.zip.part002",
+      "bytes": 838860800,
+      "sha256": "bd3247740199bf78ec03de14b01d1990edc290cb63eb5c9829d3ffd9c633b12e"
+    },
+    {
+      "name": "all_reviewed_middle_six_dataset_20261028_v2.zip.part003",
+      "bytes": 471862721,
+      "sha256": "240bacc0bad918aaad86e1d3211679bd1afc56532846e8e7900727bd6ffe3166"
+    }
+  ]
+}

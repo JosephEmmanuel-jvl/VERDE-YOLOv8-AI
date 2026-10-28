@@ -1,0 +1,13 @@
+{
+  "source_name": "prop_v7_fixture_negative_dataset",
+  "source_files": 437,
+  "archive_bytes": 18217721,
+  "archive_sha256": "d8af52c3aba7e643290a894987052dfe97fd5600d61cbfcbccaff617687c79c0",
+  "parts": [
+    {
+      "name": "prop_v7_fixture_negative_dataset.zip.part001",
+      "bytes": 18217721,
+      "sha256": "d8af52c3aba7e643290a894987052dfe97fd5600d61cbfcbccaff617687c79c0"
+    }
+  ]
+}

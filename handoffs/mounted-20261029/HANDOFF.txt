@@ -1,0 +1,50 @@
+VERDE stronger-GPU handoff — 2026-10-29
+=======================================
+
+Task for the receiving Codex
+----------------------------
+Continue isolated training and evaluation of the visual-condition and printed-prop YOLOv8 models on a stronger GPU. Improve generalization to the mounted Raspberry Pi Camera Module 3 viewpoint. Preserve the existing Pi deployment, camera pipeline, sensor logic, automation, database, SMS, and rollback. Do not call a model deployable based only on training or same-session validation scores.
+
+Repository and package
+----------------------
+Repository: https://github.com/JosephEmmanuel-jvl/VERDE-YOLOv8-AI.git
+Branch: experiment/gpu-handoff-mounted-20261029
+Package: handoffs/mounted-20261029/
+
+Run `git lfs install` before cloning and `git lfs pull` after checkout. This package contains:
+  weights/condition_v1.pt       preserved three-class baseline
+  weights/condition_v2.pt       saved middle-six condition candidate
+  weights/printed_prop_v6.pt   preserved printed-prop baseline
+  weights/printed_prop_v7.pt   experimental hard-negative continuation
+  weights/plant_localizer_reference.pt  separate plant proposal model
+  dataset/condition_v2/        split, hash-verified exact reviewed YOLO dataset
+  dataset/prop_v7/             split, hash-verified exact reviewed prop dataset
+  reports/ and scripts/       measured results and provenance scripts
+
+The two original training scripts use the prior PC's absolute paths and are included for provenance, not direct execution on the new device. Use restored datasets and the weight files above for portable continuation.
+
+Restore, verify, and train
+--------------------------
+1. Create a clean Python environment with a CUDA-enabled PyTorch build appropriate for the GPU and install requirements.txt. Record GPU, driver, CUDA, PyTorch, and Ultralytics versions.
+2. In the package folder, restore both datasets into new empty directories:
+   python scripts/restore_dataset.py dataset/condition_v2 restored/condition_v2
+   python scripts/restore_dataset.py dataset/prop_v7 restored/prop_v7
+   The script checks every part's SHA-256, the joined archive hash and ZIP CRC, then writes data.yaml with the new absolute path. Do not alter the source archive parts.
+3. Verify class maps before training: condition = Healthy, Yellowing, Wilting; prop = Printed Insect Prop. Harvest-Ready is a separate experimental task and is NOT a class in condition_v2. The prop class means a 3D printed demonstration object, not a biological insect.
+4. Train in a NEW run directory, starting from condition_v2.pt and printed_prop_v7.pt separately. The earlier local condition run used imgsz=640, batch=4, AdamW, lr0=5e-6, mosaic=0, mixup=0, and 8 requested epochs. The earlier prop continuation used imgsz=640, batch=4, AdamW, lr0=1e-5, mosaic=0, mixup=0, and 4 requested epochs. Adjust batch for VRAM, and use validation and early stopping rather than an arbitrary 100+ epoch target. Preserve best.pt, last.pt, args.yaml, results.csv, plots, and hashes.
+5. Evaluate each new checkpoint against its source checkpoint on the SAME unchanged validation cases. Keep a separate plant/date/session-grouped field holdout. Do not repeatedly train against the holdout. Count missed lettuce, wrong conditions, all printed-prop matches, extra boxes, false alerts in clean scenes, and end-to-end camera-to-app time. Review bounding boxes by eye.
+6. Do not replace the Pi's live weights or edit the app from this branch. Stage an isolated Pi camera test after local evaluation and user review. The Pi rollback folder is /home/verde/VERDE-AI/test/rollback-20261028-124138. No reboot without the user's permission.
+
+Measured evidence and limits
+----------------------------
+Condition V2 was trained with 1,336 train crops and 207 inherited validation images. It improved this particular repeated Wilting plant: 28/32 reviewed repeated Pi crops at a 0.50 gate, versus 21/32 for V1. On the inherited validation split, per-class mAP50 changed from V1 Healthy 0.886, Yellowing 0.925, Wilting 0.976 to V2 Healthy 0.890, Yellowing 0.912, Wilting 0.954. Thus the Wilting field-crop gain came with a slight inherited Yellowing and Wilting regression. These are not independent mounted-setup accuracy estimates. No real yellowing lettuce has been available under the Pi camera.
+
+Printed-prop V7 matched 7/7 reviewed on-leaf props in two same-session positive scenes, as V6 did. Extra boxes decreased from 4 to 2. On two clear scenes, false boxes decreased from 3 to 2. These are same-session development comparisons, not proof that all four props will be found in new placements. The candidate can still produce false alerts.
+
+The plant localizer is a major bottleneck. On a saved full Pi camera frame it proposed eight regions but missed a visibly wilted lettuce. The condition model cannot classify a plant that is not localized. Fix and test plant localization and false boxes before treating higher condition confidence as success. A separate harvest model has given low readiness scores for user-confirmed ready plants and a higher score to a non-ready plant; it is not ready to control app labels. Growing days may be supporting evidence only when actual dates and slot mapping are recorded.
+
+Dataset integrity and reporting
+-------------------------------
+The condition dataset includes repeated views of the same plants and some phone-camera crops. It does not contain all supplied original photos: 62 of 192 phone images lacked accepted alignment, and other originals lacked reviewed boxes. Do not turn those into guessed YOLO labels or empty-label negatives. The mounted Pi camera's native field of view, height, and prop size differ from some phone images. Report each test source and group repeated photos by plant and capture session. Never invent ground truth, confidence, 90% achievement, pest presence, or deployment success.
+
+Useful reports: reports/CONDITION_RESULTS.md, reports/PROP_EVALUATION.md, reports/condition_field_comparison.json, reports/condition_args.yaml. The package SHA256SUMS.txt lists each copied weight and evidence file. The dataset ARCHIVE_MANIFEST.json files record archive and part hashes.
