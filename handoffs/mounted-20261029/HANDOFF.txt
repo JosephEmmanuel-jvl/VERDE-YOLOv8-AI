@@ -17,6 +17,8 @@ Run `git lfs install` before cloning and `git lfs pull` after checkout. This pac
   weights/printed_prop_v6.pt   preserved printed-prop baseline
   weights/printed_prop_v7.pt   experimental hard-negative continuation
   weights/plant_localizer_reference.pt  separate plant proposal model
+  weights/harvest_dedicated_experimental.pt  separate, unvalidated Harvest-Ready experiment
+  scripts/test_combined_candidate.py  same-frame isolated four-model runner
   dataset/condition_v2/        split, hash-verified exact reviewed YOLO dataset
   dataset/prop_v7/             split, hash-verified exact reviewed prop dataset
   reports/ and scripts/       measured results and provenance scripts
@@ -30,10 +32,27 @@ Restore, verify, and train
    python scripts/restore_dataset.py dataset/condition_v2 restored/condition_v2
    python scripts/restore_dataset.py dataset/prop_v7 restored/prop_v7
    The script checks every part's SHA-256, the joined archive hash and ZIP CRC, then writes data.yaml with the new absolute path. Do not alter the source archive parts.
-3. Verify class maps before training: condition = Healthy, Yellowing, Wilting; prop = Printed Insect Prop. Harvest-Ready is a separate experimental task and is NOT a class in condition_v2. The prop class means a 3D printed demonstration object, not a biological insect.
+3. Verify class maps before training: condition = Healthy, Yellowing, Wilting; prop = Printed Insect Prop; readiness experiment = Harvest-Ready. Harvest-Ready is NOT a class in condition_v2. The prop class means a 3D printed demonstration object, not a biological insect.
 4. Train in a NEW run directory, starting from condition_v2.pt and printed_prop_v7.pt separately. The earlier local condition run used imgsz=640, batch=4, AdamW, lr0=5e-6, mosaic=0, mixup=0, and 8 requested epochs. The earlier prop continuation used imgsz=640, batch=4, AdamW, lr0=1e-5, mosaic=0, mixup=0, and 4 requested epochs. Adjust batch for VRAM, and use validation and early stopping rather than an arbitrary 100+ epoch target. Preserve best.pt, last.pt, args.yaml, results.csv, plots, and hashes.
 5. Evaluate each new checkpoint against its source checkpoint on the SAME unchanged validation cases. Keep a separate plant/date/session-grouped field holdout. Do not repeatedly train against the holdout. Count missed lettuce, wrong conditions, all printed-prop matches, extra boxes, false alerts in clean scenes, and end-to-end camera-to-app time. Review bounding boxes by eye.
 6. Do not replace the Pi's live weights or edit the app from this branch. Stage an isolated Pi camera test after local evaluation and user review. The Pi rollback folder is /home/verde/VERDE-AI/test/rollback-20261028-124138. No reboot without the user's permission.
+
+Combined saved-frame test
+-------------------------
+The four models run as a pipeline, not as one merged YOLO weight file. After
+restoring packages, use an original JPEG saved by the existing Pi camera/backend:
+
+  python scripts/test_combined_candidate.py --image /path/to/original.jpg --output /path/to/new-output --device cpu
+
+The script writes combined-result.json and combined-annotated.jpg only to the
+specified NEW output directory. It never opens the camera, edits app records,
+or writes the live backend artifact. For Pi's VERDE-AI virtual environment,
+prefix the invocation with PYTHONPATH=/usr/lib/python3/dist-packages if that
+environment cannot import picamera2. Review EVERY localized plant and prop
+box against the physical scene. In particular, count missed plants and prop
+false positives. The readiness model's scores are recorded as UNVERIFIED;
+do not promote them to automatic Harvest-Ready app labels. A separate tested
+backend adapter would be needed before the app can display this candidate.
 
 Measured evidence and limits
 ----------------------------
