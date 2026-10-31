@@ -1,0 +1,25 @@
+[
+ {
+  "source_family": "COON_UF_HEAT_STRESS_STUDY",
+  "approved_images": 2,
+  "approved_boxes": 2,
+  "physical_plant_groups": 2,
+  "groups": [
+   "COON_UF_G13",
+   "COON_UF_G13_BG19"
+  ],
+  "status": "ACQUISITION_CLOSED",
+  "independence": "One lab, camera, protocol, chamber run and capture session. Plants are distinct; capture conditions are not."
+ },
+ {
+  "source_family": "USDA_ARS_ATRU_FRANTZ_HYDROPONIC_BUTTERHEAD",
+  "approved_images": 2,
+  "approved_boxes": 2,
+  "physical_plant_groups": 2,
+  "groups": [
+   "ARS_ATRU_N_MATURE",
+   "ARS_ATRU_P_ADVANCED"
+  ],
+  "independence": "One research unit and fact-sheet series. Distinct treatments imply distinct plants; plant IDs and capture dates are unpublished."
+ }
+]

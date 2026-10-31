@@ -1,0 +1,165 @@
+[
+ {
+  "sha256": "797ce230e68e358c93550f514e6aee25fe8d098ab78f1e95e307235a9182a358",
+  "image_size_wh": [
+   8160,
+   6144
+  ],
+  "class_id": 1,
+  "class": "Yellowing",
+  "bbox_xyxy": [
+   3509,
+   2270,
+   5018,
+   4045
+  ],
+  "yolo": [
+   1,
+   0.522488,
+   0.513916,
+   0.184926,
+   0.2889
+  ],
+  "class_status": "HUMAN_CLASS_APPROVED_YELLOWING",
+  "box_status": "HUMAN_BOX_APPROVED",
+  "physical_plant": "g13-bg21",
+  "LEAKAGE_GROUP_ID": "COON_UF_G13",
+  "source_family": "COON_UF_HEAT_STRESS_STUDY",
+  "clipping_ambiguity": null,
+  "image": "images/yellowing/06-25-25-g13-bg21-top.jpg",
+  "label": "labels/yellowing/06-25-25-g13-bg21-top.txt",
+  "role": "POST_CONDITION3_V1_TRAIN_CANDIDATE",
+  "acceptance_use": "NOT_PERMITTED",
+  "in_frozen_condition3_v1": false,
+  "exif_orientation": 1
+ },
+ {
+  "sha256": "fd1fa07dc499daef5e35eb9a9800423a2cbbc709afa7d00efbc2bade91824d07",
+  "image_size_wh": [
+   6144,
+   8160
+  ],
+  "class_id": 1,
+  "class": "Yellowing",
+  "bbox_xyxy": [
+   1691,
+   2677,
+   4312,
+   5307
+  ],
+  "yolo": [
+   1,
+   0.488525,
+   0.489216,
+   0.426595,
+   0.322304
+  ],
+  "class_status": "HUMAN_CLASS_APPROVED_YELLOWING",
+  "box_status": "HUMAN_BOX_APPROVED",
+  "physical_plant": "g13-bg19",
+  "LEAKAGE_GROUP_ID": "COON_UF_G13_BG19",
+  "source_family": "COON_UF_HEAT_STRESS_STUDY",
+  "clipping_ambiguity": null,
+  "image": "images/yellowing/06-25-25-g13-bg19-top.jpg",
+  "label": "labels/yellowing/06-25-25-g13-bg19-top.txt",
+  "role": "POST_CONDITION3_V1_TRAIN_CANDIDATE",
+  "acceptance_use": "NOT_PERMITTED",
+  "in_frozen_condition3_v1": false,
+  "exif_orientation": 1
+ },
+ {
+  "sha256": "edea15189ecc889f20242a08d8220af8c403915bb5b5bb848dc90577f605f6c5",
+  "image_size_wh": [
+   657,
+   758
+  ],
+  "class_id": 1,
+  "class": "Yellowing",
+  "bbox_xyxy": [
+   0,
+   0,
+   615,
+   745
+  ],
+  "yolo": [
+   1,
+   0.468037,
+   0.491425,
+   0.936073,
+   0.98285
+  ],
+  "class_status": "HUMAN_CLASS_APPROVED_YELLOWING",
+  "box_status": "HUMAN_BOX_APPROVED",
+  "physical_plant": "ARS_ATRU_N_MATURE",
+  "LEAKAGE_GROUP_ID": "ARS_ATRU_N_MATURE",
+  "source_family": "USDA_ARS_ATRU_FRANTZ_HYDROPONIC_BUTTERHEAD",
+  "clipping_ambiguity": {
+   "frame_clipped_edges": [
+    "left",
+    "top"
+   ],
+   "excluded": "neighbouring plants at right edge (x>615)",
+   "ambiguity": "top-left yellow leaf (x0-130, y50-190) retained as target outer foliage"
+  },
+  "image": "images/yellowing/Butterhead_Nitrogen_img05.jpg",
+  "label": "labels/yellowing/Butterhead_Nitrogen_img05.txt",
+  "role": "POST_CONDITION3_V1_TRAIN_CANDIDATE",
+  "acceptance_use": "NOT_PERMITTED",
+  "in_frozen_condition3_v1": false,
+  "exif_orientation": null
+ },
+ {
+  "sha256": "dc20e72d2e9b2de7619b18cffc4c653c660caf260302e954b6fd1fd6923f8748",
+  "image_size_wh": [
+   1176,
+   1139
+  ],
+  "class_id": 1,
+  "class": "Yellowing",
+  "bbox_xyxy": [
+   15,
+   0,
+   1095,
+   1139
+  ],
+  "yolo": [
+   1,
+   0.471939,
+   0.5,
+   0.918367,
+   1.0
+  ],
+  "class_status": "HUMAN_CLASS_APPROVED_YELLOWING",
+  "box_status": "HUMAN_BOX_APPROVED",
+  "physical_plant": "ARS_ATRU_P_ADVANCED",
+  "LEAKAGE_GROUP_ID": "ARS_ATRU_P_ADVANCED",
+  "source_family": "USDA_ARS_ATRU_FRANTZ_HYDROPONIC_BUTTERHEAD",
+  "clipping_ambiguity": {
+   "frame_clipped_edges": [
+    "top",
+    "bottom"
+   ],
+   "right_edge_exclusion": "box stops at x=1095; leaf entering from right frame edge excluded",
+   "ambiguous_region_retained_xyxy": [
+    945,
+    0,
+    1095,
+    345
+   ],
+   "ambiguous_area_fraction_of_box": 0.042,
+   "excluded_region_xyxy": [
+    1095,
+    250,
+    1176,
+    700
+   ],
+   "note": "Upper-right pale leaf may belong to a neighbouring plant; an axis-aligned box cannot exclude it without cutting the target's own upper leaves (x~600-930, y~30-300). Hidden overlap boundaries not invented."
+  },
+  "image": "images/yellowing/Butterhead_Phosphorus_img05.jpg",
+  "label": "labels/yellowing/Butterhead_Phosphorus_img05.txt",
+  "role": "POST_CONDITION3_V1_TRAIN_CANDIDATE",
+  "acceptance_use": "NOT_PERMITTED",
+  "in_frozen_condition3_v1": false,
+  "exif_orientation": null
+ }
+]

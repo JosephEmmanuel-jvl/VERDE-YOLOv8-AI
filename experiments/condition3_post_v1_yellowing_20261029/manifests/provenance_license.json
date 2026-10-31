@@ -1,0 +1,48 @@
+[
+ {
+  "image": "images/yellowing/06-25-25-g13-bg21-top.jpg",
+  "sha256": "797ce230e68e358c93550f514e6aee25fe8d098ab78f1e95e307235a9182a358",
+  "source_family": "COON_UF_HEAT_STRESS_STUDY",
+  "licence": "CC BY 4.0 (Zenodo 17458168, Coon 2026)",
+  "source_url": "https://zenodo.org/records/17458168",
+  "doi": "10.5281/zenodo.17458168",
+  "zip_member": "grow13_photos/06-25-25-g13-bg21-top.jpg",
+  "grow_run": "g13",
+  "treatment": "t4 (chamber mean 33.5 C)",
+  "capture_date": "2025-06-25",
+  "acquisition": "exact ZIP member bytes via HTTP range request, CRC32 verified"
+ },
+ {
+  "image": "images/yellowing/06-25-25-g13-bg19-top.jpg",
+  "sha256": "fd1fa07dc499daef5e35eb9a9800423a2cbbc709afa7d00efbc2bade91824d07",
+  "source_family": "COON_UF_HEAT_STRESS_STUDY",
+  "licence": "CC BY 4.0 (Zenodo 17458168, Coon 2026)",
+  "source_url": "https://zenodo.org/records/17458168",
+  "doi": "10.5281/zenodo.17458168",
+  "zip_member": "grow13_photos/06-25-25-g13-bg19-top.jpg",
+  "grow_run": "g13",
+  "treatment": "t4 (chamber mean 33.5 C)",
+  "capture_date": "2025-06-25",
+  "acquisition": "exact ZIP member bytes via HTTP range request, CRC32 verified"
+ },
+ {
+  "image": "images/yellowing/Butterhead_Nitrogen_img05.jpg",
+  "sha256": "edea15189ecc889f20242a08d8220af8c403915bb5b5bb848dc90577f605f6c5",
+  "source_family": "USDA_ARS_ATRU_FRANTZ_HYDROPONIC_BUTTERHEAD",
+  "licence": "PUBLIC_DOMAIN_VERIFIED_NO_THIRD_PARTY_NOTICE; credit 'U.S. Department of Agriculture'",
+  "source_url": "https://www.ars.usda.gov/ARSUserFiles/50820500/GPRG/Butterhead_Nitrogen.pdf",
+  "treatment": "nitrogen omission",
+  "plant_or_capture_ids_published": false,
+  "acquisition": "embedded JPEG stream copied byte-for-byte from the PDF (no re-encoding)"
+ },
+ {
+  "image": "images/yellowing/Butterhead_Phosphorus_img05.jpg",
+  "sha256": "dc20e72d2e9b2de7619b18cffc4c653c660caf260302e954b6fd1fd6923f8748",
+  "source_family": "USDA_ARS_ATRU_FRANTZ_HYDROPONIC_BUTTERHEAD",
+  "licence": "PUBLIC_DOMAIN_VERIFIED_NO_THIRD_PARTY_NOTICE; credit 'U.S. Department of Agriculture'",
+  "source_url": "https://www.ars.usda.gov/ARSUserFiles/50820500/GPRG/Butterhead_Phosphorus.pdf",
+  "treatment": "phosphorus omission",
+  "plant_or_capture_ids_published": false,
+  "acquisition": "embedded JPEG stream copied byte-for-byte from the PDF (no re-encoding)"
+ }
+]

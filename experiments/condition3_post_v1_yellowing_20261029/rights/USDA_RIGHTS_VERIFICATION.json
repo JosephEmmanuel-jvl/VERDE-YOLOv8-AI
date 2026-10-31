@@ -1,0 +1,21 @@
+{
+ "source_family": "USDA_ARS_ATRU_FRANTZ_HYDROPONIC_BUTTERHEAD",
+ "status": "PUBLIC_DOMAIN_VERIFIED_NO_THIRD_PARTY_NOTICE",
+ "source_urls": [
+  "https://www.ars.usda.gov/ARSUserFiles/50820500/GPRG/Butterhead_Nitrogen.pdf",
+  "https://www.ars.usda.gov/ARSUserFiles/50820500/GPRG/Butterhead_Phosphorus.pdf",
+  "https://www.ars.usda.gov/midwest-area/wooster-oh/application-technology-research/atru/horticulture/butterhead-lettuce-phosphorus-deficiency/ (live HTML page, P)",
+  "https://www.ars.usda.gov/midwest-area/wooster-oh/application-technology-research/atru/horticulture/butterhead-lettuce-nitrogen-deficiency/ (N HTML page; standalone images now 404)"
+ ],
+ "attribution": "U.S. Department of Agriculture, Agricultural Research Service, Application Technology Research Unit (Toledo, OH). Fact sheets 'Butterhead Lettuce - Nitrogen Deficiency' / '- Phosphorus Deficiency' (2011); contact Jonathan Frantz.",
+ "evidence": [
+  "Both PDFs carry only USDA/ARS branding and an ARS employee contact (J. Frantz, jonathan.frantz@ars.usda.gov); no photographer byline, photo credit, (c) notice, contractor or university copyright line on any page (read in full: N 1 page, P 2 pages).",
+  "Cornell CEA Lettuce Handbook appears only as 'For Further Reference', not as an image credit.",
+  "Extracted embedded JPEGs carry no EXIF Artist/Copyright/ImageDescription fields and no XMP rights packet.",
+  "PDF document info: Creator Adobe InDesign CS5, Producer Adobe PDF Library 9.9, created 2011-11-21/22; no Author/Copyright/Rights keys.",
+  "USDA site policy (https://www.usda.gov/about-usda/policies-and-links, checked 2026-10-29): most USDA web information is public domain; copyrighted third-party material is used with permission and USDA 'has made every attempt to identify and clearly label them'. These sheets carry no such label."
+ ],
+ "residual_caveat": "The sheets do not name who took the photographs. ARS ATRU worked with university collaborators; if a non-federal collaborator took a photo it would not be a federal work. No evidence of that exists - status rests on the absence of any notice plus USDA's labelling policy, not on positive photographer attribution.",
+ "requested_credit": "U.S. Department of Agriculture (USDA-ARS ATRU)",
+ "checked": "2026-10-29"
+}

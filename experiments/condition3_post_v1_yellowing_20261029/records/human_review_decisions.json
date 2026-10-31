@@ -1,0 +1,144 @@
+[
+ {
+  "file": "downloads_original/COON_UF_HEAT/06-25-25-g13-bg21-top.jpg",
+  "class_decision": "HUMAN_CLASS_APPROVED_YELLOWING",
+  "box_decision": "HUMAN_BOX_APPROVED",
+  "bbox_xyxy": [
+   3509,
+   2270,
+   5018,
+   4045
+  ],
+  "LEAKAGE_GROUP_ID": "COON_UF_G13",
+  "physical_plant": "g13-bg21",
+  "source_family": "COON_UF_HEAT_STRESS_STUDY",
+  "retain_provenance": true
+ },
+ {
+  "file": "downloads_original/COON_UF_HEAT/06-25-25-g13-bg19-top.jpg",
+  "class_decision": "HUMAN_CLASS_APPROVED_YELLOWING",
+  "box_decision": "HUMAN_BOX_APPROVED",
+  "bbox_xyxy": [
+   1691,
+   2677,
+   4312,
+   5307
+  ],
+  "frame": "EXIF-oriented 6144x8160",
+  "preferred_training_view": true,
+  "LEAKAGE_GROUP_ID": "COON_UF_G13_BG19",
+  "source_family": "COON_UF_HEAT_STRESS_STUDY",
+  "session": "g13_2025-06-25 (shared with COON_UF_G13 = g13-bg21)",
+  "role": "TRAINING_CANDIDATE_ONLY",
+  "note": "Side view 06-25-25-g13-bg19-side.jpg must NOT be labelled Wilting. Coon acquisition CLOSED."
+ },
+ {
+  "file": "Butterhead_Nitrogen_img05.jpg",
+  "class_decision": "HUMAN_CLASS_APPROVED_YELLOWING",
+  "role": "TRAINING_CANDIDATE",
+  "rationale": "Clear abnormal chlorosis/yellowing of older outer foliage while inner/newer foliage remains substantially greener; resolution limited but acceptable for training evidence.",
+  "LEAKAGE_GROUP_ID": "ARS_ATRU_N_MATURE",
+  "treatment": "nitrogen omission (hydroponic)",
+  "source_url": "https://www.ars.usda.gov/ARSUserFiles/50820500/GPRG/Butterhead_Nitrogen.pdf",
+  "bbox_xyxy": [
+   0,
+   0,
+   615,
+   745
+  ],
+  "box_note": "Central plant incl. yellowing oldest leaves at bottom; excludes neighbouring plants at right edge (x>615). Plant is clipped at left and top frame edges. Top-left yellow leaf (x0-130, y50-190) kept as outer foliage - human to confirm it is not a neighbour.",
+  "file_path": "downloads_original/USDA_ARS_ATRU_FRANTZ/Butterhead_Nitrogen_img05.jpg",
+  "sha256": "edea15189ecc889f20242a08d8220af8c403915bb5b5bb848dc90577f605f6c5",
+  "source_family": "USDA_ARS_ATRU_FRANTZ_HYDROPONIC_BUTTERHEAD",
+  "rights": "PUBLIC_DOMAIN_VERIFIED_NO_THIRD_PARTY_NOTICE (metadata/USDA_RIGHTS_VERIFICATION.json)",
+  "acceptance_use": "NOT_PERMITTED",
+  "decided": "2026-10-29",
+  "image_size_wh": [
+   657,
+   758
+  ],
+  "class_id": 1,
+  "box_status": "HUMAN_BOX_APPROVED",
+  "yolo": [
+   1,
+   0.468037,
+   0.491425,
+   0.936073,
+   0.98285
+  ],
+  "box_decided": "2026-10-29",
+  "clipping_metadata": {
+   "frame_clipped_edges": [
+    "left",
+    "top"
+   ],
+   "excluded": "neighbouring plants at right edge (x>615)",
+   "ambiguity": "top-left yellow leaf (x0-130, y50-190) retained as target outer foliage"
+  }
+ },
+ {
+  "file": "Butterhead_Phosphorus_img05.jpg",
+  "class_decision": "HUMAN_CLASS_APPROVED_YELLOWING",
+  "role": "TRAINING_CANDIDATE",
+  "rationale": "Obvious yellow-green/chlorotic older foliage compared with the green centre; brown spotting/necrosis mixed in but Yellowing remains visually prominent.",
+  "LEAKAGE_GROUP_ID": "ARS_ATRU_P_ADVANCED",
+  "treatment": "phosphorus omission (hydroponic)",
+  "source_url": "https://www.ars.usda.gov/ARSUserFiles/50820500/GPRG/Butterhead_Phosphorus.pdf",
+  "bbox_xyxy": [
+   15,
+   0,
+   1095,
+   1139
+  ],
+  "box_note": "Plant fills almost the whole frame and is clipped at top, right and bottom edges. Top-right leaves (x>950, y<330) may belong to a neighbouring plant - included pending human check.",
+  "file_path": "downloads_original/USDA_ARS_ATRU_FRANTZ/Butterhead_Phosphorus_img05.jpg",
+  "sha256": "dc20e72d2e9b2de7619b18cffc4c653c660caf260302e954b6fd1fd6923f8748",
+  "source_family": "USDA_ARS_ATRU_FRANTZ_HYDROPONIC_BUTTERHEAD",
+  "rights": "PUBLIC_DOMAIN_VERIFIED_NO_THIRD_PARTY_NOTICE (metadata/USDA_RIGHTS_VERIFICATION.json)",
+  "acceptance_use": "NOT_PERMITTED",
+  "decided": "2026-10-29",
+  "image_size_wh": [
+   1176,
+   1139
+  ],
+  "class_id": 1,
+  "box_status": "HUMAN_BOX_APPROVED",
+  "yolo": [
+   1,
+   0.471939,
+   0.5,
+   0.918367,
+   1.0
+  ],
+  "rejected_bbox_xyxy": [
+   15,
+   0,
+   1176,
+   1139
+  ],
+  "adjust_reason": "ambiguous foliage entering from the upper-right/frame edge may belong to a neighbouring plant",
+  "clipping_metadata": {
+   "frame_clipped_edges": [
+    "top",
+    "bottom"
+   ],
+   "right_edge_exclusion": "box stops at x=1095; leaf entering from right frame edge excluded",
+   "ambiguous_region_retained_xyxy": [
+    945,
+    0,
+    1095,
+    345
+   ],
+   "ambiguous_area_fraction_of_box": 0.042,
+   "excluded_region_xyxy": [
+    1095,
+    250,
+    1176,
+    700
+   ],
+   "note": "Upper-right pale leaf may belong to a neighbouring plant; an axis-aligned box cannot exclude it without cutting the target's own upper leaves (x~600-930, y~30-300). Hidden overlap boundaries not invented."
+  },
+  "box_decided": "2026-10-29",
+  "tighter_alternative_x945": "REJECTED_BY_HUMAN"
+ }
+]

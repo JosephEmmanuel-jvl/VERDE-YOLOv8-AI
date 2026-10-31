@@ -1,0 +1,90 @@
+{
+ "package": "POST-CONDITION3-V1 YELLOWING EVIDENCE",
+ "role": "POST_CONDITION3_V1_TRAIN_CANDIDATE",
+ "status_flags": [
+  "CONDITION3_V2_NOT_YET_BUILT",
+  "INDEPENDENT_ACCEPTANCE_NOT_READY",
+  "DO_NOT_DEPLOY",
+  "PUBLIC_YELLOWING_SEARCH_EXHAUSTED_FOR_NOW"
+ ],
+ "frozen_condition3_v1": {
+  "branch": "experiment/condition3-new-symptom-training-20261024",
+  "commit": "2f2849c7de94df0b7a416c14eca6b9c40456332e",
+  "total_images": 1179,
+  "yellowing_images": 555,
+  "relationship": "None of these images is in V1 (SHA-256 checked). V1 not modified."
+ },
+ "records": [
+  {
+   "image": "images/yellowing/06-25-25-g13-bg21-top.jpg",
+   "label": "labels/yellowing/06-25-25-g13-bg21-top.txt",
+   "sha256": "797ce230e68e358c93550f514e6aee25fe8d098ab78f1e95e307235a9182a358",
+   "bbox_xyxy": [
+    3509,
+    2270,
+    5018,
+    4045
+   ],
+   "LEAKAGE_GROUP_ID": "COON_UF_G13",
+   "source_family": "COON_UF_HEAT_STRESS_STUDY",
+   "role": "POST_CONDITION3_V1_TRAIN_CANDIDATE"
+  },
+  {
+   "image": "images/yellowing/06-25-25-g13-bg19-top.jpg",
+   "label": "labels/yellowing/06-25-25-g13-bg19-top.txt",
+   "sha256": "fd1fa07dc499daef5e35eb9a9800423a2cbbc709afa7d00efbc2bade91824d07",
+   "bbox_xyxy": [
+    1691,
+    2677,
+    4312,
+    5307
+   ],
+   "LEAKAGE_GROUP_ID": "COON_UF_G13_BG19",
+   "source_family": "COON_UF_HEAT_STRESS_STUDY",
+   "role": "POST_CONDITION3_V1_TRAIN_CANDIDATE"
+  },
+  {
+   "image": "images/yellowing/Butterhead_Nitrogen_img05.jpg",
+   "label": "labels/yellowing/Butterhead_Nitrogen_img05.txt",
+   "sha256": "edea15189ecc889f20242a08d8220af8c403915bb5b5bb848dc90577f605f6c5",
+   "bbox_xyxy": [
+    0,
+    0,
+    615,
+    745
+   ],
+   "LEAKAGE_GROUP_ID": "ARS_ATRU_N_MATURE",
+   "source_family": "USDA_ARS_ATRU_FRANTZ_HYDROPONIC_BUTTERHEAD",
+   "role": "POST_CONDITION3_V1_TRAIN_CANDIDATE"
+  },
+  {
+   "image": "images/yellowing/Butterhead_Phosphorus_img05.jpg",
+   "label": "labels/yellowing/Butterhead_Phosphorus_img05.txt",
+   "sha256": "dc20e72d2e9b2de7619b18cffc4c653c660caf260302e954b6fd1fd6923f8748",
+   "bbox_xyxy": [
+    15,
+    0,
+    1095,
+    1139
+   ],
+   "LEAKAGE_GROUP_ID": "ARS_ATRU_P_ADVANCED",
+   "source_family": "USDA_ARS_ATRU_FRANTZ_HYDROPONIC_BUTTERHEAD",
+   "role": "POST_CONDITION3_V1_TRAIN_CANDIDATE"
+  }
+ ],
+ "totals": {
+  "approved_images": 4,
+  "approved_boxes": 4,
+  "physical_plant_group_records": 4,
+  "source_family_blocks": 2,
+  "acceptance_evidence": 0
+ },
+ "rule": "For a future separately versioned Condition3-V2 only. Keep each source-family block on one side of any split.",
+ "authoritative_source_files_sha256": {
+  "annotations/FINAL_POST_V1_YELLOWING_ANNOTATIONS.json": "7dc2485df2be526a378ddeb434d9b1ca877041f2fbf262244961ceebc5693a8c",
+  "metadata/POST_V1_YELLOWING_EVIDENCE_MANIFEST.json": "820e9cc7e4f9ec0a67308dad4db9f0665e159f9afbc6851f7a19558cb64905a4",
+  "metadata/image_ledger.json": "95e3b3ca4e59ddc0fe4d76907584c2532134c52dae8a490ab0c5e30518fae7d0",
+  "metadata/FINAL_YELLOWING_SOURCE_MATRIX.json": "c2b38c53ce4e11143b6ad4f43a4351ef61798da428b118cc8a4a8211fe1e7636",
+  "reports/FINAL_POST_V1_YELLOWING_REPORT.md": "0507561f58a2a42c1d5150563871f3c134fe63ed5128efa85732cec9ec37a7c5"
+ }
+}
