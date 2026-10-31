@@ -1,0 +1,413 @@
+{
+ "tag": "candidate_640",
+ "report_conf": 0.25,
+ "match_iou": 0.5,
+ "counts": {
+  "gt_boxes": 217,
+  "pred_boxes": 246,
+  "true_positives": 214,
+  "false_positive_background:Healthy": 13,
+  "merged_plants:Healthy": 2,
+  "poor_localization:Healthy": 8,
+  "duplicate:Healthy": 5,
+  "missed:Healthy": 1,
+  "Healthy_predicted_as_Wilting": 1,
+  "Yellowing_predicted_as_Wilting": 1,
+  "Yellowing_predicted_as_Healthy": 2,
+  "duplicate:Wilting": 2
+ },
+ "images_with_events": 15,
+ "rows": [
+  {
+   "image": "B2-AGRIBOT-2025-04-30-111.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "false_positive_background:Healthy",
+    "merged_plants:Healthy",
+    "poor_localization:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.822
+    ],
+    [
+     "Healthy",
+     0.798
+    ],
+    [
+     "Healthy",
+     0.789
+    ],
+    [
+     "Healthy",
+     0.668
+    ],
+    [
+     "Healthy",
+     0.423
+    ]
+   ]
+  },
+  {
+   "image": "B2-AGRIBOT-2025-04-30-125.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy",
+    "duplicate:Healthy",
+    "false_positive_background:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.856
+    ],
+    [
+     "Healthy",
+     0.818
+    ],
+    [
+     "Healthy",
+     0.792
+    ],
+    [
+     "Healthy",
+     0.595
+    ],
+    [
+     "Healthy",
+     0.589
+    ]
+   ]
+  },
+  {
+   "image": "B2-AGRIBOT-2025-04-30-126.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy",
+    "poor_localization:Healthy",
+    "false_positive_background:Healthy",
+    "false_positive_background:Healthy",
+    "false_positive_background:Healthy",
+    "false_positive_background:Healthy",
+    "false_positive_background:Healthy",
+    "false_positive_background:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.902
+    ],
+    [
+     "Healthy",
+     0.82
+    ],
+    [
+     "Healthy",
+     0.777
+    ],
+    [
+     "Healthy",
+     0.756
+    ],
+    [
+     "Healthy",
+     0.705
+    ],
+    [
+     "Healthy",
+     0.635
+    ],
+    [
+     "Healthy",
+     0.607
+    ],
+    [
+     "Healthy",
+     0.588
+    ],
+    [
+     "Healthy",
+     0.4
+    ],
+    [
+     "Healthy",
+     0.388
+    ],
+    [
+     "Healthy",
+     0.294
+    ]
+   ]
+  },
+  {
+   "image": "B3-WM-0165.jpg",
+   "gt_classes": [
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "merged_plants:Healthy",
+    "duplicate:Healthy",
+    "false_positive_background:Healthy",
+    "false_positive_background:Healthy",
+    "false_positive_background:Healthy",
+    "false_positive_background:Healthy",
+    "false_positive_background:Healthy",
+    "missed:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.863
+    ],
+    [
+     "Healthy",
+     0.827
+    ],
+    [
+     "Healthy",
+     0.508
+    ],
+    [
+     "Healthy",
+     0.369
+    ],
+    [
+     "Healthy",
+     0.33
+    ],
+    [
+     "Healthy",
+     0.306
+    ],
+    [
+     "Healthy",
+     0.277
+    ]
+   ]
+  },
+  {
+   "image": "B4-WM-0129.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "Healthy_predicted_as_Wilting"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.683
+    ],
+    [
+     "Wilting",
+     0.46
+    ]
+   ]
+  },
+  {
+   "image": "COLL-HEALTHY-0035.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "duplicate:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.724
+    ],
+    [
+     "Healthy",
+     0.72
+    ]
+   ]
+  },
+  {
+   "image": "COLL-HEALTHY-0037.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "duplicate:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.73
+    ],
+    [
+     "Healthy",
+     0.645
+    ]
+   ]
+  },
+  {
+   "image": "COLL-HEALTHY-0047.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.85
+    ],
+    [
+     "Healthy",
+     0.659
+    ]
+   ]
+  },
+  {
+   "image": "D1-compiled__20230622105013.jpg.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "duplicate:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.767
+    ],
+    [
+     "Healthy",
+     0.662
+    ]
+   ]
+  },
+  {
+   "image": "D1-rathor__N-2.jpg.jpg",
+   "gt_classes": [
+    "Yellowing"
+   ],
+   "events": [
+    "Yellowing_predicted_as_Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.895
+    ]
+   ]
+  },
+  {
+   "image": "D1-V006_77_0_00_05_03_12_0_b05_20201112_0133_S01_1.jpg.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.851
+    ],
+    [
+     "Healthy",
+     0.524
+    ]
+   ]
+  },
+  {
+   "image": "D1-V006_77_0_00_05_03_12_0_c29_20201126_1134_S01_1.jpg.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.785
+    ],
+    [
+     "Healthy",
+     0.658
+    ]
+   ]
+  },
+  {
+   "image": "D1-V006_77_1_10_05_03_12_1_2761e_20201209_47.jpeg.jpeg",
+   "gt_classes": [
+    "Yellowing"
+   ],
+   "events": [
+    "Yellowing_predicted_as_Healthy",
+    "poor_localization:Healthy",
+    "Yellowing_predicted_as_Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.658
+    ],
+    [
+     "Healthy",
+     0.609
+    ],
+    [
+     "Healthy",
+     0.538
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0369.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "duplicate:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.881
+    ],
+    [
+     "Wilting",
+     0.347
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0370.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "duplicate:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.881
+    ],
+    [
+     "Wilting",
+     0.842
+    ]
+   ]
+  }
+ ]
+}

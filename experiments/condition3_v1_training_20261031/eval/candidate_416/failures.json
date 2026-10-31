@@ -1,0 +1,276 @@
+{
+ "tag": "candidate_416",
+ "report_conf": 0.25,
+ "match_iou": 0.5,
+ "counts": {
+  "gt_boxes": 217,
+  "pred_boxes": 233,
+  "true_positives": 214,
+  "merged_plants:Healthy": 5,
+  "poor_localization:Healthy": 11,
+  "false_positive_background:Healthy": 4,
+  "duplicate:Healthy": 1,
+  "missed:Healthy": 1,
+  "Healthy_predicted_as_Yellowing": 1,
+  "Yellowing_predicted_as_Wilting": 1,
+  "Yellowing_predicted_as_Healthy": 1
+ },
+ "images_with_events": 9,
+ "rows": [
+  {
+   "image": "B2-AGRIBOT-2025-04-30-111.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "merged_plants:Healthy",
+    "poor_localization:Healthy",
+    "false_positive_background:Healthy",
+    "merged_plants:Healthy",
+    "poor_localization:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.885
+    ],
+    [
+     "Healthy",
+     0.877
+    ],
+    [
+     "Healthy",
+     0.85
+    ],
+    [
+     "Healthy",
+     0.462
+    ],
+    [
+     "Healthy",
+     0.425
+    ],
+    [
+     "Healthy",
+     0.364
+    ]
+   ]
+  },
+  {
+   "image": "B2-AGRIBOT-2025-04-30-112.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "merged_plants:Healthy",
+    "poor_localization:Healthy",
+    "merged_plants:Healthy",
+    "poor_localization:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.88
+    ],
+    [
+     "Healthy",
+     0.877
+    ],
+    [
+     "Healthy",
+     0.861
+    ],
+    [
+     "Healthy",
+     0.41
+    ],
+    [
+     "Healthy",
+     0.345
+    ]
+   ]
+  },
+  {
+   "image": "B2-AGRIBOT-2025-04-30-125.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy",
+    "duplicate:Healthy",
+    "poor_localization:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.873
+    ],
+    [
+     "Healthy",
+     0.863
+    ],
+    [
+     "Healthy",
+     0.848
+    ],
+    [
+     "Healthy",
+     0.573
+    ],
+    [
+     "Healthy",
+     0.288
+    ]
+   ]
+  },
+  {
+   "image": "B2-AGRIBOT-2025-04-30-126.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy",
+    "poor_localization:Healthy",
+    "poor_localization:Healthy",
+    "false_positive_background:Healthy",
+    "poor_localization:Healthy",
+    "false_positive_background:Healthy",
+    "false_positive_background:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.88
+    ],
+    [
+     "Healthy",
+     0.864
+    ],
+    [
+     "Healthy",
+     0.842
+    ],
+    [
+     "Healthy",
+     0.817
+    ],
+    [
+     "Healthy",
+     0.438
+    ],
+    [
+     "Healthy",
+     0.437
+    ],
+    [
+     "Healthy",
+     0.379
+    ],
+    [
+     "Healthy",
+     0.348
+    ],
+    [
+     "Healthy",
+     0.315
+    ],
+    [
+     "Healthy",
+     0.255
+    ]
+   ]
+  },
+  {
+   "image": "B3-WM-0165.jpg",
+   "gt_classes": [
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "merged_plants:Healthy",
+    "missed:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.865
+    ]
+   ]
+  },
+  {
+   "image": "COLL-HEALTHY-0035.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.878
+    ],
+    [
+     "Healthy",
+     0.789
+    ]
+   ]
+  },
+  {
+   "image": "D1-compiled__20230622105013.jpg.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "Healthy_predicted_as_Yellowing"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.735
+    ],
+    [
+     "Yellowing",
+     0.308
+    ]
+   ]
+  },
+  {
+   "image": "D1-rathor__N-2.jpg.jpg",
+   "gt_classes": [
+    "Yellowing"
+   ],
+   "events": [
+    "Yellowing_predicted_as_Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.872
+    ]
+   ]
+  },
+  {
+   "image": "D1-V006_77_1_10_05_03_12_1_2761e_20201209_47.jpeg.jpeg",
+   "gt_classes": [
+    "Yellowing"
+   ],
+   "events": [
+    "Yellowing_predicted_as_Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.918
+    ]
+   ]
+  }
+ ]
+}

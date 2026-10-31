@@ -1,0 +1,1 @@
+﻿C:\Users\ben\Documents\Codex\2026-10-24\files-pasted-by-the-user-verde\work\VERDE_GPU_LAPTOP_SETUP_20261024\venv\Scripts\python.exe -u scripts\train.py full  (cwd C:\Users\ben\Documents\Codex\VERDE_CONDITION3_V1_TRAINING_20261031; PYTHONIOENCODING=utf-8)

@@ -1,0 +1,137 @@
+{
+ "label": "TRAINING-DATA SANITY CHECK - NOT GENERALIZATION EVIDENCE",
+ "rows": [
+  {
+   "image": "LAB_Cam1.jpg",
+   "expected": "Wilting",
+   "gt_boxes": 6,
+   "gt_found_correct_class": 6,
+   "pred_classes": {
+    "Wilting": 8
+   },
+   "conf_min": 0.317,
+   "conf_mean": 0.832
+  },
+  {
+   "image": "LAB_Cam13.jpg",
+   "expected": "Wilting",
+   "gt_boxes": 6,
+   "gt_found_correct_class": 6,
+   "pred_classes": {
+    "Wilting": 8
+   },
+   "conf_min": 0.326,
+   "conf_mean": 0.813
+  },
+  {
+   "image": "LAB_Cam17.jpg",
+   "expected": "Wilting",
+   "gt_boxes": 6,
+   "gt_found_correct_class": 6,
+   "pred_classes": {
+    "Wilting": 7
+   },
+   "conf_min": 0.308,
+   "conf_mean": 0.873
+  },
+  {
+   "image": "LAB_Cam21.jpg",
+   "expected": "Wilting",
+   "gt_boxes": 6,
+   "gt_found_correct_class": 6,
+   "pred_classes": {
+    "Wilting": 8
+   },
+   "conf_min": 0.473,
+   "conf_mean": 0.797
+  },
+  {
+   "image": "LAB_Cam22.jpg",
+   "expected": "Wilting",
+   "gt_boxes": 6,
+   "gt_found_correct_class": 6,
+   "pred_classes": {
+    "Wilting": 7
+   },
+   "conf_min": 0.284,
+   "conf_mean": 0.86
+  },
+  {
+   "image": "LAB_Cam5.jpg",
+   "expected": "Wilting",
+   "gt_boxes": 6,
+   "gt_found_correct_class": 6,
+   "pred_classes": {
+    "Wilting": 8
+   },
+   "conf_min": 0.256,
+   "conf_mean": 0.829
+  },
+  {
+   "image": "LETTUCEDEF_001.jpg",
+   "expected": "Yellowing",
+   "gt_boxes": 1,
+   "gt_found_correct_class": 1,
+   "pred_classes": {
+    "Yellowing": 1
+   },
+   "conf_min": 0.94,
+   "conf_mean": 0.94
+  },
+  {
+   "image": "LETTUCEDEF_004.jpg",
+   "expected": "Yellowing",
+   "gt_boxes": 1,
+   "gt_found_correct_class": 1,
+   "pred_classes": {
+    "Yellowing": 1
+   },
+   "conf_min": 0.92,
+   "conf_mean": 0.92
+  },
+  {
+   "image": "LETTUCEDEF_005.jpg",
+   "expected": "Yellowing",
+   "gt_boxes": 1,
+   "gt_found_correct_class": 1,
+   "pred_classes": {
+    "Yellowing": 1
+   },
+   "conf_min": 0.947,
+   "conf_mean": 0.947
+  },
+  {
+   "image": "LETTUCEDEF_006.jpg",
+   "expected": "Yellowing",
+   "gt_boxes": 1,
+   "gt_found_correct_class": 1,
+   "pred_classes": {
+    "Yellowing": 1
+   },
+   "conf_min": 0.935,
+   "conf_mean": 0.935
+  },
+  {
+   "image": "LETTUCEDEF_010.jpg",
+   "expected": "Yellowing",
+   "gt_boxes": 1,
+   "gt_found_correct_class": 1,
+   "pred_classes": {
+    "Yellowing": 1
+   },
+   "conf_min": 0.94,
+   "conf_mean": 0.94
+  },
+  {
+   "image": "LETTUCEDEF_016.jpg",
+   "expected": "Yellowing",
+   "gt_boxes": 1,
+   "gt_found_correct_class": 1,
+   "pred_classes": {
+    "Yellowing": 1
+   },
+   "conf_min": 0.936,
+   "conf_mean": 0.936
+  }
+ ]
+}

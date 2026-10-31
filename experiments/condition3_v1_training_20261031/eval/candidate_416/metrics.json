@@ -1,0 +1,68 @@
+{
+ "tag": "candidate_416",
+ "model": "C:/Users/ben/Documents/Codex/VERDE_CONDITION3_V1_TRAINING_20261031/runs/EXPERIMENTAL_CONDITION3_V1_CANDIDATE/weights/best.pt",
+ "settings": {
+  "imgsz": 416,
+  "batch": 4,
+  "conf": 0.001,
+  "iou": 0.7,
+  "device": 0,
+  "workers": 0
+ },
+ "per_class": {
+  "Healthy": {
+   "precision": 0.8872225175651074,
+   "recall": 0.9423076923076923,
+   "f1": 0.9139358274366224,
+   "ap50": 0.9260230365521293,
+   "ap50_95": 0.7514719725969266
+  },
+  "Yellowing": {
+   "precision": 1.0,
+   "recall": 0.9812284227702175,
+   "f1": 0.9905252837007378,
+   "ap50": 0.985,
+   "ap50_95": 0.9746536325496271
+  },
+  "Wilting": {
+   "precision": 0.9789722253647253,
+   "recall": 1.0,
+   "f1": 0.9893743962821917,
+   "ap50": 0.995,
+   "ap50_95": 0.6351000241500839
+  },
+  "overall": {
+   "precision": 0.9553982476432775,
+   "recall": 0.9745120383593032,
+   "f1": 0.9648604917114906,
+   "ap50": 0.9686743455173764,
+   "ap50_95": 0.7870752097655458
+  }
+ },
+ "confusion_matrix_rows_pred_cols_true_with_background": [
+  [
+   50.0,
+   1.0,
+   0.0,
+   495.0
+  ],
+  [
+   0.0,
+   79.0,
+   0.0,
+   15.0
+  ],
+  [
+   2.0,
+   1.0,
+   84.0,
+   102.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "label": "POST-V1 DEVELOPMENT CHALLENGE - NOT INDEPENDENT ACCEPTANCE",
+ "rows": [
+  {
+   "image": "06-25-25-g13-bg21-top.jpg",
+   "approved_box": [
+    3509,
+    2270,
+    5018,
+    4045
+   ],
+   "yellowing_detected_at_0_25": false,
+   "preds_conf_ge_0_05": [
+    {
+     "cls": "Healthy",
+     "conf": 0.37,
+     "iou_with_approved_box": 0.706
+    }
+   ]
+  },
+  {
+   "image": "06-25-25-g13-bg19-top.jpg",
+   "approved_box": [
+    1691,
+    2677,
+    4312,
+    5307
+   ],
+   "yellowing_detected_at_0_25": false,
+   "preds_conf_ge_0_05": [
+    {
+     "cls": "Healthy",
+     "conf": 0.066,
+     "iou_with_approved_box": 0.704
+    }
+   ]
+  },
+  {
+   "image": "Butterhead_Nitrogen_img05.jpg",
+   "approved_box": [
+    0,
+    0,
+    615,
+    745
+   ],
+   "yellowing_detected_at_0_25": false,
+   "preds_conf_ge_0_05": [
+    {
+     "cls": "Healthy",
+     "conf": 0.943,
+     "iou_with_approved_box": 0.921
+    }
+   ]
+  },
+  {
+   "image": "Butterhead_Phosphorus_img05.jpg",
+   "approved_box": [
+    15,
+    0,
+    1095,
+    1139
+   ],
+   "yellowing_detected_at_0_25": true,
+   "preds_conf_ge_0_05": [
+    {
+     "cls": "Healthy",
+     "conf": 0.583,
+     "iou_with_approved_box": 0.906
+    },
+    {
+     "cls": "Yellowing",
+     "conf": 0.483,
+     "iou_with_approved_box": 0.902
+    },
+    {
+     "cls": "Wilting",
+     "conf": 0.185,
+     "iou_with_approved_box": 0.91
+    }
+   ]
+  }
+ ]
+}

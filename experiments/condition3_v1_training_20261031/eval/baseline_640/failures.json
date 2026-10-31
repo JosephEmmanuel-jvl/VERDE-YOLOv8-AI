@@ -1,0 +1,1328 @@
+{
+ "tag": "baseline_640",
+ "report_conf": 0.25,
+ "match_iou": 0.5,
+ "counts": {
+  "false_positive_background:Healthy": 7,
+  "gt_boxes": 217,
+  "pred_boxes": 187,
+  "true_positives": 167,
+  "poor_localization:Healthy": 6,
+  "missed:Healthy": 6,
+  "duplicate:Healthy": 1,
+  "Healthy_predicted_as_Yellowing": 1,
+  "low_conf_symptom:Yellowing": 2,
+  "Yellowing_predicted_as_Healthy": 1,
+  "missed:Wilting": 43,
+  "low_conf_symptom:Wilting": 35,
+  "poor_localization:Wilting": 1,
+  "poor_localization:Yellowing": 3
+ },
+ "images_with_events": 94,
+ "rows": [
+  {
+   "image": "B2-AGRIBOT-2025-04-15-107.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "false_positive_background:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.963
+    ],
+    [
+     "Healthy",
+     0.96
+    ],
+    [
+     "Healthy",
+     0.9
+    ],
+    [
+     "Healthy",
+     0.267
+    ]
+   ]
+  },
+  {
+   "image": "B2-AGRIBOT-2025-04-15-108.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "false_positive_background:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.96
+    ],
+    [
+     "Healthy",
+     0.953
+    ],
+    [
+     "Healthy",
+     0.648
+    ]
+   ]
+  },
+  {
+   "image": "B2-AGRIBOT-2025-04-30-111.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "false_positive_background:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.959
+    ],
+    [
+     "Healthy",
+     0.95
+    ],
+    [
+     "Healthy",
+     0.941
+    ],
+    [
+     "Healthy",
+     0.626
+    ]
+   ]
+  },
+  {
+   "image": "B2-AGRIBOT-2025-04-30-125.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy",
+    "poor_localization:Healthy",
+    "false_positive_background:Healthy",
+    "missed:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.964
+    ],
+    [
+     "Healthy",
+     0.95
+    ],
+    [
+     "Healthy",
+     0.929
+    ],
+    [
+     "Healthy",
+     0.306
+    ]
+   ]
+  },
+  {
+   "image": "B2-AGRIBOT-2025-04-30-126.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy",
+    "poor_localization:Healthy",
+    "false_positive_background:Healthy",
+    "false_positive_background:Healthy",
+    "missed:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.957
+    ],
+    [
+     "Healthy",
+     0.954
+    ],
+    [
+     "Healthy",
+     0.948
+    ],
+    [
+     "Healthy",
+     0.933
+    ],
+    [
+     "Healthy",
+     0.781
+    ],
+    [
+     "Healthy",
+     0.32
+    ]
+   ]
+  },
+  {
+   "image": "B3-WM-0165.jpg",
+   "gt_classes": [
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "false_positive_background:Healthy",
+    "duplicate:Healthy",
+    "missed:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.389
+    ],
+    [
+     "Healthy",
+     0.343
+    ],
+    [
+     "Healthy",
+     0.256
+    ]
+   ]
+  },
+  {
+   "image": "COLL-HEALTHY-0035.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy",
+    "missed:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.689
+    ]
+   ]
+  },
+  {
+   "image": "COLL-HEALTHY-0037.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "missed:Healthy"
+   ],
+   "preds": []
+  },
+  {
+   "image": "COLL-HEALTHY-0041.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy",
+    "missed:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.399
+    ]
+   ]
+  },
+  {
+   "image": "D1-rathor__H_51_.jpg.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "Healthy_predicted_as_Yellowing"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.498
+    ],
+    [
+     "Yellowing",
+     0.373
+    ]
+   ]
+  },
+  {
+   "image": "D1-rathor__N-2.jpg.jpg",
+   "gt_classes": [
+    "Yellowing"
+   ],
+   "events": [
+    "low_conf_symptom:Yellowing"
+   ],
+   "preds": [
+    [
+     "Yellowing",
+     0.349
+    ]
+   ]
+  },
+  {
+   "image": "D1-V006_77_1_10_05_03_12_1_2761e_20201209_47.jpeg.jpeg",
+   "gt_classes": [
+    "Yellowing"
+   ],
+   "events": [
+    "Yellowing_predicted_as_Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.264
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0297.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0298.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0299.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0300.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0301.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0302.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0303.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0304.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0305.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0306.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.366
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0307.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.306
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0308.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0309.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0310.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0311.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.254
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0312.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0313.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0314.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0315.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0316.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0317.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0318.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0319.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0320.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0321.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0322.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0323.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0324.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0325.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0326.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0327.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0328.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0329.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0330.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.329
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0331.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.396
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0332.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.408
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0333.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.479
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0334.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.404
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0335.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.378
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0336.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.464
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0337.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.48
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0340.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.489
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0344.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.497
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0345.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.446
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0346.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.401
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0347.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.489
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0348.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.367
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0349.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.284
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0350.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0351.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0352.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0353.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0354.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0355.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0356.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0357.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0358.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0359.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0360.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "poor_localization:Wilting",
+    "missed:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.336
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0361.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.494
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0362.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.446
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0363.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.275
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0364.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.42
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0365.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.499
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0366.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.357
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0367.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.359
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0368.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.371
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0369.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0370.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.261
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0371.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.286
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0372.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.318
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0373.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.388
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0374.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.377
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0375.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "missed:Wilting"
+   ],
+   "preds": []
+  },
+  {
+   "image": "RAW-WILTING-0376.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.388
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0377.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.405
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0378.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.352
+    ]
+   ]
+  },
+  {
+   "image": "RAW-WILTING-0379.jpg",
+   "gt_classes": [
+    "Wilting"
+   ],
+   "events": [
+    "low_conf_symptom:Wilting"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.32
+    ]
+   ]
+  },
+  {
+   "image": "RAW-YELLOWING-0429.jpg",
+   "gt_classes": [
+    "Yellowing"
+   ],
+   "events": [
+    "low_conf_symptom:Yellowing"
+   ],
+   "preds": [
+    [
+     "Yellowing",
+     0.328
+    ]
+   ]
+  },
+  {
+   "image": "RAW-YELLOWING-0536.jpg",
+   "gt_classes": [
+    "Yellowing"
+   ],
+   "events": [
+    "poor_localization:Yellowing"
+   ],
+   "preds": [
+    [
+     "Yellowing",
+     0.912
+    ],
+    [
+     "Yellowing",
+     0.272
+    ]
+   ]
+  },
+  {
+   "image": "RAW-YELLOWING-0537.jpg",
+   "gt_classes": [
+    "Yellowing"
+   ],
+   "events": [
+    "poor_localization:Yellowing"
+   ],
+   "preds": [
+    [
+     "Yellowing",
+     0.918
+    ],
+    [
+     "Yellowing",
+     0.388
+    ]
+   ]
+  },
+  {
+   "image": "RAW-YELLOWING-0538.jpg",
+   "gt_classes": [
+    "Yellowing"
+   ],
+   "events": [
+    "poor_localization:Yellowing"
+   ],
+   "preds": [
+    [
+     "Yellowing",
+     0.909
+    ],
+    [
+     "Yellowing",
+     0.432
+    ]
+   ]
+  }
+ ]
+}

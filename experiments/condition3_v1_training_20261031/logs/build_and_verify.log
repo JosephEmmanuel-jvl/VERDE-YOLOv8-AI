@@ -1,0 +1,30 @@
+Internal SHA 1/2404
+Internal SHA 401/2404
+Internal SHA 801/2404
+Internal SHA 1201/2404
+Internal SHA 1601/2404
+Internal SHA 2001/2404
+Internal SHA 2401/2404
+ZIP CRC/SHA 1/2405
+ZIP CRC/SHA 401/2405
+ZIP CRC/SHA 801/2405
+ZIP CRC/SHA 1201/2405
+ZIP CRC/SHA 1601/2405
+ZIP CRC/SHA 2001/2405
+ZIP CRC/SHA 2401/2405
+Image/annotation QA 1/1167
+Image/annotation QA 401/1167
+Image/annotation QA 801/1167
+Copied isolated dataset 1/1179
+Copied isolated dataset 401/1179
+Copied isolated dataset 801/1179
+{
+  "variant": "plus-new",
+  "images": 1179,
+  "train": 772,
+  "val": 207,
+  "test": 200,
+  "new_records": 12,
+  "training_runs": 0,
+  "partial_scene_risk_acknowledged": true
+}

@@ -1,0 +1,68 @@
+{
+ "tag": "baseline_416",
+ "model": "C:/Users/ben/Documents/Codex/2026-10-24/files-pasted-by-the-user-verde/outputs/VERDE_EXPERIMENTAL_TRAINING_HANDOFF_20261024_V1/models/verde_condition3_best_validation.pt",
+ "settings": {
+  "imgsz": 416,
+  "batch": 4,
+  "conf": 0.001,
+  "iou": 0.7,
+  "device": 0,
+  "workers": 0
+ },
+ "per_class": {
+  "Healthy": {
+   "precision": 0.8721262643175324,
+   "recall": 0.9423076923076923,
+   "f1": 0.9058596864649943,
+   "ap50": 0.8686846107835597,
+   "ap50_95": 0.650499610736183
+  },
+  "Yellowing": {
+   "precision": 0.9892386259734381,
+   "recall": 0.9753086419753086,
+   "f1": 0.982224247416627,
+   "ap50": 0.9932270586737941,
+   "ap50_95": 0.9749701771727377
+  },
+  "Wilting": {
+   "precision": 0.9757263263908493,
+   "recall": 1.0,
+   "f1": 0.9877140506329677,
+   "ap50": 0.9880418604651162,
+   "ap50_95": 0.4743030036610946
+  },
+  "overall": {
+   "precision": 0.9456970722272734,
+   "recall": 0.9725387780943336,
+   "f1": 0.9589301283438133,
+   "ap50": 0.9499845099741567,
+   "ap50_95": 0.6999242638566717
+  }
+ },
+ "confusion_matrix_rows_pred_cols_true_with_background": [
+  [
+   50.0,
+   1.0,
+   0.0,
+   698.0
+  ],
+  [
+   0.0,
+   79.0,
+   0.0,
+   102.0
+  ],
+  [
+   1.0,
+   1.0,
+   84.0,
+   92.0
+  ],
+  [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ]
+}

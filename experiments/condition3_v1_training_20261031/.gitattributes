@@ -1,0 +1,2 @@
+# Keep bytes exactly as checksummed on every platform (core.autocrlf is on for some clones).
+* -text

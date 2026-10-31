@@ -1,0 +1,9 @@
+VERDE CONDITION3-V1 TRAINING - RESUME SAVEPOINT 2026-10-31
+STATE: run complete, STOPPED for human decision. Decision CANDIDATE_MIXED. EXPERIMENTAL ONLY. INDEPENDENT_ACCEPTANCE_NOT_READY. DO NOT DEPLOY.
+Read: reports/FINAL_EVALUATION_REPORT.md
+best.pt (epoch 17 by validation) sha256 e6b3182c9edc67e51a65d660c0566122b85f2d0a9d173f6a133c81d55d40ffe9
+last.pt (epoch 27, early stop) sha256 1b9142fd118e57f3bff6e77ecc418d5b6a73ceadad3fe5ac7ce170a2e4fba5d8
+Baseline unchanged sha256 54e4d45bde7eeb960d7458e28c8d535ce68745178cad668c47ba5086101fe987
+Key caveat: baseline trained at 416, candidate at 640; compare with reports/METRIC_TABLES.md, not the 640-only deltas.
+Do not re-run training or use the historical test for further selection. Outputs not pushed.
+Integrity: cd workspace; sha256sum -c SHA256SUMS.txt

@@ -1,0 +1,232 @@
+{
+ "tag": "baseline_416",
+ "report_conf": 0.25,
+ "match_iou": 0.5,
+ "counts": {
+  "gt_boxes": 217,
+  "pred_boxes": 222,
+  "true_positives": 211,
+  "false_positive_background:Healthy": 3,
+  "poor_localization:Healthy": 4,
+  "missed:Healthy": 4,
+  "merged_plants:Healthy": 1,
+  "Healthy_predicted_as_Yellowing": 1,
+  "Yellowing_predicted_as_Wilting": 1,
+  "Yellowing_predicted_as_Healthy": 2,
+  "low_conf_symptom:Yellowing": 1
+ },
+ "images_with_events": 10,
+ "rows": [
+  {
+   "image": "B2-AGRIBOT-2025-04-15-108.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "false_positive_background:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.864
+    ],
+    [
+     "Healthy",
+     0.789
+    ],
+    [
+     "Healthy",
+     0.34
+    ]
+   ]
+  },
+  {
+   "image": "B2-AGRIBOT-2025-04-30-111.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "false_positive_background:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.976
+    ],
+    [
+     "Healthy",
+     0.974
+    ],
+    [
+     "Healthy",
+     0.955
+    ],
+    [
+     "Healthy",
+     0.606
+    ]
+   ]
+  },
+  {
+   "image": "B2-AGRIBOT-2025-04-30-125.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.951
+    ],
+    [
+     "Healthy",
+     0.947
+    ],
+    [
+     "Healthy",
+     0.899
+    ]
+   ]
+  },
+  {
+   "image": "B2-AGRIBOT-2025-04-30-126.png",
+   "gt_classes": [
+    "Healthy",
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy",
+    "poor_localization:Healthy",
+    "false_positive_background:Healthy",
+    "missed:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.973
+    ],
+    [
+     "Healthy",
+     0.964
+    ],
+    [
+     "Healthy",
+     0.955
+    ],
+    [
+     "Healthy",
+     0.911
+    ],
+    [
+     "Healthy",
+     0.572
+    ]
+   ]
+  },
+  {
+   "image": "B3-WM-0165.jpg",
+   "gt_classes": [
+    "Healthy",
+    "Healthy"
+   ],
+   "events": [
+    "merged_plants:Healthy",
+    "missed:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.864
+    ]
+   ]
+  },
+  {
+   "image": "COLL-HEALTHY-0035.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "poor_localization:Healthy",
+    "missed:Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.491
+    ]
+   ]
+  },
+  {
+   "image": "COLL-HEALTHY-0041.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "missed:Healthy"
+   ],
+   "preds": []
+  },
+  {
+   "image": "D1-rathor__H_51_.jpg.jpg",
+   "gt_classes": [
+    "Healthy"
+   ],
+   "events": [
+    "Healthy_predicted_as_Yellowing"
+   ],
+   "preds": [
+    [
+     "Yellowing",
+     0.839
+    ]
+   ]
+  },
+  {
+   "image": "D1-rathor__N-2.jpg.jpg",
+   "gt_classes": [
+    "Yellowing"
+   ],
+   "events": [
+    "Yellowing_predicted_as_Wilting",
+    "Yellowing_predicted_as_Healthy",
+    "low_conf_symptom:Yellowing"
+   ],
+   "preds": [
+    [
+     "Wilting",
+     0.628
+    ],
+    [
+     "Healthy",
+     0.305
+    ],
+    [
+     "Yellowing",
+     0.258
+    ]
+   ]
+  },
+  {
+   "image": "D1-V006_77_1_10_05_03_12_1_2761e_20201209_47.jpeg.jpeg",
+   "gt_classes": [
+    "Yellowing"
+   ],
+   "events": [
+    "Yellowing_predicted_as_Healthy"
+   ],
+   "preds": [
+    [
+     "Healthy",
+     0.715
+    ]
+   ]
+  }
+ ]
+}
