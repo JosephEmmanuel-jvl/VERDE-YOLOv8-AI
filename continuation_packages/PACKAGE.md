@@ -24,4 +24,6 @@ The script verifies both parts, reconstructs and verifies the ZIP, checks for un
 
 Read `STATUS.md` and `TRAINING_STATE.md` inside the restored folder before continuing. Training was stopped when this package was created. The recorded morning run contains 11 completed result rows out of an intended 20 epochs; resume from its copied `last.pt`, not the historical epoch-7 resume script.
 
+Then follow `STRONGER_GPU_HANDOFF.md`. The branch also includes the preserved Harvest-Ready and printed-prop starting weights under `starter_models/` so each task can continue independently.
+
 The contained validation measurements are controlled fixed-camera development results. They are not proof of general model accuracy or deployment readiness.
