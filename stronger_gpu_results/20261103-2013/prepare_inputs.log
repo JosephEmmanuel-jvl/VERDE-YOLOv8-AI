@@ -1,0 +1,36 @@
+Verified FULL_SHA256SUMS: 4916 and snapshotted 4917 source files
+{
+  "copies": {
+    "morning_dataset": {
+      "source": "morning-yellowing-training/candidate_dataset",
+      "verified_files": 3286
+    },
+    "field_dataset": {
+      "source": "field-adaptation/dataset-v2",
+      "verified_files": 1604
+    }
+  },
+  "checkpoint_epoch_zero_based": 10,
+  "start_epoch_one_based": 12,
+  "optimizer_state_present": true,
+  "ema_present": true,
+  "checkpoint_version": "8.4.174",
+  "completed_rows": 11,
+  "field": {
+    "condition_detect": {
+      "train": 180,
+      "val": 60,
+      "test": 240
+    },
+    "prop_detect": {
+      "train": 30,
+      "val": 10,
+      "test": 40
+    },
+    "harvest_classify": {
+      "train": 180,
+      "val": 60,
+      "test": 240
+    }
+  }
+}

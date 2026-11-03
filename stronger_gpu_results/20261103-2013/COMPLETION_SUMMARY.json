@@ -1,0 +1,171 @@
+{
+  "tasks": {
+    "task_a": {
+      "task": "task_a",
+      "elapsed_seconds": 2904.4299926757812,
+      "result_rows": 20,
+      "last_epoch": 20,
+      "intended_epochs": 20,
+      "early_stopping_allowed": true,
+      "start_model": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\preserved_inputs\\morning_original_last.pt",
+      "status": "TRAINING_COMPLETE",
+      "model_after_training": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\task_a\\weights\\best.pt",
+      "starting_model_evidence": "resume_verified.json and task_a/args.yaml; first receipt recorded final model path"
+    },
+    "field_condition": {
+      "task": "field_condition",
+      "elapsed_seconds": 332.8029673099518,
+      "result_rows": 11,
+      "last_epoch": 11,
+      "intended_epochs": 20,
+      "early_stopping_allowed": true,
+      "start_model": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\task_a\\weights\\last.pt",
+      "status": "TRAINING_COMPLETE"
+    },
+    "field_harvest": {
+      "task": "field_harvest",
+      "elapsed_seconds": 154.94507431983948,
+      "result_rows": 10,
+      "last_epoch": 10,
+      "intended_epochs": 20,
+      "early_stopping_allowed": true,
+      "start_model": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\continuation_packages\\starter_models\\harvest_cls_v3.pt",
+      "status": "TRAINING_COMPLETE"
+    },
+    "field_prop": {
+      "task": "field_prop",
+      "elapsed_seconds": 145.60531568527222,
+      "result_rows": 20,
+      "last_epoch": 20,
+      "intended_epochs": 20,
+      "early_stopping_allowed": true,
+      "start_model": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\continuation_packages\\starter_models\\printed_prop_v8.pt",
+      "status": "TRAINING_COMPLETE"
+    }
+  },
+  "task_a_selected": "continued_last",
+  "field_baseline": {
+    "condition": {
+      "images": 240,
+      "accuracy": 0.7792,
+      "per_class_accuracy": {
+        "Yellowing": 0.675,
+        "Healthy": 0.6667,
+        "Wilting": 1.0
+      },
+      "confusion": {
+        "Healthy->Healthy": 80,
+        "Healthy->Yellowing": 40,
+        "Wilting->Wilting": 80,
+        "Yellowing->Healthy": 13,
+        "Yellowing->Yellowing": 27
+      },
+      "top_prediction_per_class_counts": {
+        "Healthy": {
+          "tp": 80,
+          "fp": 13,
+          "fn": 40,
+          "precision": 0.8602150537634409,
+          "recall": 0.6666666666666666
+        },
+        "Yellowing": {
+          "tp": 27,
+          "fp": 40,
+          "fn": 13,
+          "precision": 0.40298507462686567,
+          "recall": 0.675
+        },
+        "Wilting": {
+          "tp": 80,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      }
+    },
+    "harvest": {
+      "images": 240,
+      "accuracy": 0.5,
+      "confusion": {
+        "not_ready->not_ready": 80,
+        "not_ready->ready": 40,
+        "ready->not_ready": 80,
+        "ready->ready": 40
+      }
+    },
+    "prop": {
+      "images": 40,
+      "tp": 60,
+      "fp": 5,
+      "fn": 20,
+      "precision": 0.9231,
+      "recall": 0.75,
+      "f1": 0.8276,
+      "no_prop_frames": 20,
+      "no_prop_false_positive_boxes": 5,
+      "no_prop_frames_with_false_positives": 5
+    }
+  },
+  "field_candidate": {
+    "condition": {
+      "images": 240,
+      "accuracy": 1.0,
+      "per_class_accuracy": {
+        "Yellowing": 1.0,
+        "Healthy": 1.0,
+        "Wilting": 1.0
+      },
+      "confusion": {
+        "Healthy->Healthy": 120,
+        "Wilting->Wilting": 80,
+        "Yellowing->Yellowing": 40
+      },
+      "top_prediction_per_class_counts": {
+        "Healthy": {
+          "tp": 120,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "Yellowing": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "Wilting": {
+          "tp": 80,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      }
+    },
+    "harvest": {
+      "images": 240,
+      "accuracy": 0.6458,
+      "confusion": {
+        "not_ready->not_ready": 119,
+        "not_ready->ready": 1,
+        "ready->not_ready": 84,
+        "ready->ready": 36
+      }
+    },
+    "prop": {
+      "images": 40,
+      "tp": 17,
+      "fp": 25,
+      "fn": 63,
+      "precision": 0.4048,
+      "recall": 0.2125,
+      "f1": 0.2787,
+      "no_prop_frames": 20,
+      "no_prop_false_positive_boxes": 22,
+      "no_prop_frames_with_false_positives": 18
+    }
+  }
+}

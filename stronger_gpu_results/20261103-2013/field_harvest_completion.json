@@ -1,0 +1,10 @@
+{
+  "task": "field_harvest",
+  "elapsed_seconds": 154.94507431983948,
+  "result_rows": 10,
+  "last_epoch": 10,
+  "intended_epochs": 20,
+  "early_stopping_allowed": true,
+  "start_model": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\continuation_packages\\starter_models\\harvest_cls_v3.pt",
+  "status": "TRAINING_COMPLETE"
+}

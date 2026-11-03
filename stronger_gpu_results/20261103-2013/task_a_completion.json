@@ -1,0 +1,12 @@
+{
+  "task": "task_a",
+  "elapsed_seconds": 2904.4299926757812,
+  "result_rows": 20,
+  "last_epoch": 20,
+  "intended_epochs": 20,
+  "early_stopping_allowed": true,
+  "start_model": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\preserved_inputs\\morning_original_last.pt",
+  "status": "TRAINING_COMPLETE",
+  "model_after_training": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\task_a\\weights\\best.pt",
+  "starting_model_evidence": "resume_verified.json and task_a/args.yaml; first receipt recorded final model path"
+}

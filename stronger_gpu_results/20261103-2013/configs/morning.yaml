@@ -1,0 +1,7 @@
+path: C:/Users/ben/Documents/Codex/VERDE_STRONGER_GPU_20261103/stronger_gpu_results/20261103-2013/_work/morning_dataset
+train: images/train
+val: images/val
+names:
+  0: Healthy
+  1: Yellowing
+  2: Wilting

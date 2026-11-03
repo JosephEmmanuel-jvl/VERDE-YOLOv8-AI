@@ -1,0 +1,41 @@
+{
+  "task_a_yellowing_focused": {
+    "path": "task_a/weights/last.pt",
+    "sha256": "c2b25b00aa678b60eed090fa6e0497d4801d490d0c458dd023fb9047c88b4dae",
+    "role": "YELLOWING_FOCUSED_DEVELOPMENT_CANDIDATE",
+    "reason": "Highest Yellowing validation AP50-95; Healthy AP and Wilting AP regress relative to preserved best. This was the pre-test field adaptation starting point."
+  },
+  "task_a_macro_ap_alternative": {
+    "path": "task_a/weights/best.pt",
+    "sha256": "1eaf997a9706bd8a598acdd93dfbcf02037b77ad6d6e21ebdf02e1bae49a5998",
+    "role": "MACRO_AP_WILTING_DEVELOPMENT_ALTERNATIVE",
+    "reason": "Higher Wilting and macro AP; Yellowing AP nearly unchanged versus preserved best and Healthy recall lower."
+  },
+  "field_condition": {
+    "path": "field_condition/weights/best.pt",
+    "sha256": "fbb0870e9a944ce03a66102597fc1e5c2bda453e0e5272583a3f3dd909b88212",
+    "role": "PREFERRED_FRESH_FIXED_DEMO_VALIDATION_CANDIDATE",
+    "reason": "Locked fixed-demo top-prediction accuracy 100% versus 77.92%; all three classes 100%. Same six plants and documented validation/test duplicate prevent generalization or acceptance claims."
+  },
+  "field_harvest": {
+    "path": "field_harvest/weights/best.pt",
+    "sha256": "f6d3c5762b33706782d9396906fd408bc9706374b8c9b5d08ade39fda1189a06",
+    "role": "DEVELOPMENT_REVIEW_ONLY_NO_PROMOTION",
+    "reason": "Accuracy rises 50% to64.58% and false-ready predictions fall40 to1, but ready recall falls40/120 to36/120:84 ready examples missed. Preserve both models; no promotion on aggregate accuracy. Training224/evaluation640 preprocessing mismatch is a limitation."
+  },
+  "field_prop": {
+    "preferred_path": "continuation_packages/starter_models/printed_prop_v8.pt",
+    "sha256": "8ef40e095247a468bdf68389f4b7d02bdccc37e7c00603b88b1ea5bcc6163e9e",
+    "role": "PREFER_PRESERVED_BASELINE_FOR_FUTURE_VALIDATION",
+    "rejected_adaptation_path": "field_prop/weights/best.pt",
+    "rejected_adaptation_sha256": "51354e17320f15d428b0ebeb2a6aafaf2b3bfa43f4ac883383bd4e67045e27f2",
+    "reason": "New adaptation regresses tiled F1 from0.8276 to0.2787; TP60 to17, FP5 to25, FN20 to63. No-prop false positives5 to22. Keep failed run as evidence, do not promote."
+  },
+  "deployment_authorized": false,
+  "independent_acceptance_ready": false,
+  "next_action": "Fresh isolated Pi-camera/full-pipeline validation under later authorization. Pre-register input-size/tiling alignment and fresh held-out groups before any further Harvest/prop tuning; no further training in this task.",
+  "possible_contributors_not_proven_causes": [
+    "Harvest trained224 but preserved benchmark uses640.",
+    "Printed-prop fine-tuning used resized full frames while primary benchmark uses640-pixel tiles. These preprocessing differences may contribute to failures; this experiment does not prove causation."
+  ]
+}

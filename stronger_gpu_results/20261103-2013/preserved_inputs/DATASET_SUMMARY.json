@@ -1,0 +1,57 @@
+{
+  "source_images": 80,
+  "unique_source_hashes": 79,
+  "duplicate_hash_groups": {
+    "bd95173ffe76d635501208a6c2f635c517543f76e45e97c1de0985cce46f6540": [
+      "work\\field-captures-20261103-151307\\set-03-no-props\\frame-20261103-153744-122132378.jpg",
+      "work\\field-captures-20261103-151307\\set-04-no-props-same-as-set03\\frame-20261103-153749-727238630.jpg"
+    ]
+  },
+  "condition_crops": 480,
+  "harvest_crops": 480,
+  "prop_images": 80,
+  "prop_instances": 160,
+  "splits": {
+    "train": {
+      "condition_crops": 180,
+      "harvest_crops": 180,
+      "prop_images": 30
+    },
+    "val": {
+      "condition_crops": 60,
+      "harvest_crops": 60,
+      "prop_images": 10
+    },
+    "test": {
+      "condition_crops": 240,
+      "harvest_crops": 240,
+      "prop_images": 40
+    }
+  },
+  "truth": {
+    "condition": {
+      "T1": "Healthy",
+      "T2": "Healthy",
+      "T3": "Wilting",
+      "B1": "Yellowing",
+      "B2": "Healthy",
+      "B3": "Wilting"
+    },
+    "harvest_ready": [
+      "B1",
+      "B3",
+      "T2"
+    ],
+    "prop_sets": {
+      "set-01-current-four-props": 4,
+      "set-02-four-props-new-positions": 4,
+      "set-03-no-props": 0,
+      "set-04-no-props-same-as-set03": 0
+    }
+  },
+  "scope": [
+    "Fixed mounted camera and fixed six defense zones only",
+    "Printed props are presentation surrogates, not biological pest validation",
+    "Set 02 and Set 04 are held out from training and validation"
+  ]
+}

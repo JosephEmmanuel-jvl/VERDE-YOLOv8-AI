@@ -1,0 +1,6 @@
+path: C:/Users/ben/Documents/Codex/VERDE_STRONGER_GPU_20261103/stronger_gpu_results/20261103-2013/_work/field_dataset/prop_detect
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: Printed Insect Prop

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "source_files_verified_unchanged": 4917,
+  "required_run_artifacts_present": true,
+  "split_boundary_violations": 0,
+  "dataset_reassignment": false,
+  "original_checkpoints_unchanged": true,
+  "training_tasks_completed": [
+    "task_a",
+    "field_condition",
+    "field_harvest",
+    "field_prop"
+  ],
+  "published_checksum_scope": "All result files except SHA256SUMS.txt itself, _work/, runtime/, and __pycache__/."
+}

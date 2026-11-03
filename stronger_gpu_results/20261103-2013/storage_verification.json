@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-11-03T20:50:06.7658034+08:00",
+  "free_bytes": 197664903168,
+  "used_bytes": 312816492544,
+  "first_observed_free_bytes": 223212396544,
+  "first_observation": "initial shell preflight before clone"
+}

@@ -1,0 +1,314 @@
+RUN baseline
+prop 1/40: tp=3 fp=0 fn=1
+prop 2/40: tp=3 fp=0 fn=1
+prop 3/40: tp=3 fp=0 fn=1
+prop 4/40: tp=3 fp=0 fn=1
+prop 5/40: tp=3 fp=0 fn=1
+prop 6/40: tp=3 fp=0 fn=1
+prop 7/40: tp=3 fp=0 fn=1
+prop 8/40: tp=3 fp=0 fn=1
+prop 9/40: tp=3 fp=0 fn=1
+prop 10/40: tp=3 fp=0 fn=1
+prop 11/40: tp=3 fp=0 fn=1
+prop 12/40: tp=4 fp=0 fn=0
+prop 13/40: tp=3 fp=0 fn=1
+prop 14/40: tp=3 fp=0 fn=1
+prop 15/40: tp=4 fp=0 fn=0
+prop 16/40: tp=3 fp=0 fn=1
+prop 17/40: tp=3 fp=0 fn=1
+prop 18/40: tp=2 fp=0 fn=2
+prop 19/40: tp=2 fp=0 fn=2
+prop 20/40: tp=3 fp=0 fn=1
+prop 21/40: tp=0 fp=0 fn=0
+prop 22/40: tp=0 fp=0 fn=0
+prop 23/40: tp=0 fp=1 fn=0
+prop 24/40: tp=0 fp=0 fn=0
+prop 25/40: tp=0 fp=1 fn=0
+prop 26/40: tp=0 fp=0 fn=0
+prop 27/40: tp=0 fp=0 fn=0
+prop 28/40: tp=0 fp=0 fn=0
+prop 29/40: tp=0 fp=0 fn=0
+prop 30/40: tp=0 fp=0 fn=0
+prop 31/40: tp=0 fp=0 fn=0
+prop 32/40: tp=0 fp=1 fn=0
+prop 33/40: tp=0 fp=0 fn=0
+prop 34/40: tp=0 fp=0 fn=0
+prop 35/40: tp=0 fp=1 fn=0
+prop 36/40: tp=0 fp=0 fn=0
+prop 37/40: tp=0 fp=0 fn=0
+prop 38/40: tp=0 fp=0 fn=0
+prop 39/40: tp=0 fp=0 fn=0
+prop 40/40: tp=0 fp=1 fn=0
+{
+  "condition": {
+    "images": 240,
+    "accuracy": 0.7792,
+    "per_class_accuracy": {
+      "Yellowing": 0.675,
+      "Healthy": 0.6667,
+      "Wilting": 1.0
+    },
+    "confusion": {
+      "Healthy->Healthy": 80,
+      "Healthy->Yellowing": 40,
+      "Wilting->Wilting": 80,
+      "Yellowing->Healthy": 13,
+      "Yellowing->Yellowing": 27
+    }
+  },
+  "harvest": {
+    "images": 240,
+    "accuracy": 0.5,
+    "confusion": {
+      "not_ready->not_ready": 80,
+      "not_ready->ready": 40,
+      "ready->not_ready": 80,
+      "ready->ready": 40
+    }
+  },
+  "prop": {
+    "images": 40,
+    "tp": 60,
+    "fp": 5,
+    "fn": 20,
+    "precision": 0.9231,
+    "recall": 0.75,
+    "f1": 0.8276
+  }
+}
+Ultralytics 8.4.185  Python-3.12.10 torch-2.9.0+cu128 CUDA:0 (NVIDIA GeForce RTX 4050 Laptop GPU, 6140MiB)
+Model summary (fused): 72 layers, 11,126,745 parameters, 0 gradients, 28.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.0±0.0 ms, read: 785.7±142.5 MB/s, size: 148.4 KB)
+[K[34m[1mval: [0mScanning C:\Users\ben\Documents\Codex\VERDE_STRONGER_GPU_20261103\stronger_gpu_results\20261103-2013\_work\field_dataset\condition_detect\labels\test... 168 images, 0 backgrounds, 0 corrupt: 70% ━━━━━━━━──── 168/240 498.9it/s 0.1s<0.1s[K[34m[1mval: [0mScanning C:\Users\ben\Documents\Codex\VERDE_STRONGER_GPU_20261103\stronger_gpu_results\20261103-2013\_work\field_dataset\condition_detect\labels\test... 240 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 240/240 1.7Kit/s 0.1s
+[34m[1mval: [0mNew cache created: C:\Users\ben\Documents\Codex\VERDE_STRONGER_GPU_20261103\stronger_gpu_results\20261103-2013\_work\field_dataset\condition_detect\labels\test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 1% ──────────── 1/60 1.2it/s 0.3s<49.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% ──────────── 2/60 3.4it/s 0.4s<16.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 5% ╸─────────── 3/60 5.1it/s 0.5s<11.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 6% ╸─────────── 4/60 6.3it/s 0.6s<8.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 10% ━─────────── 6/60 8.2it/s 0.7s<6.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 13% ━╸────────── 8/60 9.5it/s 0.9s<5.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% ━━────────── 10/60 10.6it/s 1.1s<4.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 18% ━━────────── 11/60 9.3it/s 1.2s<5.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 21% ━━╸───────── 13/60 9.9it/s 1.4s<4.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% ━━━───────── 15/60 10.5it/s 1.6s<4.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 28% ━━━───────── 17/60 10.8it/s 1.7s<4.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 31% ━━━╸──────── 19/60 11.2it/s 1.9s<3.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 35% ━━━━──────── 21/60 10.5it/s 2.1s<3.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 38% ━━━━╸─────── 23/60 10.7it/s 2.3s<3.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 41% ━━━━━─────── 25/60 11.0it/s 2.5s<3.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 45% ━━━━━─────── 27/60 11.0it/s 2.7s<3.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 48% ━━━━━╸────── 29/60 11.3it/s 2.8s<2.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 51% ━━━━━━────── 31/60 11.5it/s 3.0s<2.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 55% ━━━━━━╸───── 33/60 11.5it/s 3.2s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 58% ━━━━━━━───── 35/60 11.5it/s 3.3s<2.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 61% ━━━━━━━───── 37/60 11.4it/s 3.5s<2.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 65% ━━━━━━━╸──── 39/60 11.4it/s 3.7s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 41/60 10.8it/s 3.9s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 71% ━━━━━━━━╸─── 43/60 10.9it/s 4.1s<1.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 45/60 10.7it/s 4.3s<1.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 78% ━━━━━━━━━─── 47/60 10.9it/s 4.5s<1.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 81% ━━━━━━━━━╸── 49/60 11.0it/s 4.6s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 85% ━━━━━━━━━━── 51/60 10.4it/s 4.9s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 88% ━━━━━━━━━━╸─ 53/60 10.6it/s 5.0s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 91% ━━━━━━━━━━━─ 55/60 10.7it/s 5.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 95% ━━━━━━━━━━━─ 57/60 11.0it/s 5.4s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 98% ━━━━━━━━━━━╸ 59/60 11.1it/s 5.6s<0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 60/60 10.6it/s 5.7s
+                   all        240        240      0.864      0.914      0.951      0.732
+Speed: 0.5ms preprocess, 8.9ms inference, 0.0ms loss, 1.8ms postprocess per image
+Results saved to [1mC:\Users\ben\Documents\Codex\VERDE_STRONGER_GPU_20261103\stronger_gpu_results\20261103-2013\evaluations\field_baseline\condition_detection_metrics[0m
+Ultralytics 8.4.185  Python-3.12.10 torch-2.9.0+cu128 CUDA:0 (NVIDIA GeForce RTX 4050 Laptop GPU, 6140MiB)
+Model summary (fused): 72 layers, 11,125,971 parameters, 0 gradients, 28.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.1±0.0 ms, read: 1996.1±132.6 MB/s, size: 1563.3 KB)
+[K[34m[1mval: [0mScanning C:\Users\ben\Documents\Codex\VERDE_STRONGER_GPU_20261103\stronger_gpu_results\20261103-2013\_work\field_dataset\prop_detect\labels\test... 40 images, 20 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: C:\Users\ben\Documents\Codex\VERDE_STRONGER_GPU_20261103\stronger_gpu_results\20261103-2013\_work\field_dataset\prop_detect\labels\test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 10% ━─────────── 1/10 1.1s/it 0.3s<9.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 2/10 1.6it/s 0.6s<5.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 30% ━━━╸──────── 3/10 2.1it/s 0.9s<3.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 4/10 2.5it/s 1.2s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 5/10 2.8it/s 1.5s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 6/10 3.0it/s 1.8s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 70% ━━━━━━━━──── 7/10 3.0it/s 2.1s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 8/10 3.0it/s 2.5s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 90% ━━━━━━━━━━╸─ 9/10 2.9it/s 2.9s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 10/10 3.1it/s 3.2s
+                   all         40         80    0.00824      0.325    0.00992    0.00497
+Speed: 0.6ms preprocess, 22.2ms inference, 0.0ms loss, 1.8ms postprocess per image
+Results saved to [1mC:\Users\ben\Documents\Codex\VERDE_STRONGER_GPU_20261103\stronger_gpu_results\20261103-2013\evaluations\field_baseline\prop_detection_metrics[0m
+RUN candidate
+prop 1/40: tp=0 fp=0 fn=4
+prop 2/40: tp=0 fp=0 fn=4
+prop 3/40: tp=0 fp=0 fn=4
+prop 4/40: tp=1 fp=0 fn=3
+prop 5/40: tp=1 fp=1 fn=3
+prop 6/40: tp=2 fp=0 fn=2
+prop 7/40: tp=1 fp=0 fn=3
+prop 8/40: tp=0 fp=0 fn=4
+prop 9/40: tp=0 fp=0 fn=4
+prop 10/40: tp=1 fp=0 fn=3
+prop 11/40: tp=1 fp=0 fn=3
+prop 12/40: tp=1 fp=0 fn=3
+prop 13/40: tp=2 fp=0 fn=2
+prop 14/40: tp=0 fp=1 fn=4
+prop 15/40: tp=2 fp=0 fn=2
+prop 16/40: tp=1 fp=0 fn=3
+prop 17/40: tp=1 fp=0 fn=3
+prop 18/40: tp=1 fp=1 fn=3
+prop 19/40: tp=1 fp=0 fn=3
+prop 20/40: tp=1 fp=0 fn=3
+prop 21/40: tp=0 fp=1 fn=0
+prop 22/40: tp=0 fp=1 fn=0
+prop 23/40: tp=0 fp=1 fn=0
+prop 24/40: tp=0 fp=1 fn=0
+prop 25/40: tp=0 fp=2 fn=0
+prop 26/40: tp=0 fp=1 fn=0
+prop 27/40: tp=0 fp=1 fn=0
+prop 28/40: tp=0 fp=1 fn=0
+prop 29/40: tp=0 fp=1 fn=0
+prop 30/40: tp=0 fp=1 fn=0
+prop 31/40: tp=0 fp=0 fn=0
+prop 32/40: tp=0 fp=0 fn=0
+prop 33/40: tp=0 fp=2 fn=0
+prop 34/40: tp=0 fp=1 fn=0
+prop 35/40: tp=0 fp=1 fn=0
+prop 36/40: tp=0 fp=1 fn=0
+prop 37/40: tp=0 fp=1 fn=0
+prop 38/40: tp=0 fp=2 fn=0
+prop 39/40: tp=0 fp=2 fn=0
+prop 40/40: tp=0 fp=1 fn=0
+{
+  "condition": {
+    "images": 240,
+    "accuracy": 1.0,
+    "per_class_accuracy": {
+      "Yellowing": 1.0,
+      "Healthy": 1.0,
+      "Wilting": 1.0
+    },
+    "confusion": {
+      "Healthy->Healthy": 120,
+      "Wilting->Wilting": 80,
+      "Yellowing->Yellowing": 40
+    }
+  },
+  "harvest": {
+    "images": 240,
+    "accuracy": 0.6458,
+    "confusion": {
+      "not_ready->not_ready": 119,
+      "not_ready->ready": 1,
+      "ready->not_ready": 84,
+      "ready->ready": 36
+    }
+  },
+  "prop": {
+    "images": 40,
+    "tp": 17,
+    "fp": 25,
+    "fn": 63,
+    "precision": 0.4048,
+    "recall": 0.2125,
+    "f1": 0.2787
+  }
+}
+Ultralytics 8.4.185  Python-3.12.10 torch-2.9.0+cu128 CUDA:0 (NVIDIA GeForce RTX 4050 Laptop GPU, 6140MiB)
+Model summary (fused): 72 layers, 11,126,745 parameters, 0 gradients, 28.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.0±0.0 ms, read: 690.3±237.0 MB/s, size: 129.3 KB)
+[K[34m[1mval: [0mScanning C:\Users\ben\Documents\Codex\VERDE_STRONGER_GPU_20261103\stronger_gpu_results\20261103-2013\_work\field_dataset\condition_detect\labels\test.cache... 240 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 240/240  0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% ──────────── 2/60 3.0it/s 0.2s<19.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 5% ╸─────────── 3/60 5.1it/s 0.3s<11.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 6% ╸─────────── 4/60 6.3it/s 0.4s<8.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 10% ━─────────── 6/60 8.1it/s 0.6s<6.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 13% ━╸────────── 8/60 9.4it/s 0.7s<5.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% ━━────────── 10/60 10.4it/s 0.9s<4.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 12/60 10.3it/s 1.1s<4.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 23% ━━╸───────── 14/60 10.8it/s 1.3s<4.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 26% ━━━───────── 16/60 10.8it/s 1.4s<4.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 28% ━━━───────── 17/60 10.5it/s 1.5s<4.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 31% ━━━╸──────── 19/60 10.6it/s 1.7s<3.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 35% ━━━━──────── 21/60 10.7it/s 1.9s<3.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 38% ━━━━╸─────── 23/60 11.1it/s 2.1s<3.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 41% ━━━━━─────── 25/60 11.3it/s 2.2s<3.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 45% ━━━━━─────── 27/60 10.9it/s 2.4s<3.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 46% ━━━━━╸────── 28/60 10.6it/s 2.5s<3.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 30/60 10.6it/s 2.7s<2.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 53% ━━━━━━────── 32/60 10.5it/s 2.9s<2.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 56% ━━━━━━╸───── 34/60 10.6it/s 3.1s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 36/60 10.6it/s 3.3s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 63% ━━━━━━━╸──── 38/60 10.5it/s 3.5s<2.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 40/60 10.4it/s 3.7s<1.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 41/60 10.3it/s 3.8s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 71% ━━━━━━━━╸─── 43/60 10.5it/s 4.0s<1.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 45/60 10.4it/s 4.2s<1.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 78% ━━━━━━━━━─── 47/60 10.6it/s 4.4s<1.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 81% ━━━━━━━━━╸── 49/60 10.8it/s 4.5s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 85% ━━━━━━━━━━── 51/60 10.9it/s 4.7s<0.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 88% ━━━━━━━━━━╸─ 53/60 11.0it/s 4.9s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 91% ━━━━━━━━━━━─ 55/60 11.0it/s 5.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 95% ━━━━━━━━━━━─ 57/60 11.2it/s 5.2s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 98% ━━━━━━━━━━━╸ 59/60 11.3it/s 5.4s<0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 60/60 10.9it/s 5.5s
+                   all        240        240      0.999          1      0.995      0.993
+Speed: 0.5ms preprocess, 8.2ms inference, 0.0ms loss, 1.9ms postprocess per image
+Results saved to [1mC:\Users\ben\Documents\Codex\VERDE_STRONGER_GPU_20261103\stronger_gpu_results\20261103-2013\evaluations\field_candidate\condition_detection_metrics[0m
+Ultralytics 8.4.185  Python-3.12.10 torch-2.9.0+cu128 CUDA:0 (NVIDIA GeForce RTX 4050 Laptop GPU, 6140MiB)
+Model summary (fused): 72 layers, 11,125,971 parameters, 0 gradients, 28.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.1±0.0 ms, read: 1983.9±266.5 MB/s, size: 1560.3 KB)
+[K[34m[1mval: [0mScanning C:\Users\ben\Documents\Codex\VERDE_STRONGER_GPU_20261103\stronger_gpu_results\20261103-2013\_work\field_dataset\prop_detect\labels\test.cache... 40 images, 20 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40  0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 10% ━─────────── 1/10 1.0s/it 0.3s<9.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 2/10 1.7it/s 0.6s<4.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 30% ━━━╸──────── 3/10 2.2it/s 0.9s<3.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 4/10 2.6it/s 1.2s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 5/10 2.9it/s 1.5s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 6/10 3.1it/s 1.8s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 70% ━━━━━━━━──── 7/10 3.2it/s 2.0s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 8/10 3.3it/s 2.3s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 90% ━━━━━━━━━━╸─ 9/10 3.3it/s 2.6s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 10/10 3.5it/s 2.9s
+                   all         40         80      0.325       0.25      0.134     0.0578
+Speed: 0.4ms preprocess, 17.4ms inference, 0.0ms loss, 1.7ms postprocess per image
+Results saved to [1mC:\Users\ben\Documents\Codex\VERDE_STRONGER_GPU_20261103\stronger_gpu_results\20261103-2013\evaluations\field_candidate\prop_detection_metrics[0m
+{
+  "baseline": {
+    "condition": {
+      "images": 240,
+      "accuracy": 0.7792,
+      "per_class_accuracy": {
+        "Yellowing": 0.675,
+        "Healthy": 0.6667,
+        "Wilting": 1.0
+      },
+      "confusion": {
+        "Healthy->Healthy": 80,
+        "Healthy->Yellowing": 40,
+        "Wilting->Wilting": 80,
+        "Yellowing->Healthy": 13,
+        "Yellowing->Yellowing": 27
+      },
+      "top_prediction_per_class_counts": {
+        "Healthy": {
+          "tp": 80,
+          "fp": 13,
+          "fn": 40,
+          "precision": 0.8602150537634409,
+          "recall": 0.6666666666666666
+        },
+        "Yellowing": {
+          "tp": 27,
+          "fp": 40,
+          "fn": 13,
+          "precision": 0.40298507462686567,
+          "recall": 0.675
+        },
+        "Wilting": {
+          "tp": 80,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      }
+    },
+    "harvest": {
+      "images": 240,
+      "accuracy": 0.5,
+      "confusion": {
+        "not_ready->not_ready": 80,
+        "not_ready->ready": 40,
+        "ready->not_ready": 80,
+        "ready->ready": 40
+      }
+    },
+    "prop": {
+      "images": 40,
+      "tp": 60,
+      "fp": 5,
+      "fn": 20,
+      "precision": 0.9231,
+      "recall": 0.75,
+      "f1": 0.8276,
+      "no_prop_frames": 20,
+      "no_prop_false_positive_boxes": 5,
+      "no_prop_frames_with_false_positives": 5
+    }
+  },
+  "candidate": {
+    "condition": {
+      "images": 240,
+      "accuracy": 1.0,
+      "per_class_accuracy": {
+        "Yellowing": 1.0,
+        "Healthy": 1.0,
+        "Wilting": 1.0
+      },
+      "confusion": {
+        "Healthy->Healthy": 120,
+        "Wilting->Wilting": 80,
+        "Yellowing->Yellowing": 40
+      },
+      "top_prediction_per_class_counts": {
+        "Healthy": {
+          "tp": 120,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "Yellowing": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "Wilting": {
+          "tp": 80,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      }
+    },
+    "harvest": {
+      "images": 240,
+      "accuracy": 0.6458,
+      "confusion": {
+        "not_ready->not_ready": 119,
+        "not_ready->ready": 1,
+        "ready->not_ready": 84,
+        "ready->ready": 36
+      }
+    },
+    "prop": {
+      "images": 40,
+      "tp": 17,
+      "fp": 25,
+      "fn": 63,
+      "precision": 0.4048,
+      "recall": 0.2125,
+      "f1": 0.2787,
+      "no_prop_frames": 20,
+      "no_prop_false_positive_boxes": 22,
+      "no_prop_frames_with_false_positives": 18
+    }
+  }
+}

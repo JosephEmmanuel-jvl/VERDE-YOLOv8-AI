@@ -1,0 +1,68 @@
+{
+  "frame_boundary_violations": 0,
+  "duplicate_group_counts": {
+    "condition_detect": 6,
+    "harvest_classify": 6,
+    "prop_detect": 1
+  },
+  "split_pairs": {
+    "condition_detect": [
+      [
+        "test",
+        "val"
+      ],
+      [
+        "test",
+        "val"
+      ],
+      [
+        "test",
+        "val"
+      ],
+      [
+        "test",
+        "val"
+      ],
+      [
+        "test",
+        "val"
+      ],
+      [
+        "test",
+        "val"
+      ]
+    ],
+    "harvest_classify": [
+      [
+        "test",
+        "val"
+      ],
+      [
+        "test",
+        "val"
+      ],
+      [
+        "test",
+        "val"
+      ],
+      [
+        "test",
+        "val"
+      ],
+      [
+        "test",
+        "val"
+      ],
+      [
+        "test",
+        "val"
+      ]
+    ],
+    "prop_detect": [
+      [
+        "test",
+        "val"
+      ]
+    ]
+  }
+}

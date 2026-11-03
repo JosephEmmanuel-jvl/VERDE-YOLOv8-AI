@@ -1,0 +1,15 @@
+{
+  "baseline_exact_discrete_reproduction": {
+    "condition": true,
+    "harvest": true,
+    "prop": true
+  },
+  "output_images_decoded": 156,
+  "recommendations": {
+    "task_a_yellowing_focused": "YELLOWING_FOCUSED_DEVELOPMENT_CANDIDATE",
+    "task_a_macro_ap_alternative": "MACRO_AP_WILTING_DEVELOPMENT_ALTERNATIVE",
+    "field_condition": "PREFERRED_FRESH_FIXED_DEMO_VALIDATION_CANDIDATE",
+    "field_harvest": "DEVELOPMENT_REVIEW_ONLY_NO_PROMOTION",
+    "field_prop": "PREFER_PRESERVED_BASELINE_FOR_FUTURE_VALIDATION"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "task": "field_prop",
+  "elapsed_seconds": 145.60531568527222,
+  "result_rows": 20,
+  "last_epoch": 20,
+  "intended_epochs": 20,
+  "early_stopping_allowed": true,
+  "start_model": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\continuation_packages\\starter_models\\printed_prop_v8.pt",
+  "status": "TRAINING_COMPLETE"
+}

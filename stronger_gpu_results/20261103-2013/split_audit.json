@@ -1,0 +1,142 @@
+{
+  "frame_boundary_violations": [],
+  "duplicate_groups": {
+    "condition_detect": {
+      "40e0da371a5f50bbddd3906f04f149685573bda7f78b15231e22f7f08e4799a0": [
+        {
+          "path": "field-adaptation/dataset-v2/condition_detect/images/test/set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_B1.jpg",
+          "split": "test"
+        },
+        {
+          "path": "field-adaptation/dataset-v2/condition_detect/images/val/set-03-no-props_20_frame-20261103-153744-122132378_B1.jpg",
+          "split": "val"
+        }
+      ],
+      "8b241203f667169829798f960cde571e49f887b97321b7ea28abe5a04ba57c15": [
+        {
+          "path": "field-adaptation/dataset-v2/condition_detect/images/test/set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_B2.jpg",
+          "split": "test"
+        },
+        {
+          "path": "field-adaptation/dataset-v2/condition_detect/images/val/set-03-no-props_20_frame-20261103-153744-122132378_B2.jpg",
+          "split": "val"
+        }
+      ],
+      "a5988f18fb9b6a08e1c8ec7100899f1b7c2464660aad4a92aee8b31e2f9f473c": [
+        {
+          "path": "field-adaptation/dataset-v2/condition_detect/images/test/set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_B3.jpg",
+          "split": "test"
+        },
+        {
+          "path": "field-adaptation/dataset-v2/condition_detect/images/val/set-03-no-props_20_frame-20261103-153744-122132378_B3.jpg",
+          "split": "val"
+        }
+      ],
+      "8fce9096baa447e5261cc73caaab8f5a7c99cd88b379bab6ed9168a42150bb22": [
+        {
+          "path": "field-adaptation/dataset-v2/condition_detect/images/test/set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_T1.jpg",
+          "split": "test"
+        },
+        {
+          "path": "field-adaptation/dataset-v2/condition_detect/images/val/set-03-no-props_20_frame-20261103-153744-122132378_T1.jpg",
+          "split": "val"
+        }
+      ],
+      "9cfde25250c8b4d8333e50c1fb1a496ca3f2d237e34d4eac9e2a6ad6681c2fa5": [
+        {
+          "path": "field-adaptation/dataset-v2/condition_detect/images/test/set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_T2.jpg",
+          "split": "test"
+        },
+        {
+          "path": "field-adaptation/dataset-v2/condition_detect/images/val/set-03-no-props_20_frame-20261103-153744-122132378_T2.jpg",
+          "split": "val"
+        }
+      ],
+      "bfbfac534eeb3acca3ff1b9d9d991ee23712d9c4a79f07c274ef31062d54cc47": [
+        {
+          "path": "field-adaptation/dataset-v2/condition_detect/images/test/set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_T3.jpg",
+          "split": "test"
+        },
+        {
+          "path": "field-adaptation/dataset-v2/condition_detect/images/val/set-03-no-props_20_frame-20261103-153744-122132378_T3.jpg",
+          "split": "val"
+        }
+      ]
+    },
+    "harvest_classify": {
+      "6d29e24ee4d0fbbdfc47d23e8e63f991168d3616f275c3e08e83f278d99e4012": [
+        {
+          "path": "field-adaptation/dataset-v2/harvest_classify/test/not_ready/set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_B2.jpg",
+          "split": "test"
+        },
+        {
+          "path": "field-adaptation/dataset-v2/harvest_classify/val/not_ready/set-03-no-props_20_frame-20261103-153744-122132378_B2.jpg",
+          "split": "val"
+        }
+      ],
+      "e7fb4663e68eee41ea425827a6982c768e474560b03298b539f327b08a2a8b85": [
+        {
+          "path": "field-adaptation/dataset-v2/harvest_classify/test/not_ready/set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_T1.jpg",
+          "split": "test"
+        },
+        {
+          "path": "field-adaptation/dataset-v2/harvest_classify/val/not_ready/set-03-no-props_20_frame-20261103-153744-122132378_T1.jpg",
+          "split": "val"
+        }
+      ],
+      "a8ce13f93f9e6e39676e567aebd49e66dc3a6452649bc77ca209b1eb6cb34af8": [
+        {
+          "path": "field-adaptation/dataset-v2/harvest_classify/test/not_ready/set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_T3.jpg",
+          "split": "test"
+        },
+        {
+          "path": "field-adaptation/dataset-v2/harvest_classify/val/not_ready/set-03-no-props_20_frame-20261103-153744-122132378_T3.jpg",
+          "split": "val"
+        }
+      ],
+      "2de3818bdc18e5a2c11027668ddb16cc247a609adaa6e58855b6abfbc424e7ce": [
+        {
+          "path": "field-adaptation/dataset-v2/harvest_classify/test/ready/set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_B1.jpg",
+          "split": "test"
+        },
+        {
+          "path": "field-adaptation/dataset-v2/harvest_classify/val/ready/set-03-no-props_20_frame-20261103-153744-122132378_B1.jpg",
+          "split": "val"
+        }
+      ],
+      "42c5705c543ff2be976cafb0ef697026ce2ef6f084f4a39735e0b87d77576872": [
+        {
+          "path": "field-adaptation/dataset-v2/harvest_classify/test/ready/set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_B3.jpg",
+          "split": "test"
+        },
+        {
+          "path": "field-adaptation/dataset-v2/harvest_classify/val/ready/set-03-no-props_20_frame-20261103-153744-122132378_B3.jpg",
+          "split": "val"
+        }
+      ],
+      "761ad8e4cb723ae432c5ed4ae7ed5c2cdab76baff6eb65143126b069923ad989": [
+        {
+          "path": "field-adaptation/dataset-v2/harvest_classify/test/ready/set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_T2.jpg",
+          "split": "test"
+        },
+        {
+          "path": "field-adaptation/dataset-v2/harvest_classify/val/ready/set-03-no-props_20_frame-20261103-153744-122132378_T2.jpg",
+          "split": "val"
+        }
+      ]
+    },
+    "prop_detect": {
+      "bd95173ffe76d635501208a6c2f635c517543f76e45e97c1de0985cce46f6540": [
+        {
+          "path": "field-adaptation/dataset-v2/prop_detect/images/test/set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630.jpg",
+          "split": "test"
+        },
+        {
+          "path": "field-adaptation/dataset-v2/prop_detect/images/val/set-03-no-props_20_frame-20261103-153744-122132378.jpg",
+          "split": "val"
+        }
+      ]
+    }
+  },
+  "policy": "No duplicate removed, relabelled, or reassigned. Any test overlap is disclosed; no independent acceptance claim."
+}

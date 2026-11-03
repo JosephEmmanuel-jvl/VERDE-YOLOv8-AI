@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "images": 240,
+    "discrete_prediction_differences": [],
+    "exact_discrete_reproduction": true
+  },
+  "harvest": {
+    "images": 240,
+    "discrete_prediction_differences": [],
+    "exact_discrete_reproduction": true
+  },
+  "prop": {
+    "images": 40,
+    "discrete_prediction_differences": [],
+    "exact_discrete_reproduction": true
+  }
+}

@@ -1,0 +1,10 @@
+START task_a_evaluation
+COMPLETE task_a_evaluation
+START field_condition_training
+COMPLETE field_condition_training
+START field_harvest_training
+COMPLETE field_harvest_training
+START field_prop_training
+COMPLETE field_prop_training
+START field_evaluation
+COMPLETE field_evaluation

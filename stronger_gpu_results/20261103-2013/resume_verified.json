@@ -1,0 +1,15 @@
+{
+  "start_epoch_zero_based": 11,
+  "next_epoch_one_based": 12,
+  "total_epochs": 20,
+  "optimizer_type": "AdamW",
+  "optimizer_state_entries": 183,
+  "optimizer_lrs": [
+    4.4000000000000006e-05,
+    4.4000000000000006e-05,
+    4.4000000000000006e-05
+  ],
+  "train_images": 1428,
+  "save_dir": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\task_a",
+  "data": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\configs\\morning.yaml"
+}

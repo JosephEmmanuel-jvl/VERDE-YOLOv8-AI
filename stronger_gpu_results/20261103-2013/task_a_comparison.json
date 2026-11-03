@@ -1,0 +1,1205 @@
+{
+  "models": {
+    "preserved_best": {
+      "model": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\preserved_inputs\\morning_original_best.pt",
+      "sha256": "83f2f0e9522a8c5e7258fcab7ccf4019205c8d549a956657d814b63adb1ff730",
+      "aggregate": {
+        "precision": 0.9479316904926534,
+        "recall": 0.9319878053632039,
+        "map50": 0.9505419827091949,
+        "map50_95": 0.8216435732430196
+      },
+      "per_class": {
+        "Healthy": {
+          "precision": 0.896935777986171,
+          "recall": 0.92,
+          "map50": 0.9368649771067517,
+          "map50_95": 0.7124216594979573
+        },
+        "Yellowing": {
+          "precision": 1.0,
+          "recall": 0.8759634160896116,
+          "map50": 0.9532522669589372,
+          "map50_95": 0.8668944773720675
+        },
+        "Wilting": {
+          "precision": 0.946859293491789,
+          "recall": 1.0,
+          "map50": 0.9615087040618959,
+          "map50_95": 0.8856145828590339
+        }
+      },
+      "confusion_matrix": [
+        [
+          48.0,
+          4.0,
+          0.0,
+          105.0
+        ],
+        [
+          1.0,
+          73.0,
+          0.0,
+          119.0
+        ],
+        [
+          0.0,
+          5.0,
+          90.0,
+          322.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "confusion_matrix_operating_point": {
+        "confidence": 0.001,
+        "matching_iou": 0.45,
+        "nms_iou": 0.5,
+        "rows": "predicted including final background",
+        "columns": "truth including final background"
+      },
+      "fixed_confidence_counts": {
+        "Healthy": {
+          "tp": 48,
+          "fp": 109,
+          "fn": 2
+        },
+        "Yellowing": {
+          "tp": 73,
+          "fp": 120,
+          "fn": 9
+        },
+        "Wilting": {
+          "tp": 90,
+          "fp": 327,
+          "fn": 0
+        }
+      },
+      "development_yellowing": [
+        {
+          "image": "YEL-110.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.929354,
+            "xyxy": [
+              2.6,
+              4.4,
+              1021.6,
+              1003.0
+            ]
+          },
+          "yellowing_max_confidence": 0.929354,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.929354,
+              "xyxy": [
+                2.6,
+                4.4,
+                1021.6,
+                1003.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-111.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.933499,
+            "xyxy": [
+              4.4,
+              0.0,
+              1019.4,
+              984.2
+            ]
+          },
+          "yellowing_max_confidence": 0.933499,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.933499,
+              "xyxy": [
+                4.4,
+                0.0,
+                1019.4,
+                984.2
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-112.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.952904,
+            "xyxy": [
+              7.2,
+              0.0,
+              1024.0,
+              989.4
+            ]
+          },
+          "yellowing_max_confidence": 0.952904,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.952904,
+              "xyxy": [
+                7.2,
+                0.0,
+                1024.0,
+                989.4
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-113.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.947903,
+            "xyxy": [
+              0.0,
+              0.0,
+              1024.0,
+              998.4
+            ]
+          },
+          "yellowing_max_confidence": 0.947903,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.947903,
+              "xyxy": [
+                0.0,
+                0.0,
+                1024.0,
+                998.4
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-114.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.941565,
+            "xyxy": [
+              4.7,
+              3.5,
+              1021.8,
+              1003.0
+            ]
+          },
+          "yellowing_max_confidence": 0.941565,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.941565,
+              "xyxy": [
+                4.7,
+                3.5,
+                1021.8,
+                1003.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-115.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.911425,
+            "xyxy": [
+              0.0,
+              3.7,
+              1022.5,
+              1006.0
+            ]
+          },
+          "yellowing_max_confidence": 0.911425,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.911425,
+              "xyxy": [
+                0.0,
+                3.7,
+                1022.5,
+                1006.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-116.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.937473,
+            "xyxy": [
+              0.0,
+              13.5,
+              1022.3,
+              996.5
+            ]
+          },
+          "yellowing_max_confidence": 0.937473,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.937473,
+              "xyxy": [
+                0.0,
+                13.5,
+                1022.3,
+                996.5
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-117.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.95724,
+            "xyxy": [
+              0.2,
+              1.2,
+              1024.0,
+              1001.9
+            ]
+          },
+          "yellowing_max_confidence": 0.95724,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.95724,
+              "xyxy": [
+                0.2,
+                1.2,
+                1024.0,
+                1001.9
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-118.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.93572,
+            "xyxy": [
+              2.2,
+              5.7,
+              1023.0,
+              1004.5
+            ]
+          },
+          "yellowing_max_confidence": 0.93572,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.93572,
+              "xyxy": [
+                2.2,
+                5.7,
+                1023.0,
+                1004.5
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-119.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.951767,
+            "xyxy": [
+              0.0,
+              2.4,
+              1022.8,
+              1003.0
+            ]
+          },
+          "yellowing_max_confidence": 0.951767,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.951767,
+              "xyxy": [
+                0.0,
+                2.4,
+                1022.8,
+                1003.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-120.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.948008,
+            "xyxy": [
+              0.0,
+              10.4,
+              1017.2,
+              1002.0
+            ]
+          },
+          "yellowing_max_confidence": 0.948008,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.948008,
+              "xyxy": [
+                0.0,
+                10.4,
+                1017.2,
+                1002.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-121.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.942079,
+            "xyxy": [
+              3.4,
+              3.2,
+              1017.5,
+              1006.0
+            ]
+          },
+          "yellowing_max_confidence": 0.942079,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.942079,
+              "xyxy": [
+                3.4,
+                3.2,
+                1017.5,
+                1006.0
+              ]
+            }
+          ]
+        }
+      ],
+      "limitations": [
+        "Outside Yellowing photographs are development probes; independence unconfirmed.",
+        "Original baseline Condition V2 checkpoint referenced by historical script is not supplied; preserved epoch-8 best is the available checkpoint comparison.",
+        "Validation is not fresh independent Pi-camera/full-pipeline validation."
+      ]
+    },
+    "continued_best": {
+      "model": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\task_a\\weights\\best.pt",
+      "sha256": "1eaf997a9706bd8a598acdd93dfbcf02037b77ad6d6e21ebdf02e1bae49a5998",
+      "aggregate": {
+        "precision": 0.9502680639335553,
+        "recall": 0.9288917627234997,
+        "map50": 0.9477572578634951,
+        "map50_95": 0.8295808066796996
+      },
+      "per_class": {
+        "Healthy": {
+          "precision": 0.900090327884567,
+          "recall": 0.9009213444225838,
+          "map50": 0.9292073429255067,
+          "map50_95": 0.7210207888874889
+        },
+        "Yellowing": {
+          "precision": 1.0,
+          "recall": 0.8857539437479155,
+          "map50": 0.9437046627732957,
+          "map50_95": 0.8669075755336513
+        },
+        "Wilting": {
+          "precision": 0.9507138639160992,
+          "recall": 1.0,
+          "map50": 0.9703597678916828,
+          "map50_95": 0.9008140556179592
+        }
+      },
+      "confusion_matrix": [
+        [
+          49.0,
+          3.0,
+          0.0,
+          75.0
+        ],
+        [
+          0.0,
+          73.0,
+          0.0,
+          79.0
+        ],
+        [
+          0.0,
+          6.0,
+          90.0,
+          316.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "confusion_matrix_operating_point": {
+        "confidence": 0.001,
+        "matching_iou": 0.45,
+        "nms_iou": 0.5,
+        "rows": "predicted including final background",
+        "columns": "truth including final background"
+      },
+      "fixed_confidence_counts": {
+        "Healthy": {
+          "tp": 49,
+          "fp": 78,
+          "fn": 1
+        },
+        "Yellowing": {
+          "tp": 73,
+          "fp": 79,
+          "fn": 9
+        },
+        "Wilting": {
+          "tp": 90,
+          "fp": 322,
+          "fn": 0
+        }
+      },
+      "development_yellowing": [
+        {
+          "image": "YEL-110.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.948556,
+            "xyxy": [
+              3.4,
+              0.0,
+              1022.6,
+              1003.0
+            ]
+          },
+          "yellowing_max_confidence": 0.948556,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.948556,
+              "xyxy": [
+                3.4,
+                0.0,
+                1022.6,
+                1003.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-111.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.954838,
+            "xyxy": [
+              3.1,
+              0.0,
+              1018.8,
+              997.7
+            ]
+          },
+          "yellowing_max_confidence": 0.954838,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.954838,
+              "xyxy": [
+                3.1,
+                0.0,
+                1018.8,
+                997.7
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-112.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.961107,
+            "xyxy": [
+              2.1,
+              0.0,
+              1023.4,
+              996.6
+            ]
+          },
+          "yellowing_max_confidence": 0.961107,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.961107,
+              "xyxy": [
+                2.1,
+                0.0,
+                1023.4,
+                996.6
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-113.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.954487,
+            "xyxy": [
+              0.0,
+              0.0,
+              1023.9,
+              1003.0
+            ]
+          },
+          "yellowing_max_confidence": 0.954487,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.954487,
+              "xyxy": [
+                0.0,
+                0.0,
+                1023.9,
+                1003.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-114.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.959667,
+            "xyxy": [
+              2.2,
+              0.0,
+              1021.2,
+              1003.0
+            ]
+          },
+          "yellowing_max_confidence": 0.959667,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.959667,
+              "xyxy": [
+                2.2,
+                0.0,
+                1021.2,
+                1003.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-115.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.938527,
+            "xyxy": [
+              0.0,
+              6.9,
+              1020.4,
+              1006.0
+            ]
+          },
+          "yellowing_max_confidence": 0.938527,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.938527,
+              "xyxy": [
+                0.0,
+                6.9,
+                1020.4,
+                1006.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-116.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.947642,
+            "xyxy": [
+              0.6,
+              9.7,
+              1019.8,
+              1002.6
+            ]
+          },
+          "yellowing_max_confidence": 0.947642,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.947642,
+              "xyxy": [
+                0.6,
+                9.7,
+                1019.8,
+                1002.6
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-117.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.966353,
+            "xyxy": [
+              0.6,
+              0.0,
+              1024.0,
+              1002.0
+            ]
+          },
+          "yellowing_max_confidence": 0.966353,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.966353,
+              "xyxy": [
+                0.6,
+                0.0,
+                1024.0,
+                1002.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-118.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.94996,
+            "xyxy": [
+              0.3,
+              3.0,
+              1023.0,
+              1006.0
+            ]
+          },
+          "yellowing_max_confidence": 0.94996,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.94996,
+              "xyxy": [
+                0.3,
+                3.0,
+                1023.0,
+                1006.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-119.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.964765,
+            "xyxy": [
+              0.0,
+              0.0,
+              1023.5,
+              1003.0
+            ]
+          },
+          "yellowing_max_confidence": 0.964765,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.964765,
+              "xyxy": [
+                0.0,
+                0.0,
+                1023.5,
+                1003.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-120.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.958519,
+            "xyxy": [
+              0.0,
+              11.5,
+              1017.6,
+              1002.0
+            ]
+          },
+          "yellowing_max_confidence": 0.958519,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.958519,
+              "xyxy": [
+                0.0,
+                11.5,
+                1017.6,
+                1002.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-121.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.958189,
+            "xyxy": [
+              2.9,
+              0.0,
+              1019.7,
+              1006.0
+            ]
+          },
+          "yellowing_max_confidence": 0.958189,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.958189,
+              "xyxy": [
+                2.9,
+                0.0,
+                1019.7,
+                1006.0
+              ]
+            }
+          ]
+        }
+      ],
+      "limitations": [
+        "Outside Yellowing photographs are development probes; independence unconfirmed.",
+        "Original baseline Condition V2 checkpoint referenced by historical script is not supplied; preserved epoch-8 best is the available checkpoint comparison.",
+        "Validation is not fresh independent Pi-camera/full-pipeline validation."
+      ]
+    },
+    "continued_last": {
+      "model": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\task_a\\weights\\last.pt",
+      "sha256": "c2b25b00aa678b60eed090fa6e0497d4801d490d0c458dd023fb9047c88b4dae",
+      "aggregate": {
+        "precision": 0.9474086860413289,
+        "recall": 0.920836218115098,
+        "map50": 0.9520216057461478,
+        "map50_95": 0.8194706884097475
+      },
+      "per_class": {
+        "Healthy": {
+          "precision": 0.8984142728426009,
+          "recall": 0.8844598738574893,
+          "map50": 0.9324161990310192,
+          "map50_95": 0.6990869924257159
+        },
+        "Yellowing": {
+          "precision": 0.9938939100408412,
+          "recall": 0.8780487804878049,
+          "map50": 0.9508190013808989,
+          "map50_95": 0.8753498731451608
+        },
+        "Wilting": {
+          "precision": 0.9499178752405448,
+          "recall": 1.0,
+          "map50": 0.9728296168265252,
+          "map50_95": 0.8839751996583652
+        }
+      },
+      "confusion_matrix": [
+        [
+          49.0,
+          3.0,
+          0.0,
+          66.0
+        ],
+        [
+          0.0,
+          73.0,
+          0.0,
+          75.0
+        ],
+        [
+          0.0,
+          6.0,
+          90.0,
+          332.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "confusion_matrix_operating_point": {
+        "confidence": 0.001,
+        "matching_iou": 0.45,
+        "nms_iou": 0.5,
+        "rows": "predicted including final background",
+        "columns": "truth including final background"
+      },
+      "fixed_confidence_counts": {
+        "Healthy": {
+          "tp": 49,
+          "fp": 69,
+          "fn": 1
+        },
+        "Yellowing": {
+          "tp": 73,
+          "fp": 75,
+          "fn": 9
+        },
+        "Wilting": {
+          "tp": 90,
+          "fp": 338,
+          "fn": 0
+        }
+      },
+      "development_yellowing": [
+        {
+          "image": "YEL-110.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.948649,
+            "xyxy": [
+              3.6,
+              0.0,
+              1023.2,
+              1003.0
+            ]
+          },
+          "yellowing_max_confidence": 0.948649,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.948649,
+              "xyxy": [
+                3.6,
+                0.0,
+                1023.2,
+                1003.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-111.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.959302,
+            "xyxy": [
+              3.1,
+              0.0,
+              1018.8,
+              999.0
+            ]
+          },
+          "yellowing_max_confidence": 0.959302,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.959302,
+              "xyxy": [
+                3.1,
+                0.0,
+                1018.8,
+                999.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-112.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.96196,
+            "xyxy": [
+              0.0,
+              0.0,
+              1024.0,
+              993.5
+            ]
+          },
+          "yellowing_max_confidence": 0.96196,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.96196,
+              "xyxy": [
+                0.0,
+                0.0,
+                1024.0,
+                993.5
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-113.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.957193,
+            "xyxy": [
+              0.0,
+              0.0,
+              1023.1,
+              1003.0
+            ]
+          },
+          "yellowing_max_confidence": 0.957193,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.957193,
+              "xyxy": [
+                0.0,
+                0.0,
+                1023.1,
+                1003.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-114.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.963512,
+            "xyxy": [
+              0.0,
+              2.1,
+              1022.1,
+              1003.0
+            ]
+          },
+          "yellowing_max_confidence": 0.963512,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.963512,
+              "xyxy": [
+                0.0,
+                2.1,
+                1022.1,
+                1003.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-115.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.942056,
+            "xyxy": [
+              0.0,
+              7.0,
+              1021.0,
+              1006.0
+            ]
+          },
+          "yellowing_max_confidence": 0.942056,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.942056,
+              "xyxy": [
+                0.0,
+                7.0,
+                1021.0,
+                1006.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-116.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.954462,
+            "xyxy": [
+              0.9,
+              9.9,
+              1019.5,
+              1003.1
+            ]
+          },
+          "yellowing_max_confidence": 0.954462,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.954462,
+              "xyxy": [
+                0.9,
+                9.9,
+                1019.5,
+                1003.1
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-117.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.971141,
+            "xyxy": [
+              0.3,
+              0.0,
+              1023.7,
+              1002.0
+            ]
+          },
+          "yellowing_max_confidence": 0.971141,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.971141,
+              "xyxy": [
+                0.3,
+                0.0,
+                1023.7,
+                1002.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-118.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.950883,
+            "xyxy": [
+              0.0,
+              0.0,
+              1023.0,
+              1006.0
+            ]
+          },
+          "yellowing_max_confidence": 0.950883,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.950883,
+              "xyxy": [
+                0.0,
+                0.0,
+                1023.0,
+                1006.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-119.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.969392,
+            "xyxy": [
+              0.0,
+              0.0,
+              1023.3,
+              1003.0
+            ]
+          },
+          "yellowing_max_confidence": 0.969392,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.969392,
+              "xyxy": [
+                0.0,
+                0.0,
+                1023.3,
+                1003.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-120.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.961902,
+            "xyxy": [
+              0.0,
+              10.4,
+              1017.6,
+              1002.0
+            ]
+          },
+          "yellowing_max_confidence": 0.961902,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.961902,
+              "xyxy": [
+                0.0,
+                10.4,
+                1017.6,
+                1002.0
+              ]
+            }
+          ]
+        },
+        {
+          "image": "YEL-121.png",
+          "top": {
+            "class": "Yellowing",
+            "confidence": 0.961379,
+            "xyxy": [
+              2.6,
+              0.0,
+              1019.9,
+              1006.0
+            ]
+          },
+          "yellowing_max_confidence": 0.961379,
+          "detections": [
+            {
+              "class": "Yellowing",
+              "confidence": 0.961379,
+              "xyxy": [
+                2.6,
+                0.0,
+                1019.9,
+                1006.0
+              ]
+            }
+          ]
+        }
+      ],
+      "limitations": [
+        "Outside Yellowing photographs are development probes; independence unconfirmed.",
+        "Original baseline Condition V2 checkpoint referenced by historical script is not supplied; preserved epoch-8 best is the available checkpoint comparison.",
+        "Validation is not fresh independent Pi-camera/full-pipeline validation."
+      ]
+    }
+  },
+  "selection_rule": "Highest Yellowing validation AP50-95; Wilting AP50-95 tie-break. No fixed-demo test selection.",
+  "selected": "continued_last",
+  "selected_path": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\task_a\\weights\\last.pt",
+  "selected_sha256": "c2b25b00aa678b60eed090fa6e0497d4801d490d0c458dd023fb9047c88b4dae"
+}

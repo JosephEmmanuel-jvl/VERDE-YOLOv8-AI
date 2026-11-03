@@ -1,0 +1,42 @@
+[
+  {
+    "path": "continuation_packages/VERDE-field-adaptation-and-training-continuation-20261103.zip.part001",
+    "oid": "ca5863b556fc13277a068802382cc06f5be6e9242beb1b12c3ed579c62494f4a",
+    "status": "VERIFIED_PRESENT"
+  },
+  {
+    "path": "continuation_packages/VERDE-field-adaptation-and-training-continuation-20261103.zip.part002",
+    "oid": "78f71670b61a2fcb2e67b8f47969f9b9ec95a017c9d3d81663b6dd6cafcb7a71",
+    "status": "VERIFIED_PRESENT"
+  },
+  {
+    "path": "continuation_packages/starter_models/harvest_cls_v3.pt",
+    "oid": "3990ea7931bacf5dc913df270755bbd051e7d41229c679294fe0668585487f6b",
+    "status": "VERIFIED_PRESENT"
+  },
+  {
+    "path": "continuation_packages/starter_models/printed_prop_v8.pt",
+    "oid": "8ef40e095247a468bdf68389f4b7d02bdccc37e7c00603b88b1ea5bcc6163e9e",
+    "status": "VERIFIED_PRESENT"
+  },
+  {
+    "path": "dataset_sources/verde_v2.zip.part001",
+    "oid": "eb87db7dddf90aa2f650e9da18831cb18e557e1cb78da3cda720de1467a700a2",
+    "status": "VERIFIED_COPIED_FROM_EXISTING_LAPTOP_CACHE"
+  },
+  {
+    "path": "dataset_sources/verde_v2.zip.part002",
+    "oid": "6273e73b71276203a28ca4d9eaef90de3c657d9d6a8676e1cde5da1c4ced1efd",
+    "status": "VERIFIED_PRESENT"
+  },
+  {
+    "path": "dataset_sources/verde_v2_anylabeling.zip.part001",
+    "oid": "d2d0635f56611f41771395a04d701e66c6ef8be2aa22b888e3e4ddb5f7d71cd8",
+    "status": "VERIFIED_COPIED_FROM_EXISTING_LAPTOP_CACHE"
+  },
+  {
+    "path": "dataset_sources/verde_v2_anylabeling.zip.part002",
+    "oid": "0478fa66fa808d7a240f4e587e2a1fe5bdfe84182c2a97d8c2a65aad0e4695c9",
+    "status": "VERIFIED_COPIED_FROM_EXISTING_LAPTOP_CACHE"
+  }
+]

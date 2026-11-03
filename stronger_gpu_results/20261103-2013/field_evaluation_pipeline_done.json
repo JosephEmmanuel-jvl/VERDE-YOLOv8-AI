@@ -1,0 +1,11 @@
+{
+  "stage": "field_evaluation",
+  "status": "COMPLETE",
+  "time": 1793712713.1969671,
+  "command": [
+    "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\VERDE_GPU_LAPTOP_SETUP_20261024\\venv\\Scripts\\python.exe",
+    "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\scripts\\evaluate_field.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 182.8685553073883
+}

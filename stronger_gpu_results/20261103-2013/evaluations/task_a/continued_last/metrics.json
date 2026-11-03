@@ -1,0 +1,399 @@
+{
+  "model": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\task_a\\weights\\last.pt",
+  "sha256": "c2b25b00aa678b60eed090fa6e0497d4801d490d0c458dd023fb9047c88b4dae",
+  "aggregate": {
+    "precision": 0.9474086860413289,
+    "recall": 0.920836218115098,
+    "map50": 0.9520216057461478,
+    "map50_95": 0.8194706884097475
+  },
+  "per_class": {
+    "Healthy": {
+      "precision": 0.8984142728426009,
+      "recall": 0.8844598738574893,
+      "map50": 0.9324161990310192,
+      "map50_95": 0.6990869924257159
+    },
+    "Yellowing": {
+      "precision": 0.9938939100408412,
+      "recall": 0.8780487804878049,
+      "map50": 0.9508190013808989,
+      "map50_95": 0.8753498731451608
+    },
+    "Wilting": {
+      "precision": 0.9499178752405448,
+      "recall": 1.0,
+      "map50": 0.9728296168265252,
+      "map50_95": 0.8839751996583652
+    }
+  },
+  "confusion_matrix": [
+    [
+      49.0,
+      3.0,
+      0.0,
+      66.0
+    ],
+    [
+      0.0,
+      73.0,
+      0.0,
+      75.0
+    ],
+    [
+      0.0,
+      6.0,
+      90.0,
+      332.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "confusion_matrix_operating_point": {
+    "confidence": 0.001,
+    "matching_iou": 0.45,
+    "nms_iou": 0.5,
+    "rows": "predicted including final background",
+    "columns": "truth including final background"
+  },
+  "fixed_confidence_counts": {
+    "Healthy": {
+      "tp": 49,
+      "fp": 69,
+      "fn": 1
+    },
+    "Yellowing": {
+      "tp": 73,
+      "fp": 75,
+      "fn": 9
+    },
+    "Wilting": {
+      "tp": 90,
+      "fp": 338,
+      "fn": 0
+    }
+  },
+  "development_yellowing": [
+    {
+      "image": "YEL-110.png",
+      "top": {
+        "class": "Yellowing",
+        "confidence": 0.948649,
+        "xyxy": [
+          3.6,
+          0.0,
+          1023.2,
+          1003.0
+        ]
+      },
+      "yellowing_max_confidence": 0.948649,
+      "detections": [
+        {
+          "class": "Yellowing",
+          "confidence": 0.948649,
+          "xyxy": [
+            3.6,
+            0.0,
+            1023.2,
+            1003.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "YEL-111.png",
+      "top": {
+        "class": "Yellowing",
+        "confidence": 0.959302,
+        "xyxy": [
+          3.1,
+          0.0,
+          1018.8,
+          999.0
+        ]
+      },
+      "yellowing_max_confidence": 0.959302,
+      "detections": [
+        {
+          "class": "Yellowing",
+          "confidence": 0.959302,
+          "xyxy": [
+            3.1,
+            0.0,
+            1018.8,
+            999.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "YEL-112.png",
+      "top": {
+        "class": "Yellowing",
+        "confidence": 0.96196,
+        "xyxy": [
+          0.0,
+          0.0,
+          1024.0,
+          993.5
+        ]
+      },
+      "yellowing_max_confidence": 0.96196,
+      "detections": [
+        {
+          "class": "Yellowing",
+          "confidence": 0.96196,
+          "xyxy": [
+            0.0,
+            0.0,
+            1024.0,
+            993.5
+          ]
+        }
+      ]
+    },
+    {
+      "image": "YEL-113.png",
+      "top": {
+        "class": "Yellowing",
+        "confidence": 0.957193,
+        "xyxy": [
+          0.0,
+          0.0,
+          1023.1,
+          1003.0
+        ]
+      },
+      "yellowing_max_confidence": 0.957193,
+      "detections": [
+        {
+          "class": "Yellowing",
+          "confidence": 0.957193,
+          "xyxy": [
+            0.0,
+            0.0,
+            1023.1,
+            1003.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "YEL-114.png",
+      "top": {
+        "class": "Yellowing",
+        "confidence": 0.963512,
+        "xyxy": [
+          0.0,
+          2.1,
+          1022.1,
+          1003.0
+        ]
+      },
+      "yellowing_max_confidence": 0.963512,
+      "detections": [
+        {
+          "class": "Yellowing",
+          "confidence": 0.963512,
+          "xyxy": [
+            0.0,
+            2.1,
+            1022.1,
+            1003.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "YEL-115.png",
+      "top": {
+        "class": "Yellowing",
+        "confidence": 0.942056,
+        "xyxy": [
+          0.0,
+          7.0,
+          1021.0,
+          1006.0
+        ]
+      },
+      "yellowing_max_confidence": 0.942056,
+      "detections": [
+        {
+          "class": "Yellowing",
+          "confidence": 0.942056,
+          "xyxy": [
+            0.0,
+            7.0,
+            1021.0,
+            1006.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "YEL-116.png",
+      "top": {
+        "class": "Yellowing",
+        "confidence": 0.954462,
+        "xyxy": [
+          0.9,
+          9.9,
+          1019.5,
+          1003.1
+        ]
+      },
+      "yellowing_max_confidence": 0.954462,
+      "detections": [
+        {
+          "class": "Yellowing",
+          "confidence": 0.954462,
+          "xyxy": [
+            0.9,
+            9.9,
+            1019.5,
+            1003.1
+          ]
+        }
+      ]
+    },
+    {
+      "image": "YEL-117.png",
+      "top": {
+        "class": "Yellowing",
+        "confidence": 0.971141,
+        "xyxy": [
+          0.3,
+          0.0,
+          1023.7,
+          1002.0
+        ]
+      },
+      "yellowing_max_confidence": 0.971141,
+      "detections": [
+        {
+          "class": "Yellowing",
+          "confidence": 0.971141,
+          "xyxy": [
+            0.3,
+            0.0,
+            1023.7,
+            1002.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "YEL-118.png",
+      "top": {
+        "class": "Yellowing",
+        "confidence": 0.950883,
+        "xyxy": [
+          0.0,
+          0.0,
+          1023.0,
+          1006.0
+        ]
+      },
+      "yellowing_max_confidence": 0.950883,
+      "detections": [
+        {
+          "class": "Yellowing",
+          "confidence": 0.950883,
+          "xyxy": [
+            0.0,
+            0.0,
+            1023.0,
+            1006.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "YEL-119.png",
+      "top": {
+        "class": "Yellowing",
+        "confidence": 0.969392,
+        "xyxy": [
+          0.0,
+          0.0,
+          1023.3,
+          1003.0
+        ]
+      },
+      "yellowing_max_confidence": 0.969392,
+      "detections": [
+        {
+          "class": "Yellowing",
+          "confidence": 0.969392,
+          "xyxy": [
+            0.0,
+            0.0,
+            1023.3,
+            1003.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "YEL-120.png",
+      "top": {
+        "class": "Yellowing",
+        "confidence": 0.961902,
+        "xyxy": [
+          0.0,
+          10.4,
+          1017.6,
+          1002.0
+        ]
+      },
+      "yellowing_max_confidence": 0.961902,
+      "detections": [
+        {
+          "class": "Yellowing",
+          "confidence": 0.961902,
+          "xyxy": [
+            0.0,
+            10.4,
+            1017.6,
+            1002.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "YEL-121.png",
+      "top": {
+        "class": "Yellowing",
+        "confidence": 0.961379,
+        "xyxy": [
+          2.6,
+          0.0,
+          1019.9,
+          1006.0
+        ]
+      },
+      "yellowing_max_confidence": 0.961379,
+      "detections": [
+        {
+          "class": "Yellowing",
+          "confidence": 0.961379,
+          "xyxy": [
+            2.6,
+            0.0,
+            1019.9,
+            1006.0
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Outside Yellowing photographs are development probes; independence unconfirmed.",
+    "Original baseline Condition V2 checkpoint referenced by historical script is not supplied; preserved epoch-8 best is the available checkpoint comparison.",
+    "Validation is not fresh independent Pi-camera/full-pipeline validation."
+  ]
+}

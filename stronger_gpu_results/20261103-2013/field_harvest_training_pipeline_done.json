@@ -1,0 +1,12 @@
+{
+  "stage": "field_harvest_training",
+  "status": "COMPLETE",
+  "time": 1793712380.486784,
+  "command": [
+    "C:\\Users\\ben\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-verde\\work\\VERDE_GPU_LAPTOP_SETUP_20261024\\venv\\Scripts\\python.exe",
+    "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\scripts\\train_task.py",
+    "field_harvest"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 172.9194140434265
+}

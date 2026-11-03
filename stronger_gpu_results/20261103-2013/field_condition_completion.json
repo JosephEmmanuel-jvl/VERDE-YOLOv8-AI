@@ -1,0 +1,10 @@
+{
+  "task": "field_condition",
+  "elapsed_seconds": 332.8029673099518,
+  "result_rows": 11,
+  "last_epoch": 11,
+  "intended_epochs": 20,
+  "early_stopping_allowed": true,
+  "start_model": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\task_a\\weights\\last.pt",
+  "status": "TRAINING_COMPLETE"
+}

@@ -1,0 +1,4777 @@
+{
+  "models": {
+    "condition": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\stronger_gpu_results\\20261103-2013\\preserved_inputs\\morning_original_best.pt",
+    "harvest": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\continuation_packages\\starter_models\\harvest_cls_v3.pt",
+    "prop": "C:\\Users\\ben\\Documents\\Codex\\VERDE_STRONGER_GPU_20261103\\continuation_packages\\starter_models\\printed_prop_v8.pt"
+  },
+  "evaluation_scope": "Held-out fixed-demo capture groups only",
+  "condition": {
+    "images": 240,
+    "accuracy": 0.7792,
+    "per_class_accuracy": {
+      "Yellowing": 0.675,
+      "Healthy": 0.6667,
+      "Wilting": 1.0
+    },
+    "confusion": {
+      "Healthy->Healthy": 80,
+      "Healthy->Yellowing": 40,
+      "Wilting->Wilting": 80,
+      "Yellowing->Healthy": 13,
+      "Yellowing->Yellowing": 27
+    },
+    "predictions": [
+      {
+        "image": "set-02-four-props-new-positions_01_frame-20261103-152321-823749982_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.5684353113174438,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_01_frame-20261103-152321-823749982_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9655142426490784,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_01_frame-20261103-152321-823749982_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8091596364974976,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_01_frame-20261103-152321-823749982_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.21836329996585846,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_01_frame-20261103-152321-823749982_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9529959559440613,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_01_frame-20261103-152321-823749982_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7655781507492065,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_02_frame-20261103-152327-912451604_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6017764210700989,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_02_frame-20261103-152327-912451604_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9650179743766785,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_02_frame-20261103-152327-912451604_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8030093908309937,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_02_frame-20261103-152327-912451604_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.20932070910930634,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_02_frame-20261103-152327-912451604_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9526739716529846,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_02_frame-20261103-152327-912451604_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7361205816268921,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_03_frame-20261103-152339-222963044_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6241070628166199,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_03_frame-20261103-152339-222963044_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.965415358543396,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_03_frame-20261103-152339-222963044_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8121893405914307,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_03_frame-20261103-152339-222963044_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.1979667991399765,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_03_frame-20261103-152339-222963044_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9502462148666382,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_03_frame-20261103-152339-222963044_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7480055093765259,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_04_frame-20261103-152351-486090357_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6593600511550903,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_04_frame-20261103-152351-486090357_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9668111801147461,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_04_frame-20261103-152351-486090357_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.805082380771637,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_04_frame-20261103-152351-486090357_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.1981944888830185,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_04_frame-20261103-152351-486090357_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9544351696968079,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_04_frame-20261103-152351-486090357_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8004772067070007,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_05_frame-20261103-152403-752181846_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6078202128410339,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_05_frame-20261103-152403-752181846_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9645640254020691,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_05_frame-20261103-152403-752181846_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8238818049430847,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_05_frame-20261103-152403-752181846_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.2238350808620453,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_05_frame-20261103-152403-752181846_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9530938863754272,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_05_frame-20261103-152403-752181846_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7525948882102966,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_06_frame-20261103-152414-924160715_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6034344434738159,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_06_frame-20261103-152414-924160715_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9657307863235474,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_06_frame-20261103-152414-924160715_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8056978583335876,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_06_frame-20261103-152414-924160715_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.20395030081272125,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_06_frame-20261103-152414-924160715_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9548504948616028,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_06_frame-20261103-152414-924160715_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7736173272132874,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_07_frame-20261103-152426-051517488_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.677300751209259,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_07_frame-20261103-152426-051517488_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9661839604377747,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_07_frame-20261103-152426-051517488_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7995092868804932,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_07_frame-20261103-152426-051517488_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.20784837007522583,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_07_frame-20261103-152426-051517488_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9549861550331116,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_07_frame-20261103-152426-051517488_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.790573239326477,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_08_frame-20261103-152438-325372699_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6356035470962524,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_08_frame-20261103-152438-325372699_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9651470184326172,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_08_frame-20261103-152438-325372699_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8121120929718018,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_08_frame-20261103-152438-325372699_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.2246662974357605,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_08_frame-20261103-152438-325372699_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9547561407089233,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_08_frame-20261103-152438-325372699_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7534055709838867,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_09_frame-20261103-152449-793625979_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6563282608985901,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_09_frame-20261103-152449-793625979_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9656735062599182,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_09_frame-20261103-152449-793625979_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8066916465759277,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_09_frame-20261103-152449-793625979_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.20675581693649292,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_09_frame-20261103-152449-793625979_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9536339044570923,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_09_frame-20261103-152449-793625979_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7598051428794861,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_10_frame-20261103-152502-147783361_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Healthy",
+        "confidence": 0.6194724440574646,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_10_frame-20261103-152502-147783361_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9646041989326477,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_10_frame-20261103-152502-147783361_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8130319118499756,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_10_frame-20261103-152502-147783361_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.2172485589981079,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_10_frame-20261103-152502-147783361_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9517754316329956,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_10_frame-20261103-152502-147783361_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7192041277885437,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_11_frame-20261103-152513-422858479_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6518087387084961,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_11_frame-20261103-152513-422858479_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9656103849411011,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_11_frame-20261103-152513-422858479_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8020145893096924,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_11_frame-20261103-152513-422858479_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.23273347318172455,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_11_frame-20261103-152513-422858479_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9542104601860046,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_11_frame-20261103-152513-422858479_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7361917495727539,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_12_frame-20261103-152525-708507691_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.655185878276825,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_12_frame-20261103-152525-708507691_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9662685394287109,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_12_frame-20261103-152525-708507691_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8006836175918579,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_12_frame-20261103-152525-708507691_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.22074829041957855,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_12_frame-20261103-152525-708507691_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9542573094367981,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_12_frame-20261103-152525-708507691_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7564108371734619,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_13_frame-20261103-152536-798019172_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6664933562278748,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_13_frame-20261103-152536-798019172_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9650721549987793,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_13_frame-20261103-152536-798019172_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8021813631057739,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_13_frame-20261103-152536-798019172_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.21644888818264008,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_13_frame-20261103-152536-798019172_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9544573426246643,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_13_frame-20261103-152536-798019172_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7978144288063049,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_14_frame-20261103-152549-075472727_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6255505681037903,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_14_frame-20261103-152549-075472727_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9647621512413025,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_14_frame-20261103-152549-075472727_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.807032585144043,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_14_frame-20261103-152549-075472727_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.21927465498447418,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_14_frame-20261103-152549-075472727_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9531140327453613,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_14_frame-20261103-152549-075472727_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7737628817558289,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_15_frame-20261103-152600-339594482_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6249564290046692,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_15_frame-20261103-152600-339594482_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9642379879951477,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_15_frame-20261103-152600-339594482_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8103398084640503,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_15_frame-20261103-152600-339594482_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.2252911776304245,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_15_frame-20261103-152600-339594482_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9531200528144836,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_15_frame-20261103-152600-339594482_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7486361265182495,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_16_frame-20261103-152612-673788753_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6033645868301392,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_16_frame-20261103-152612-673788753_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9660798907279968,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_16_frame-20261103-152612-673788753_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8198961019515991,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_16_frame-20261103-152612-673788753_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.2331353724002838,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_16_frame-20261103-152612-673788753_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9541459679603577,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_16_frame-20261103-152612-673788753_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.752601146697998,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_17_frame-20261103-152624-019308453_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6683579683303833,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_17_frame-20261103-152624-019308453_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9651930928230286,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_17_frame-20261103-152624-019308453_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8194277286529541,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_17_frame-20261103-152624-019308453_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.2071836292743683,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_17_frame-20261103-152624-019308453_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9548379778862,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_17_frame-20261103-152624-019308453_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.6966395378112793,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_18_frame-20261103-152635-276478869_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6704051494598389,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_18_frame-20261103-152635-276478869_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9641472101211548,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_18_frame-20261103-152635-276478869_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8147795796394348,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_18_frame-20261103-152635-276478869_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.1983553171157837,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_18_frame-20261103-152635-276478869_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.955144464969635,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_18_frame-20261103-152635-276478869_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.6967676877975464,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_19_frame-20261103-152647-360864059_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6619465947151184,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_19_frame-20261103-152647-360864059_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9652004241943359,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_19_frame-20261103-152647-360864059_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8147017359733582,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_19_frame-20261103-152647-360864059_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.2036408632993698,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_19_frame-20261103-152647-360864059_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9558699727058411,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_19_frame-20261103-152647-360864059_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7743656635284424,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_20_frame-20261103-152659-649133111_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6155523061752319,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_20_frame-20261103-152659-649133111_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.964552640914917,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_20_frame-20261103-152659-649133111_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8123359084129333,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_20_frame-20261103-152659-649133111_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.21213437616825104,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_20_frame-20261103-152659-649133111_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9523596167564392,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_20_frame-20261103-152659-649133111_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.6984385251998901,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Healthy",
+        "confidence": 0.5958921313285828,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9649864435195923,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.822570264339447,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.19619888067245483,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9537991285324097,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.6957031488418579,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_02_frame-20261103-153755-876800706_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Healthy",
+        "confidence": 0.6040045022964478,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_02_frame-20261103-153755-876800706_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9646751880645752,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_02_frame-20261103-153755-876800706_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8075476288795471,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_02_frame-20261103-153755-876800706_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.1910036951303482,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_02_frame-20261103-153755-876800706_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9536388516426086,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_02_frame-20261103-153755-876800706_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.715604305267334,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Healthy",
+        "confidence": 0.5945226550102234,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9642530083656311,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8068375587463379,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.20904889702796936,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9533402919769287,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7792125344276428,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_04_frame-20261103-153818-780083746_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Healthy",
+        "confidence": 0.6208480000495911,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_04_frame-20261103-153818-780083746_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.96528559923172,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_04_frame-20261103-153818-780083746_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8111173510551453,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_04_frame-20261103-153818-780083746_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.20849941670894623,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_04_frame-20261103-153818-780083746_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9531915783882141,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_04_frame-20261103-153818-780083746_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7048978805541992,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Healthy",
+        "confidence": 0.6094520688056946,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9643246531486511,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8119130730628967,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.19261468946933746,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.952256441116333,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7256824374198914,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_06_frame-20261103-153842-126557077_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Healthy",
+        "confidence": 0.6163533926010132,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_06_frame-20261103-153842-126557077_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.964987576007843,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_06_frame-20261103-153842-126557077_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8016061782836914,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_06_frame-20261103-153842-126557077_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.20372046530246735,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_06_frame-20261103-153842-126557077_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.952266275882721,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_06_frame-20261103-153842-126557077_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7057417035102844,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_07_frame-20261103-153854-655639287_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Healthy",
+        "confidence": 0.6151798367500305,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_07_frame-20261103-153854-655639287_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9635290503501892,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_07_frame-20261103-153854-655639287_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8089569211006165,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_07_frame-20261103-153854-655639287_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.2185838520526886,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_07_frame-20261103-153854-655639287_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9524308443069458,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_07_frame-20261103-153854-655639287_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7422282099723816,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_08_frame-20261103-153905-938886311_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Healthy",
+        "confidence": 0.6255052089691162,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_08_frame-20261103-153905-938886311_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.964766800403595,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_08_frame-20261103-153905-938886311_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8135490417480469,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_08_frame-20261103-153905-938886311_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.20245328545570374,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_08_frame-20261103-153905-938886311_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9532687664031982,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_08_frame-20261103-153905-938886311_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7403425574302673,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_09_frame-20261103-153917-393633704_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Healthy",
+        "confidence": 0.6603728532791138,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_09_frame-20261103-153917-393633704_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9644977450370789,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_09_frame-20261103-153917-393633704_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8227858543395996,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_09_frame-20261103-153917-393633704_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.1737438291311264,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_09_frame-20261103-153917-393633704_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9522691965103149,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_09_frame-20261103-153917-393633704_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7452579140663147,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_10_frame-20261103-153928-716424562_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Healthy",
+        "confidence": 0.6287250518798828,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_10_frame-20261103-153928-716424562_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9652920365333557,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_10_frame-20261103-153928-716424562_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8073372840881348,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_10_frame-20261103-153928-716424562_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.1895035207271576,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_10_frame-20261103-153928-716424562_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9551830887794495,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_10_frame-20261103-153928-716424562_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7563501596450806,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_11_frame-20261103-153940-882622426_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Healthy",
+        "confidence": 0.6297187209129333,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_11_frame-20261103-153940-882622426_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9652206301689148,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_11_frame-20261103-153940-882622426_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8194659352302551,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_11_frame-20261103-153940-882622426_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.19055496156215668,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_11_frame-20261103-153940-882622426_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9558629989624023,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_11_frame-20261103-153940-882622426_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7655302286148071,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_12_frame-20261103-153952-018307645_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Healthy",
+        "confidence": 0.644859254360199,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_12_frame-20261103-153952-018307645_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9656670689582825,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_12_frame-20261103-153952-018307645_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8096958994865417,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_12_frame-20261103-153952-018307645_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.18976718187332153,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_12_frame-20261103-153952-018307645_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.956545889377594,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_12_frame-20261103-153952-018307645_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.7823870778083801,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_13_frame-20261103-154004-395242249_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.5985742807388306,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_13_frame-20261103-154004-395242249_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9647035002708435,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_13_frame-20261103-154004-395242249_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8226409554481506,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_13_frame-20261103-154004-395242249_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.2917484939098358,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_13_frame-20261103-154004-395242249_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9526011943817139,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_13_frame-20261103-154004-395242249_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.816037118434906,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_14_frame-20261103-154015-757211148_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.544479250907898,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_14_frame-20261103-154015-757211148_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.965528130531311,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_14_frame-20261103-154015-757211148_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.809312641620636,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_14_frame-20261103-154015-757211148_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.3296216130256653,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_14_frame-20261103-154015-757211148_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9526171088218689,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_14_frame-20261103-154015-757211148_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8295544385910034,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_15_frame-20261103-154027-134516873_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.5844801068305969,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_15_frame-20261103-154027-134516873_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9653344750404358,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_15_frame-20261103-154027-134516873_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8067637085914612,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_15_frame-20261103-154027-134516873_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.3577924370765686,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_15_frame-20261103-154027-134516873_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9568840265274048,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_15_frame-20261103-154027-134516873_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8318902850151062,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_16_frame-20261103-154039-467343574_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.5686627626419067,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_16_frame-20261103-154039-467343574_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9654445648193359,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_16_frame-20261103-154039-467343574_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8282970190048218,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_16_frame-20261103-154039-467343574_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.33730411529541016,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_16_frame-20261103-154039-467343574_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9526996612548828,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_16_frame-20261103-154039-467343574_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8316870927810669,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_17_frame-20261103-154050-600693449_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.5835444331169128,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_17_frame-20261103-154050-600693449_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.964646577835083,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_17_frame-20261103-154050-600693449_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8124856352806091,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_17_frame-20261103-154050-600693449_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.3174598515033722,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_17_frame-20261103-154050-600693449_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9549464583396912,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_17_frame-20261103-154050-600693449_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8358522057533264,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_18_frame-20261103-154102-743578980_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.6097784638404846,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_18_frame-20261103-154102-743578980_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9666098952293396,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_18_frame-20261103-154102-743578980_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8217405676841736,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_18_frame-20261103-154102-743578980_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.2925228774547577,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_18_frame-20261103-154102-743578980_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9557496309280396,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_18_frame-20261103-154102-743578980_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8496333956718445,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.5947765111923218,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.965670645236969,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8115088939666748,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.34703850746154785,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9573770761489868,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.838700532913208,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_20_frame-20261103-154126-386483721_B1.jpg",
+        "truth": "Yellowing",
+        "prediction": "Yellowing",
+        "confidence": 0.5651698708534241,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_20_frame-20261103-154126-386483721_B2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9653492569923401,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_20_frame-20261103-154126-386483721_B3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8131239414215088,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_20_frame-20261103-154126-386483721_T1.jpg",
+        "truth": "Healthy",
+        "prediction": "Yellowing",
+        "confidence": 0.3814062774181366,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_20_frame-20261103-154126-386483721_T2.jpg",
+        "truth": "Healthy",
+        "prediction": "Healthy",
+        "confidence": 0.9548970460891724,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_20_frame-20261103-154126-386483721_T3.jpg",
+        "truth": "Wilting",
+        "prediction": "Wilting",
+        "confidence": 0.8220404386520386,
+        "correct": true
+      }
+    ],
+    "top_prediction_per_class_counts": {
+      "Healthy": {
+        "tp": 80,
+        "fp": 13,
+        "fn": 40,
+        "precision": 0.8602150537634409,
+        "recall": 0.6666666666666666
+      },
+      "Yellowing": {
+        "tp": 27,
+        "fp": 40,
+        "fn": 13,
+        "precision": 0.40298507462686567,
+        "recall": 0.675
+      },
+      "Wilting": {
+        "tp": 80,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    }
+  },
+  "harvest": {
+    "images": 240,
+    "accuracy": 0.5,
+    "confusion": {
+      "not_ready->not_ready": 80,
+      "not_ready->ready": 40,
+      "ready->not_ready": 80,
+      "ready->ready": 40
+    },
+    "predictions": [
+      {
+        "image": "set-02-four-props-new-positions_01_frame-20261103-152321-823749982_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9315457940101624,
+        "ready_score": 0.9315457940101624,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_01_frame-20261103-152321-823749982_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9629315733909607,
+        "ready_score": 0.037068504840135574,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_01_frame-20261103-152321-823749982_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9321449398994446,
+        "ready_score": 0.06785504519939423,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_02_frame-20261103-152327-912451604_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9396746158599854,
+        "ready_score": 0.9396746158599854,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_02_frame-20261103-152327-912451604_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.969173789024353,
+        "ready_score": 0.03082626685500145,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_02_frame-20261103-152327-912451604_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9183580875396729,
+        "ready_score": 0.08164194971323013,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_03_frame-20261103-152339-222963044_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9234753251075745,
+        "ready_score": 0.9234753251075745,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_03_frame-20261103-152339-222963044_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9776265621185303,
+        "ready_score": 0.022373463958501816,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_03_frame-20261103-152339-222963044_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9214755296707153,
+        "ready_score": 0.07852450758218765,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_04_frame-20261103-152351-486090357_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9178159236907959,
+        "ready_score": 0.9178159236907959,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_04_frame-20261103-152351-486090357_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9839907884597778,
+        "ready_score": 0.01600923016667366,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_04_frame-20261103-152351-486090357_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9512819647789001,
+        "ready_score": 0.048718057572841644,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_05_frame-20261103-152403-752181846_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9177544713020325,
+        "ready_score": 0.9177544713020325,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_05_frame-20261103-152403-752181846_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9726535677909851,
+        "ready_score": 0.027346385642886162,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_05_frame-20261103-152403-752181846_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9252773523330688,
+        "ready_score": 0.07472261786460876,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_06_frame-20261103-152414-924160715_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9252886772155762,
+        "ready_score": 0.9252886772155762,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_06_frame-20261103-152414-924160715_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9785959720611572,
+        "ready_score": 0.0214039646089077,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_06_frame-20261103-152414-924160715_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9248833656311035,
+        "ready_score": 0.07511661946773529,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_07_frame-20261103-152426-051517488_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.92535001039505,
+        "ready_score": 0.92535001039505,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_07_frame-20261103-152426-051517488_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9810258746147156,
+        "ready_score": 0.018974149599671364,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_07_frame-20261103-152426-051517488_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9441536664962769,
+        "ready_score": 0.05584631487727165,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_08_frame-20261103-152438-325372699_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9369893670082092,
+        "ready_score": 0.9369893670082092,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_08_frame-20261103-152438-325372699_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9804211854934692,
+        "ready_score": 0.019578788429498672,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_08_frame-20261103-152438-325372699_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9626818895339966,
+        "ready_score": 0.03731810674071312,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_09_frame-20261103-152449-793625979_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9310475587844849,
+        "ready_score": 0.9310475587844849,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_09_frame-20261103-152449-793625979_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9806652665138245,
+        "ready_score": 0.019334712997078896,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_09_frame-20261103-152449-793625979_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9582017660140991,
+        "ready_score": 0.04179821163415909,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_10_frame-20261103-152502-147783361_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9344534277915955,
+        "ready_score": 0.9344534277915955,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_10_frame-20261103-152502-147783361_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9758155345916748,
+        "ready_score": 0.02418445609509945,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_10_frame-20261103-152502-147783361_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9322963953018188,
+        "ready_score": 0.06770364195108414,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_11_frame-20261103-152513-422858479_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9202908277511597,
+        "ready_score": 0.9202908277511597,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_11_frame-20261103-152513-422858479_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9742614030838013,
+        "ready_score": 0.025738583877682686,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_11_frame-20261103-152513-422858479_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9276381731033325,
+        "ready_score": 0.07236181944608688,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_12_frame-20261103-152525-708507691_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.933360755443573,
+        "ready_score": 0.933360755443573,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_12_frame-20261103-152525-708507691_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9766210317611694,
+        "ready_score": 0.023378940299153328,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_12_frame-20261103-152525-708507691_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9563527703285217,
+        "ready_score": 0.04364728927612305,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_13_frame-20261103-152536-798019172_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9327324628829956,
+        "ready_score": 0.9327324628829956,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_13_frame-20261103-152536-798019172_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9811351299285889,
+        "ready_score": 0.01886489801108837,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_13_frame-20261103-152536-798019172_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9463391900062561,
+        "ready_score": 0.053660798817873,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_14_frame-20261103-152549-075472727_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.937227189540863,
+        "ready_score": 0.937227189540863,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_14_frame-20261103-152549-075472727_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9761358499526978,
+        "ready_score": 0.02386419102549553,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_14_frame-20261103-152549-075472727_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.951157808303833,
+        "ready_score": 0.048842135816812515,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_15_frame-20261103-152600-339594482_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9298911094665527,
+        "ready_score": 0.9298911094665527,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_15_frame-20261103-152600-339594482_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9760837554931641,
+        "ready_score": 0.023916326463222504,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_15_frame-20261103-152600-339594482_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9443696737289429,
+        "ready_score": 0.055630337446928024,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_16_frame-20261103-152612-673788753_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9213892817497253,
+        "ready_score": 0.9213892817497253,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_16_frame-20261103-152612-673788753_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9720783233642578,
+        "ready_score": 0.02792166732251644,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_16_frame-20261103-152612-673788753_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.929384708404541,
+        "ready_score": 0.0706152468919754,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_17_frame-20261103-152624-019308453_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9287688732147217,
+        "ready_score": 0.9287688732147217,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_17_frame-20261103-152624-019308453_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9758786559104919,
+        "ready_score": 0.024121299386024475,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_17_frame-20261103-152624-019308453_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9578588604927063,
+        "ready_score": 0.0421411469578743,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_18_frame-20261103-152635-276478869_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9229357242584229,
+        "ready_score": 0.9229357242584229,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_18_frame-20261103-152635-276478869_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9789466857910156,
+        "ready_score": 0.021053260192275047,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_18_frame-20261103-152635-276478869_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9619603753089905,
+        "ready_score": 0.038039594888687134,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_19_frame-20261103-152647-360864059_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9290730357170105,
+        "ready_score": 0.9290730357170105,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_19_frame-20261103-152647-360864059_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9803705215454102,
+        "ready_score": 0.01962951011955738,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_19_frame-20261103-152647-360864059_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9650266170501709,
+        "ready_score": 0.034973397850990295,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_20_frame-20261103-152659-649133111_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9221256971359253,
+        "ready_score": 0.9221256971359253,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_20_frame-20261103-152659-649133111_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9660547375679016,
+        "ready_score": 0.033945269882678986,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_20_frame-20261103-152659-649133111_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.925912618637085,
+        "ready_score": 0.07408741861581802,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.93485027551651,
+        "ready_score": 0.93485027551651,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9772945642471313,
+        "ready_score": 0.02270541526377201,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9589951634407043,
+        "ready_score": 0.04100484028458595,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_02_frame-20261103-153755-876800706_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9390650391578674,
+        "ready_score": 0.9390650391578674,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_02_frame-20261103-153755-876800706_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9730687737464905,
+        "ready_score": 0.026931269094347954,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_02_frame-20261103-153755-876800706_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9515241980552673,
+        "ready_score": 0.048475831747055054,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9329625964164734,
+        "ready_score": 0.9329625964164734,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9661272168159485,
+        "ready_score": 0.033872783184051514,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9318060278892517,
+        "ready_score": 0.06819400936365128,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_04_frame-20261103-153818-780083746_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9315372109413147,
+        "ready_score": 0.9315372109413147,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_04_frame-20261103-153818-780083746_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9801733493804932,
+        "ready_score": 0.01982661336660385,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_04_frame-20261103-153818-780083746_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.951192319393158,
+        "ready_score": 0.04880768433213234,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9493058919906616,
+        "ready_score": 0.9493058919906616,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9754332304000854,
+        "ready_score": 0.02456675097346306,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9290353059768677,
+        "ready_score": 0.0709647610783577,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_06_frame-20261103-153842-126557077_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9302106499671936,
+        "ready_score": 0.9302106499671936,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_06_frame-20261103-153842-126557077_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9773461818695068,
+        "ready_score": 0.022653844207525253,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_06_frame-20261103-153842-126557077_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9593022465705872,
+        "ready_score": 0.04069770872592926,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_07_frame-20261103-153854-655639287_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9410166144371033,
+        "ready_score": 0.9410166144371033,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_07_frame-20261103-153854-655639287_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9655560255050659,
+        "ready_score": 0.03444395214319229,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_07_frame-20261103-153854-655639287_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9267449378967285,
+        "ready_score": 0.0732550248503685,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_08_frame-20261103-153905-938886311_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9394411444664001,
+        "ready_score": 0.9394411444664001,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_08_frame-20261103-153905-938886311_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9751213192939758,
+        "ready_score": 0.024878624826669693,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_08_frame-20261103-153905-938886311_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9297618269920349,
+        "ready_score": 0.07023816555738449,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_09_frame-20261103-153917-393633704_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9435071349143982,
+        "ready_score": 0.9435071349143982,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_09_frame-20261103-153917-393633704_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9698099493980408,
+        "ready_score": 0.030190035700798035,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_09_frame-20261103-153917-393633704_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9024865627288818,
+        "ready_score": 0.09751344472169876,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_10_frame-20261103-153928-716424562_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9412152171134949,
+        "ready_score": 0.9412152171134949,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_10_frame-20261103-153928-716424562_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9711824655532837,
+        "ready_score": 0.028817586600780487,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_10_frame-20261103-153928-716424562_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9194527864456177,
+        "ready_score": 0.08054721355438232,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_11_frame-20261103-153940-882622426_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9394145011901855,
+        "ready_score": 0.9394145011901855,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_11_frame-20261103-153940-882622426_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9768608808517456,
+        "ready_score": 0.023139091208577156,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_11_frame-20261103-153940-882622426_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9539281129837036,
+        "ready_score": 0.04607192426919937,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_12_frame-20261103-153952-018307645_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9409040212631226,
+        "ready_score": 0.9409040212631226,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_12_frame-20261103-153952-018307645_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9750081300735474,
+        "ready_score": 0.024991866201162338,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_12_frame-20261103-153952-018307645_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9199273586273193,
+        "ready_score": 0.08007258176803589,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_13_frame-20261103-154004-395242249_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.955669641494751,
+        "ready_score": 0.955669641494751,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_13_frame-20261103-154004-395242249_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9833288192749023,
+        "ready_score": 0.01667115092277527,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_13_frame-20261103-154004-395242249_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9137874245643616,
+        "ready_score": 0.08621259778738022,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_14_frame-20261103-154015-757211148_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9535330533981323,
+        "ready_score": 0.9535330533981323,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_14_frame-20261103-154015-757211148_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9842485785484314,
+        "ready_score": 0.015751391649246216,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_14_frame-20261103-154015-757211148_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9149552583694458,
+        "ready_score": 0.08504471182823181,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_15_frame-20261103-154027-134516873_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9597251415252686,
+        "ready_score": 0.9597251415252686,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_15_frame-20261103-154027-134516873_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9794330596923828,
+        "ready_score": 0.02056700922548771,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_15_frame-20261103-154027-134516873_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9358190298080444,
+        "ready_score": 0.06418097019195557,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_16_frame-20261103-154039-467343574_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9542528986930847,
+        "ready_score": 0.9542528986930847,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_16_frame-20261103-154039-467343574_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9863342642784119,
+        "ready_score": 0.013665799982845783,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_16_frame-20261103-154039-467343574_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9152064919471741,
+        "ready_score": 0.08479352295398712,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_17_frame-20261103-154050-600693449_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9529863595962524,
+        "ready_score": 0.9529863595962524,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_17_frame-20261103-154050-600693449_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9833110570907593,
+        "ready_score": 0.016688888892531395,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_17_frame-20261103-154050-600693449_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9183069467544556,
+        "ready_score": 0.08169311285018921,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_18_frame-20261103-154102-743578980_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9556499123573303,
+        "ready_score": 0.9556499123573303,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_18_frame-20261103-154102-743578980_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9834585189819336,
+        "ready_score": 0.01654144376516342,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_18_frame-20261103-154102-743578980_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9207373857498169,
+        "ready_score": 0.07926265150308609,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9520000219345093,
+        "ready_score": 0.9520000219345093,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9827526807785034,
+        "ready_score": 0.01724725402891636,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9331755638122559,
+        "ready_score": 0.06682445853948593,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_20_frame-20261103-154126-386483721_B2.jpg",
+        "truth": "not_ready",
+        "prediction": "ready",
+        "confidence": 0.9499135613441467,
+        "ready_score": 0.9499135613441467,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_20_frame-20261103-154126-386483721_T1.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9820367693901062,
+        "ready_score": 0.01796324923634529,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_20_frame-20261103-154126-386483721_T3.jpg",
+        "truth": "not_ready",
+        "prediction": "not_ready",
+        "confidence": 0.9386736154556274,
+        "ready_score": 0.06132632866501808,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_01_frame-20261103-152321-823749982_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.5769228339195251,
+        "ready_score": 0.42307719588279724,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_01_frame-20261103-152321-823749982_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9695330262184143,
+        "ready_score": 0.030467022210359573,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_01_frame-20261103-152321-823749982_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9580484628677368,
+        "ready_score": 0.9580484628677368,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_02_frame-20261103-152327-912451604_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.5896322131156921,
+        "ready_score": 0.4103677570819855,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_02_frame-20261103-152327-912451604_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9731142520904541,
+        "ready_score": 0.02688569948077202,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_02_frame-20261103-152327-912451604_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9552834630012512,
+        "ready_score": 0.9552834630012512,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_03_frame-20261103-152339-222963044_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6222681403160095,
+        "ready_score": 0.3777318298816681,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_03_frame-20261103-152339-222963044_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9786741733551025,
+        "ready_score": 0.021325821056962013,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_03_frame-20261103-152339-222963044_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9588183760643005,
+        "ready_score": 0.9588183760643005,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_04_frame-20261103-152351-486090357_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6492578387260437,
+        "ready_score": 0.3507421612739563,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_04_frame-20261103-152351-486090357_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9555981159210205,
+        "ready_score": 0.04440193623304367,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_04_frame-20261103-152351-486090357_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9491581916809082,
+        "ready_score": 0.9491581916809082,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_05_frame-20261103-152403-752181846_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6252955198287964,
+        "ready_score": 0.3747044503688812,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_05_frame-20261103-152403-752181846_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9667096138000488,
+        "ready_score": 0.033290356397628784,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_05_frame-20261103-152403-752181846_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9580661654472351,
+        "ready_score": 0.9580661654472351,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_06_frame-20261103-152414-924160715_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6207607388496399,
+        "ready_score": 0.3792392909526825,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_06_frame-20261103-152414-924160715_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9645132422447205,
+        "ready_score": 0.03548670932650566,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_06_frame-20261103-152414-924160715_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9529429078102112,
+        "ready_score": 0.9529429078102112,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_07_frame-20261103-152426-051517488_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6517793536186218,
+        "ready_score": 0.34822067618370056,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_07_frame-20261103-152426-051517488_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9513886570930481,
+        "ready_score": 0.048611339181661606,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_07_frame-20261103-152426-051517488_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9444721341133118,
+        "ready_score": 0.9444721341133118,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_08_frame-20261103-152438-325372699_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6202305555343628,
+        "ready_score": 0.3797694444656372,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_08_frame-20261103-152438-325372699_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.970568835735321,
+        "ready_score": 0.029431123286485672,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_08_frame-20261103-152438-325372699_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9408632516860962,
+        "ready_score": 0.9408632516860962,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_09_frame-20261103-152449-793625979_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6640311479568481,
+        "ready_score": 0.33596885204315186,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_09_frame-20261103-152449-793625979_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.971447229385376,
+        "ready_score": 0.02855278179049492,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_09_frame-20261103-152449-793625979_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9441843628883362,
+        "ready_score": 0.9441843628883362,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_10_frame-20261103-152502-147783361_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6055949330329895,
+        "ready_score": 0.3944050371646881,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_10_frame-20261103-152502-147783361_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9738826155662537,
+        "ready_score": 0.026117436587810516,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_10_frame-20261103-152502-147783361_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9622802734375,
+        "ready_score": 0.9622802734375,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_11_frame-20261103-152513-422858479_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6383845806121826,
+        "ready_score": 0.36161547899246216,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_11_frame-20261103-152513-422858479_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9640891551971436,
+        "ready_score": 0.03591090068221092,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_11_frame-20261103-152513-422858479_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9552658796310425,
+        "ready_score": 0.9552658796310425,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_12_frame-20261103-152525-708507691_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.584927499294281,
+        "ready_score": 0.4150724709033966,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_12_frame-20261103-152525-708507691_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9665145874023438,
+        "ready_score": 0.033485494554042816,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_12_frame-20261103-152525-708507691_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9441536664962769,
+        "ready_score": 0.9441536664962769,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_13_frame-20261103-152536-798019172_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6360655426979065,
+        "ready_score": 0.3639344871044159,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_13_frame-20261103-152536-798019172_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9530932307243347,
+        "ready_score": 0.04690678417682648,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_13_frame-20261103-152536-798019172_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9588022828102112,
+        "ready_score": 0.9588022828102112,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_14_frame-20261103-152549-075472727_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6281800866127014,
+        "ready_score": 0.37181994318962097,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_14_frame-20261103-152549-075472727_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9748210310935974,
+        "ready_score": 0.025179008021950722,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_14_frame-20261103-152549-075472727_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9400896430015564,
+        "ready_score": 0.9400896430015564,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_15_frame-20261103-152600-339594482_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6165109276771545,
+        "ready_score": 0.3834890127182007,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_15_frame-20261103-152600-339594482_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9734513759613037,
+        "ready_score": 0.02654862590134144,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_15_frame-20261103-152600-339594482_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9510056972503662,
+        "ready_score": 0.9510056972503662,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_16_frame-20261103-152612-673788753_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6320167779922485,
+        "ready_score": 0.36798325181007385,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_16_frame-20261103-152612-673788753_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9747332334518433,
+        "ready_score": 0.025266753509640694,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_16_frame-20261103-152612-673788753_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9578058123588562,
+        "ready_score": 0.9578058123588562,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_17_frame-20261103-152624-019308453_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6563476324081421,
+        "ready_score": 0.3436523377895355,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_17_frame-20261103-152624-019308453_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9677596092224121,
+        "ready_score": 0.03224041312932968,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_17_frame-20261103-152624-019308453_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9463580846786499,
+        "ready_score": 0.9463580846786499,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_18_frame-20261103-152635-276478869_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6973352432250977,
+        "ready_score": 0.3026648163795471,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_18_frame-20261103-152635-276478869_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9753043055534363,
+        "ready_score": 0.024695634841918945,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_18_frame-20261103-152635-276478869_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9361075758934021,
+        "ready_score": 0.9361075758934021,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_19_frame-20261103-152647-360864059_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6067425012588501,
+        "ready_score": 0.3932574689388275,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_19_frame-20261103-152647-360864059_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9639174342155457,
+        "ready_score": 0.03608255088329315,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_19_frame-20261103-152647-360864059_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9487425684928894,
+        "ready_score": 0.9487425684928894,
+        "correct": true
+      },
+      {
+        "image": "set-02-four-props-new-positions_20_frame-20261103-152659-649133111_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6530213952064514,
+        "ready_score": 0.34697863459587097,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_20_frame-20261103-152659-649133111_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9694394469261169,
+        "ready_score": 0.03056049905717373,
+        "correct": false
+      },
+      {
+        "image": "set-02-four-props-new-positions_20_frame-20261103-152659-649133111_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9534244537353516,
+        "ready_score": 0.9534244537353516,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.5155187845230103,
+        "ready_score": 0.48448124527931213,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9709770679473877,
+        "ready_score": 0.0290229432284832,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9557149410247803,
+        "ready_score": 0.9557149410247803,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_02_frame-20261103-153755-876800706_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.5087645053863525,
+        "ready_score": 0.49123549461364746,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_02_frame-20261103-153755-876800706_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9662205576896667,
+        "ready_score": 0.03377944976091385,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_02_frame-20261103-153755-876800706_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9480983018875122,
+        "ready_score": 0.9480983018875122,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.5410889983177185,
+        "ready_score": 0.4589109718799591,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9753668904304504,
+        "ready_score": 0.024633094668388367,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9536336660385132,
+        "ready_score": 0.9536336660385132,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_04_frame-20261103-153818-780083746_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6156652569770813,
+        "ready_score": 0.3843346834182739,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_04_frame-20261103-153818-780083746_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9634048938751221,
+        "ready_score": 0.03659508004784584,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_04_frame-20261103-153818-780083746_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9493296146392822,
+        "ready_score": 0.9493296146392822,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.5399019718170166,
+        "ready_score": 0.460097998380661,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9783766269683838,
+        "ready_score": 0.021623335778713226,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9551070928573608,
+        "ready_score": 0.9551070928573608,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_06_frame-20261103-153842-126557077_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.5463733077049255,
+        "ready_score": 0.4536266624927521,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_06_frame-20261103-153842-126557077_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9606685638427734,
+        "ready_score": 0.039331402629613876,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_06_frame-20261103-153842-126557077_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9481531977653503,
+        "ready_score": 0.9481531977653503,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_07_frame-20261103-153854-655639287_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.5844003558158875,
+        "ready_score": 0.4155995845794678,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_07_frame-20261103-153854-655639287_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9749710559844971,
+        "ready_score": 0.02502896450459957,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_07_frame-20261103-153854-655639287_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.956757664680481,
+        "ready_score": 0.956757664680481,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_08_frame-20261103-153905-938886311_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.7312726378440857,
+        "ready_score": 0.2687274217605591,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_08_frame-20261103-153905-938886311_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9737971425056458,
+        "ready_score": 0.026202846318483353,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_08_frame-20261103-153905-938886311_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9482371211051941,
+        "ready_score": 0.9482371211051941,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_09_frame-20261103-153917-393633704_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.710680365562439,
+        "ready_score": 0.2893196642398834,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_09_frame-20261103-153917-393633704_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9765500426292419,
+        "ready_score": 0.023449961096048355,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_09_frame-20261103-153917-393633704_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9673590660095215,
+        "ready_score": 0.9673590660095215,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_10_frame-20261103-153928-716424562_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.7451914548873901,
+        "ready_score": 0.25480860471725464,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_10_frame-20261103-153928-716424562_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.968508243560791,
+        "ready_score": 0.03149174153804779,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_10_frame-20261103-153928-716424562_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9508959054946899,
+        "ready_score": 0.9508959054946899,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_11_frame-20261103-153940-882622426_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6557338833808899,
+        "ready_score": 0.3442661166191101,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_11_frame-20261103-153940-882622426_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9712888598442078,
+        "ready_score": 0.028711145743727684,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_11_frame-20261103-153940-882622426_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.956749677658081,
+        "ready_score": 0.956749677658081,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_12_frame-20261103-153952-018307645_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.7365931868553162,
+        "ready_score": 0.26340681314468384,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_12_frame-20261103-153952-018307645_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9648218750953674,
+        "ready_score": 0.03517813980579376,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_12_frame-20261103-153952-018307645_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9553877115249634,
+        "ready_score": 0.9553877115249634,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_13_frame-20261103-154004-395242249_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.5759924054145813,
+        "ready_score": 0.4240075647830963,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_13_frame-20261103-154004-395242249_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.958206057548523,
+        "ready_score": 0.04179394245147705,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_13_frame-20261103-154004-395242249_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9607611298561096,
+        "ready_score": 0.9607611298561096,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_14_frame-20261103-154015-757211148_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6568931341171265,
+        "ready_score": 0.34310686588287354,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_14_frame-20261103-154015-757211148_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9728729724884033,
+        "ready_score": 0.027127044275403023,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_14_frame-20261103-154015-757211148_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9599122405052185,
+        "ready_score": 0.9599122405052185,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_15_frame-20261103-154027-134516873_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.661259651184082,
+        "ready_score": 0.33874037861824036,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_15_frame-20261103-154027-134516873_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9724326729774475,
+        "ready_score": 0.027567310258746147,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_15_frame-20261103-154027-134516873_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.956680417060852,
+        "ready_score": 0.956680417060852,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_16_frame-20261103-154039-467343574_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6458058953285217,
+        "ready_score": 0.35419410467147827,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_16_frame-20261103-154039-467343574_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9737565517425537,
+        "ready_score": 0.02624349109828472,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_16_frame-20261103-154039-467343574_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9502745866775513,
+        "ready_score": 0.9502745866775513,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_17_frame-20261103-154050-600693449_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6335073113441467,
+        "ready_score": 0.36649268865585327,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_17_frame-20261103-154050-600693449_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9726134538650513,
+        "ready_score": 0.02738659828901291,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_17_frame-20261103-154050-600693449_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9535953998565674,
+        "ready_score": 0.9535953998565674,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_18_frame-20261103-154102-743578980_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6391106843948364,
+        "ready_score": 0.36088934540748596,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_18_frame-20261103-154102-743578980_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9577236771583557,
+        "ready_score": 0.04227631911635399,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_18_frame-20261103-154102-743578980_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.9518911242485046,
+        "ready_score": 0.9518911242485046,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6513748168945312,
+        "ready_score": 0.34862515330314636,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9742537140846252,
+        "ready_score": 0.025746285915374756,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.963394820690155,
+        "ready_score": 0.963394820690155,
+        "correct": true
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_20_frame-20261103-154126-386483721_B1.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.6791361570358276,
+        "ready_score": 0.32086384296417236,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_20_frame-20261103-154126-386483721_B3.jpg",
+        "truth": "ready",
+        "prediction": "not_ready",
+        "confidence": 0.9678624272346497,
+        "ready_score": 0.03213760629296303,
+        "correct": false
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_20_frame-20261103-154126-386483721_T2.jpg",
+        "truth": "ready",
+        "prediction": "ready",
+        "confidence": 0.945545494556427,
+        "ready_score": 0.945545494556427,
+        "correct": true
+      }
+    ]
+  },
+  "prop": {
+    "images": 40,
+    "tp": 60,
+    "fp": 5,
+    "fn": 20,
+    "precision": 0.9231,
+    "recall": 0.75,
+    "f1": 0.8276,
+    "predictions": [
+      {
+        "image": "set-02-four-props-new-positions_01_frame-20261103-152321-823749982.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              818.2830810546875,
+              2375.5018310546875,
+              917.4176025390625,
+              2509.6048583984375
+            ],
+            "confidence": 0.6057977676391602
+          },
+          {
+            "box": [
+              3299.853271484375,
+              2295.0562744140625,
+              3387.0673217773438,
+              2388.969482421875
+            ],
+            "confidence": 0.47664663195610046
+          },
+          {
+            "box": [
+              2309.243453979492,
+              2502.6300048828125,
+              2430.4445037841797,
+              2592.0
+            ],
+            "confidence": 0.45432591438293457
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_02_frame-20261103-152327-912451604.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              818.27978515625,
+              2375.28955078125,
+              917.5645751953125,
+              2508.5262451171875
+            ],
+            "confidence": 0.605019211769104
+          },
+          {
+            "box": [
+              3299.9955291748047,
+              2297.658935546875,
+              3386.5936889648438,
+              2389.3477783203125
+            ],
+            "confidence": 0.5115364789962769
+          },
+          {
+            "box": [
+              2309.4295654296875,
+              2502.4932861328125,
+              2430.227081298828,
+              2592.0
+            ],
+            "confidence": 0.4657697379589081
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_03_frame-20261103-152339-222963044.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              819.4511108398438,
+              2375.830322265625,
+              917.578125,
+              2507.570068359375
+            ],
+            "confidence": 0.602432131767273
+          },
+          {
+            "box": [
+              3300.6668243408203,
+              2295.5631103515625,
+              3386.3196411132812,
+              2389.357177734375
+            ],
+            "confidence": 0.4768301546573639
+          },
+          {
+            "box": [
+              2307.594657897949,
+              2499.2229614257812,
+              2429.1203536987305,
+              2592.0
+            ],
+            "confidence": 0.4615184962749481
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_04_frame-20261103-152351-486090357.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              819.9646606445312,
+              2376.2520141601562,
+              917.312744140625,
+              2508.3043823242188
+            ],
+            "confidence": 0.614328145980835
+          },
+          {
+            "box": [
+              2310.4333305358887,
+              2502.6276245117188,
+              2431.238723754883,
+              2592.0
+            ],
+            "confidence": 0.5672783255577087
+          },
+          {
+            "box": [
+              3300.7176361083984,
+              2296.9157104492188,
+              3386.859375,
+              2389.3932495117188
+            ],
+            "confidence": 0.4991457760334015
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_05_frame-20261103-152403-752181846.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              819.5809936523438,
+              2373.9003295898438,
+              917.6576538085938,
+              2504.8873901367188
+            ],
+            "confidence": 0.606796145439148
+          },
+          {
+            "box": [
+              2310.2792472839355,
+              2502.3902587890625,
+              2431.6502532958984,
+              2592.0
+            ],
+            "confidence": 0.5449568033218384
+          },
+          {
+            "box": [
+              3301.0113067626953,
+              2297.8878173828125,
+              3386.5994262695312,
+              2389.5476684570312
+            ],
+            "confidence": 0.4769306778907776
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_06_frame-20261103-152414-924160715.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              819.2421875,
+              2372.8264770507812,
+              917.754638671875,
+              2507.1736450195312
+            ],
+            "confidence": 0.6227940917015076
+          },
+          {
+            "box": [
+              2310.278034210205,
+              2502.32763671875,
+              2431.629165649414,
+              2592.0
+            ],
+            "confidence": 0.5150931477546692
+          },
+          {
+            "box": [
+              3302.1386108398438,
+              2300.2680053710938,
+              3386.1438598632812,
+              2389.6493530273438
+            ],
+            "confidence": 0.47777995467185974
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_07_frame-20261103-152426-051517488.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              819.208984375,
+              2375.9014892578125,
+              917.287353515625,
+              2506.5867919921875
+            ],
+            "confidence": 0.6146003603935242
+          },
+          {
+            "box": [
+              2310.894500732422,
+              2503.5543212890625,
+              2431.667434692383,
+              2592.0
+            ],
+            "confidence": 0.5530967116355896
+          },
+          {
+            "box": [
+              3301.849868774414,
+              2297.0847778320312,
+              3386.5142822265625,
+              2389.8462524414062
+            ],
+            "confidence": 0.5166770219802856
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_08_frame-20261103-152438-325372699.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              819.3441772460938,
+              2374.8419799804688,
+              917.7294311523438,
+              2505.7651977539062
+            ],
+            "confidence": 0.6207177042961121
+          },
+          {
+            "box": [
+              2307.6985626220703,
+              2497.158935546875,
+              2430.888702392578,
+              2592.0
+            ],
+            "confidence": 0.5425767302513123
+          },
+          {
+            "box": [
+              3303.609146118164,
+              2296.743408203125,
+              3383.947998046875,
+              2389.53955078125
+            ],
+            "confidence": 0.4788054823875427
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_09_frame-20261103-152449-793625979.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              819.9620361328125,
+              2376.717529296875,
+              917.157470703125,
+              2506.4195556640625
+            ],
+            "confidence": 0.6084057092666626
+          },
+          {
+            "box": [
+              2307.658115386963,
+              2497.36865234375,
+              2429.8589782714844,
+              2592.0
+            ],
+            "confidence": 0.5261390209197998
+          },
+          {
+            "box": [
+              3304.6646423339844,
+              2297.8589477539062,
+              3384.2969665527344,
+              2389.6417846679688
+            ],
+            "confidence": 0.4308771789073944
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_10_frame-20261103-152502-147783361.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              819.51611328125,
+              2376.2941284179688,
+              917.455322265625,
+              2506.4733276367188
+            ],
+            "confidence": 0.6001264452934265
+          },
+          {
+            "box": [
+              2310.712158203125,
+              2502.396484375,
+              2432.3998413085938,
+              2592.0
+            ],
+            "confidence": 0.5060003399848938
+          },
+          {
+            "box": [
+              3304.1297912597656,
+              2300.2017822265625,
+              3384.472686767578,
+              2390.62890625
+            ],
+            "confidence": 0.42021292448043823
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_11_frame-20261103-152513-422858479.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              819.851318359375,
+              2375.0097045898438,
+              917.3204345703125,
+              2506.3117065429688
+            ],
+            "confidence": 0.6077022552490234
+          },
+          {
+            "box": [
+              2310.9501953125,
+              2501.3804931640625,
+              2432.9674377441406,
+              2592.0
+            ],
+            "confidence": 0.5555086731910706
+          },
+          {
+            "box": [
+              3301.9041137695312,
+              2298.1265563964844,
+              3385.1773681640625,
+              2390.9664001464844
+            ],
+            "confidence": 0.4864899218082428
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_12_frame-20261103-152525-708507691.jpg",
+        "truth_count": 4,
+        "detection_count": 4,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "detections": [
+          {
+            "box": [
+              819.993896484375,
+              2376.05078125,
+              916.824951171875,
+              2503.8306274414062
+            ],
+            "confidence": 0.6122991442680359
+          },
+          {
+            "box": [
+              2310.6210327148438,
+              2500.9141845703125,
+              2433.2081451416016,
+              2592.0
+            ],
+            "confidence": 0.5568460822105408
+          },
+          {
+            "box": [
+              3304.802276611328,
+              2295.6776733398438,
+              3383.878387451172,
+              2390.1505737304688
+            ],
+            "confidence": 0.3691502809524536
+          },
+          {
+            "box": [
+              2498.0938720703125,
+              439.4106330871582,
+              2592.3929138183594,
+              536.6774139404297
+            ],
+            "confidence": 0.28376132249832153
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_13_frame-20261103-152536-798019172.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              821.8988647460938,
+              2371.9657592773438,
+              918.0001220703125,
+              2502.8301391601562
+            ],
+            "confidence": 0.6428006291389465
+          },
+          {
+            "box": [
+              2311.2533226013184,
+              2503.8309326171875,
+              2432.8213500976562,
+              2592.0
+            ],
+            "confidence": 0.5896717309951782
+          },
+          {
+            "box": [
+              3302.239486694336,
+              2297.519073486328,
+              3384.2015380859375,
+              2391.520782470703
+            ],
+            "confidence": 0.4903855621814728
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_14_frame-20261103-152549-075472727.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              822.4238891601562,
+              2374.1697998046875,
+              918.4457397460938,
+              2500.3121337890625
+            ],
+            "confidence": 0.6298124194145203
+          },
+          {
+            "box": [
+              2310.6969604492188,
+              2501.6844482421875,
+              2433.1891174316406,
+              2592.0
+            ],
+            "confidence": 0.5277673006057739
+          },
+          {
+            "box": [
+              3304.9727172851562,
+              2298.6151428222656,
+              3382.528076171875,
+              2390.656463623047
+            ],
+            "confidence": 0.37904319167137146
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_15_frame-20261103-152600-339594482.jpg",
+        "truth_count": 4,
+        "detection_count": 4,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "detections": [
+          {
+            "box": [
+              823.0847778320312,
+              2373.664306640625,
+              918.4445190429688,
+              2501.8724365234375
+            ],
+            "confidence": 0.6318172812461853
+          },
+          {
+            "box": [
+              2310.990146636963,
+              2502.3714599609375,
+              2432.988067626953,
+              2592.0
+            ],
+            "confidence": 0.5548067688941956
+          },
+          {
+            "box": [
+              3305.7853088378906,
+              2295.9957275390625,
+              3381.880645751953,
+              2389.9100341796875
+            ],
+            "confidence": 0.37390294671058655
+          },
+          {
+            "box": [
+              2498.5616455078125,
+              437.17401123046875,
+              2592.9223022460938,
+              538.4449005126953
+            ],
+            "confidence": 0.2746480405330658
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_16_frame-20261103-152612-673788753.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              823.56298828125,
+              2373.0630493164062,
+              918.3811645507812,
+              2501.620361328125
+            ],
+            "confidence": 0.6304713487625122
+          },
+          {
+            "box": [
+              2311.326259613037,
+              2502.7010498046875,
+              2432.914794921875,
+              2592.0
+            ],
+            "confidence": 0.5281607508659363
+          },
+          {
+            "box": [
+              3303.5964965820312,
+              2300.54638671875,
+              3382.0567626953125,
+              2392.3455810546875
+            ],
+            "confidence": 0.3841055929660797
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_17_frame-20261103-152624-019308453.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              822.3986206054688,
+              2373.3134155273438,
+              918.4232177734375,
+              2500.0370483398438
+            ],
+            "confidence": 0.6241990923881531
+          },
+          {
+            "box": [
+              2311.5438690185547,
+              2500.6437377929688,
+              2433.4540252685547,
+              2592.0
+            ],
+            "confidence": 0.5666695833206177
+          },
+          {
+            "box": [
+              3305.5502166748047,
+              2298.1920166015625,
+              3381.5720825195312,
+              2392.3773193359375
+            ],
+            "confidence": 0.31818485260009766
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_18_frame-20261103-152635-276478869.jpg",
+        "truth_count": 4,
+        "detection_count": 2,
+        "tp": 2,
+        "fp": 0,
+        "fn": 2,
+        "detections": [
+          {
+            "box": [
+              822.2296752929688,
+              2372.5425415039062,
+              918.5357666015625,
+              2500.0126342773438
+            ],
+            "confidence": 0.6390436887741089
+          },
+          {
+            "box": [
+              2311.1883125305176,
+              2501.5457763671875,
+              2433.2530975341797,
+              2592.0
+            ],
+            "confidence": 0.5775653123855591
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_19_frame-20261103-152647-360864059.jpg",
+        "truth_count": 4,
+        "detection_count": 2,
+        "tp": 2,
+        "fp": 0,
+        "fn": 2,
+        "detections": [
+          {
+            "box": [
+              822.7023315429688,
+              2373.1624145507812,
+              918.1633911132812,
+              2500.1347045898438
+            ],
+            "confidence": 0.6297487020492554
+          },
+          {
+            "box": [
+              2311.489791870117,
+              2501.9468383789062,
+              2433.678970336914,
+              2592.0
+            ],
+            "confidence": 0.599333643913269
+          }
+        ]
+      },
+      {
+        "image": "set-02-four-props-new-positions_20_frame-20261103-152659-649133111.jpg",
+        "truth_count": 4,
+        "detection_count": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "detections": [
+          {
+            "box": [
+              823.1477661132812,
+              2373.2611083984375,
+              918.7672729492188,
+              2501.9593505859375
+            ],
+            "confidence": 0.6370847225189209
+          },
+          {
+            "box": [
+              2311.4517860412598,
+              2502.6102905273438,
+              2433.5907592773438,
+              2592.0
+            ],
+            "confidence": 0.5471743941307068
+          },
+          {
+            "box": [
+              3304.053192138672,
+              2298.2215576171875,
+              3380.776885986328,
+              2397.4384765625
+            ],
+            "confidence": 0.29124054312705994
+          }
+        ]
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_02_frame-20261103-153755-876800706.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457.jpg",
+        "truth_count": 0,
+        "detection_count": 1,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "detections": [
+          {
+            "box": [
+              2495.9085083007812,
+              417.483829498291,
+              2592.178985595703,
+              533.1924133300781
+            ],
+            "confidence": 0.26297101378440857
+          }
+        ]
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_04_frame-20261103-153818-780083746.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841.jpg",
+        "truth_count": 0,
+        "detection_count": 1,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "detections": [
+          {
+            "box": [
+              2493.66748046875,
+              434.71734619140625,
+              2590.1812744140625,
+              532.8917846679688
+            ],
+            "confidence": 0.2544199526309967
+          }
+        ]
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_06_frame-20261103-153842-126557077.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_07_frame-20261103-153854-655639287.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_08_frame-20261103-153905-938886311.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_09_frame-20261103-153917-393633704.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_10_frame-20261103-153928-716424562.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_11_frame-20261103-153940-882622426.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_12_frame-20261103-153952-018307645.jpg",
+        "truth_count": 0,
+        "detection_count": 1,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "detections": [
+          {
+            "box": [
+              2499.746368408203,
+              387.86431884765625,
+              2594.7303771972656,
+              533.2850952148438
+            ],
+            "confidence": 0.2591652572154999
+          }
+        ]
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_13_frame-20261103-154004-395242249.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_14_frame-20261103-154015-757211148.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_15_frame-20261103-154027-134516873.jpg",
+        "truth_count": 0,
+        "detection_count": 1,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "detections": [
+          {
+            "box": [
+              2441.5635986328125,
+              416.909912109375,
+              2537.5604248046875,
+              516.7462768554688
+            ],
+            "confidence": 0.2646060287952423
+          }
+        ]
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_16_frame-20261103-154039-467343574.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_17_frame-20261103-154050-600693449.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_18_frame-20261103-154102-743578980.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236.jpg",
+        "truth_count": 0,
+        "detection_count": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "detections": []
+      },
+      {
+        "image": "set-04-no-props-same-as-set03_20_frame-20261103-154126-386483721.jpg",
+        "truth_count": 0,
+        "detection_count": 1,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "detections": [
+          {
+            "box": [
+              2440.2432861328125,
+              418.11767578125,
+              2538.1080322265625,
+              516.7316284179688
+            ],
+            "confidence": 0.29382556676864624
+          }
+        ]
+      }
+    ],
+    "no_prop_frames": 20,
+    "no_prop_false_positive_boxes": 5,
+    "no_prop_frames_with_false_positives": 5
+  },
+  "limitations": [
+    "Same mounted camera and same plants; not a generalization estimate",
+    "Condition and harvest truth is repeated across near-duplicate frames",
+    "Printed props are presentation surrogates, not biological pests"
+  ],
+  "hashes": {
+    "condition": "83f2f0e9522a8c5e7258fcab7ccf4019205c8d549a956657d814b63adb1ff730",
+    "harvest": "3990ea7931bacf5dc913df270755bbd051e7d41229c679294fe0668585487f6b",
+    "prop": "8ef40e095247a468bdf68389f4b7d02bdccc37e7c00603b88b1ea5bcc6163e9e"
+  },
+  "condition_detection_metrics": {
+    "model_sha256": "83f2f0e9522a8c5e7258fcab7ccf4019205c8d549a956657d814b63adb1ff730",
+    "aggregate": {
+      "precision": 0.8641055974406021,
+      "recall": 0.9138888888888889,
+      "map50": 0.9514626973739296,
+      "map50_95": 0.7322622463495264
+    },
+    "per_class": {
+      "Healthy": {
+        "precision": 0.6227623487568793,
+        "recall": 0.7416666666666667,
+        "map50": 0.864388092121789,
+        "map50_95": 0.8520833978365809
+      },
+      "Yellowing": {
+        "precision": 0.9814735762245461,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.7881446800319006
+      },
+      "Wilting": {
+        "precision": 0.9880808673403809,
+        "recall": 1.0,
+        "map50": 0.995,
+        "map50_95": 0.5565586611800977
+      }
+    },
+    "note": "Standard full-image detection metrics. Printed-prop primary comparison uses preserved tiled workflow separately.",
+    "confusion_matrix": [
+      [
+        108.0,
+        28.0,
+        0.0,
+        257.0
+      ],
+      [
+        0.0,
+        12.0,
+        0.0,
+        289.0
+      ],
+      [
+        12.0,
+        0.0,
+        80.0,
+        268.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "confusion_matrix_operating_point": {
+      "confidence": 0.001,
+      "matching_iou": 0.45,
+      "nms_iou": 0.5,
+      "rows": "predicted including background",
+      "columns": "truth including background"
+    },
+    "fixed_confidence_counts": {
+      "Healthy": {
+        "tp": 108,
+        "fp": 285,
+        "fn": 12
+      },
+      "Yellowing": {
+        "tp": 12,
+        "fp": 289,
+        "fn": 28
+      },
+      "Wilting": {
+        "tp": 80,
+        "fp": 280,
+        "fn": 0
+      }
+    }
+  },
+  "prop_fullframe_detection_metrics": {
+    "model_sha256": "8ef40e095247a468bdf68389f4b7d02bdccc37e7c00603b88b1ea5bcc6163e9e",
+    "aggregate": {
+      "precision": 0.008238276299112801,
+      "recall": 0.325,
+      "map50": 0.009923266926945548,
+      "map50_95": 0.0049715099230112705
+    },
+    "per_class": {
+      "Printed Insect Prop": {
+        "precision": 0.008238276299112801,
+        "recall": 0.325,
+        "map50": 0.009923266926945548,
+        "map50_95": 0.0049715099230112705
+      }
+    },
+    "note": "Standard full-image detection metrics. Printed-prop primary comparison uses preserved tiled workflow separately.",
+    "confusion_matrix": [
+      [
+        52.0,
+        3104.0
+      ],
+      [
+        28.0,
+        0.0
+      ]
+    ],
+    "confusion_matrix_operating_point": {
+      "confidence": 0.001,
+      "matching_iou": 0.45,
+      "nms_iou": 0.5,
+      "rows": "predicted including background",
+      "columns": "truth including background"
+    },
+    "fixed_confidence_counts": {
+      "Printed Insect Prop": {
+        "tp": 52,
+        "fp": 3104,
+        "fn": 28
+      }
+    }
+  }
+}

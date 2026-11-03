@@ -1,0 +1,943 @@
+{
+  "status": "PASS",
+  "decoded_images": 156,
+  "malformed_images": 0,
+  "images": [
+    {
+      "path": "evaluations/field_baseline/annotated_examples/condition_set-02-four-props-new-positions_01_frame-20261103-152321-823749982_B3.jpg",
+      "width": 821,
+      "height": 778,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/annotated_examples/condition_set-02-four-props-new-positions_01_frame-20261103-152321-823749982_T1.jpg",
+      "width": 1296,
+      "height": 1037,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/annotated_examples/condition_set-02-four-props-new-positions_10_frame-20261103-152502-147783361_B1.jpg",
+      "width": 1181,
+      "height": 864,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/annotated_examples/harvest_set-02-four-props-new-positions_01_frame-20261103-152321-823749982_B1.jpg",
+      "width": 1200,
+      "height": 1200,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/annotated_examples/harvest_set-02-four-props-new-positions_01_frame-20261103-152321-823749982_B2.jpg",
+      "width": 1200,
+      "height": 1200,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/annotated_examples/prop_set-02-four-props-new-positions_01_frame-20261103-152321-823749982.jpg",
+      "width": 4608,
+      "height": 2592,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/annotated_examples/prop_set-02-four-props-new-positions_18_frame-20261103-152635-276478869.jpg",
+      "width": 4608,
+      "height": 2592,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/annotated_examples/prop_set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630.jpg",
+      "width": 4608,
+      "height": 2592,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/annotated_examples/prop_set-04-no-props-same-as-set03_03_frame-20261103-153807-431265457.jpg",
+      "width": 4608,
+      "height": 2592,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/condition_detection_metrics/BoxF1_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_baseline/condition_detection_metrics/BoxP_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_baseline/condition_detection_metrics/BoxPR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_baseline/condition_detection_metrics/BoxR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_baseline/condition_detection_metrics/confusion_matrix.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_baseline/condition_detection_metrics/confusion_matrix_normalized.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_baseline/condition_detection_metrics/val_batch0_labels.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/condition_detection_metrics/val_batch0_pred.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/condition_detection_metrics/val_batch1_labels.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/condition_detection_metrics/val_batch1_pred.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/condition_detection_metrics/val_batch2_labels.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/condition_detection_metrics/val_batch2_pred.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/prop_detection_metrics/BoxF1_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_baseline/prop_detection_metrics/BoxP_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_baseline/prop_detection_metrics/BoxPR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_baseline/prop_detection_metrics/BoxR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_baseline/prop_detection_metrics/confusion_matrix.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_baseline/prop_detection_metrics/confusion_matrix_normalized.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_baseline/prop_detection_metrics/val_batch0_labels.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/prop_detection_metrics/val_batch0_pred.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/prop_detection_metrics/val_batch1_labels.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/prop_detection_metrics/val_batch1_pred.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/prop_detection_metrics/val_batch2_labels.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_baseline/prop_detection_metrics/val_batch2_pred.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/annotated_examples/condition_set-02-four-props-new-positions_01_frame-20261103-152321-823749982_B1.jpg",
+      "width": 1181,
+      "height": 864,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/annotated_examples/condition_set-02-four-props-new-positions_01_frame-20261103-152321-823749982_B2.jpg",
+      "width": 836,
+      "height": 778,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/annotated_examples/condition_set-02-four-props-new-positions_01_frame-20261103-152321-823749982_B3.jpg",
+      "width": 821,
+      "height": 778,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/annotated_examples/harvest_set-02-four-props-new-positions_01_frame-20261103-152321-823749982_B1.jpg",
+      "width": 1200,
+      "height": 1200,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/annotated_examples/harvest_set-04-no-props-same-as-set03_19_frame-20261103-154113-999160236_T1.jpg",
+      "width": 1200,
+      "height": 1200,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/annotated_examples/prop_set-02-four-props-new-positions_01_frame-20261103-152321-823749982.jpg",
+      "width": 4608,
+      "height": 2592,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/annotated_examples/prop_set-02-four-props-new-positions_14_frame-20261103-152549-075472727.jpg",
+      "width": 4608,
+      "height": 2592,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/annotated_examples/prop_set-04-no-props-same-as-set03_01_frame-20261103-153749-727238630.jpg",
+      "width": 4608,
+      "height": 2592,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/annotated_examples/prop_set-04-no-props-same-as-set03_05_frame-20261103-153830-983401841.jpg",
+      "width": 4608,
+      "height": 2592,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/condition_detection_metrics/BoxF1_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_candidate/condition_detection_metrics/BoxP_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_candidate/condition_detection_metrics/BoxPR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_candidate/condition_detection_metrics/BoxR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_candidate/condition_detection_metrics/confusion_matrix.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_candidate/condition_detection_metrics/confusion_matrix_normalized.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_candidate/condition_detection_metrics/val_batch0_labels.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/condition_detection_metrics/val_batch0_pred.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/condition_detection_metrics/val_batch1_labels.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/condition_detection_metrics/val_batch1_pred.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/condition_detection_metrics/val_batch2_labels.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/condition_detection_metrics/val_batch2_pred.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/prop_detection_metrics/BoxF1_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_candidate/prop_detection_metrics/BoxP_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_candidate/prop_detection_metrics/BoxPR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_candidate/prop_detection_metrics/BoxR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_candidate/prop_detection_metrics/confusion_matrix.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_candidate/prop_detection_metrics/confusion_matrix_normalized.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/field_candidate/prop_detection_metrics/val_batch0_labels.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/prop_detection_metrics/val_batch0_pred.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/prop_detection_metrics/val_batch1_labels.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/prop_detection_metrics/val_batch1_pred.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/prop_detection_metrics/val_batch2_labels.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/field_candidate/prop_detection_metrics/val_batch2_pred.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/development_examples/YEL-110.jpg",
+      "width": 1024,
+      "height": 1003,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/development_examples/YEL-111.jpg",
+      "width": 1020,
+      "height": 1000,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/development_examples/YEL-112.jpg",
+      "width": 1024,
+      "height": 1003,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/validation/BoxF1_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/validation/BoxP_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/validation/BoxPR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/validation/BoxR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/validation/confusion_matrix.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/validation/confusion_matrix_normalized.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/validation/val_batch0_labels.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/validation/val_batch0_pred.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/validation/val_batch1_labels.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/validation/val_batch1_pred.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/validation/val_batch2_labels.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_best/validation/val_batch2_pred.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/development_examples/YEL-110.jpg",
+      "width": 1024,
+      "height": 1003,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/development_examples/YEL-111.jpg",
+      "width": 1020,
+      "height": 1000,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/development_examples/YEL-112.jpg",
+      "width": 1024,
+      "height": 1003,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/validation/BoxF1_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/validation/BoxP_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/validation/BoxPR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/validation/BoxR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/validation/confusion_matrix.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/validation/confusion_matrix_normalized.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/validation/val_batch0_labels.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/validation/val_batch0_pred.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/validation/val_batch1_labels.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/validation/val_batch1_pred.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/validation/val_batch2_labels.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/continued_last/validation/val_batch2_pred.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/development_examples/YEL-110.jpg",
+      "width": 1024,
+      "height": 1003,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/development_examples/YEL-111.jpg",
+      "width": 1020,
+      "height": 1000,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/development_examples/YEL-112.jpg",
+      "width": 1024,
+      "height": 1003,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/validation/BoxF1_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/validation/BoxP_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/validation/BoxPR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/validation/BoxR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/validation/confusion_matrix.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/validation/confusion_matrix_normalized.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/validation/val_batch0_labels.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/validation/val_batch0_pred.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/validation/val_batch1_labels.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/validation/val_batch1_pred.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/validation/val_batch2_labels.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "evaluations/task_a/preserved_best/validation/val_batch2_pred.jpg",
+      "width": 1344,
+      "height": 1024,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_condition/BoxF1_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "field_condition/BoxP_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "field_condition/BoxPR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "field_condition/BoxR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "field_condition/confusion_matrix.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "field_condition/confusion_matrix_normalized.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "field_condition/labels.jpg",
+      "width": 1600,
+      "height": 1600,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_condition/results.png",
+      "width": 2400,
+      "height": 1200,
+      "format": "PNG"
+    },
+    {
+      "path": "field_condition/train_batch0.jpg",
+      "width": 1280,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_condition/train_batch1.jpg",
+      "width": 1280,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_condition/train_batch2.jpg",
+      "width": 1280,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_condition/val_batch0_labels.jpg",
+      "width": 1920,
+      "height": 1464,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_condition/val_batch0_pred.jpg",
+      "width": 1920,
+      "height": 1464,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_condition/val_batch1_labels.jpg",
+      "width": 1920,
+      "height": 1557,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_condition/val_batch1_pred.jpg",
+      "width": 1920,
+      "height": 1557,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_condition/val_batch2_labels.jpg",
+      "width": 1920,
+      "height": 1830,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_condition/val_batch2_pred.jpg",
+      "width": 1920,
+      "height": 1830,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_harvest/confusion_matrix.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "field_harvest/confusion_matrix_normalized.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "field_harvest/results.png",
+      "width": 1200,
+      "height": 1200,
+      "format": "PNG"
+    },
+    {
+      "path": "field_harvest/train_batch0.jpg",
+      "width": 896,
+      "height": 896,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_harvest/train_batch1.jpg",
+      "width": 896,
+      "height": 896,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_harvest/train_batch2.jpg",
+      "width": 896,
+      "height": 896,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_harvest/val_batch0_labels.jpg",
+      "width": 896,
+      "height": 896,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_harvest/val_batch0_pred.jpg",
+      "width": 896,
+      "height": 896,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_harvest/val_batch1_labels.jpg",
+      "width": 896,
+      "height": 896,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_harvest/val_batch1_pred.jpg",
+      "width": 896,
+      "height": 896,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_prop/BoxF1_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "field_prop/BoxP_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "field_prop/BoxPR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "field_prop/BoxR_curve.png",
+      "width": 2250,
+      "height": 1500,
+      "format": "PNG"
+    },
+    {
+      "path": "field_prop/confusion_matrix.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "field_prop/confusion_matrix_normalized.png",
+      "width": 3000,
+      "height": 2250,
+      "format": "PNG"
+    },
+    {
+      "path": "field_prop/labels.jpg",
+      "width": 1600,
+      "height": 1600,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_prop/results.png",
+      "width": 2400,
+      "height": 1200,
+      "format": "PNG"
+    },
+    {
+      "path": "field_prop/train_batch0.jpg",
+      "width": 1280,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_prop/train_batch1.jpg",
+      "width": 1280,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_prop/train_batch120.jpg",
+      "width": 1280,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_prop/train_batch121.jpg",
+      "width": 1280,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_prop/train_batch122.jpg",
+      "width": 1280,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_prop/train_batch2.jpg",
+      "width": 1280,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_prop/val_batch0_labels.jpg",
+      "width": 1920,
+      "height": 1098,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_prop/val_batch0_pred.jpg",
+      "width": 1920,
+      "height": 1098,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_prop/val_batch1_labels.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    },
+    {
+      "path": "field_prop/val_batch1_pred.jpg",
+      "width": 1344,
+      "height": 768,
+      "format": "JPEG"
+    }
+  ]
+}
