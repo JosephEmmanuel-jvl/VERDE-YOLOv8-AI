@@ -1,16 +1,26 @@
 # VERDE AI training continuation
 
-Private handoff repository for continuing the VERDE Healthy / Yellowing /
-Wilting YOLOv8s experiment on a stronger NVIDIA GPU.
+Training and evaluation files for the VERDE Healthy / Yellowing / Wilting
+YOLOv8s experiment.
 
-## Important status
+This is an earlier three-class experiment; the final thesis system uses four
+plant states: Healthy, Yellowing, Wilting and Harvest-Ready.
 
-This repository contains an **experimental three-class candidate**, not the
-five-class production model. The candidate scored `0.962 mAP50` and
-`0.713 mAP50-95` on the existing 200-image VERDE V2 test split, but the split
-is not proven plant/source independent. It also failed the four-photo external
-development challenge. Do not deploy it to the Raspberry Pi or replace the
-current VERDE production checkpoint without a new independent camera test.
+## My role
+
+I collected the dataset, annotated the images, and trained the YOLOv8 model.
+
+## Limitations and next steps
+
+This is an experimental three-class model. It scored `0.962 mAP50` and
+`0.713 mAP50-95` on the existing 200-image VERDE V2 test split, which is not
+yet proven independent by plant or source. The four-photo external development
+challenge showed that performance did not generalize reliably.
+
+The next steps are to build an independent plant/source/date-disjoint test
+split and test on external data, including new Raspberry Pi camera images.
+These checks will guide further training and are needed before treating this
+candidate as a validated replacement for a deployed model.
 
 Classes:
 
@@ -39,6 +49,18 @@ The required source dataset is stored as split Git LFS archive parts under
 `dataset_sources/`. Start with [`HANDOFF.md`](HANDOFF.md), then follow
 [`DATASET_TRANSFER.md`](DATASET_TRANSFER.md) to verify, join, and extract the
 dataset before preparing the isolated three-class dataset.
+
+## Paths and retained artifacts
+
+Historical report paths use `<EXPERIMENT_ROOT>` as a placeholder for the
+original experiment workspace. Replace it with your local path when reusing
+archival training YAMLs; it is not a path the training tools resolve automatically.
+Reported metrics and training parameters have not been changed.
+
+The tracked `dataset_sources/*.zip.part*` files are intentionally retained
+as Git LFS dataset parts. Joined ZIPs and extracted local data are ignored.
+Checkpoints and dataset archives are unchanged; embedded metadata inside
+those binary artifacts may still contain historical local paths.
 
 ## New-device setup
 
