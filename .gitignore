@@ -8,3 +8,25 @@ __pycache__/
 wandb/
 dataset_sources/*.zip
 
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Local caches and operating-system files
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Keep the source dataset parts deliberately tracked through Git LFS.
+# Only joined ZIPs (above) and extracted local data are ignored.
+!dataset_sources/*.zip.part*

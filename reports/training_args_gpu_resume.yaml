@@ -1,7 +1,7 @@
 task: detect
 mode: train
-model: C:\Users\josephemmanuel\Documents\Codex\2026-10-22\verde-ai-integration-and-validation\condition-experiment-v1\runs\three_class_yolov8s_v1\weights\epoch3.pt
-data: C:\Users\josephemmanuel\Documents\Codex\2026-10-22\verde-ai-integration-and-validation\condition-experiment-v1\three-class-yolo-data\data.yaml
+model: <EXPERIMENT_ROOT>/condition-experiment-v1/runs/three_class_yolov8s_v1/weights/epoch3.pt
+data: <EXPERIMENT_ROOT>/condition-experiment-v1/three-class-yolo-data/data.yaml
 epochs: 12
 time: null
 patience: 4
@@ -12,7 +12,7 @@ save_period: 3
 cache: false
 device: '0'
 workers: 0
-project: C:\Users\josephemmanuel\Documents\Codex\2026-10-22\verde-ai-integration-and-validation\condition-experiment-v1\runs
+project: <EXPERIMENT_ROOT>/condition-experiment-v1/runs
 name: three_class_yolov8s_v1_gpu_resume
 exist_ok: false
 pretrained: true
@@ -25,7 +25,7 @@ single_cls: false
 rect: false
 cos_lr: false
 close_mosaic: 10
-resume: C:\Users\josephemmanuel\Documents\Codex\2026-10-22\verde-ai-integration-and-validation\condition-experiment-v1\runs\three_class_yolov8s_v1\weights\epoch3.pt
+resume: <EXPERIMENT_ROOT>/condition-experiment-v1/runs/three_class_yolov8s_v1/weights/epoch3.pt
 amp: false
 fraction: 1.0
 profile: false
@@ -111,4 +111,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: tracktrack.yaml
-save_dir: C:\Users\josephemmanuel\Documents\Codex\2026-10-22\verde-ai-integration-and-validation\condition-experiment-v1\runs\three_class_yolov8s_v1_gpu_resume
+save_dir: <EXPERIMENT_ROOT>/condition-experiment-v1/runs/three_class_yolov8s_v1_gpu_resume

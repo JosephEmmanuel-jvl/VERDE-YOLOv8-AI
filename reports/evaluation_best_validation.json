@@ -1,5 +1,5 @@
 {
-  "model_path": "C:\\Users\\josephemmanuel\\Documents\\Codex\\2026-10-22\\verde-ai-integration-and-validation\\condition-experiment-v1\\runs\\three_class_yolov8s_v1\\weights\\best.pt",
+  "model_path": "<EXPERIMENT_ROOT>/condition-experiment-v1/runs/three_class_yolov8s_v1/weights/best.pt",
   "model_sha256": "54e4d45bde7eeb960d7458e28c8d535ce68745178cad668c47ba5086101fe987",
   "class_names": {
     "0": "Healthy",
